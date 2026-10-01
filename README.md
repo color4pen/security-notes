@@ -42,4 +42,6 @@ npm run dev
 
 RSSフィードは `/security-notes/rss.xml` に生成されます。
 
-GitHub Pages向けの `site` と `base` は `astro.config.mjs` に設定済みです。公開用のActionsワークフローとリポジトリのPages設定はまだ追加していません。
+公開先: https://color4pen.github.io/security-notes/
+
+`main` にプッシュすると、GitHub Actionsがチェック・ビルドを実行し、成功したサイトをGitHub Pagesへ公開します。手動実行はActionsの「Deploy GitHub Pages」から行えます。`site` と `base` は `astro.config.mjs`、公開処理は `.github/workflows/pages.yml` に設定しています。ローカル開発にはNode.js 24を推奨します。
