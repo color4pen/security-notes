@@ -1,0 +1,83 @@
+---
+import '../styles/global.css';
+import { href } from '../lib/posts';
+interface Props {
+  title?: string;
+  description?: string;
+  article?: boolean;
+}
+const {
+  title,
+  description = 'セキュリティニュースの根本原因、侵入経路、対策と検知を読み解く考察ノート。',
+  article = false,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f8f5ed" />
+    <title>{title ? `${title} | security-notes` : 'security-notes'}</title>
+    <link rel="icon" type="image/svg+xml" href={href('favicon.svg')} />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="security-notes RSS"
+      href={href('rss.xml')}
+    />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <meta property="og:title" content={title ?? 'security-notes'} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={article ? 'article' : 'website'} />
+    <meta property="og:locale" content="ja_JP" />
+  </head>
+  <body>
+    <a class="skip" href="#main">
+      本文へスキップ
+    </a>
+    <header class="site-header wrap">
+      <div class="brand-group">
+        <a class="brand" href={href()} aria-label="security-notes ホーム">
+          <span>
+            security<span class="brand-hyphen">-</span>notes
+            <span class="brand-dot">.</span>
+          </span>
+        </a>
+      </div>
+      <nav aria-label="メインナビゲーション">
+        <a class:list={{ current: !article }} href={href('#articles')}>
+          記事一覧
+        </a>
+        <a href={href('#about')}>このブログについて</a>
+        <a class="rss-link" href={href('rss.xml')}>
+          RSS <span aria-hidden="true">◔</span>
+        </a>
+        <a
+          class="github-link"
+          href="https://github.com/color4pen/security-notes"
+        >
+          GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer wrap">
+      <div>
+        <a class="footer-brand" href={href()}>
+          security-notes.
+        </a>
+      </div>
+      <div class="footer-meta">
+        <span>
+          Written by <a href="https://github.com/color4pen">color4pen</a>
+        </span>
+        <a href="https://github.com/color4pen/security-notes">GitHubで読む ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>

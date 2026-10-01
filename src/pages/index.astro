@@ -1,0 +1,155 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {
+  allPosts,
+  dateLabel,
+  postHref,
+  summary,
+  readingMinutes,
+} from '../lib/posts';
+const posts = await allPosts();
+const topics = ['ゼロデイ', '認証回避', 'Webシェル'];
+---
+
+<Layout>
+  <div class="wrap blog-layout">
+    <div
+      class="filter-bar"
+      id="filters"
+      role="search"
+      aria-label="記事を探す"
+      hidden
+    >
+      <label class="search">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          aria-hidden="true"
+        >
+          <circle cx="10" cy="10" r="6" />
+          <path d="m15 15 5 5" />
+        </svg>
+        <span class="sr-only">記事を検索</span>
+        <input id="search" type="search" placeholder="キーワードで探す" />
+      </label>
+    </div>
+
+    <section class="articles" id="articles" aria-label="記事一覧">
+      <h1 class="sr-only">security-notes</h1>
+      <a class="mobile-tag-link" href="#tag-filter">
+        タグで探す ↓
+      </a>
+      <p class="sr-only" id="result-count" role="status" aria-live="polite"></p>
+      <div class="post-list">
+        {posts.map((post) => (
+          <article
+            class="post-row"
+            data-post
+            data-tags={JSON.stringify(post.data.tags)}
+            data-search={`${post.data.title} ${post.data.tags.join(' ')} ${summary(post)}`.toLowerCase()}
+          >
+            <div class="post-main">
+              <div class="post-topline">
+                <time datetime={post.data.date.toISOString()}>
+                  {dateLabel(post.data.date)}
+                </time>
+                <span class="topic-label">{post.data.tags[0]}</span>
+                <span class="reading">約{readingMinutes(post)}分で読む</span>
+              </div>
+              <h2>
+                <a href={postHref(post)}>{post.data.title}</a>
+              </h2>
+              <p class="post-summary">{summary(post)}</p>
+              <div class="tags">
+                {post.data.tags.slice(1, 4).map((tag) => (
+                  <span>{tag}</span>
+                ))}
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+      <div class="empty" id="empty" hidden>
+        <h3>一致するノートがありません</h3>
+        <p>キーワードやタグを変えて探してみてください。</p>
+        <button id="reset">絞り込みをリセット</button>
+      </div>
+    </section>
+    <aside class="blog-sidebar" aria-label="ブログの案内">
+      <section
+        class="tag-panel"
+        id="tag-filter"
+        aria-labelledby="tag-heading"
+        hidden
+      >
+        <h2 id="tag-heading">タグで探す</h2>
+        <div class="filter-buttons" role="group" aria-label="タグで絞り込み">
+          <button data-filter="all" aria-pressed="true">
+            すべて
+          </button>
+          {topics.map((topic) => (
+            <button data-filter={topic} aria-pressed="false">
+              {topic}
+            </button>
+          ))}
+        </div>
+      </section>
+      <section class="about" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">このブログについて</h2>
+        <p>
+          気になったセキュリティニュースを調べて、原因や対策をまとめています。出典で確認できた「事実」と、自分の「考察」を分けて書く、color4penの個人ブログです。
+        </p>
+      </section>
+    </aside>
+  </div>
+</Layout>
+<script>
+  const filters = document.querySelector<HTMLElement>('#filters')!;
+  filters.hidden = false;
+  document.querySelector<HTMLElement>('#tag-filter')!.hidden = false;
+  const input = document.querySelector<HTMLInputElement>('#search')!;
+  const buttons = [
+    ...document.querySelectorAll<HTMLButtonElement>('[data-filter]'),
+  ];
+  const rows = [...document.querySelectorAll<HTMLElement>('[data-post]')];
+  let selected = 'all';
+  function update() {
+    const query = input.value.trim().toLowerCase();
+    let count = 0;
+    for (const row of rows) {
+      const tags = JSON.parse(row.dataset.tags ?? '[]') as string[];
+      const visible =
+        (selected === 'all' || tags.includes(selected)) &&
+        (row.dataset.search ?? '').includes(query);
+      row.hidden = !visible;
+      if (visible) count++;
+    }
+    buttons.forEach((button) =>
+      button.setAttribute(
+        'aria-pressed',
+        String(button.dataset.filter === selected),
+      ),
+    );
+    document.querySelector<HTMLElement>('#empty')!.hidden = count !== 0;
+    document.querySelector('#result-count')!.textContent = `${count}件のノート`;
+  }
+  buttons.forEach((button) =>
+    button.addEventListener('click', () => {
+      selected = button.dataset.filter!;
+      update();
+      if (window.matchMedia('(max-width: 760px)').matches) {
+        input.focus({ preventScroll: true });
+        filters.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }
+    }),
+  );
+  input.addEventListener('input', update);
+  document.querySelector('#reset')!.addEventListener('click', () => {
+    selected = 'all';
+    input.value = '';
+    update();
+    input.focus();
+  });
+</script>
