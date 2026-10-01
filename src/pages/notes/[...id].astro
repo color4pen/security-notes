@@ -1,0 +1,195 @@
+---
+import { render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import {
+  allPosts,
+  dateLabel,
+  href,
+  postHref,
+  summary,
+  readingMinutes,
+} from '../../lib/posts';
+export async function getStaticPaths() {
+  const posts = await allPosts();
+  return posts.map((post, index) => ({
+    params: { id: post.id },
+    props: { post, next: posts[(index + 1) % posts.length] },
+  }));
+}
+const { post, next } = Astro.props;
+const { Content, headings } = await render(post);
+const toc = headings.filter((heading) => heading.depth === 2);
+const [lead, ...rest] = post.data.title.split(' ― ');
+const subtitle = rest.join(' ― ');
+const cves = post.data.tags.filter((tag) => tag.startsWith('CVE-'));
+---
+
+<Layout title={post.data.title} description={summary(post)} article>
+  <div class="wrap">
+    <a class="back-link" href={href('#articles')}>
+      ← 記事一覧へ
+    </a>
+    <header class="article-header">
+      <p class="eyebrow">
+        <span class="blue-square"></span> セキュリティノート{' '}
+        <span class="article-category">/ {post.data.tags[0]}</span>
+      </p>
+      <h1>
+        {lead}
+        {subtitle && <span>{subtitle}</span>}
+      </h1>
+      <div class="article-meta">
+        <time datetime={post.data.date.toISOString()}>
+          公開 {dateLabel(post.data.date)}
+        </time>
+        {post.data.updated && <span>更新 {dateLabel(post.data.updated)}</span>}
+        <span>約{readingMinutes(post)}分で読む</span>
+        <span>by color4pen</span>
+      </div>
+      <div class="tags article-tags">
+        {post.data.tags.map((tag) => (
+          <span>{tag}</span>
+        ))}
+      </div>
+    </header>
+    <div class="article-grid">
+      <article class="prose">
+        <Content />
+        <div class="article-end">
+          <a
+            href={`https://github.com/color4pen/security-notes/blob/main/posts/${post.id}.md`}
+          >
+            原文をGitHubで読む ↗
+          </a>
+        </div>
+      </article>
+      <aside class="article-sidebar">
+        <div class="sidebar-inner">
+          <p class="eyebrow">この記事の目次</p>
+          <nav aria-label="この記事の目次">
+            <ol>
+              {toc.map((heading, index) => (
+                <li>
+                  <a href={`#${heading.slug}`}>
+                    <span>{String(index + 1).padStart(2, '0')}</span>
+                    {heading.text}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+          <div class="reading-guide">
+            <p>
+              <span class="legend fact-dot"></span>
+              <strong>事実</strong> 出典で確認できた内容
+            </p>
+            <p>
+              <span class="legend analysis-dot"></span>
+              <strong>考察</strong> 筆者の推測・意見
+            </p>
+          </div>
+          {cves.length > 0 && (
+            <div class="cve-reference">
+              <span class="eyebrow">関連するCVE</span>
+              {cves.map((cve) => (
+                <code>{cve}</code>
+              ))}
+            </div>
+          )}
+        </div>
+      </aside>
+    </div>
+    {next.id !== post.id && (
+      <section class="next-note">
+        <p class="eyebrow">あわせて読む</p>
+        <a href={postHref(next)}>
+          {next.data.title}
+          <span aria-hidden="true">→</span>
+        </a>
+      </section>
+    )}
+  </div>
+</Layout>
+<script>
+  const headingElements = [
+    ...document.querySelectorAll<HTMLElement>('.prose h2'),
+  ];
+  const tocLinks = [
+    ...document.querySelectorAll<HTMLAnchorElement>('.article-sidebar nav a'),
+  ];
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visible = entries.filter((entry) => entry.isIntersecting);
+      if (!visible.length) return;
+      const id = visible[0].target.id;
+      tocLinks.forEach((link) => {
+        if (decodeURIComponent(link.hash.slice(1)) === id)
+          link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    },
+    { rootMargin: '-10% 0px -70% 0px' },
+  );
+  headingElements.forEach((heading) => observer.observe(heading));
+  // Add accessible horizontal scrolling for wide tables.
+  document
+    .querySelectorAll<HTMLTableElement>('.prose table')
+    .forEach((table) => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'table-scroll';
+      wrapper.tabIndex = 0;
+      wrapper.setAttribute('role', 'region');
+      wrapper.setAttribute('aria-label', '表（横スクロールできます）');
+      table.before(wrapper);
+      wrapper.append(table);
+    });
+  // Load the diagram renderer only on pages containing Mermaid.
+  const blocks = [
+    ...document.querySelectorAll<HTMLElement>(
+      'pre[data-language="mermaid"], pre:has(code.language-mermaid)',
+    ),
+  ];
+  if (blocks.length) {
+    const { default: mermaid } = await import('mermaid');
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: 'strict',
+      theme: 'base',
+      themeVariables: {
+        primaryColor: '#eeeadf',
+        primaryTextColor: '#292720',
+        primaryBorderColor: '#a59d8b',
+        lineColor: '#706c62',
+        fontFamily: 'sans-serif',
+      },
+      flowchart: { useMaxWidth: false, htmlLabels: false },
+    });
+    for (const [index, block] of blocks.entries()) {
+      const source = block.textContent ?? '';
+      try {
+        const { svg } = await mermaid.render(`diagram-${index}`, source);
+        const figure = document.createElement('figure');
+        figure.className = 'diagram';
+        const caption = document.createElement('figcaption');
+        caption.textContent = '侵入経路の整理 · 横スクロールで全体を表示';
+        const diagram = document.createElement('div');
+        diagram.className = 'diagram-scroll';
+        diagram.tabIndex = 0;
+        diagram.setAttribute('role', 'img');
+        diagram.setAttribute(
+          'aria-label',
+          '記事に記載された攻撃・侵入経路のフロー図',
+        );
+        diagram.innerHTML = svg;
+        const details = document.createElement('details');
+        const label = document.createElement('summary');
+        label.textContent = '図のテキストを読む';
+        details.append(label, block.cloneNode(true));
+        figure.append(caption, diagram, details);
+        block.replaceWith(figure);
+      } catch {
+        /* Keep the original diagram source readable if rendering fails. */
+      }
+    }
+  }
+</script>

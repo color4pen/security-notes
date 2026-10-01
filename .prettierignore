@@ -1,0 +1,5 @@
+posts/
+README.md
+package-lock.json
+dist/
+.astro/

@@ -20,3 +20,28 @@
 5. なぜ防げなかったか・構造的要因の考察
 6. 運用者向けの具体的な対策と検知ポイント
 7. 参考リンク
+
+## Webサイトのローカルプレビュー
+
+Astroで記事一覧と記事詳細を生成します。記事本文は `posts/` のMarkdownをそのまま使用します。
+
+```sh
+npm ci
+npm run dev
+```
+
+表示先: `http://localhost:4321/security-notes/`
+
+- `npm run check`: Astro / TypeScriptのチェック
+- `npm run build`: 静的サイトを `dist/` に生成
+- `npm run preview`: ビルドしたサイトを確認
+
+記事の `title`、`date`、`tags` を一覧・記事ヘッダーに使用します。任意の `description` と `updated` も指定できます。説明がない記事では冒頭の箇条書きを一覧の要約に使います。検索はタイトル・タグ・要約を対象にします。
+
+デザインは生成り色の紙面と墨色を基調に、明朝体の見出しと細い罫線を使った新聞風です。本文と操作部分は読みやすいゴシック体にしています。トップはヒーローを設けず、新着記事・検索・タグ絞り込みをすぐ使える構成です。記事ページは自動目次、事実・考察のラベル、横スクロール対応の表とMermaid図を備えています。
+
+RSSフィードは `/security-notes/rss.xml` に生成されます。
+
+公開先: https://color4pen.github.io/security-notes/
+
+`main` にプッシュすると、GitHub Actionsがチェック・ビルドを実行し、成功したサイトをGitHub Pagesへ公開します。手動実行はActionsの「Deploy GitHub Pages」から行えます。`site` と `base` は `astro.config.mjs`、公開処理は `.github/workflows/pages.yml` に設定しています。ローカル開発にはNode.js 24を推奨します。
