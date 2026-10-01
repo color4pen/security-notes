@@ -1,0 +1,15 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PostIndex from '../../components/PostIndex.astro';
+import { allPosts, postsIn, regions } from '../../lib/posts';
+const posts = postsIn(await allPosts(), 'overseas');
+const info = regions.overseas;
+---
+
+<Layout
+  title={`${info.page}（${info.label}）`}
+  description={info.lead}
+  tab="overseas"
+>
+  <PostIndex tab="overseas" posts={posts} />
+</Layout>

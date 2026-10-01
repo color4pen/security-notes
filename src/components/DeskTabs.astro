@@ -1,0 +1,55 @@
+---
+import {
+  allPosts,
+  href,
+  postsIn,
+  regionHref,
+  regions,
+  type Region,
+} from '../lib/posts';
+export type Tab = 'all' | Region;
+interface Props {
+  /** 選択状態のタブ */
+  current?: Tab;
+  /** 記事ページなど、タブの一覧ページそのものではないとき */
+  inArticle?: boolean;
+}
+const { current, inArticle = false } = Astro.props;
+const posts = await allPosts();
+const tabs: {
+  id: Tab;
+  label: string;
+  sub?: string;
+  url: string;
+  count: number;
+}[] = [
+  { id: 'all', label: 'すべて', url: href(), count: posts.length },
+  ...(['domestic', 'overseas'] as const).map((region) => ({
+    id: region,
+    label: regions[region].label,
+    sub: regions[region].page,
+    url: regionHref(region),
+    count: postsIn(posts, region).length,
+  })),
+];
+---
+
+<nav class="desk-tabs wrap" aria-label="紙面の切り替え">
+  <ul>
+    {tabs.map((tab) => (
+      <li>
+        <a
+          class:list={['desk-tab', { current: tab.id === current }]}
+          href={tab.url}
+          aria-current={
+            tab.id === current ? (inArticle ? 'true' : 'page') : undefined
+          }
+        >
+          <span class="desk-tab-label">{tab.label}</span>
+          {tab.sub && <span class="desk-tab-sub">{tab.sub}</span>}
+          <span class="desk-tab-count">{tab.count}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>

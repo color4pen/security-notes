@@ -1,0 +1,167 @@
+---
+import PostRow from './PostRow.astro';
+import type { Tab } from './DeskTabs.astro';
+import { regions, type Post } from '../lib/posts';
+interface Props {
+  tab: Tab;
+  posts: Post[];
+}
+const { tab, posts } = Astro.props;
+// タグ絞り込みの候補。このタブの記事に付いているものだけを出す。
+const topics = ['ゼロデイ', '認証回避', 'Webシェル'].filter((topic) =>
+  posts.some((post) => post.data.tags.includes(topic)),
+);
+// タブ名・本数はタブに出ているので、ここでは繰り返さない（見出しはスクリーンリーダー向け）。
+const intro = {
+  all: {
+    title: 'すべての記事',
+    lead: '公開日の新しい順に並べています。',
+  },
+  domestic: {
+    title: `${regions.domestic.page}（${regions.domestic.label}）の記事`,
+    lead: '続報を追記しながら記録しています。最終更新日の新しい順。',
+  },
+  overseas: {
+    title: `${regions.overseas.page}（${regions.overseas.label}）の記事`,
+    lead: '根本原因と対策の観点で読み解きます。公開日の新しい順。',
+  },
+}[tab];
+const hasPosts = posts.length > 0;
+---
+
+<div class:list={['wrap blog-layout', { 'no-filter': !hasPosts }]}>
+  {hasPosts && (
+    <div
+      class="filter-bar"
+      id="filters"
+      role="search"
+      aria-label="このタブの記事を探す"
+      hidden
+    >
+      <label class="search">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          aria-hidden="true"
+        >
+          <circle cx="10" cy="10" r="6" />
+          <path d="m15 15 5 5" />
+        </svg>
+        <span class="sr-only">このタブの記事を検索</span>
+        <input id="search" type="search" placeholder="キーワードで探す" />
+      </label>
+    </div>
+  )}
+
+  <section class="articles" id="articles" aria-labelledby="tab-title">
+    <h1 class="sr-only" id="tab-title">
+      {intro.title}
+    </h1>
+    <p class="tab-lead">{intro.lead}</p>
+    {hasPosts && topics.length > 0 && (
+      <a class="mobile-tag-link" href="#tag-filter">
+        タグで探す ↓
+      </a>
+    )}
+    <p class="sr-only" id="result-count" role="status" aria-live="polite"></p>
+    {hasPosts ? (
+      <div class="post-list">
+        {posts.map((post) => (
+          <PostRow post={post} showRegion={tab === 'all'} />
+        ))}
+      </div>
+    ) : (
+      <p class="tab-preparing">
+        {tab === 'all' ? '記事は準備中です。' : regions[tab].empty}
+      </p>
+    )}
+    <div class="empty" id="empty" hidden>
+      <h2>一致するノートがありません</h2>
+      <p>キーワードやタグを変えて探してみてください。</p>
+      <button id="reset">絞り込みをリセット</button>
+    </div>
+  </section>
+  <aside class="blog-sidebar" aria-label="ブログの案内">
+    {hasPosts && topics.length > 0 && (
+      <section
+        class="tag-panel"
+        id="tag-filter"
+        aria-labelledby="tag-heading"
+        hidden
+      >
+        <h2 id="tag-heading">タグで探す</h2>
+        <div class="filter-buttons" role="group" aria-label="タグで絞り込み">
+          <button data-filter="all" aria-pressed="true">
+            すべて
+          </button>
+          {topics.map((topic) => (
+            <button data-filter={topic} aria-pressed="false">
+              {topic}
+            </button>
+          ))}
+        </div>
+      </section>
+    )}
+    <section class="about" id="about" aria-labelledby="about-title">
+      <h2 id="about-title">このブログについて</h2>
+      <p>
+        気になったセキュリティニュースを調べて、原因や対策をまとめています。出典で確認できた「事実」と、自分の「考察」を分けて書く、color4penの個人ブログです。
+      </p>
+    </section>
+  </aside>
+</div>
+<script>
+  // 検索・タグ絞り込みは、表示中のタブ（ページ）の記事だけを対象にする。
+  const filters = document.querySelector<HTMLElement>('#filters');
+  const input = document.querySelector<HTMLInputElement>('#search');
+  if (filters && input) {
+    filters.hidden = false;
+    const tagPanel = document.querySelector<HTMLElement>('#tag-filter');
+    if (tagPanel) tagPanel.hidden = false;
+    const buttons = [
+      ...document.querySelectorAll<HTMLButtonElement>('[data-filter]'),
+    ];
+    const rows = [...document.querySelectorAll<HTMLElement>('[data-post]')];
+    let selected = 'all';
+    const update = () => {
+      const query = input.value.trim().toLowerCase();
+      let count = 0;
+      for (const row of rows) {
+        const tags = JSON.parse(row.dataset.tags ?? '[]') as string[];
+        const visible =
+          (selected === 'all' || tags.includes(selected)) &&
+          (row.dataset.search ?? '').includes(query);
+        row.hidden = !visible;
+        if (visible) count++;
+      }
+      buttons.forEach((button) =>
+        button.setAttribute(
+          'aria-pressed',
+          String(button.dataset.filter === selected),
+        ),
+      );
+      document.querySelector<HTMLElement>('#empty')!.hidden = count !== 0;
+      document.querySelector('#result-count')!.textContent =
+        `${count}件のノート`;
+    };
+    buttons.forEach((button) =>
+      button.addEventListener('click', () => {
+        selected = button.dataset.filter!;
+        update();
+        if (window.matchMedia('(max-width: 760px)').matches) {
+          input.focus({ preventScroll: true });
+          filters.scrollIntoView({ block: 'start', behavior: 'instant' });
+        }
+      }),
+    );
+    input.addEventListener('input', update);
+    document.querySelector('#reset')!.addEventListener('click', () => {
+      selected = 'all';
+      input.value = '';
+      update();
+      input.focus();
+    });
+  }
+</script>

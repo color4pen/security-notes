@@ -1,20 +1,20 @@
 ---
 import '../styles/global.css';
-import { href, regionHref, regions, type Region } from '../lib/posts';
+import DeskTabs, { type Tab } from '../components/DeskTabs.astro';
+import { href } from '../lib/posts';
 interface Props {
   title?: string;
   description?: string;
   article?: boolean;
-  /** ヘッダーナビで現在地として示す面 */
-  section?: Region;
+  /** 紙面タブで選択状態にするタブ（記事ページではその記事の面） */
+  tab?: Tab;
 }
 const {
   title,
   description = 'セキュリティニュースの根本原因、侵入経路、対策と検知を読み解く考察ノート。',
   article = false,
-  section,
+  tab,
 } = Astro.props;
-const home = !article && !section;
 ---
 
 <!doctype html>
@@ -52,25 +52,7 @@ const home = !article && !section;
         </a>
       </div>
       <nav aria-label="メインナビゲーション">
-        <a
-          class:list={{ current: home }}
-          href={href('#articles')}
-          aria-current={home ? 'page' : undefined}
-        >
-          記事一覧
-        </a>
-        {(['domestic', 'overseas'] as const).map((region) => (
-          <a
-            class:list={['desk-link', { current: section === region }]}
-            href={regionHref(region)}
-            aria-current={
-              section === region ? (article ? 'true' : 'page') : undefined
-            }
-          >
-            {regions[region].label}
-          </a>
-        ))}
-        <a href={href('#about')}>このブログについて</a>
+        <a href={article ? href('#about') : '#about'}>このブログについて</a>
         <a class="rss-link" href={href('rss.xml')}>
           RSS <span aria-hidden="true">◔</span>
         </a>
@@ -82,6 +64,7 @@ const home = !article && !section;
         </a>
       </nav>
     </header>
+    <DeskTabs current={tab} inArticle={article} />
     <main id="main">
       <slot />
     </main>
