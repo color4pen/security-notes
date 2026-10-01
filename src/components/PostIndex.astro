@@ -11,20 +11,21 @@ const { tab, posts } = Astro.props;
 const topics = ['ゼロデイ', '認証回避', 'Webシェル'].filter((topic) =>
   posts.some((post) => post.data.tags.includes(topic)),
 );
-const intro =
-  tab === 'all'
-    ? {
-        title: 'すべての記事',
-        lead: '国内（社会面）と海外（国際面）の記事を、公開日の新しい順に並べています。',
-      }
-    : {
-        title: `${regions[tab].page}・${regions[tab].label}`,
-        lead:
-          regions[tab].lead +
-          (tab === 'domestic'
-            ? '最終更新日の新しい順に並べています。'
-            : '公開日の新しい順に並べています。'),
-      };
+// タブ名・本数はタブに出ているので、ここでは繰り返さない（見出しはスクリーンリーダー向け）。
+const intro = {
+  all: {
+    title: 'すべての記事',
+    lead: '公開日の新しい順に並べています。',
+  },
+  domestic: {
+    title: `${regions.domestic.page}（${regions.domestic.label}）の記事`,
+    lead: '続報を追記しながら記録しています。最終更新日の新しい順。',
+  },
+  overseas: {
+    title: `${regions.overseas.page}（${regions.overseas.label}）の記事`,
+    lead: '根本原因と対策の観点で読み解きます。公開日の新しい順。',
+  },
+}[tab];
 const hasPosts = posts.length > 0;
 ---
 
@@ -55,11 +56,10 @@ const hasPosts = posts.length > 0;
   )}
 
   <section class="articles" id="articles" aria-labelledby="tab-title">
-    <header class="tab-intro">
-      <h1 id="tab-title">{intro.title}</h1>
-      <span class="tab-count">{posts.length}本</span>
-      <p>{intro.lead}</p>
-    </header>
+    <h1 class="sr-only" id="tab-title">
+      {intro.title}
+    </h1>
+    <p class="tab-lead">{intro.lead}</p>
     {hasPosts && topics.length > 0 && (
       <a class="mobile-tag-link" href="#tag-filter">
         タグで探す ↓
