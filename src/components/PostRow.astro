@@ -1,0 +1,66 @@
+---
+import {
+  dateLabel,
+  isOngoing,
+  isUpdated,
+  lastModified,
+  postHref,
+  readingMinutes,
+  summary,
+  type Post,
+} from '../lib/posts';
+interface Props {
+  post: Post;
+  /** トップの検索・タグ絞り込みの対象にする */
+  filterable?: boolean;
+  /** 面見出し（h2）の下に並べるときは3 */
+  level?: 2 | 3;
+}
+const { post, filterable = false, level = 2 } = Astro.props;
+const Title = level === 3 ? 'h3' : 'h2';
+const domestic = post.data.region === 'domestic';
+const updated = isUpdated(post);
+// 国内は続報を追うので最終更新日を、海外は公開日を見出しの日付にする。
+const shownDate = domestic ? lastModified(post) : post.data.date;
+---
+
+<article
+  class="post-row"
+  data-post={filterable ? '' : undefined}
+  data-tags={filterable ? JSON.stringify(post.data.tags) : undefined}
+  data-search={
+    filterable
+      ? `${post.data.title} ${post.data.tags.join(' ')} ${summary(post)}`.toLowerCase()
+      : undefined
+  }
+>
+  <div class="post-main">
+    <div class="post-topline">
+      <time datetime={shownDate.toISOString()}>
+        {domestic && updated ? '更新 ' : ''}
+        {dateLabel(shownDate)}
+      </time>
+      <span class="topic-label">{post.data.tags[0]}</span>
+      {(updated || isOngoing(post)) && (
+        <span class="marks">
+          {updated && (
+            <span class="mark mark-updated">
+              {domestic ? '続報あり' : '更新'}
+            </span>
+          )}
+          {isOngoing(post) && <span class="mark mark-ongoing">続報待ち</span>}
+        </span>
+      )}
+      <span class="reading">約{readingMinutes(post)}分で読む</span>
+    </div>
+    <Title class="post-title">
+      <a href={postHref(post)}>{post.data.title}</a>
+    </Title>
+    <p class="post-summary">{summary(post)}</p>
+    <div class="tags">
+      {post.data.tags.slice(1, 4).map((tag) => (
+        <span>{tag}</span>
+      ))}
+    </div>
+  </div>
+</article>

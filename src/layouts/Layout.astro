@@ -1,16 +1,20 @@
 ---
 import '../styles/global.css';
-import { href } from '../lib/posts';
+import { href, regionHref, regions, type Region } from '../lib/posts';
 interface Props {
   title?: string;
   description?: string;
   article?: boolean;
+  /** ヘッダーナビで現在地として示す面 */
+  section?: Region;
 }
 const {
   title,
   description = 'セキュリティニュースの根本原因、侵入経路、対策と検知を読み解く考察ノート。',
   article = false,
+  section,
 } = Astro.props;
+const home = !article && !section;
 ---
 
 <!doctype html>
@@ -48,9 +52,24 @@ const {
         </a>
       </div>
       <nav aria-label="メインナビゲーション">
-        <a class:list={{ current: !article }} href={href('#articles')}>
+        <a
+          class:list={{ current: home }}
+          href={href('#articles')}
+          aria-current={home ? 'page' : undefined}
+        >
           記事一覧
         </a>
+        {(['domestic', 'overseas'] as const).map((region) => (
+          <a
+            class:list={['desk-link', { current: section === region }]}
+            href={regionHref(region)}
+            aria-current={
+              section === region ? (article ? 'true' : 'page') : undefined
+            }
+          >
+            {regions[region].label}
+          </a>
+        ))}
         <a href={href('#about')}>このブログについて</a>
         <a class="rss-link" href={href('rss.xml')}>
           RSS <span aria-hidden="true">◔</span>

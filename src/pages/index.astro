@@ -1,13 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import {
-  allPosts,
-  dateLabel,
-  postHref,
-  summary,
-  readingMinutes,
-} from '../lib/posts';
+import PostRow from '../components/PostRow.astro';
+import RegionHead from '../components/RegionHead.astro';
+import { allPosts, postsIn, regions } from '../lib/posts';
 const posts = await allPosts();
+const desks = (['domestic', 'overseas'] as const).map((region) => ({
+  region,
+  posts: postsIn(posts, region),
+}));
 const topics = ['ゼロデイ', '認証回避', 'Webシェル'];
 ---
 
@@ -42,35 +42,29 @@ const topics = ['ゼロデイ', '認証回避', 'Webシェル'];
         タグで探す ↓
       </a>
       <p class="sr-only" id="result-count" role="status" aria-live="polite"></p>
-      <div class="post-list">
-        {posts.map((post) => (
-          <article
-            class="post-row"
-            data-post
-            data-tags={JSON.stringify(post.data.tags)}
-            data-search={`${post.data.title} ${post.data.tags.join(' ')} ${summary(post)}`.toLowerCase()}
-          >
-            <div class="post-main">
-              <div class="post-topline">
-                <time datetime={post.data.date.toISOString()}>
-                  {dateLabel(post.data.date)}
-                </time>
-                <span class="topic-label">{post.data.tags[0]}</span>
-                <span class="reading">約{readingMinutes(post)}分で読む</span>
-              </div>
-              <h2>
-                <a href={postHref(post)}>{post.data.title}</a>
-              </h2>
-              <p class="post-summary">{summary(post)}</p>
-              <div class="tags">
-                {post.data.tags.slice(1, 4).map((tag) => (
-                  <span>{tag}</span>
+      {desks.map(({ region, posts: deskPosts }) => (
+        <section
+          class:list={['desk', `desk-${region}`]}
+          data-desk
+          aria-labelledby={`desk-${region}`}
+        >
+          <RegionHead region={region} count={deskPosts.length} link />
+          {deskPosts.length > 0 ? (
+            <>
+              <div class="post-list">
+                {deskPosts.map((post) => (
+                  <PostRow post={post} filterable level={3} />
                 ))}
               </div>
-            </div>
-          </article>
-        ))}
-      </div>
+              <p class="desk-empty" data-desk-empty hidden>
+                この面には一致するノートがありません。
+              </p>
+            </>
+          ) : (
+            <p class="desk-empty desk-preparing">{regions[region].empty}</p>
+          )}
+        </section>
+      ))}
       <div class="empty" id="empty" hidden>
         <h3>一致するノートがありません</h3>
         <p>キーワードやタグを変えて探してみてください。</p>
@@ -114,6 +108,7 @@ const topics = ['ゼロデイ', '認証回避', 'Webシェル'];
     ...document.querySelectorAll<HTMLButtonElement>('[data-filter]'),
   ];
   const rows = [...document.querySelectorAll<HTMLElement>('[data-post]')];
+  const desks = [...document.querySelectorAll<HTMLElement>('[data-desk]')];
   let selected = 'all';
   function update() {
     const query = input.value.trim().toLowerCase();
@@ -125,6 +120,13 @@ const topics = ['ゼロデイ', '認証回避', 'Webシェル'];
         (row.dataset.search ?? '').includes(query);
       row.hidden = !visible;
       if (visible) count++;
+    }
+    // 面ごとに、記事はあるが一致するものがない場合の案内を出す。
+    for (const desk of desks) {
+      const note = desk.querySelector<HTMLElement>('[data-desk-empty]');
+      if (!note) continue;
+      note.hidden =
+        count === 0 || desk.querySelector('[data-post]:not([hidden])') !== null;
     }
     buttons.forEach((button) =>
       button.setAttribute(
