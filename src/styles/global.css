@@ -263,7 +263,7 @@ summary:focus-visible {
   margin-left: auto;
   font-size: 11px;
 }
-.post-main h2 {
+.post-main .post-title {
   font-family: var(--serif);
   font-size: 24px;
   line-height: 1.65;
@@ -271,13 +271,13 @@ summary:focus-visible {
   margin: 0 0 10px;
   font-weight: 700;
 }
-.post-main h2 a:hover {
+.post-main .post-title a:hover {
   color: var(--accent);
   text-decoration: underline;
   text-underline-offset: 5px;
   text-decoration-thickness: 1px;
 }
-.post-main h2 a::after {
+.post-main .post-title a::after {
   content: '';
   position: absolute;
   inset: 0;
@@ -741,6 +741,287 @@ summary:focus-visible {
   flex-shrink: 0;
 }
 
+/* Desks: 国内（社会面）/ 海外（国際面） */
+.desk + .desk {
+  margin-top: 46px;
+}
+.desk-head {
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 11px;
+}
+.desk-title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+.desk-title h1,
+.desk-title h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: 0.12em;
+}
+.desk-title h1 {
+  font-size: 32px;
+}
+.desk-page {
+  font-weight: 700;
+}
+.desk-label {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  padding: 0 8px;
+  border: 1px solid var(--ink);
+  line-height: 1.7;
+  transform: translateY(-3px);
+}
+.desk-count {
+  font-size: 11px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.desk-more {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--accent);
+}
+.desk-more:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.desk-lead {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.desk .post-list > .post-row:first-child,
+.region-layout .post-list > .post-row:first-child {
+  padding-top: 22px;
+}
+.desk-empty {
+  margin: 0;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+.desk-preparing {
+  font-family: var(--serif);
+  font-size: 15px;
+  text-align: center;
+  padding: 30px 0;
+  letter-spacing: 0.05em;
+}
+.region-layout {
+  grid-template-areas: 'articles sidebar';
+  grid-template-rows: auto;
+}
+.region-note {
+  margin: 18px 0 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+.region-switch a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+/* Marks: 続報あり / 更新 / 続報待ち */
+.marks {
+  display: inline-flex;
+  gap: 6px;
+}
+.mark {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: 0.08em;
+  padding: 0 7px;
+  border: 1px solid var(--ink);
+  white-space: nowrap;
+}
+.mark-updated {
+  background: var(--ink);
+  color: var(--paper);
+}
+.mark-ongoing {
+  color: #79613b;
+  border-color: #92774c;
+  background: #efebe1;
+}
+/* Article: 国内記事の続報状況 */
+.article-desk {
+  margin-left: 10px;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.article-desk:hover {
+  border-color: var(--ink);
+}
+.follow-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  margin: 0 0 22px;
+  padding: 12px 16px;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+  font-size: 13px;
+}
+.status-badge {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 1px 12px;
+  background: var(--ink);
+  color: var(--paper);
+}
+.follow-status.is-ongoing .status-badge {
+  background: #79613b;
+}
+.follow-updated {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.follow-new {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 10.5px;
+  line-height: 1.7;
+  padding: 0 7px;
+  border: 1px solid var(--ink);
+  letter-spacing: 0.08em;
+}
+.follow-note {
+  color: var(--muted);
+  font-size: 12px;
+}
+.follow-issue {
+  margin-left: auto;
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--muted);
+}
+/* Article: 冒頭の要点枠（## 要点） */
+.prose .summary-box {
+  margin: 0;
+  border-top: 3px double var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+.prose .summary-title {
+  margin: 0;
+  padding: 10px 0 8px;
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  border-bottom: 1px solid var(--line);
+}
+.prose .summary-box > p:not(.summary-title) {
+  margin: 12px 0;
+  font-size: 13px;
+}
+.prose .summary-item {
+  display: grid;
+  grid-template-columns: 10em minmax(0, 1fr);
+  gap: 4px 22px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.prose .summary-item:last-child {
+  border-bottom: 0;
+}
+.prose .summary-label {
+  align-self: start;
+  margin: 0;
+  padding-left: 10px;
+  border-left: 3px solid var(--accent);
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.9;
+  font-weight: 700;
+}
+.prose .summary-unknown .summary-label {
+  border-color: #a59d8b;
+  color: var(--muted);
+}
+.prose .summary-analysis .summary-label {
+  border-color: #92774c;
+  color: #79613b;
+}
+.prose .summary-action .summary-label {
+  justify-self: start;
+  align-self: start;
+  padding: 0 10px;
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.prose .summary-body {
+  font-size: 14px;
+  line-height: 1.95;
+  min-width: 0;
+}
+.prose .summary-body > :first-child {
+  margin-top: 0;
+}
+.prose .summary-body > :last-child {
+  margin-bottom: 0;
+}
+.prose .summary-body ul,
+.prose .summary-body ol {
+  margin: 0;
+}
+.prose .summary-body li {
+  margin: 4px 0;
+}
+.prose .summary-box + h2 {
+  margin-top: 46px;
+}
+@media (max-width: 680px) {
+  .desk-title h1,
+  .desk-title h2 {
+    font-size: 22px;
+  }
+  .desk-title h1 {
+    font-size: 26px;
+  }
+  .desk + .desk {
+    margin-top: 36px;
+  }
+  .prose .summary-item {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .prose .summary-body {
+    font-size: 13px;
+  }
+  .follow-status {
+    padding: 10px 12px;
+    gap: 8px 12px;
+  }
+  .follow-issue {
+    margin-left: 0;
+  }
+}
+@media (max-width: 760px) {
+  .blog-layout.region-layout {
+    grid-template-areas: 'articles' 'sidebar';
+  }
+}
+
 @media (max-width: 900px) {
   .wrap {
     width: calc(100% - 48px);
@@ -803,7 +1084,7 @@ summary:focus-visible {
   .reading {
     font-size: 10px;
   }
-  .post-main h2 {
+  .post-main .post-title {
     font-size: 21px;
     line-height: 1.7;
   }

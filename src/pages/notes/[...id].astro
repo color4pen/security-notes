@@ -4,8 +4,13 @@ import Layout from '../../layouts/Layout.astro';
 import {
   allPosts,
   dateLabel,
-  href,
+  isUpdated,
+  issueHref,
+  lastModified,
   postHref,
+  regionHref,
+  regions,
+  repoUrl,
   summary,
   readingMinutes,
 } from '../../lib/posts';
@@ -22,22 +27,64 @@ const toc = headings.filter((heading) => heading.depth === 2);
 const [lead, ...rest] = post.data.title.split(' ― ');
 const subtitle = rest.join(' ― ');
 const cves = post.data.tags.filter((tag) => tag.startsWith('CVE-'));
+const region = post.data.region;
+const domestic = region === 'domestic';
+const desk = regions[region];
+const status = post.data.status;
+const statusLabel =
+  status === 'ongoing' ? '続報待ち' : status === 'concluded' ? '確定' : '';
+const statusNote =
+  status === 'ongoing'
+    ? '調査・発表が続いています。新しい発表があれば追記します。'
+    : status === 'concluded'
+      ? '主要な発表が出そろい、続報の追記を終えています。'
+      : '';
 ---
 
-<Layout title={post.data.title} description={summary(post)} article>
+<Layout
+  title={post.data.title}
+  description={summary(post)}
+  article
+  section={region}
+>
   <div class="wrap">
-    <a class="back-link" href={href('#articles')}>
-      ← 記事一覧へ
+    <a class="back-link" href={regionHref(region)}>
+      ← {desk.page}（{desk.label}）の記事一覧へ
     </a>
     <header class="article-header">
       <p class="eyebrow">
         <span class="blue-square"></span> セキュリティノート{' '}
+        <a class="article-desk" href={regionHref(region)}>
+          {desk.page}・{desk.label}
+        </a>
         <span class="article-category">/ {post.data.tags[0]}</span>
       </p>
       <h1>
         {lead}
         {subtitle && <span>{subtitle}</span>}
       </h1>
+      {domestic && (
+        <div
+          class:list={['follow-status', status && `is-${status}`]}
+          role="note"
+          aria-label="続報の状況"
+        >
+          {statusLabel && <span class="status-badge">{statusLabel}</span>}
+          <span class="follow-updated">
+            最終更新{' '}
+            <time datetime={lastModified(post).toISOString()}>
+              {dateLabel(lastModified(post))}
+            </time>
+            {isUpdated(post) && <span class="follow-new">続報あり</span>}
+          </span>
+          {statusNote && <span class="follow-note">{statusNote}</span>}
+          {post.data.issue && (
+            <a class="follow-issue" href={issueHref(post.data.issue)}>
+              追跡Issue #{post.data.issue} ↗
+            </a>
+          )}
+        </div>
+      )}
       <div class="article-meta">
         <time datetime={post.data.date.toISOString()}>
           公開 {dateLabel(post.data.date)}
@@ -56,9 +103,7 @@ const cves = post.data.tags.filter((tag) => tag.startsWith('CVE-'));
       <article class="prose">
         <Content />
         <div class="article-end">
-          <a
-            href={`https://github.com/color4pen/security-notes/blob/main/posts/${post.id}.md`}
-          >
+          <a href={`${repoUrl}/blob/main/posts/${post.id}.md`}>
             原文をGitHubで読む ↗
           </a>
         </div>
