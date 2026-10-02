@@ -10,7 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
-- まだありません
+- 2026-10-02 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
+- 2026-10-02 [セイコーマートアプリ ― 会員57万2022人分が閲覧された不正アクセス（原因は非公表）](posts/2026-10-02-seicomart-app-member-data-breach.md)
+- 2026-10-02 [集英社 HAPPY PLUS COMMUNITY ― CMS設定不備から特権アカウントが作られブロガー2835人分が漏えい](posts/2026-10-02-shueisha-happy-plus-community-breach.md)
 
 ### 海外（国際面・新しい順）
 
