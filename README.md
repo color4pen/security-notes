@@ -16,6 +16,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-02 [Fortinet FortiMail CVE-2026-104286 ― 管理GUIのパストラバーサルとNULLバイトで任意ファイル書き込み、修正版未出荷のままKEV入り](posts/2026-10-02-fortimail-cve-2026-104286.md)
+- 2026-10-02 [Warlock（Longlegs / Storm-2603）― SharePoint侵入からSYSVOL複製でドメイン全体へランサムを配る](posts/2026-10-02-warlock-longlegs-sharepoint-sysvol.md)
+- 2026-10-02 [Star Blizzard RedFlick ― ClickFixからVHDX＋スケジュールタスクへ、1操作でCosmicPulseを入れるespionage配信](posts/2026-10-02-star-blizzard-redflick-cosmicpulse.md)
 - 2026-10-01 [Bitget 3億8750万ドル流出 ― 守るはずのセキュリティ製品がウォレットへの踏み台になった](posts/2026-10-01-bitget-387m-heist-security-appliance-zero-day.md)
 - 2026-10-01 [Zimbra CVE-2026-73570 ― 1通のSMTPがSNMP通知を経てシェルになる、パッチから公表までの「隙間」の悪用](posts/2026-10-01-zimbra-snmp-cve-2026-73570.md)
 - 2026-10-01 [Citrix NetScaler ADC/Gateway CVE-2026-88772/88771 悪用 ― DTLSの断片長を信じたパケットエンジンと、パッチ後に残る足場](posts/2026-10-01-citrix-netscaler-cve-2026-88772-88771.md)
