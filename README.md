@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-04 [第一ライフグループ／第一生命 ― 人事システム不正アクセスで従業員・退職者約12万人分が流出の可能性](posts/2026-10-04-dai-ichi-life-hr-system-employee-data-breach.md)
+- 2026-10-04 [アバハウス ― 不審な返金メール報告から発覚、会員・受注DBへの不正アクセス](posts/2026-10-04-abahouse-member-order-database-breach.md)
+- 2026-10-04 [ヤマト運輸 クロネコ代金後払い ― 第2報で氏名・住所・商品明細などの漏えい可能性](posts/2026-10-04-yamato-kuroneko-pay-later-data-breach.md)
 - 2026-10-02 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
 - 2026-10-02 [セイコーマートアプリ ― 会員57万2022人分が閲覧された不正アクセス（原因は非公表）](posts/2026-10-02-seicomart-app-member-data-breach.md)
 - 2026-10-02 [集英社 HAPPY PLUS COMMUNITY ― CMS設定不備から特権アカウントが作られブロガー2835人分が漏えい](posts/2026-10-02-shueisha-happy-plus-community-breach.md)
