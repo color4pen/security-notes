@@ -19,6 +19,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-04 [Zammad CVE-2026-102489／102490 ― セッション固定からrootまで秒単位、DIVDを襲ったagentic AIのゼロデイ連鎖](posts/2026-10-04-zammad-cve-2026-102489-102490-divd-ai-agent.md)
+- 2026-10-04 [Rejetto HFS CVE-2026-61500 ― Math.random()署名鍵とPRNG漏洩、Mythos発見から公開後すぐ悪用](posts/2026-10-04-rejetto-hfs-cve-2026-61500-mythos-math-random.md)
+- 2026-10-04 [Dell CSM CVE-2026-63688ほか ― 認証なしでストレージ管理者権限、Kubernetesノードrootまで届く欠陥群](posts/2026-10-04-dell-csm-cve-2026-63688-authorization-flaws.md)
 - 2026-10-02 [Fortinet FortiMail CVE-2026-104286 ― 管理GUIのパストラバーサルとNULLバイトで任意ファイル書き込み、修正版未出荷のままKEV入り](posts/2026-10-02-fortimail-cve-2026-104286.md)
 - 2026-10-02 [Warlock（Longlegs / Storm-2603）― SharePoint侵入からSYSVOL複製でドメイン全体へランサムを配る](posts/2026-10-02-warlock-longlegs-sharepoint-sysvol.md)
 - 2026-10-02 [Star Blizzard RedFlick ― ClickFixからVHDX＋スケジュールタスクへ、1操作でCosmicPulseを入れるespionage配信](posts/2026-10-02-star-blizzard-redflick-cosmicpulse.md)
