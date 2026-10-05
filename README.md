@@ -22,6 +22,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-05 [Citrix NetScaler CVE-2026-88779 ― SAML署名の正規化処理で認証デーモンが落ちる、「ただのDoS」が再起動トリガーとして悪用された](posts/2026-10-05-netscaler-saml-cve-2026-88779-reboot-trigger.md)
+- 2026-10-05 [TA419 ― 元米政府高官やAnthropic社員を装ってAI政策の専門家に接近、MFAごとセッションを奪うAitMフィッシング](posts/2026-10-05-ta419-ai-policy-aitm-frameless-bitb.md)
+- 2026-10-05 [GitLab AI Gateway CVE-2026-90970 ― カスタムフローのプロンプトテンプレートがサンドボックスを破りコマンド実行、自前ホストのゲートウェイは要更新](posts/2026-10-05-gitlab-ai-gateway-cve-2026-90970-template-sandbox.md)
 - 2026-10-04 [Zammad CVE-2026-102489／102490 ― セッション固定からrootまで秒単位、DIVDを襲ったagentic AIのゼロデイ連鎖](posts/2026-10-04-zammad-cve-2026-102489-102490-divd-ai-agent.md)
 - 2026-10-04 [Rejetto HFS CVE-2026-61500 ― Math.random()署名鍵とPRNG漏洩、Mythos発見から公開後すぐ悪用](posts/2026-10-04-rejetto-hfs-cve-2026-61500-mythos-math-random.md)
 - 2026-10-04 [Dell CSM CVE-2026-63688ほか ― 認証なしでストレージ管理者権限、Kubernetesノードrootまで届く欠陥群](posts/2026-10-04-dell-csm-cve-2026-63688-authorization-flaws.md)
