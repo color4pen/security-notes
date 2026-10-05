@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-05 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
+- 2026-10-05 [池上通信機 ― 外部からの通報で発覚、サーバのファイル暗号化とリークサイトへの情報公開](posts/2026-10-05-ikegami-tsushinki-ransomware-leak-site.md)
+- 2026-10-05 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-04 [第一ライフグループ／第一生命 ― 人事システム不正アクセスで従業員・退職者約12万人分が流出の可能性](posts/2026-10-04-dai-ichi-life-hr-system-employee-data-breach.md)
 - 2026-10-04 [アバハウス ― 不審な返金メール報告から発覚、会員・受注DBへの不正アクセス](posts/2026-10-04-abahouse-member-order-database-breach.md)
 - 2026-10-04 [ヤマト運輸 クロネコ代金後払い ― 第2報で氏名・住所・商品明細などの漏えい可能性](posts/2026-10-04-yamato-kuroneko-pay-later-data-breach.md)
