@@ -25,6 +25,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-06 [Cling（ClingSTUN）― 公開STUNサーバーとのやり取りに命令を紛れ込ませ、GoogleのSTUNを装って届くIoTボットネット](posts/2026-10-06-cling-clingstun-stun-c2-iot-botnet.md)
+- 2026-10-06 [Microsoft Exchange Server CVE-2026-96940 ― 社内の一般ユーザーが他人のメールボックスを読める認可の不備、予定より前倒しで「V2」更新を配布](posts/2026-10-06-exchange-cve-2026-96940-mailbox-access.md)
+- 2026-10-06 [デンマーク CPR（中央住民登録）― 民間企業の正規の照会権限が悪用され、約880万人分の氏名・住所・個人番号が抜かれた](posts/2026-10-06-denmark-cpr-registry-8-8m-lawful-access-abuse.md)
 - 2026-10-05 [Citrix NetScaler CVE-2026-88779 ― SAML署名の正規化処理で認証デーモンが落ちる、「ただのDoS」が再起動トリガーとして悪用された](posts/2026-10-05-netscaler-saml-cve-2026-88779-reboot-trigger.md)
 - 2026-10-05 [TA419 ― 元米政府高官やAnthropic社員を装ってAI政策の専門家に接近、MFAごとセッションを奪うAitMフィッシング](posts/2026-10-05-ta419-ai-policy-aitm-frameless-bitb.md)
 - 2026-10-05 [GitLab AI Gateway CVE-2026-90970 ― カスタムフローのプロンプトテンプレートがサンドボックスを破りコマンド実行、自前ホストのゲートウェイは要更新](posts/2026-10-05-gitlab-ai-gateway-cve-2026-90970-template-sandbox.md)
