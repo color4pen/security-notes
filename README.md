@@ -10,17 +10,17 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-06 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
+- 2026-10-06 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
+- 2026-10-06 [セイコーマートアプリ ― 会員57万4647人分が閲覧された不正アクセス（原因は非公表）](posts/2026-10-02-seicomart-app-member-data-breach.md)
 - 2026-10-06 [焼肉きんぐ公式アプリ ― 登録1080万件のうち1078万件が流出、ほぼ全会員分の連絡先が抜かれた](posts/2026-10-06-yakiniku-king-app-10-7m-members-breach.md)
 - 2026-10-06 [大和証券 ― 問い合わせ管理の委託先に約11時間半の不正アクセス、約11万人分・約22万件が漏えいの可能性](posts/2026-10-06-daiwa-securities-scala-inquiry-service-breach.md)
 - 2026-10-06 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
-- 2026-10-05 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
 - 2026-10-05 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
 - 2026-10-05 [池上通信機 ― 外部からの通報で発覚、サーバのファイル暗号化とリークサイトへの情報公開](posts/2026-10-05-ikegami-tsushinki-ransomware-leak-site.md)
-- 2026-10-05 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-04 [第一ライフグループ／第一生命 ― 人事システム不正アクセスで従業員・退職者約12万人分が流出の可能性](posts/2026-10-04-dai-ichi-life-hr-system-employee-data-breach.md)
 - 2026-10-04 [アバハウス ― 不審な返金メール報告から発覚、会員・受注DBへの不正アクセス](posts/2026-10-04-abahouse-member-order-database-breach.md)
 - 2026-10-04 [ヤマト運輸 クロネコ代金後払い ― 第2報で氏名・住所・商品明細などの漏えい可能性](posts/2026-10-04-yamato-kuroneko-pay-later-data-breach.md)
-- 2026-10-02 [セイコーマートアプリ ― 会員57万2022人分が閲覧された不正アクセス（原因は非公表）](posts/2026-10-02-seicomart-app-member-data-breach.md)
 - 2026-10-02 [集英社 HAPPY PLUS COMMUNITY ― CMS設定不備から特権アカウントが作られブロガー2835人分が漏えい](posts/2026-10-02-shueisha-happy-plus-community-breach.md)
 
 ### 海外（国際面・新しい順）
