@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-06 [焼肉きんぐ公式アプリ ― 登録1080万件のうち1078万件が流出、ほぼ全会員分の連絡先が抜かれた](posts/2026-10-06-yakiniku-king-app-10-7m-members-breach.md)
+- 2026-10-06 [大和証券 ― 問い合わせ管理の委託先に約11時間半の不正アクセス、約11万人分・約22万件が漏えいの可能性](posts/2026-10-06-daiwa-securities-scala-inquiry-service-breach.md)
+- 2026-10-06 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
 - 2026-10-05 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
 - 2026-10-05 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
 - 2026-10-05 [池上通信機 ― 外部からの通報で発覚、サーバのファイル暗号化とリークサイトへの情報公開](posts/2026-10-05-ikegami-tsushinki-ransomware-leak-site.md)
