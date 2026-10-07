@@ -10,15 +10,15 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-07 [大和証券 ― 問い合わせ管理の委託先に約11時間半の不正アクセス、約11万人分・約22万件が漏えいの可能性](posts/2026-10-06-daiwa-securities-scala-inquiry-service-breach.md)
+- 2026-10-07 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
+- 2026-10-07 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
 - 2026-10-07 [ミスターマックス ― アプリとオンラインストアに不正アクセス、最大173万人分の会員ID・氏名・連絡先が流出](posts/2026-10-07-mrmax-app-online-store-1-73m-members.md)
 - 2026-10-07 [GMOリサーチ＆AI「infoQ」 ― ソフトウェアの脆弱性から会員約95万件を全件持ち出し、ポイント287万円分がAmazonギフトコードに](posts/2026-10-07-gmo-research-infoq-948k-members-point-fraud.md)
 - 2026-10-07 [旭化成セラピューティクス「Pharma DIGITAL」 ― 運営委託先の会員DBに不正アクセス、医療従事者最大約51万4000人分が閲覧・取得の可能性](posts/2026-10-07-asahi-kasei-pharma-digital-vendor-breach.md)
 - 2026-10-06 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
-- 2026-10-06 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-06 [セイコーマートアプリ ― 会員57万4647人分が閲覧された不正アクセス（原因は非公表）](posts/2026-10-02-seicomart-app-member-data-breach.md)
 - 2026-10-06 [焼肉きんぐ公式アプリ ― 登録1080万件のうち1078万件が流出、ほぼ全会員分の連絡先が抜かれた](posts/2026-10-06-yakiniku-king-app-10-7m-members-breach.md)
-- 2026-10-06 [大和証券 ― 問い合わせ管理の委託先に約11時間半の不正アクセス、約11万人分・約22万件が漏えいの可能性](posts/2026-10-06-daiwa-securities-scala-inquiry-service-breach.md)
-- 2026-10-06 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
 - 2026-10-05 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
 - 2026-10-05 [池上通信機 ― 外部からの通報で発覚、サーバのファイル暗号化とリークサイトへの情報公開](posts/2026-10-05-ikegami-tsushinki-ransomware-leak-site.md)
 - 2026-10-04 [第一ライフグループ／第一生命 ― 人事システム不正アクセスで従業員・退職者約12万人分が流出の可能性](posts/2026-10-04-dai-ichi-life-hr-system-employee-data-breach.md)
