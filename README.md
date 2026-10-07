@@ -28,6 +28,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-07 [Atlassian Data Center CVE-2026-21589 ― ログインなしでWebルート内のファイルを読める欠陥、Jira・Confluenceなど8製品の自前運用版が対象](posts/2026-10-07-atlassian-data-center-cve-2026-21589-file-access.md)
+- 2026-10-07 [Ninja Forms／WPC Product Bundles の蓄積型XSS悪用 ― 管理者が投稿を開いた瞬間に、一覧に出ない管理者と裏口ログインが作られる](posts/2026-10-07-wordpress-ninja-forms-wpc-stored-xss-hidden-admin.md)
+- 2026-10-07 [LibreOffice CVE-2026-63277／OpenOffice CVE-2026-59265 ― 表計算ファイルを開くだけで外部のJavaコードが動く、マクロの警告を通らない「データ連携」の連鎖](posts/2026-10-07-libreoffice-openoffice-jdbc-classpath-rce.md)
 - 2026-10-06 [Cling（ClingSTUN）― 公開STUNサーバーとのやり取りに命令を紛れ込ませ、GoogleのSTUNを装って届くIoTボットネット](posts/2026-10-06-cling-clingstun-stun-c2-iot-botnet.md)
 - 2026-10-06 [Microsoft Exchange Server CVE-2026-96940 ― 社内の一般ユーザーが他人のメールボックスを読める認可の不備、予定より前倒しで「V2」更新を配布](posts/2026-10-06-exchange-cve-2026-96940-mailbox-access.md)
 - 2026-10-06 [デンマーク CPR（中央住民登録）― 民間企業の正規の照会権限が悪用され、約880万人分の氏名・住所・個人番号が抜かれた](posts/2026-10-06-denmark-cpr-registry-8-8m-lawful-access-abuse.md)
