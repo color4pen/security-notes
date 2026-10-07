@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-07 [ミスターマックス ― アプリとオンラインストアに不正アクセス、最大173万人分の会員ID・氏名・連絡先が流出](posts/2026-10-07-mrmax-app-online-store-1-73m-members.md)
+- 2026-10-07 [GMOリサーチ＆AI「infoQ」 ― ソフトウェアの脆弱性から会員約95万件を全件持ち出し、ポイント287万円分がAmazonギフトコードに](posts/2026-10-07-gmo-research-infoq-948k-members-point-fraud.md)
+- 2026-10-07 [旭化成セラピューティクス「Pharma DIGITAL」 ― 運営委託先の会員DBに不正アクセス、医療従事者最大約51万4000人分が閲覧・取得の可能性](posts/2026-10-07-asahi-kasei-pharma-digital-vendor-breach.md)
 - 2026-10-06 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
 - 2026-10-06 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-06 [セイコーマートアプリ ― 会員57万4647人分が閲覧された不正アクセス（原因は非公表）](posts/2026-10-02-seicomart-app-member-data-breach.md)
