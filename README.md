@@ -31,6 +31,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-08 [ガーナ・シエラレオネ・米領サモアのccTLD乗っ取り ― 国別ドメインのDNSを書き換え、GoogleやYouTubeの正規のHTTPS証明書を取得](posts/2026-10-08-cctld-registry-hijack-gh-sl-as-google-certificates.md)
+- 2026-10-08 [SonicWall SMA1000 CVE-2026-102255 ― ログイン前の「意図しない別経路」から内部機能に届くSSRF、今年3度目のCVSS 10.0](posts/2026-10-08-sonicwall-sma1000-cve-2026-102255-preauth-ssrf.md)
+- 2026-10-08 [FortiBleed ― 使い回された認証情報と古いSHA-256のパスワード保存を突くFortiGate乗っ取り、FBIとシークレットサービスが「管理者の締め出し」を警告](posts/2026-10-08-fortibleed-fbi-usss-fortigate-admin-lockout.md)
 - 2026-10-07 [Atlassian Data Center CVE-2026-21589 ― ログインなしでWebルート内のファイルを読める欠陥、Jira・Confluenceなど8製品の自前運用版が対象](posts/2026-10-07-atlassian-data-center-cve-2026-21589-file-access.md)
 - 2026-10-07 [Ninja Forms／WPC Product Bundles の蓄積型XSS悪用 ― 管理者が投稿を開いた瞬間に、一覧に出ない管理者と裏口ログインが作られる](posts/2026-10-07-wordpress-ninja-forms-wpc-stored-xss-hidden-admin.md)
 - 2026-10-07 [LibreOffice CVE-2026-63277／OpenOffice CVE-2026-59265 ― 表計算ファイルを開くだけで外部のJavaコードが動く、マクロの警告を通らない「データ連携」の連鎖](posts/2026-10-07-libreoffice-openoffice-jdbc-classpath-rce.md)
