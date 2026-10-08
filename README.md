@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-08 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
+- 2026-10-08 [楽天ドライブ ― 管理用アカウントの認証情報が奪われ、1万5382アカウント分の保存データが取得・閲覧された](posts/2026-10-08-rakuten-drive-admin-credential-stored-files-15k-accounts.md)
+- 2026-10-08 [関西国際大学 ― eポートフォリオから2023年3月までの在籍者の記録が流出、学内ネットワークを止めて授業にも支障](posts/2026-10-08-kansai-university-of-international-studies-eportfolio-breach.md)
 - 2026-10-07 [大和証券 ― 問い合わせ管理の委託先に約11時間半の不正アクセス、約11万人分・約22万件が漏えいの可能性](posts/2026-10-06-daiwa-securities-scala-inquiry-service-breach.md)
 - 2026-10-07 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-07 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
