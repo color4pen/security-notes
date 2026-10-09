@@ -31,6 +31,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-09 [tensorlake npm 0.5.144 ― 正規リポジトリのmainから出たShai-Huludワーム、トークンを取り消すとホームを消す人質機構](posts/2026-10-09-tensorlake-npm-shai-hulud-hostage-token.md)
+- 2026-10-09 [Cisco NX-OS CVE-2026-76465 ― MPLS OAMのecho-request検証不備で認証なしroot実行、Nexus 3000/9000の診断機能が攻撃面に](posts/2026-10-09-cisco-nxos-cve-2026-76465-mpls-oam-rce.md)
+- 2026-10-09 [Splunk Enterprise CVE-2026-76268 ― 検索ヘッドクラスタのPatroni REST APIが認証なし、到達できればOSコマンド実行](posts/2026-10-09-splunk-cve-2026-76268-patroni-rest-api.md)
 - 2026-10-08 [ガーナ・シエラレオネ・米領サモアのccTLD乗っ取り ― 国別ドメインのDNSを書き換え、GoogleやYouTubeの正規のHTTPS証明書を取得](posts/2026-10-08-cctld-registry-hijack-gh-sl-as-google-certificates.md)
 - 2026-10-08 [SonicWall SMA1000 CVE-2026-102255 ― ログイン前の「意図しない別経路」から内部機能に届くSSRF、今年3度目のCVSS 10.0](posts/2026-10-08-sonicwall-sma1000-cve-2026-102255-preauth-ssrf.md)
 - 2026-10-08 [FortiBleed ― 使い回された認証情報と古いSHA-256のパスワード保存を突くFortiGate乗っ取り、FBIとシークレットサービスが「管理者の締め出し」を警告](posts/2026-10-08-fortibleed-fbi-usss-fortigate-admin-lockout.md)
