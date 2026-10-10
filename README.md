@@ -37,6 +37,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-10 [Citrix NetScaler CVE-2026-107406 ― SAML処理のメモリオーバーフローでRCEのおそれ、先週のゼロデイ修正版もSAML IdPなら対象](posts/2026-10-10-netscaler-saml-cve-2026-107406-memory-overflow-rce.md)
+- 2026-10-10 [AhsayCBS CVE-2026-105133／105134 ― 認証回避とコマンド注入の連鎖でバックアップ管理コンソールが奪われ、最新版もまだ直っていない](posts/2026-10-10-ahsaycbs-cve-2026-105133-105134-xmrig-webshell.md)
+- 2026-10-10 [AnyDesk Linux AnyPwn ― 「クラッシュ修正」とだけ書かれたヒープオーバーフローに、認証前rootの攻撃コードが公開された](posts/2026-10-10-anydesk-linux-anypwn-heap-overflow-preauth-rce.md)
 - 2026-10-09 [tensorlake npm 0.5.144 ― 正規リポジトリのmainから出たShai-Huludワーム、トークンを取り消すとホームを消す人質機構](posts/2026-10-09-tensorlake-npm-shai-hulud-hostage-token.md)
 - 2026-10-09 [Cisco NX-OS CVE-2026-76465 ― MPLS OAMのecho-request検証不備で認証なしroot実行、Nexus 3000/9000の診断機能が攻撃面に](posts/2026-10-09-cisco-nxos-cve-2026-76465-mpls-oam-rce.md)
 - 2026-10-09 [Splunk Enterprise CVE-2026-76268 ― 検索ヘッドクラスタのPatroni REST APIが認証なし、到達できればOSコマンド実行](posts/2026-10-09-splunk-cve-2026-76268-patroni-rest-api.md)
