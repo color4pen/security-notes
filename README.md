@@ -10,10 +10,13 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-10 [コミューン「Commune」 ― 全コミュニティ共通のログイン用署名鍵が奪われ管理者になりすまし、ヤマハ・スズキなど約30.7万人分の会員情報が漏えい](posts/2026-10-10-commune-community-platform-signing-key-307k-members.md)
+- 2026-10-10 [ローソンID ― アプリで本人に情報を表示する仕組みが悪用され215万5345件が漏えい、9月中旬の不正アクセスが判明したのは10月7日](posts/2026-10-10-lawson-id-app-display-mechanism-2-15m-records.md)
+- 2026-10-10 [第一興商 ― 委託先の従業員PC1台がマルウェアに感染、ビッグエコー会員など約872万4000件が漏えいのおそれ](posts/2026-10-10-daiichikosho-big-echo-vendor-pc-malware-8-72m.md)
+- 2026-10-10 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
 - 2026-10-09 [戸田建設 ― 取引先への支払いを管理するシステムから5日間にわたり情報が流出、取引データ最大6000件と従業員4778人分](posts/2026-10-09-toda-corporation-payment-system-supplier-employee-data.md)
 - 2026-10-09 [HIS ― タイ現地法人のファイルサーバーから最大627人分のパスポート情報が流出の可能性、検知から公表まで約10か月](posts/2026-10-09-his-thailand-subsidiary-file-server-passport-627.md)
 - 2026-10-09 [修道学園 ― 学園サーバーへの不正アクセスで取引先・教職員・外部講師の口座情報などが漏えいのおそれ、第2報で学生情報は対象外に](posts/2026-10-09-shudo-gakuen-server-bank-account-info.md)
-- 2026-10-09 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
 - 2026-10-09 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
 - 2026-10-09 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-09 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
