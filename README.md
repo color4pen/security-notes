@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-11 [skyticket（アドベンチャー） ― 経路の違う3件の不正アクセスで約1464万件、管理機能の不正操作からクラウド上のデータへ](posts/2026-10-11-skyticket-adventure-three-intrusions-14-64m.md)
+- 2026-10-11 [ブックオフ ― 子会社の会員管理システムから最大約643万件、確認から3日で公表したが侵入経路と対象人数はまだ](posts/2026-10-11-bookoff-member-system-6-43m-records.md)
+- 2026-10-11 [相次ぐ国内の不正アクセスに各機関が一斉に注意喚起 ― JPCERT/CCが示した4つの攻撃類型と、国家サイバー統括室・IPAが求める点検](posts/2026-10-11-jpcert-nco-ipa-alerts-domestic-breach-wave.md)
 - 2026-10-10 [コミューン「Commune」 ― 全コミュニティ共通のログイン用署名鍵が奪われ管理者になりすまし、ヤマハ・スズキなど約30.7万人分の会員情報が漏えい](posts/2026-10-10-commune-community-platform-signing-key-307k-members.md)
 - 2026-10-10 [ローソンID ― アプリで本人に情報を表示する仕組みが悪用され215万5345件が漏えい、9月中旬の不正アクセスが判明したのは10月7日](posts/2026-10-10-lawson-id-app-display-mechanism-2-15m-records.md)
 - 2026-10-10 [第一興商 ― 委託先の従業員PC1台がマルウェアに感染、ビッグエコー会員など約872万4000件が漏えいのおそれ](posts/2026-10-10-daiichikosho-big-echo-vendor-pc-malware-8-72m.md)
