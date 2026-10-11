@@ -40,6 +40,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-11 [GhostAction再来 ― 「Security Audit」を名乗るワークフローが数百のGitHubリポジトリに押し込まれ、git履歴の奥に残った鍵まで掘り出す](posts/2026-10-11-ghostaction-github-actions-security-audit-git-history.md)
+- 2026-10-11 [Chromiumの国際化ドメイン表示 ― キリル文字「ө」とフック付き「ƙ」で、аррӏө.com や oƙta.com が本物そっくりのままアドレスバーに出る](posts/2026-10-11-chromium-idn-homograph-cyrillic-oe-latin-k-hook.md)
+- 2026-10-11 [韓国の金融機関を襲った連続侵入 ― 中国製のAI自動ペネトレーションツール「ARTEX」とClaude Codeで、銀行の「周辺システム」が次々に破られた](posts/2026-10-11-artex-ai-pentest-tool-south-korea-financial-breaches.md)
 - 2026-10-10 [Citrix NetScaler CVE-2026-107406 ― SAML処理のメモリオーバーフローでRCEのおそれ、先週のゼロデイ修正版もSAML IdPなら対象](posts/2026-10-10-netscaler-saml-cve-2026-107406-memory-overflow-rce.md)
 - 2026-10-10 [AhsayCBS CVE-2026-105133／105134 ― 認証回避とコマンド注入の連鎖でバックアップ管理コンソールが奪われ、最新版もまだ直っていない](posts/2026-10-10-ahsaycbs-cve-2026-105133-105134-xmrig-webshell.md)
 - 2026-10-10 [AnyDesk Linux AnyPwn ― 「クラッシュ修正」とだけ書かれたヒープオーバーフローに、認証前rootの攻撃コードが公開された](posts/2026-10-10-anydesk-linux-anypwn-heap-overflow-preauth-rce.md)
