@@ -10,14 +10,15 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-11 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
+- 2026-10-11 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
+- 2026-10-11 [アバハウス ― 不審な返金メール報告から発覚、会員・受注DBへの不正アクセス](posts/2026-10-04-abahouse-member-order-database-breach.md)
 - 2026-10-11 [skyticket（アドベンチャー） ― 経路の違う3件の不正アクセスで約1464万件、管理機能の不正操作からクラウド上のデータへ](posts/2026-10-11-skyticket-adventure-three-intrusions-14-64m.md)
 - 2026-10-11 [ブックオフ ― 子会社の会員管理システムから最大約643万件、確認から3日で公表したが侵入経路と対象人数はまだ](posts/2026-10-11-bookoff-member-system-6-43m-records.md)
 - 2026-10-11 [相次ぐ国内の不正アクセスに各機関が一斉に注意喚起 ― JPCERT/CCが示した4つの攻撃類型と、国家サイバー統括室・IPAが求める点検](posts/2026-10-11-jpcert-nco-ipa-alerts-domestic-breach-wave.md)
 - 2026-10-10 [コミューン「Commune」 ― 全コミュニティ共通のログイン用署名鍵が奪われ管理者になりすまし、ヤマハ・スズキなど約30.7万人分の会員情報が漏えい](posts/2026-10-10-commune-community-platform-signing-key-307k-members.md)
 - 2026-10-10 [ローソンID ― アプリで本人に情報を表示する仕組みが悪用され215万5345件が漏えい、9月中旬の不正アクセスが判明したのは10月7日](posts/2026-10-10-lawson-id-app-display-mechanism-2-15m-records.md)
 - 2026-10-10 [第一興商 ― 委託先の従業員PC1台がマルウェアに感染、ビッグエコー会員など約872万4000件が漏えいのおそれ](posts/2026-10-10-daiichikosho-big-echo-vendor-pc-malware-8-72m.md)
-- 2026-10-10 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
-- 2026-10-10 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-10 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
 - 2026-10-10 [大和証券 ― 問い合わせ管理の委託先に約11時間半の不正アクセス、約11万人分・約22万件が漏えいの可能性](posts/2026-10-06-daiwa-securities-scala-inquiry-service-breach.md)
 - 2026-10-09 [戸田建設 ― 取引先への支払いを管理するシステムから5日間にわたり情報が流出、取引データ最大6000件と従業員4778人分](posts/2026-10-09-toda-corporation-payment-system-supplier-employee-data.md)
@@ -35,7 +36,6 @@
 - 2026-10-05 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
 - 2026-10-05 [池上通信機 ― 外部からの通報で発覚、サーバのファイル暗号化とリークサイトへの情報公開](posts/2026-10-05-ikegami-tsushinki-ransomware-leak-site.md)
 - 2026-10-04 [第一ライフグループ／第一生命 ― 人事システム不正アクセスで従業員・退職者約12万人分が流出の可能性](posts/2026-10-04-dai-ichi-life-hr-system-employee-data-breach.md)
-- 2026-10-04 [アバハウス ― 不審な返金メール報告から発覚、会員・受注DBへの不正アクセス](posts/2026-10-04-abahouse-member-order-database-breach.md)
 - 2026-10-02 [集英社 HAPPY PLUS COMMUNITY ― CMS設定不備から特権アカウントが作られブロガー2835人分が漏えい](posts/2026-10-02-shueisha-happy-plus-community-breach.md)
 
 ### 海外（国際面・新しい順）
