@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-12 [TEMAIRAZU（手間いらず） ― 宿泊予約の連携システムに不正アクセス、最大約445万人分の予約情報と、予約内容を知る偽メッセージ](posts/2026-10-12-temairazu-site-controller-4-45m-guests-phishing.md)
+- 2026-10-12 [バイトル／バイトルNEXT（ディップ） ― 「仕様の不備」を突いた海外からのアクセスで、会員のメールアドレス最大約388万件が漏えい](posts/2026-10-12-baitoru-dip-spec-flaw-3-88m-email-addresses.md)
+- 2026-10-12 [NewsPicks（ユーザベース） ― 業務用の管理ツールの脆弱性から、メールアドレス32.3万件・カード情報の一部36.2万件が漏えいの可能性](posts/2026-10-12-newspicks-admin-tool-vulnerability-323k-emails.md)
 - 2026-10-11 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
 - 2026-10-11 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-11 [アバハウス ― 不審な返金メール報告から発覚、会員・受注DBへの不正アクセス](posts/2026-10-04-abahouse-member-order-database-breach.md)
