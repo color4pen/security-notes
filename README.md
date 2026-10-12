@@ -43,6 +43,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-12 [XRP Ledgerの支払いエンジン整数オーバーフロー ― AIが見つけた約10年の欠陥で、1トランザクションあたり約18兆XRPを鋳造できた](posts/2026-10-12-xrpl-payment-engine-xrp-overflow-infinite-mint.md)
+- 2026-10-12 [Ledger × CryptoBilis ― 正規リセラー経由の端末に不正なハードウェアインプラント、オンチェーンで約9,320万ドル規模の一斉引き出し](posts/2026-10-12-ledger-cryptobilis-hardware-implant-southeast-asia.md)
+- 2026-10-12 [P7 DarkSword ― 漏洩したiOSエクスプロイトキットが進化、端末上でキーチェーンと暗号資産ウォレットを抜き双方向C2へ](posts/2026-10-12-p7-darksword-ios-exploit-kit-wallet-theft.md)
 - 2026-10-11 [GhostAction再来 ― 「Security Audit」を名乗るワークフローが数百のGitHubリポジトリに押し込まれ、git履歴の奥に残った鍵まで掘り出す](posts/2026-10-11-ghostaction-github-actions-security-audit-git-history.md)
 - 2026-10-11 [Chromiumの国際化ドメイン表示 ― キリル文字「ө」とフック付き「ƙ」で、аррӏө.com や oƙta.com が本物そっくりのままアドレスバーに出る](posts/2026-10-11-chromium-idn-homograph-cyrillic-oe-latin-k-hook.md)
 - 2026-10-11 [韓国の金融機関を襲った連続侵入 ― 中国製のAI自動ペネトレーションツール「ARTEX」とClaude Codeで、銀行の「周辺システム」が次々に破られた](posts/2026-10-11-artex-ai-pentest-tool-south-korea-financial-breaches.md)
