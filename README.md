@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-13 [ココナラスキルマーケット ― 深夜に遮断したはずの不正アクセスが約11時間後に再来、会員の履歴書449件・職務経歴書関連書類1845件が流出](posts/2026-10-13-coconala-skill-market-resumes-2294-reintrusion.md)
+- 2026-10-13 [リゾートトラスト ― 管理するウェブサイトに約3時間の「異常な作動」、グループ会員約2万6千件とザ・カハラ・横浜の予約者約3万6千件が漏洩](posts/2026-10-13-resorttrust-website-kahala-yokohama-62k-records.md)
+- 2026-10-13 [あっぷらぼ ― メールサーバのデータベース管理用パスワードが外部から突破、「管理用経路が絞られていなかった」設定の不備でメールアドレスと暗号化パスワードが参照の可能性](posts/2026-10-13-applabo-mail-server-db-admin-password-exposed-path.md)
 - 2026-10-12 [TEMAIRAZU（手間いらず） ― 宿泊予約の連携システムに不正アクセス、最大約445万人分の予約情報と、予約内容を知る偽メッセージ](posts/2026-10-12-temairazu-site-controller-4-45m-guests-phishing.md)
 - 2026-10-12 [バイトル／バイトルNEXT（ディップ） ― 「仕様の不備」を突いた海外からのアクセスで、会員のメールアドレス最大約388万件が漏えい](posts/2026-10-12-baitoru-dip-spec-flaw-3-88m-email-addresses.md)
 - 2026-10-12 [NewsPicks（ユーザベース） ― 業務用の管理ツールの脆弱性から、メールアドレス32.3万件・カード情報の一部36.2万件が漏えいの可能性](posts/2026-10-12-newspicks-admin-tool-vulnerability-323k-emails.md)
