@@ -46,6 +46,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-13 [GitLab CVE-2026-97229 ― CI/CDの正規表現コンパイラで整数オーバーフロー、ログインなしでサーバー上のコード実行（CVSS 10.0）](posts/2026-10-13-gitlab-cve-2026-97229-cicd-regex-compiler-unauth-rce.md)
+- 2026-10-13 [フランスのスーパー数百店で冷蔵・冷凍設備が「50℃の霜取り」に ― ネットにつながったDanfoss製冷凍機管理装置が狙われた](posts/2026-10-13-danfoss-ak-sm-refrigeration-french-supermarkets-forced-defrost.md)
+- 2026-10-13 [Bricksforge CVE-2026-85097 ― 検査済みの画像を「.php」の名前で置き直させる、WordPressフォーム機能の認証なしRCEが悪用中](posts/2026-10-13-bricksforge-cve-2026-85097-polyglot-upload-rce.md)
 - 2026-10-12 [XRP Ledgerの支払いエンジン整数オーバーフロー ― AIが見つけた約10年の欠陥で、1トランザクションあたり約18兆XRPを鋳造できた](posts/2026-10-12-xrpl-payment-engine-xrp-overflow-infinite-mint.md)
 - 2026-10-12 [Ledger × CryptoBilis ― 正規リセラー経由の端末に不正なハードウェアインプラント、オンチェーンで約9,320万ドル規模の一斉引き出し](posts/2026-10-12-ledger-cryptobilis-hardware-implant-southeast-asia.md)
 - 2026-10-12 [P7 DarkSword ― 漏洩したiOSエクスプロイトキットが進化、端末上でキーチェーンと暗号資産ウォレットを抜き双方向C2へ](posts/2026-10-12-p7-darksword-ios-exploit-kit-wallet-theft.md)
