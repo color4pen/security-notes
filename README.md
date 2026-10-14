@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-14 [SpeeCAN RAIDEN（アルカディア） ― 全国の自治体の防災メールを載せた配信基盤に不正アクセス、メールアドレス最大約313万6千件と配信履歴の本文に漏洩の可能性](posts/2026-10-14-arcadia-speecan-raiden-municipal-disaster-mail-3-13m.md)
+- 2026-10-14 [ライドオンエクスプレス「銀のさら・釜寅・すし上等」 ― 登録者情報を預けていたサーバー運営会社がランサムウェア被害、漏えいの痕跡は未特定のまま最大約650万件を公表](posts/2026-10-14-rideon-express-ginnosara-server-operator-ransomware-6-5m.md)
+- 2026-10-14 [DCM「マイボ」 ― 9月21日の「通常とは異なる多数のアクセス」が不正アクセスと判明したのは、注意喚起を受けた10月8日のログ点検、会員419人分のメールアドレスとポイント情報が漏えい](posts/2026-10-14-dcm-mybo-member-system-419-found-after-alert.md)
 - 2026-10-13 [ブックオフ ― 子会社の会員管理システムから643万件、第2報で対象者約638万人と確定したが侵入経路は非公表](posts/2026-10-11-bookoff-member-system-6-43m-records.md)
 - 2026-10-13 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
 - 2026-10-13 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
