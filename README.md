@@ -49,6 +49,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-14 [Ivanti Connect Secure CVE-2026-104935 ― 公開ページのURLと別のCGIを指すヘッダーで認証を素通り、3つのゼロデイの連鎖でroot、権限昇格はまだ未修正](posts/2026-10-14-ivanti-connect-secure-cve-2026-104935-zero-day-chain-uta0576.md)
+- 2026-10-14 [Docker Hub CVE-2026-105445「GhostPat」 ― アカウントを組織に変えて他人を所有者に指定すると、自分のアクセストークンがその人として通った](posts/2026-10-14-docker-hub-ghostpat-cve-2026-105445-pat-transfer.md)
+- 2026-10-14 [npmのTrusted Publishing「SlugFest」 ― 信頼の紐づけ先を「owner/repo」の名前で覚えていたため、空いた名前を取り直すだけで他人のパッケージを公開できた](posts/2026-10-14-npm-trusted-publishing-slugfest-repository-slug-reclaim.md)
 - 2026-10-13 [GitLab CVE-2026-97229 ― CI/CDの正規表現コンパイラで整数オーバーフロー、ログインなしでサーバー上のコード実行（CVSS 10.0）](posts/2026-10-13-gitlab-cve-2026-97229-cicd-regex-compiler-unauth-rce.md)
 - 2026-10-13 [フランスのスーパー数百店で冷蔵・冷凍設備が「50℃の霜取り」に ― ネットにつながったDanfoss製冷凍機管理装置が狙われた](posts/2026-10-13-danfoss-ak-sm-refrigeration-french-supermarkets-forced-defrost.md)
 - 2026-10-13 [Bricksforge CVE-2026-85097 ― 検査済みの画像を「.php」の名前で置き直させる、WordPressフォーム機能の認証なしRCEが悪用中](posts/2026-10-13-bricksforge-cve-2026-85097-polyglot-upload-rce.md)
