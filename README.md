@@ -52,6 +52,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-15 [Cisco Secure Email Gateway CVE-2026-76519 ― 添付ファイル1通でroot、マルウェア対策の「ファイルレピュテーション」が攻撃の入口になった今年2件目のゼロデイ](posts/2026-10-15-cisco-secure-email-gateway-cve-2026-76519-amp-attachment-file-write.md)
+- 2026-10-15 [Microsoft 2026年10月の月例更新 CVE-2026-96951 ― 1,400件超の中で「いま悪用されている」のは、添付ファイルのMark of the Webをすり抜けるWindows Shellの欠陥だけ](posts/2026-10-15-microsoft-october-2026-patch-tuesday-cve-2026-96951-motw-bypass.md)
+- 2026-10-15 [Nextcloud Collabora Built-in CODE CVE-2026-110447 ― 文書サーバが止まっている一瞬だけ、proxy.phpがリクエストのパスをbashに渡しWebシェルが生えた](posts/2026-10-15-nextcloud-collabora-richdocumentscode-cve-2026-110447-proxy-php-rce.md)
 - 2026-10-14 [Ivanti Connect Secure CVE-2026-104935 ― 公開ページのURLと別のCGIを指すヘッダーで認証を素通り、3つのゼロデイの連鎖でroot、権限昇格はまだ未修正](posts/2026-10-14-ivanti-connect-secure-cve-2026-104935-zero-day-chain-uta0576.md)
 - 2026-10-14 [Docker Hub CVE-2026-105445「GhostPat」 ― アカウントを組織に変えて他人を所有者に指定すると、自分のアクセストークンがその人として通った](posts/2026-10-14-docker-hub-ghostpat-cve-2026-105445-pat-transfer.md)
 - 2026-10-14 [npmのTrusted Publishing「SlugFest」 ― 信頼の紐づけ先を「owner/repo」の名前で覚えていたため、空いた名前を取り直すだけで他人のパッケージを公開できた](posts/2026-10-14-npm-trusted-publishing-slugfest-repository-slug-reclaim.md)
