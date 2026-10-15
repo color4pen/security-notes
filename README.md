@@ -10,10 +10,13 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-15 [アエナ公式通販アプリ ― 「機械的な連続アクセス」で会員マイページが閲覧され、最大81万7215人分の住所・電話番号・カード下4桁などに流出の可能性](posts/2026-10-15-aena-ec-app-mypage-817k-members.md)
+- 2026-10-15 [SiteGuard Server Edition CVE-2026-106931 ― 国産WAFの「統計機能」にOSコマンドインジェクション、悪用を確認してroot/SYSTEM権限に](posts/2026-10-15-siteguard-server-edition-cve-2026-106931-stats-os-command.md)
+- 2026-10-15 [EC-CUBE公式AmazonPayプラグイン CVE-2026-103671 ― JVNは「注文中のリダイレクト」、開発元は「不正な管理者アカウントの登録」、悪用確認済みの脆弱性](posts/2026-10-15-ec-cube-amazonpay-plugin-cve-2026-103671-admin-account.md)
+- 2026-10-15 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
 - 2026-10-14 [SpeeCAN RAIDEN（アルカディア） ― 全国の自治体の防災メールを載せた配信基盤に不正アクセス、メールアドレス最大約313万6千件と配信履歴の本文に漏洩の可能性](posts/2026-10-14-arcadia-speecan-raiden-municipal-disaster-mail-3-13m.md)
 - 2026-10-14 [ライドオンエクスプレス「銀のさら・釜寅・すし上等」 ― 登録者情報を預けていたサーバー運営会社がランサムウェア被害、漏えいの痕跡は未特定のまま最大約650万件を公表](posts/2026-10-14-rideon-express-ginnosara-server-operator-ransomware-6-5m.md)
 - 2026-10-14 [DCM「マイボ」 ― 9月21日の「通常とは異なる多数のアクセス」が不正アクセスと判明したのは、注意喚起を受けた10月8日のログ点検、会員419人分のメールアドレスとポイント情報が漏えい](posts/2026-10-14-dcm-mybo-member-system-419-found-after-alert.md)
-- 2026-10-14 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
 - 2026-10-14 [GMOリサーチ＆AI「infoQ」 ― ソフトウェアの脆弱性から会員89万4082件を持ち出し、ポイント287万円分がAmazonギフトコードに](posts/2026-10-07-gmo-research-infoq-948k-members-point-fraud.md)
 - 2026-10-14 [コミューン「Commune」 ― 全コミュニティ共通のログイン用署名鍵が奪われ管理者になりすまし、ヤマハ・スズキなど約30.7万人分の会員情報が漏えい](posts/2026-10-10-commune-community-platform-signing-key-307k-members.md)
 - 2026-10-13 [ブックオフ ― 子会社の会員管理システムから643万件、第2報で対象者約638万人と確定したが侵入経路は非公表](posts/2026-10-11-bookoff-member-system-6-43m-records.md)
