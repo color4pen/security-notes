@@ -55,6 +55,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-16 [Linuxカーネル PwnEscape（CVE-2026-99999） ― ゲストが渡した「チェックサムの書き込み位置」が検証済みのIPv4ヘッダーを書き換え、ホストのメモリが外へ漏れた](posts/2026-10-16-linux-kernel-pwnescape-cve-2026-99999-guest-to-host-checksum.md)
+- 2026-10-16 [Palo Alto Networks PAN-OS CVE-2026-0322 ― 管理画面にログインできる者がファイアウォールのrootに、「認証が必要」なコードインジェクションが悪用されてKEV入り](posts/2026-10-16-pan-os-cve-2026-0322-management-interface-authenticated-rce.md)
+- 2026-10-16 [AdFection ― 広告が表示されただけで感染、イスラエルの広告会社Discover-Techの「狙った1台にだけ攻撃コードを返す」配信でAl JazeeraにCandiruのスパイウェア](posts/2026-10-16-citizen-lab-discover-tech-adfection-candiru-al-jazeera.md)
 - 2026-10-15 [Cisco Secure Email Gateway CVE-2026-76519 ― 添付ファイル1通でroot、マルウェア対策の「ファイルレピュテーション」が攻撃の入口になった今年2件目のゼロデイ](posts/2026-10-15-cisco-secure-email-gateway-cve-2026-76519-amp-attachment-file-write.md)
 - 2026-10-15 [Microsoft 2026年10月の月例更新 CVE-2026-96951 ― 1,400件超の中で「いま悪用されている」のは、添付ファイルのMark of the Webをすり抜けるWindows Shellの欠陥だけ](posts/2026-10-15-microsoft-october-2026-patch-tuesday-cve-2026-96951-motw-bypass.md)
 - 2026-10-15 [Nextcloud Collabora Built-in CODE CVE-2026-110447 ― 文書サーバが止まっている一瞬だけ、proxy.phpがリクエストのパスをbashに渡しWebシェルが生えた](posts/2026-10-15-nextcloud-collabora-richdocumentscode-cve-2026-110447-proxy-php-rce.md)
