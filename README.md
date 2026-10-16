@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-16 [バーガーキング公式アプリ ― 会員情報管理システムへの不正アクセスで約1,118万件が漏えい、クレジットカード番号は非保持](posts/2026-10-16-burger-king-app-member-system-11-18m.md)
+- 2026-10-16 [メドレー「アットリンク」 ― 産婦人科向け業務支援システムに不正アクセス、患者等の個人情報漏えいの可能性、最大787医療機関](posts/2026-10-16-medley-atlink-obgyn-system-787-institutions.md)
+- 2026-10-16 [ビューティガレージ EC ― サーバーへの不正侵入でお客様情報775,725件が流出、パスワードハッシュと再設定用Q&Aハッシュも含む](posts/2026-10-16-beauty-garage-ec-775k-password-hashes.md)
 - 2026-10-15 [アエナ公式通販アプリ ― 「機械的な連続アクセス」で会員マイページが閲覧され、最大81万7215人分の住所・電話番号・カード下4桁などに流出の可能性](posts/2026-10-15-aena-ec-app-mypage-817k-members.md)
 - 2026-10-15 [SiteGuard Server Edition CVE-2026-106931 ― 国産WAFの「統計機能」にOSコマンドインジェクション、悪用を確認してroot/SYSTEM権限に](posts/2026-10-15-siteguard-server-edition-cve-2026-106931-stats-os-command.md)
 - 2026-10-15 [EC-CUBE公式AmazonPayプラグイン CVE-2026-103671 ― JVNは「注文中のリダイレクト」、開発元は「不正な管理者アカウントの登録」、悪用確認済みの脆弱性](posts/2026-10-15-ec-cube-amazonpay-plugin-cve-2026-103671-admin-account.md)
