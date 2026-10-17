@@ -59,6 +59,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-17 [BeyondTrust Remote Support CVE-2026-102764 ― 内部メッセージの「送り主」を確かめない欠陥で、遠隔サポート装置ごと奪われ社内の端末へ](posts/2026-10-17-beyondtrust-remote-support-cve-2026-102764-armory-castle-zero-day.md)
+- 2026-10-17 [FortiOS CVE-2025-61624とPEERSTITCH ― FortiManager 1台から500台超のFortiGateの設定と鍵が抜かれ、ディスクにもネットにも跡を残さない常駐型の実装へ](posts/2026-10-17-fortios-cve-2025-61624-peerstitch-fortimanager-500-firewalls.md)
+- 2026-10-17 [AOMEI Backupper の更新サーバー改ざん ― 書き換えは1回5〜10分、その間に更新を確かめた端末だけがバックドアを受け取った](posts/2026-10-17-aomei-backupper-ephemeral-update-server-tampering-unc7017.md)
 - 2026-10-16 [Linuxカーネル PwnEscape（CVE-2026-99999） ― ゲストが渡した「チェックサムの書き込み位置」が検証済みのIPv4ヘッダーを書き換え、ホストのメモリが外へ漏れた](posts/2026-10-16-linux-kernel-pwnescape-cve-2026-99999-guest-to-host-checksum.md)
 - 2026-10-16 [Palo Alto Networks PAN-OS CVE-2026-0322 ― 管理画面にログインできる者がファイアウォールのrootに、「認証が必要」なコードインジェクションが悪用されてKEV入り](posts/2026-10-16-pan-os-cve-2026-0322-management-interface-authenticated-rce.md)
 - 2026-10-16 [AdFection ― 広告が表示されただけで感染、イスラエルの広告会社Discover-Techの「狙った1台にだけ攻撃コードを返す」配信でAl JazeeraにCandiruのスパイウェア](posts/2026-10-16-citizen-lab-discover-tech-adfection-candiru-al-jazeera.md)
