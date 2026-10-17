@@ -1,7 +1,7 @@
 ---
 title: "ローソンID ― アプリで本人に情報を表示する仕組みが悪用され215万5345件が漏えい、9月中旬の不正アクセスが判明したのは10月7日"
 date: 2026-10-10
-updated: 2026-10-15
+updated: 2026-10-17
 region: domestic
 status: ongoing
 issue: 26
@@ -20,11 +20,13 @@ description: ローソンは10月8日、共通アカウント「ローソンID�
 - ローソンIDでは215万5345件のメールアドレスと氏名、プレゼントの応募などで入力していた場合は性別・電話番号・住所・メルマガ取得情報が漏えいした。ローソンアプリ予約では26件の氏名・電話番号・クレジットカード番号の一部が漏えいした（同）。
 - 原因は「ローソンアプリに関連するシステムが不正に利用されたこと」で、「本来、アプリ上で利用者本人に対し情報を表示するためのセキュリティ機構」が不正アクセスを受けたとしている。本件以外の不正アクセスやマルウェア感染はないことを確認済みという（同）。
 - 不審なアクセス元をブロックし、ローソンアプリ予約の機能を停止した。予約機能は10月中旬の再開を予定している。個人情報保護委員会へ報告済み（同）。
+- 【2026-10-17追記】ローソンの竹増貞信社長は10月15日の決算説明会で、215万件あまりの個人情報漏えいについて謝罪した。監視体制と、漏えいが起きた際に被害を最小限に抑えるための体制を強化していくと説明した（[NHK](https://news.web.nhk/newsweb/na/nd-20261015de60029)、[テレ朝NEWS](https://topics.smt.docomo.ne.jp/article/tvasahinews/business/tvasahinews-000540626)）。
 
 ### わかったこと
 
 - 【2026-10-15追記】ローソンは10月13日にお知らせを更新し、対象者への個別案内の送信元に lawson_id@id.lawson.jp を追加した。案内は lawson_id@mailservice.lawson.jp と lawson_id@id.lawson.jp のどちらかから届く。件数・漏えい項目・二次被害の記載に変更はない（[ローソンのお知らせ](https://www.lawson.co.jp/contents/cont07/1533174_3310.html)、2026年10月13日更新）。
 - 【2026-10-10追記】日経クロステック（10月9日）によると、ローソンはシステムで不審なアクセスを常時監視していたが今回の不正アクセスは検知できず、人手による定期調査で発見したという（[日経クロステック](https://xtech.nikkei.com/atcl/nxt/column/18/00001/12086/)）。10月7日の「調査」はこの定期調査とみられる。
+- 【2026-10-17】10月15日の決算説明会で社長が謝罪し、監視体制などの強化を説明した。手口や原因の新しい説明は報じられていない（[NHK](https://news.web.nhk/newsweb/na/nd-20261015de60029)、[テレ朝NEWS](https://topics.smt.docomo.ne.jp/article/tvasahinews/business/tvasahinews-000540626)）。
 
 ### わかっていないこと
 
@@ -57,6 +59,7 @@ description: ローソンは10月8日、共通アカウント「ローソンID�
 | 2026-10-09（金） | ITmedia NEWS、Security NEXTなどが報道 |
 | 2026-10-09（金） | 日経クロステックが、常時監視では検知できず人手による定期調査で発見したとのローソンの説明を報道 |
 | 2026-10-13（火） | ローソンがお知らせを更新し、個別案内の送信元に lawson_id@id.lawson.jp を追加（ローソンのお知らせ） |
+| 2026-10-15（木） | 決算説明会で竹増貞信社長が謝罪し、監視体制と被害を最小限に抑える体制の強化を説明（[NHK](https://news.web.nhk/newsweb/na/nd-20261015de60029)、[テレ朝NEWS](https://topics.smt.docomo.ne.jp/article/tvasahinews/business/tvasahinews-000540626)） |
 
 ## 発表内容の整理
 
@@ -123,3 +126,5 @@ description: ローソンは10月8日、共通アカウント「ローソンID�
 4. [API1:2023 Broken Object Level Authorization（OWASP API Security Top 10）](https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/)
 5. [直近で相次いでいる国内組織における不正アクセスに関する注意喚起（JPCERT/CC、2026-10-08公開・10-09更新）](https://www.jpcert.or.jp/at/2026/at260030.html)
 6. [ローソン、個人情報215万件漏洩　自動検知すり抜け人手の調査で発覚（日経クロステック、2026-10-09）](https://xtech.nikkei.com/atcl/nxt/column/18/00001/12086/)
+7. [ローソン社長 不正アクセスによる個人情報漏えいを謝罪（NHK、2026-10-15）](https://news.web.nhk/newsweb/na/nd-20261015de60029)
+8. [個人情報215万件漏えいでローソン社長が謝罪　不正アクセスの監視など強化（テレ朝NEWS、2026-10-16）](https://topics.smt.docomo.ne.jp/article/tvasahinews/business/tvasahinews-000540626)
