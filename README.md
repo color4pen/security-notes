@@ -10,6 +10,9 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-17 [Eストアー「ショップサーブ」 ― アプリの脆弱性から約2か月半にわたりDBの情報が外へ送られ、最終報で約2335万6000人・7858店と確定](posts/2026-10-17-estore-shopserve-final-report-23-35m.md)
+- 2026-10-17 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
+- 2026-10-17 [コミックシーモア ― 会員情報を管理するシステムに不正アクセス、メールアドレスとハッシュ化パスワードなどが流出、件数は精査中でサービスは停止](posts/2026-10-17-comic-cmoa-member-system-hashed-passwords.md)
 - 2026-10-16 [ヤマト運輸 クロネコ代金後払い ― 第4報で顧客約526万件・お届け先約5万件などの持ち出しを確定](posts/2026-10-04-yamato-kuroneko-pay-later-data-breach.md)
 - 2026-10-16 [SpeeCAN RAIDEN（アルカディア） ― 全国の自治体の防災メールを載せた配信基盤に不正アクセス、メールアドレス最大約313万6千件と配信履歴の本文に漏洩の可能性](posts/2026-10-14-arcadia-speecan-raiden-municipal-disaster-mail-3-13m.md)
 - 2026-10-16 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
