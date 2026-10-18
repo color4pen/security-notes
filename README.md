@@ -10,6 +10,11 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-18 [セカンドリテイリング（ゲオ・セカンドストリート） ― 社内システムへの不正アクセスを確認、2日後の夜からアプリとWebサービスを一斉停止](posts/2026-10-18-second-retailing-geo-2ndstreet-internal-system-apps-halted.md)
+- 2026-10-18 [京王電鉄グループ ― 9月のランサムウェア攻撃から3週間、「Qilin」が情報の一部を公開したと主張、会社は真偽と個人情報の流出を調査中](posts/2026-10-18-keio-group-ransomware-qilin-leak-claim.md)
+- 2026-10-18 [イエローハット ― WEB作業予約システムへの不正侵入で会員179万7124人分が流出、第二報で住所・生年月日・ログインID・パスワードの流出も判明](posts/2026-10-18-yellow-hat-web-reservation-system-1-79m-second-report.md)
+- 2026-10-18 [ファンケル・アテニア ― 2社のECサイトに1週間の不正アクセス、会員計約78万5千人分の連絡先や「2次パスワード」のハッシュが流出、原因の機能は停止](posts/2026-10-18-fancl-attenir-ec-sites-785k-members.md)
+- 2026-10-18 [日本郵便「国際郵便物の調査請求Web受付サービス」 ― 乗っ取られたサーバーから2か月以上スパム送信、報道では約52万通、利用者約600件の情報も閲覧可能に](posts/2026-10-18-japan-post-international-inquiry-web-service-spam-520k.md)
 - 2026-10-17 [skyticket（アドベンチャー） ― 経路の違う3件の不正アクセスで約1464万件、管理機能の不正操作からクラウド上のデータへ](posts/2026-10-11-skyticket-adventure-three-intrusions-14-64m.md)
 - 2026-10-17 [SpeeCAN RAIDEN（アルカディア） ― 全国の自治体の防災メールを載せた配信基盤に不正アクセス、メールアドレス最大約313万6千件と配信履歴の本文に漏洩の可能性](posts/2026-10-14-arcadia-speecan-raiden-municipal-disaster-mail-3-13m.md)
 - 2026-10-17 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
