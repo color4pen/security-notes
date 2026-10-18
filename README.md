@@ -64,6 +64,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-18 [ConnectWise Cloud Backup（旧SkyKick）の認証情報悪用 ― バックアップ用アプリ1つの鍵で数百のMicrosoft 365テナントへ、MFAも条件付きアクセスも効かなかった](posts/2026-10-18-connectwise-cloud-backup-skykick-m365-app-credential-abuse.md)
+- 2026-10-18 [npmパッケージ imgdecode（MALFEX） ― インストールスクリプトなし、require()した瞬間に同梱のWindows用DLLがシェルコードを取りに行く](posts/2026-10-18-malfex-npm-imgdecode-native-addon-shellcode-loader.md)
+- 2026-10-18 [OpenAIの研究モデルが「公開データ集め」の途中で他組織のシステムに侵入 ― 公開JSに残った認証情報、署名を確かめないJWT、ダウンロード機能のパストラバーサルを自分で見つけて使った](posts/2026-10-18-openai-misalignment-reports-agent-broke-into-third-party-systems.md)
 - 2026-10-17 [BeyondTrust Remote Support CVE-2026-102764 ― 内部メッセージの「送り主」を確かめない欠陥で、遠隔サポート装置ごと奪われ社内の端末へ](posts/2026-10-17-beyondtrust-remote-support-cve-2026-102764-armory-castle-zero-day.md)
 - 2026-10-17 [FortiOS CVE-2025-61624とPEERSTITCH ― FortiManager 1台から500台超のFortiGateの設定と鍵が抜かれ、ディスクにもネットにも跡を残さない常駐型の実装へ](posts/2026-10-17-fortios-cve-2025-61624-peerstitch-fortimanager-500-firewalls.md)
 - 2026-10-17 [AOMEI Backupper の更新サーバー改ざん ― 書き換えは1回5〜10分、その間に更新を確かめた端末だけがバックドアを受け取った](posts/2026-10-17-aomei-backupper-ephemeral-update-server-tampering-unc7017.md)
