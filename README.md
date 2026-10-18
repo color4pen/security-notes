@@ -10,6 +10,7 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-18 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
 - 2026-10-18 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-18 [セカンドリテイリング（ゲオ・セカンドストリート） ― 社内システムへの不正アクセスを確認、2日後の夜からアプリとWebサービスを一斉停止](posts/2026-10-18-second-retailing-geo-2ndstreet-internal-system-apps-halted.md)
 - 2026-10-18 [京王電鉄グループ ― 9月のランサムウェア攻撃から3週間、「Qilin」が情報の一部を公開したと主張、会社は真偽と個人情報の流出を調査中](posts/2026-10-18-keio-group-ransomware-qilin-leak-claim.md)
@@ -22,7 +23,6 @@
 - 2026-10-17 [アエナ公式通販アプリ ― 「機械的な連続アクセス」で会員マイページが閲覧され、最大81万7215人分の住所・電話番号・カード下4桁などに流出の可能性](posts/2026-10-15-aena-ec-app-mypage-817k-members.md)
 - 2026-10-17 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-17 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
-- 2026-10-17 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
 - 2026-10-17 [リゾートトラスト ― 管理するウェブサイトに約3時間の「異常な作動」、グループ会員約2万6千件とザ・カハラ・横浜の予約者約3万6千件が漏洩](posts/2026-10-13-resorttrust-website-kahala-yokohama-62k-records.md)
 - 2026-10-17 [ローソンID ― アプリで本人に情報を表示する仕組みが悪用され215万5345件が漏えい、9月中旬の不正アクセスが判明したのは10月7日](posts/2026-10-10-lawson-id-app-display-mechanism-2-15m-records.md)
 - 2026-10-17 [Eストアー「ショップサーブ」 ― アプリの脆弱性から約2か月半にわたりDBの情報が外へ送られ、最終報で約2335万6000人・7858店と確定](posts/2026-10-17-estore-shopserve-final-report-23-35m.md)
