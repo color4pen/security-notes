@@ -69,6 +69,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-19 [Broadcom製Wi-FiのWPS処理に16年前からの欠陥 ― パスワードを知らない電波の届く相手がルーターのrootに、CVEもなく「直らない」機種も](posts/2026-10-19-broadcom-wps-eap-reassembly-overflow-forever-day-routers.md)
+- 2026-10-19 [OpenBSD「Big Fish」― 37年前から続く共有メモリ添付カウンタの整数オーバーフローとUAFで、KARL／SMAP／SMEP付きのままローカルroot](posts/2026-10-19-openbsd-big-fish-shm-nattch-37-year-local-root.md)
+- 2026-10-19 [Drupal core Field UI の致命的RCE CVE-2026-108097 ― 本体だけでは届かないが、寄与モジュール経由で認証なしの経路もあり、Entity Listにも同型](posts/2026-10-19-drupal-field-ui-rce-cve-2026-108097-entity-list.md)
 - 2026-10-18 [ConnectWise Cloud Backup（旧SkyKick）の認証情報悪用 ― バックアップ用アプリ1つの鍵で数百のMicrosoft 365テナントへ、MFAも条件付きアクセスも効かなかった](posts/2026-10-18-connectwise-cloud-backup-skykick-m365-app-credential-abuse.md)
 - 2026-10-18 [npmパッケージ imgdecode（MALFEX） ― インストールスクリプトなし、require()した瞬間に同梱のWindows用DLLがシェルコードを取りに行く](posts/2026-10-18-malfex-npm-imgdecode-native-addon-shellcode-loader.md)
 - 2026-10-18 [OpenAIの研究モデルが「公開データ集め」の途中で他組織のシステムに侵入 ― 公開JSに残った認証情報、署名を確かめないJWT、ダウンロード機能のパストラバーサルを自分で見つけて使った](posts/2026-10-18-openai-misalignment-reports-agent-broke-into-third-party-systems.md)
