@@ -1,7 +1,7 @@
 ---
 title: "Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性"
 date: 2026-10-17
-updated: 2026-10-18
+updated: 2026-10-19
 region: domestic
 status: ongoing
 issue: 47
@@ -31,6 +31,7 @@ description: ノーコードWeb制作ツール「Studio」を運営するStudio�
 - 【2026-10-18追記】自治体と企業の公表がさらに続いている。福岡市は10月16日、「Fukuoka Social Startup Acceleration」の事前エントリーフォームに登録した42人分の氏名とメールアドレスが漏えいした可能性があると発表した。同じ発表資料に載った官民共働型のスタートアップ支援施設「Fukuoka Growth Next」の第一報では、問い合わせ・入居申し込み・プログラム応募の6つのフォームで計629件（185件、87件、190件、3件、89件、75件）が対象で、Studio上のフォームのデータは消去した（[福岡市・Fukuoka Growth Next](https://www.city.fukuoka.lg.jp/shisei/kouhou-hodo/hodo-happyo/2026/documents/261016_sogyo.pdf)）。京都市は同日、委託先の京都市芸術文化協会が運営する2つの事業サイトへの問い合わせ計33件（30件と3件）について漏えいの可能性を発表した（[京都市](https://www.city.kyoto.lg.jp/bunshi/page/0000359411.html)）。
 - 【2026-10-18追記】東北電力は10月17日、グループの東北電力フロンティアがイベント関連サイト5つの問い合わせフォームで受け付けた延べ182件（会社名・氏名・メールアドレス・電話番号・問い合わせ内容）について漏えいの可能性を発表した。電気契約や光回線の顧客情報は対象外（[東北電力](https://www.tohoku-epco.co.jp/information/1249253_2521.html)）。スマートラウンドは10月17日、問い合わせとSOC2報告書の開示申込のフォームに2023年3月28日〜2026年10月15日に送信された1,371件（約1,050人）について流出のおそれがあると発表し、個人情報保護委員会へ報告しているとした。同社サービス「smartround」の登録情報は対象外（[スマートラウンド](https://jp.smartround.com/corporate/news/posts/Ab4Kkfrj)）。
 - 【2026-10-18追記】鹿児島でも公表が出ている。南日本放送は10月16日、Studioで作ったイベント等の4サイトに送信された計38件について流出の可能性を発表した。内訳は「動き出す浮世絵展」（2024年）のワークショップ応募29件、「デジタルの日 2026 in 鹿児島 DAY2」の問い合わせ5件、「VISION GATE」の問い合わせ2件、「MBCラジオスペシャルウィーク2026」のメッセージ2件で、項目は氏名・メールアドレス・電話番号・メッセージ（サイトにより会社名などの企業情報やラジオネーム）。社内で管理するStudio関連のログイン情報や連携設定はすべて変更したとしている（[南日本放送](https://www.mbc.co.jp/info/owabi/index.html)）。同じ「デジタルの日 2026 in 鹿児島 DAY2」の特設サイトについては、鹿児島市からイベントを受託したMBC開発も10月17日、問い合わせフォームの5件（氏名・メールアドレス）に漏えいの可能性があると発表し、特設サイトは委託先が非公開にした（[MBC開発](https://mbckh.com/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A/)）。
+- 【2026-10-19追記】アニメ制作会社MAPPAの15周年展覧会「MAPPA EXPO 15th Anniversary」の運営事務局は10月17日、公式サイト（expo.mappa.co.jp）の運営に使うStudioへの不正アクセスにより、「CONTACT」フォームに2026年6月19日〜10月15日に寄せられた名前・メールアドレス・問い合わせ内容が外部に流出した可能性を否定できないと発表した。対象の範囲と件数は確認中で、実際の取得や二次被害は確認されていない。不正アクセスの影響が確認されているのは同サイトだけで、MAPPA公式サイトとMAPPA ONLINE SHOPへの不正アクセスは確認されていない（[MAPPA EXPOのお知らせ](https://expo.mappa.co.jp/infomation/QVIAWjFu)）。
 
 ### わかったこと
 
@@ -74,6 +75,7 @@ description: ノーコードWeb制作ツール「Studio」を運営するStudio�
 | 2026-10-16 | 福岡市が事前エントリーフォーム42人分、Fukuoka Growth Nextが6つのフォームの計629件、京都市が委託事業サイトの問い合わせ33件について漏えいの可能性を発表（[福岡市・Fukuoka Growth Next](https://www.city.fukuoka.lg.jp/shisei/kouhou-hodo/hodo-happyo/2026/documents/261016_sogyo.pdf)、[京都市](https://www.city.kyoto.lg.jp/bunshi/page/0000359411.html)） |
 | 2026-10-17 | 東北電力がグループの東北電力フロンティアのイベント関連サイトの問い合わせ延べ182件、スマートラウンドが問い合わせ・SOC2報告書開示申込のフォーム1,371件（約1,050人）について漏えいの可能性を発表（[東北電力](https://www.tohoku-epco.co.jp/information/1249253_2521.html)、[スマートラウンド](https://jp.smartround.com/corporate/news/posts/Ab4Kkfrj)） |
 | 2026-10-16〜17 | 南日本放送がイベント等の4サイトの計38件、鹿児島市から受託したMBC開発が「デジタルの日 2026 in 鹿児島 DAY2」特設サイトの問い合わせ5件について流出の可能性を発表（[南日本放送](https://www.mbc.co.jp/info/owabi/index.html)、[MBC開発](https://mbckh.com/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A/)）|
+| 2026-10-17 | MAPPA EXPO 15th Anniversary運営事務局が、公式サイトのCONTACTフォーム（2026年6月19日〜10月15日）の送信内容について流出の可能性を発表。件数は確認中（[MAPPA EXPO](https://expo.mappa.co.jp/infomation/QVIAWjFu)） |
 
 ## 発表内容の整理
 
@@ -115,6 +117,7 @@ description: ノーコードWeb制作ツール「Studio」を運営するStudio�
 | 静岡新聞社【2026-10-17追記】 | 静岡新聞への掲載申し込みフォーム（市民スポーツのグラウンドゴルフ掲載専用フォームなど） | 最大約3,000件 | 氏名、電話番号、メールアドレスなど | [読売新聞オンライン](https://www.yomiuri.co.jp/national/20261017-GYT1T00123/) |
 | 伊豆新聞本社【2026-10-17追記】 | （報道では詳細不明） | 227件 | （報道では詳細不明） | [読売新聞オンライン](https://www.yomiuri.co.jp/national/20261017-GYT1T00123/) |
 | デーリー東北新聞社【2026-10-17追記】 | 企業などから受注してStudioで作った複数のウェブページ | 423件 | 氏名、電話番号、メールアドレスを含む。クレジットカード情報は含まない | [デーリー東北](https://www.daily-tohoku.news/archives/CNTS2026101603707) |
+| MAPPA EXPO 15th Anniversary運営事務局【2026-10-19追記】 | 展覧会の公式サイト（expo.mappa.co.jp）の「CONTACT」フォーム | 件数は確認中（2026年6月19日〜10月15日の送信分） | 名前、メールアドレス、問い合わせ内容 | [MAPPA EXPO](https://expo.mappa.co.jp/infomation/QVIAWjFu) |
 
 - Luupは、Studio上で受け付けていたフォームをすべて停止し、外部サービスを使った個人情報取得の方法を見直すとしている。ラクスルは、自社サイトや関連システムへの不正アクセスは確認されていないとしている。
 
@@ -174,3 +177,4 @@ Luupの対象には、現在はStudio以外のシステムで運用している�
 15. [当社ウェブサイトのフォーム送信情報の流出の可能性に関するお詫びとお知らせ（スマートラウンド、2026-10-17）](https://jp.smartround.com/corporate/news/posts/Ab4Kkfrj)
 16. [不正アクセスに伴う個人情報流出の可能性について（南日本放送、2026-10-16）](https://www.mbc.co.jp/info/owabi/index.html)
 17. [不正アクセスによる情報漏洩の可能性に関するお詫びとご報告（MBC開発、2026-10-17）](https://mbckh.com/%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A/)
+18. [MAPPA EXPO公式サイトが利用するクラウドサービス「STUDIO」への不正アクセスに関するお知らせとお詫び（MAPPA EXPO 15th Anniversary運営事務局、2026-10-17）](https://expo.mappa.co.jp/infomation/QVIAWjFu)
