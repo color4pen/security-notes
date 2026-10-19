@@ -10,10 +10,13 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-19 [アエナ公式通販アプリ ― 「機械的な連続アクセス」で会員マイページが閲覧され、最大81万7215人分の住所・電話番号・カード下4桁などに流出の可能性](posts/2026-10-15-aena-ec-app-mypage-817k-members.md)
+- 2026-10-19 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
+- 2026-10-19 [TEMAIRAZU（手間いらず） ― 宿泊予約の連携システムに不正アクセス、最大約445万人分の予約情報と、予約内容を知る偽メッセージ](posts/2026-10-12-temairazu-site-controller-4-45m-guests-phishing.md)
+- 2026-10-19 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-19 [SpeeCAN RAIDEN（アルカディア） ― 全国の自治体の防災メールを載せた配信基盤に不正アクセス、メールアドレス最大約313万6千件と配信履歴の本文に漏洩の可能性](posts/2026-10-14-arcadia-speecan-raiden-municipal-disaster-mail-3-13m.md)
 - 2026-10-19 [コミックシーモア ― 会員情報を管理するシステムに不正アクセス、メールアドレスとハッシュ化パスワードなどが流出、件数は精査中でサービスは停止](posts/2026-10-17-comic-cmoa-member-system-hashed-passwords.md)
 - 2026-10-19 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
-- 2026-10-19 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-19 [JFA公式アプリ「JFA Passport」 ― 10月17日未明から約15時間半の不正アクセスで一部機能を停止、個人情報への影響は調査中](posts/2026-10-19-jfa-passport-app-unauthorized-access-15-hours.md)
 - 2026-10-19 [リクルート「カーセンサー」 ― 関連システムへの「外部からの不審なアクセス」を検知、検索サイトから販売店向けの業務システムまで全サービスを停止](posts/2026-10-19-recruit-carsensor-suspicious-access-all-services-halted.md)
 - 2026-10-19 [WASABI SWITCH ― EC一元管理サービスに4日で3つの経路から不正アクセス、注文情報の流出、盗まれた管理者パスワードでの再侵入、テンプレートのPHP機能の悪用](posts/2026-10-19-wasabi-switch-ec-backoffice-repeated-intrusions-template-php.md)
@@ -27,8 +30,6 @@
 - 2026-10-18 [日本郵便「国際郵便物の調査請求Web受付サービス」 ― 乗っ取られたサーバーから2か月以上スパム送信、報道では約52万通、利用者約600件の情報も閲覧可能に](posts/2026-10-18-japan-post-international-inquiry-web-service-spam-520k.md)
 - 2026-10-17 [skyticket（アドベンチャー） ― 経路の違う3件の不正アクセスで約1464万件、管理機能の不正操作からクラウド上のデータへ](posts/2026-10-11-skyticket-adventure-three-intrusions-14-64m.md)
 - 2026-10-17 [メドレー「アットリンク」 ― 産婦人科向け業務支援システムに不正アクセス、患者等の個人情報漏えいの可能性、最大787医療機関](posts/2026-10-16-medley-atlink-obgyn-system-787-institutions.md)
-- 2026-10-17 [アエナ公式通販アプリ ― 「機械的な連続アクセス」で会員マイページが閲覧され、最大81万7215人分の住所・電話番号・カード下4桁などに流出の可能性](posts/2026-10-15-aena-ec-app-mypage-817k-members.md)
-- 2026-10-17 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
 - 2026-10-17 [リゾートトラスト ― 管理するウェブサイトに約3時間の「異常な作動」、グループ会員約2万6千件とザ・カハラ・横浜の予約者約3万6千件が漏洩](posts/2026-10-13-resorttrust-website-kahala-yokohama-62k-records.md)
 - 2026-10-17 [ローソンID ― アプリで本人に情報を表示する仕組みが悪用され215万5345件が漏えい、9月中旬の不正アクセスが判明したのは10月7日](posts/2026-10-10-lawson-id-app-display-mechanism-2-15m-records.md)
 - 2026-10-17 [Eストアー「ショップサーブ」 ― アプリの脆弱性から約2か月半にわたりDBの情報が外へ送られ、最終報で約2335万6000人・7858店と確定](posts/2026-10-17-estore-shopserve-final-report-23-35m.md)
@@ -45,7 +46,6 @@
 - 2026-10-13 [ブックオフ ― 子会社の会員管理システムから643万件、第2報で対象者約638万人と確定したが侵入経路は非公表](posts/2026-10-11-bookoff-member-system-6-43m-records.md)
 - 2026-10-13 [ココナラスキルマーケット ― 深夜に遮断したはずの不正アクセスが約11時間後に再来、会員の履歴書449件・職務経歴書関連書類1845件が流出](posts/2026-10-13-coconala-skill-market-resumes-2294-reintrusion.md)
 - 2026-10-13 [あっぷらぼ ― メールサーバのデータベース管理用パスワードが外部から突破、「管理用経路が絞られていなかった」設定の不備でメールアドレスと暗号化パスワードが参照の可能性](posts/2026-10-13-applabo-mail-server-db-admin-password-exposed-path.md)
-- 2026-10-12 [TEMAIRAZU（手間いらず） ― 宿泊予約の連携システムに不正アクセス、最大約445万人分の予約情報と、予約内容を知る偽メッセージ](posts/2026-10-12-temairazu-site-controller-4-45m-guests-phishing.md)
 - 2026-10-12 [バイトル／バイトルNEXT（ディップ） ― 「仕様の不備」を突いた海外からのアクセスで、会員のメールアドレス最大約388万件が漏えい](posts/2026-10-12-baitoru-dip-spec-flaw-3-88m-email-addresses.md)
 - 2026-10-12 [NewsPicks（ユーザベース） ― 業務用の管理ツールの脆弱性から、メールアドレス32.3万件・カード情報の一部36.2万件が漏えいの可能性](posts/2026-10-12-newspicks-admin-tool-vulnerability-323k-emails.md)
 - 2026-10-12 [池上通信機 ― 外部からの通報で発覚、サーバのファイル暗号化とリークサイトへの情報公開](posts/2026-10-05-ikegami-tsushinki-ransomware-leak-site.md)
