@@ -10,6 +10,11 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-19 [JFA公式アプリ「JFA Passport」 ― 10月17日未明から約15時間半の不正アクセスで一部機能を停止、個人情報への影響は調査中](posts/2026-10-19-jfa-passport-app-unauthorized-access-15-hours.md)
+- 2026-10-19 [リクルート「カーセンサー」 ― 関連システムへの「外部からの不審なアクセス」を検知、検索サイトから販売店向けの業務システムまで全サービスを停止](posts/2026-10-19-recruit-carsensor-suspicious-access-all-services-halted.md)
+- 2026-10-19 [WASABI SWITCH ― EC一元管理サービスに4日で3つの経路から不正アクセス、注文情報の流出、盗まれた管理者パスワードでの再侵入、テンプレートのPHP機能の悪用](posts/2026-10-19-wasabi-switch-ec-backoffice-repeated-intrusions-template-php.md)
+- 2026-10-19 [足利市斎場予約システム ― 委託先ビジネステックの提供システムに不正アクセス、DBへの不正な照会とお知らせ欄への書き込み、故人と申請者の約8,800件に漏えいのおそれ](posts/2026-10-19-ashikaga-funeral-hall-reservation-system-8800.md)
+- 2026-10-19 [ジャパンタイムズ ― 2022年8月に使い終えた管理部門のファイルサーバーがランサムウェア被害、攻撃者が「盗んだ」とするデータを外部サイトで公開](posts/2026-10-19-japan-times-ransomware-retired-file-server-leak.md)
 - 2026-10-18 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
 - 2026-10-18 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-18 [セカンドリテイリング（ゲオ・セカンドストリート） ― 社内システムへの不正アクセスを確認、2日後の夜からアプリとWebサービスを一斉停止](posts/2026-10-18-second-retailing-geo-2ndstreet-internal-system-apps-halted.md)
