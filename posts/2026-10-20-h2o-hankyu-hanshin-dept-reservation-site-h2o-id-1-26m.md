@@ -1,6 +1,7 @@
 ---
 title: "阪急阪神百貨店（H2O） ― 予約サイトを経由して顧客管理システムに不正アクセス、共通ID「H2O ID」のほぼ全会員約126万件が漏えい、通販2サイトでも不正アクセス"
 date: 2026-10-20
+updated: 2026-10-20
 region: domestic
 status: ongoing
 issue: 59
@@ -16,6 +17,7 @@ description: エイチ・ツー・オー リテイリングと阪急阪神百貨
 
 - エイチ・ツー・オー リテイリングと子会社の阪急阪神百貨店は2026年10月19日、阪急阪神百貨店が運営する「阪急百貨店・阪神百貨店予約サイト」「HANKYU HANSHIN E-STORES」「Remo Order」で第三者による不正アクセスが発生し、顧客の個人情報の一部が漏えいしたと公表した（[H2Oリテイリング](https://www.h2o-retailing.co.jp/ja/news/auto_20261019552921.html)、[発表PDF](https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf)）。
 - 10月16日（金）に予約サイトを経由した顧客管理システムへの不正アクセスを確認し、同日に予約サイトのシステム全体を停止した。10月17日（土）にはE-STORESとRemo Orderでも不正アクセスを確認し、両サイトを停止した（同）。
+- 【2026-10-20追記】阪急阪神百貨店は10月19日、再発防止策と安全確認が完了したとして、E-STORESを同日14時に再開したと案内した（[阪急阪神百貨店「HANKYU HANSHIN E-STORES」再開のお知らせ](https://www.hankyu-dept.co.jp/honten/info/detail/__icsFiles/afieldfile/2026/10/19/1019owabi2.pdf)）。Remo Orderと予約サイトの再開は示されていない。
 - 10月19日（月）、顧客管理システムで管理する「H2O ID」のうち約126万件の個人情報の一部が漏えいしたことが判明した。「ほぼ全ての『H2O ID』会員」が対象で、項目はH2O ID、氏名（漢字・カナ）、性別、メールアドレス、郵便番号、住所、携帯電話番号、電話番号、年齢、生年月日、H2O IDで利用しているサービスの項目（同）。
 - E-STORESとRemo Orderからの漏えいの有無は調査中。両サービスは注文履歴、カードの種別・下4桁・名義・有効期限、ポイントカードの種別・下4桁、アドレス帳の情報を持つ。カード番号の全桁とセキュリティコードは保持しておらず、ログインパスワードの漏えいも確認されていない（同）。
 
@@ -25,7 +27,7 @@ description: エイチ・ツー・オー リテイリングと阪急阪神百貨
 - 不正アクセスが始まった時期と、データが持ち出された期間
 - E-STORES・Remo Orderへの不正アクセスが予約サイトと同じ手口・同じ攻撃者によるものか
 - E-STORES・Remo Orderの注文履歴・カード情報の一部・アドレス帳が実際に漏えいしたかどうか
-- 3サイトの再開時期
+- 予約サイトとRemo Orderの再開時期（【2026-10-20追記】E-STORESは10月19日14時に再開済み）
 
 ### 関係しそうな既知の手口
 
@@ -45,6 +47,7 @@ description: エイチ・ツー・オー リテイリングと阪急阪神百貨
 | --- | --- |
 | 2026-10-16（金） | 予約サイトを経由した顧客管理システムへの不正アクセスを確認。外部からの不正な通信を遮断し、予約サイトのシステム全体を停止（H2O・阪急阪神百貨店） |
 | 2026-10-17（土） | HANKYU HANSHIN E-STORESとRemo Orderでも不正アクセスを確認し、両サイトのシステム全体を停止（同） |
+| 2026-10-19（月） | 再発防止策と安全確認が完了したとして、E-STORESを14時に再開（[阪急阪神百貨店「HANKYU HANSHIN E-STORES」再開のお知らせ](https://www.hankyu-dept.co.jp/honten/info/detail/__icsFiles/afieldfile/2026/10/19/1019owabi2.pdf)） |
 | 2026-10-19（月） | 調査で「H2O ID」約126万件の個人情報の一部の漏えいが判明。同日公表。個人情報保護委員会への報告と所轄警察署への被害申告は確認後ただちに実施したとしている（同） |
 
 ## 発表内容の整理
@@ -104,3 +107,4 @@ description: エイチ・ツー・オー リテイリングと阪急阪神百貨
 2. [同 発表PDF（エイチ・ツー・オー リテイリング・阪急阪神百貨店、2026-10-19）](https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf)
 3. [お客様向けお詫びとお知らせ（阪急阪神百貨店、2026-10-19）](https://www.hankyu-dept.co.jp/honten/info/detail/__icsFiles/afieldfile/2026/10/19/1019owabi1.pdf)
 4. [阪急阪神百貨店などの共通ID、ほぼ全会員分漏えい 約126万件 予約サイトに不正アクセス（ITmedia NEWS、2026-10-19）](https://www.itmedia.co.jp/news/article/2610/19/2000002398/)
+5. [阪急阪神百貨店公式通販サイト「HANKYU HANSHIN E-STORES」再開のお知らせ（阪急阪神百貨店、2026-10-19）](https://www.hankyu-dept.co.jp/honten/info/detail/__icsFiles/afieldfile/2026/10/19/1019owabi2.pdf)
