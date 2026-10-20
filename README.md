@@ -74,6 +74,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-20 [Rank Math PRO 3.0.123 の配布物改ざん ― 公式サイトからの約11時間のダウンロードと更新に、自分を作り直すバックドアが入っていた](posts/2026-10-20-rank-math-pro-3-0-123-supply-chain-self-restoring-backdoor.md)
+- 2026-10-20 [Plex2Shell ― 認証なしのSSRFから管理者トークン、コーデックのdlopenへつなぎ、公開翌日にマイナーと住宅IP用プロキシが配られた](posts/2026-10-20-plex2shell-unauth-rce-cryptominer-proxyware.md)
+- 2026-10-20 [Siemens Software Center CVE-2026-110936 ― 署名付き正規EXEの隣に置いたDLLが読み込まれ、Romulus系ClickFixの運び屋になった](posts/2026-10-20-siemens-software-center-cve-2026-110936-dll-sideloading-romulus.md)
 - 2026-10-19 [Broadcom製Wi-FiのWPS処理に16年前からの欠陥 ― パスワードを知らない電波の届く相手がルーターのrootに、CVEもなく「直らない」機種も](posts/2026-10-19-broadcom-wps-eap-reassembly-overflow-forever-day-routers.md)
 - 2026-10-19 [OpenBSD「Big Fish」― 37年前から続く共有メモリ添付カウンタの整数オーバーフローとUAFで、KARL／SMAP／SMEP付きのままローカルroot](posts/2026-10-19-openbsd-big-fish-shm-nattch-37-year-local-root.md)
 - 2026-10-19 [Drupal core Field UI の致命的RCE CVE-2026-108097 ― 本体だけでは届かないが、寄与モジュール経由で認証なしの経路もあり、Entity Listにも同型](posts/2026-10-19-drupal-field-ui-rce-cve-2026-108097-entity-list.md)
