@@ -10,6 +10,11 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-20 [ユミルリンク「Cuenote FC」 ― メール配信基盤の脆弱性からサポート担当者の認証情報を奪われ、専用ASPプラン5システムでメールアドレスを含む延べ約900万件が持ち出し](posts/2026-10-20-ymirlink-cuenote-fc-support-credentials-9m.md)
+- 2026-10-20 [阪急阪神百貨店（H2O） ― 予約サイトを経由して顧客管理システムに不正アクセス、共通ID「H2O ID」のほぼ全会員約126万件が漏えい、通販2サイトでも不正アクセス](posts/2026-10-20-h2o-hankyu-hanshin-dept-reservation-site-h2o-id-1-26m.md)
+- 2026-10-20 [ニフティ ― 光回線の「回線申込・受付管理システム」に不正アクセス、自社サイト以外から申し込んだ2019年以降の顧客、最大54万2513件に漏えいの可能性](posts/2026-10-20-nifty-line-application-admin-tool-542k.md)
+- 2026-10-20 [ふるさとチョイス（トラストバンク） ― 不正アクセスの疑いで関連サービスを一時停止、ふるさとチョイスとデータ連携する他社のふるさと納税サイトでも寄付の受付が止まる](posts/2026-10-20-furusato-choice-trustbank-suspected-intrusion-services-halted.md)
+- 2026-10-20 [クリプトン「SONICWIRE」「D2R」 ― 音源販売サイトに不正アクセス、会員最大約42万件の氏名・メールアドレス・ハッシュ化パスワードが閲覧・取得の可能性、全会員のパスワードを無効化](posts/2026-10-20-crypton-sonicwire-d2r-420k-hashed-passwords.md)
 - 2026-10-19 [アエナ公式通販アプリ ― 「機械的な連続アクセス」で会員マイページが閲覧され、最大81万7215人分の住所・電話番号・カード下4桁などに流出の可能性](posts/2026-10-15-aena-ec-app-mypage-817k-members.md)
 - 2026-10-19 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-19 [TEMAIRAZU（手間いらず） ― 宿泊予約の連携システムに不正アクセス、最大約445万人分の予約情報と、予約内容を知る偽メッセージ](posts/2026-10-12-temairazu-site-controller-4-45m-guests-phishing.md)
