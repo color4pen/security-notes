@@ -10,12 +10,13 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-21 [リクルート「カーセンサー」 ― 関連システムへの「外部からの不審なアクセス」を検知、検索サイトから販売店向けの業務システムまで全サービスを停止](posts/2026-10-19-recruit-carsensor-suspicious-access-all-services-halted.md)
+- 2026-10-21 [NEC ― 開発・保守の委託先が攻撃され、盗まれた正規アカウントで顧客のサーバが暗号化、関係者で共有していたクラウドストレージからもファイルが流出](posts/2026-10-21-nec-subcontractor-credentials-customer-servers-encrypted.md)
+- 2026-10-21 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
 - 2026-10-21 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-21 [ユミルリンク「Cuenote FC」 ― メール配信基盤の脆弱性からサポート担当者の認証情報を奪われ、専用ASPプラン5システムでメールアドレスを含む延べ約900万件が持ち出し](posts/2026-10-20-ymirlink-cuenote-fc-support-credentials-9m.md)
 - 2026-10-21 [メドレー「アットリンク」 ― 産婦人科向け業務支援システムに不正アクセス、患者等の個人情報漏えいの可能性、最大787医療機関](posts/2026-10-16-medley-atlink-obgyn-system-787-institutions.md)
-- 2026-10-21 [リクルート「カーセンサー」 ― 関連システムへの「外部からの不審なアクセス」を検知、検索サイトから販売店向けの業務システムまで全サービスを停止](posts/2026-10-19-recruit-carsensor-suspicious-access-all-services-halted.md)
 - 2026-10-21 [岩井コスモ証券 ― ネット取引の委託先トレードワークスで「管理機能の設定不備」を突かれ、4,975名の情報が漏洩、同じ日に7口座で意図しない売買注文、5口座で約定](posts/2026-10-21-iwai-cosmo-tradeworks-admin-function-unauthorized-trades.md)
-- 2026-10-21 [NEC ― 開発・保守の委託先が攻撃され、盗まれた正規アカウントで顧客のサーバが暗号化、関係者で共有していたクラウドストレージからもファイルが流出](posts/2026-10-21-nec-subcontractor-credentials-customer-servers-encrypted.md)
 - 2026-10-21 [住宅省エネ2024キャンペーン ― 国の補助金の申請を受けた事務局（博報堂）のシステムに「外部からの不正操作」、登録事業者2万3918名分が漏洩の可能性、全機能を停止](posts/2026-10-21-jutaku-shoene-2024-hakuhodo-subsidy-system-23k.md)
 - 2026-10-21 [アンビションDXホールディングス ― ネットワーク機器から侵入され、業務文書を持ち出された後にランサムウェア、最終報で約14万ファイルの持ち出しと個人情報約58万件の「漏えいのおそれ」](posts/2026-10-21-ambition-dx-ransomware-final-report-140k-files-580k.md)
 - 2026-10-21 [アツミ電氣 ADXシリーズDVR ― 非公開の保守用サービスで任意のOSコマンド実行とファームウェアの書き換えができた、古い3機種は修正なしでLANケーブルを抜くよう案内](posts/2026-10-21-atsumi-adx-dvr-hidden-maintenance-services-jvn88864366.md)
@@ -68,7 +69,6 @@
 - 2026-10-09 [戸田建設 ― 取引先への支払いを管理するシステムから5日間にわたり情報が流出、取引データ最大6000件と従業員4778人分](posts/2026-10-09-toda-corporation-payment-system-supplier-employee-data.md)
 - 2026-10-09 [HIS ― タイ現地法人のファイルサーバーから最大627人分のパスポート情報が流出の可能性、検知から公表まで約10か月](posts/2026-10-09-his-thailand-subsidiary-file-server-passport-627.md)
 - 2026-10-09 [修道学園 ― 学園サーバーへの不正アクセスで取引先・教職員・外部講師の口座情報などが漏えいのおそれ、第2報で学生情報は対象外に](posts/2026-10-09-shudo-gakuen-server-bank-account-info.md)
-- 2026-10-09 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
 - 2026-10-08 [楽天ドライブ ― 管理用アカウントの認証情報が奪われ、1万5382アカウント分の保存データが取得・閲覧された](posts/2026-10-08-rakuten-drive-admin-credential-stored-files-15k-accounts.md)
 - 2026-10-08 [関西国際大学 ― eポートフォリオから2023年3月までの在籍者の記録が流出、学内ネットワークを止めて授業にも支障](posts/2026-10-08-kansai-university-of-international-studies-eportfolio-breach.md)
 - 2026-10-07 [ミスターマックス ― アプリとオンラインストアに不正アクセス、最大173万人分の会員ID・氏名・連絡先が流出](posts/2026-10-07-mrmax-app-online-store-1-73m-members.md)
