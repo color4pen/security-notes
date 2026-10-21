@@ -10,6 +10,11 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-21 [岩井コスモ証券 ― ネット取引の委託先トレードワークスで「管理機能の設定不備」を突かれ、4,975名の情報が漏洩、同じ日に7口座で意図しない売買注文、5口座で約定](posts/2026-10-21-iwai-cosmo-tradeworks-admin-function-unauthorized-trades.md)
+- 2026-10-21 [NEC ― 開発・保守の委託先が攻撃され、盗まれた正規アカウントで顧客のサーバが暗号化、関係者で共有していたクラウドストレージからもファイルが流出](posts/2026-10-21-nec-subcontractor-credentials-customer-servers-encrypted.md)
+- 2026-10-21 [住宅省エネ2024キャンペーン ― 国の補助金の申請を受けた事務局（博報堂）のシステムに「外部からの不正操作」、登録事業者2万3918名分が漏洩の可能性、全機能を停止](posts/2026-10-21-jutaku-shoene-2024-hakuhodo-subsidy-system-23k.md)
+- 2026-10-21 [アンビションDXホールディングス ― ネットワーク機器から侵入され、業務文書を持ち出された後にランサムウェア、最終報で約14万ファイルの持ち出しと個人情報約58万件の「漏えいのおそれ」](posts/2026-10-21-ambition-dx-ransomware-final-report-140k-files-580k.md)
+- 2026-10-21 [アツミ電氣 ADXシリーズDVR ― 非公開の保守用サービスで任意のOSコマンド実行とファームウェアの書き換えができた、古い3機種は修正なしでLANケーブルを抜くよう案内](posts/2026-10-21-atsumi-adx-dvr-hidden-maintenance-services-jvn88864366.md)
 - 2026-10-20 [吉野家HD／ApplyNow ― 契約終了後も残っていた応募者データと、分析ツールの脆弱性](posts/2026-10-02-yoshinoya-applynow-applicant-data-breach.md)
 - 2026-10-20 [日本経済新聞社 ― 社員のMicrosoft 365から取材先へなりすましメール約9000件、別件でGoogle Workspaceにも不正ログイン](posts/2026-10-05-nikkei-m365-google-workspace-account-takeover.md)
 - 2026-10-20 [タイムズカー ― 約660万件が流出、うち約160万件は免許証画像などの本人確認書類](posts/2026-10-05-timescar-web-system-6-6m-accounts-id-documents.md)
