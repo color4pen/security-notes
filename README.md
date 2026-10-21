@@ -79,6 +79,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-21 [eMudhra 中間CA 8枚の秘密鍵漏洩 ― P-384の秘密鍵が「256未満の整数」だった、ブラウザは数時間で遮断、失効情報を見ないソフトはルートごと外すしかなかった](posts/2026-10-21-emudhra-intermediate-ca-p384-private-keys-under-256.md)
+- 2026-10-21 [UpdraftCentral の接続鍵流出 ― 開発元のサイトから盗まれた正規の署名鍵で、WordPressサイトに「正しく署名された」バックドア入りプラグインが送り込まれた](posts/2026-10-21-updraftcentral-cloud-keys-stolen-signed-backdoor-plugins.md)
+- 2026-10-21 [OVHcloud CLI のリリース差し替え ― 1年前に拡張機能で盗まれた開発者の鍵で、公開済み5リリースのバイナリとチェックサムが93分間すり替わった](posts/2026-10-21-ovhcloud-cli-release-assets-replaced-glassworm-developer-account.md)
 - 2026-10-20 [Rank Math PRO 3.0.123 の配布物改ざん ― 公式サイトからの約11時間のダウンロードと更新に、自分を作り直すバックドアが入っていた](posts/2026-10-20-rank-math-pro-3-0-123-supply-chain-self-restoring-backdoor.md)
 - 2026-10-20 [Plex2Shell ― 認証なしのSSRFから管理者トークン、コーデックのdlopenへつなぎ、公開翌日にマイナーと住宅IP用プロキシが配られた](posts/2026-10-20-plex2shell-unauth-rce-cryptominer-proxyware.md)
 - 2026-10-20 [Siemens Software Center CVE-2026-110936 ― 署名付き正規EXEの隣に置いたDLLが読み込まれ、Romulus系ClickFixの運び屋になった](posts/2026-10-20-siemens-software-center-cve-2026-110936-dll-sideloading-romulus.md)
