@@ -1,7 +1,7 @@
 ---
 title: "Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性"
 date: 2026-10-17
-updated: 2026-10-20
+updated: 2026-10-21
 region: domestic
 status: ongoing
 issue: 47
@@ -49,6 +49,8 @@ description: ノーコードWeb制作ツール「Studio」を運営するStudio�
 - 【2026-10-20追記】朝日新聞（10月20日）によると、新潟市が10月19日に発表した件数は計67件。受託事業者が利用者募集に使っていたStudioのサイトで、「業務効率専門家派遣事業」の問い合わせ8件（会社・団体名、担当者氏名、電話番号、メールアドレス、相談内容など）と、「在宅テレワーカー育成・就労支援事業」の問い合わせ59件（個人の氏名、勤務先企業名、電話番号、メールアドレス、問い合わせ内容など）が対象。該当者には連絡済みで、影響範囲は調査中としている（[朝日新聞](https://www.asahi.com/articles/ASVBM3TP2VBMUOHB003M.html)、[新潟市の報道資料](https://www.city.niigata.lg.jp/shisei/koho/houdou/202610.files/261019_4.pdf)）。
 - 【2026-10-20追記】香川県坂出市は10月20日、市の移住ポータルサイトの相談フォームに入力された氏名やメールアドレスなど28件が流出した可能性があると発表した。対象者に連絡して注意を呼びかけており、個人情報の不正利用は確認されていない（[KSB瀬戸内海放送](https://news.ksb.co.jp/article/16979562)）。
 
+- 【2026-10-21追記】10月20日にも企業の公表が続いた。オロは、applog（旧dxeco）・Preco・ハヤサブ・Perlunaのサービスサイトの問い合わせフォームに送信された1,074件（氏名・会社名・部署名・メールアドレス・電話番号など）について流出の可能性を発表した。ZACなど他サービスの情報は対象外（[オロ](https://www.oro.com/ja/pressrelease/2026/20261020.html)）。Schooは、enpeer（Schoo for Business）など6サイトのフォームの延べ2,936件（約2,600名）について漏えいの可能性を発表し、学習者の会員情報はStudioで管理しておらず影響はないとした（[Schoo](https://prtimes.jp/main/html/rd/p/000000380.000006391.html)）。スカパーJSATは、SATELLITE CRAYON PROJECTのサイトの問い合わせフォームの最大32件について発表し、フォームの運用を止めた（[スカパーJSAT](https://www.skyperfectjsat.space/jp/news/20261020)）。Relicは同日19時、Innovator's101など19サービスのサイトのフォーム約8,538件（送信件数）について流出の可能性を発表し、Studioで作ったサイトの全量把握を続けているため対象が増える可能性があるとした（[Relic](https://relic.co.jp/news/notice/63588/)）。
+- 【2026-10-21追記】自治体では、青森市が10月19日、公民連携ポータルサイトに2023年7月〜2024年1月に寄せられた企業等からの提案11件（企業・団体名、担当者名、所在地、電話番号、メールアドレス、提案内容など）について流出の可能性を発表した（[青森市](https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/006/866/1019_01_huseiakusesu.pdf)）。広島県府中市は10月19日、すでに知らせていた「移住応援サイトふふふちゅう」（問い合わせ31件）に加え、「道の駅びんご府中」のサイトの問い合わせ123件（名前・メールアドレス）も漏えいのおそれがあると発表した（[府中市](https://www.city.fuchu.hiroshima.jp/soshiki/keizaikanko/syokokanko/osirase/11981.html)）。和歌山市は、デジタル人材育成事業の受講申込52名分（氏名・生年月日・住所・電話番号・メールアドレス）と、移住サイトで資料をダウンロードした23名分について流出の可能性を発表した（[和歌山市](https://www.city.wakayama.wakayama.jp/shisei/1022414/1068855.html)）。
 ### わかったこと
 
 - 【2026-10-17】Studio製サイトの運営者側の公表で、フォーム送信内容の件数が出始めた（Luup 21,368件、ラクスル6,412件、【2026-10-17追記】KURUME MUSIC FES 75件、【2026-10-17追記】Link-Uグループ7,663件、静岡新聞社 最大約3,000件、伊豆新聞本社227件、デーリー東北新聞社423件、【2026-10-18追記】スマートラウンド1,371件、Fukuoka Growth Next 計629件、東北電力フロンティア延べ182件、福岡市42人分、京都市33件、南日本放送 計38件（うち「デジタルの日 2026 in 鹿児島 DAY2」の5件はMBC開発も同じサイト分として公表）、【2026-10-19追記】OpenStreet 計1,734件、【2026-10-20追記】見附市 個人13件・企業57件、草津川跡地公園（草津市）108件、【2026-10-20追記】TVer広告 延べ1,801件、新潟市67件、坂出市28件）。いずれも、実際に第三者に取得された事実は確認されていないとしている（Luup、ラクスル）。Studio全体の件数は第一報のまま「精査中」。
@@ -105,6 +107,8 @@ description: ノーコードWeb制作ツール「Studio」を運営するStudio�
 | 2026-10-20（火） | 草津市が、指定管理者が運営する草津川跡地公園のホームページの問い合わせ108件について流出の可能性を発表（[草津市](https://www.city.kusatsu.shiga.jp/kurashi/toshikeikaku/kusatsugawaatochi/oshirase/kusatsu_river221019.html)） |
 | 2026-10-20（火） | Studioが、個人情報保護委員会への報告を個別報告か連名報告かで選べるようになったと案内。連名報告なら速報の期限超過を遅延として扱わない（[Studio](https://studio.design/ja/whats-new/unauthorized-access-2026-10-form)） |
 | 2026-10-20（火） | TVerが「TVer広告」サイトのフォームで取得した企業・法人の顧客情報（延べ1,801件）について漏えいの可能性を発表（[TVer](https://tver.co.jp/news/20261020.html)）。坂出市が移住ポータルサイトの相談フォーム28件について流出の可能性を発表（[KSB](https://news.ksb.co.jp/article/16979562)） |
+| 2026-10-19（月） | 青森市が公民連携ポータルの提案11件、府中市が「道の駅びんご府中」サイトの問い合わせ123件について流出の可能性を発表（[青森市](https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/006/866/1019_01_huseiakusesu.pdf)、[府中市](https://www.city.fuchu.hiroshima.jp/soshiki/keizaikanko/syokokanko/osirase/11981.html)） |
+| 2026-10-20（火） | オロ（1,074件）、Schoo（延べ2,936件・約2,600名）、スカパーJSAT（最大32件）、Relic（約8,538件、19時）が、Studio製サイトのフォーム送信内容について流出の可能性を発表（[オロ](https://www.oro.com/ja/pressrelease/2026/20261020.html)、[Schoo](https://prtimes.jp/main/html/rd/p/000000380.000006391.html)、[スカパーJSAT](https://www.skyperfectjsat.space/jp/news/20261020)、[Relic](https://relic.co.jp/news/notice/63588/)） |
 
 ## 発表内容の整理
 
@@ -229,3 +233,10 @@ Luupの対象には、現在はStudio以外のシステムで運用している�
 35. [新潟市の2事業で問い合わせた個人や法人の名前など67件が流出か（朝日新聞、2026-10-20）](https://www.asahi.com/articles/ASVBM3TP2VBMUOHB003M.html)
 36. [不正アクセスに伴う個人情報等漏えいの可能性について（新潟市、2026-10-19、報道資料PDF）](https://www.city.niigata.lg.jp/shisei/koho/houdou/202610.files/261019_4.pdf)
 37. [坂出市の移住ポータルサイト　不正アクセスで個人情報が漏えいした可能性　香川（KSB瀬戸内海放送、2026-10-20）](https://news.ksb.co.jp/article/16979562)
+38. [ノーコードWebサイトプラットフォーム「Studio」への不正アクセスに伴う、情報流出の可能性に関するお詫びとお知らせ（オロ、2026-10-20）](https://www.oro.com/ja/pressrelease/2026/20261020.html)
+39. [当社が利用する外部サービスへの不正アクセスによるお客様情報漏えいの可能性に関するお詫びとお知らせ（Schoo、2026-10-20）](https://prtimes.jp/main/html/rd/p/000000380.000006391.html)
+40. [不正アクセスに伴う個人情報漏えいの可能性について（スカパーJSAT、2026-10-20）](https://www.skyperfectjsat.space/jp/news/20261020)
+41. [【重要】ノーコードWebサイトプラットフォーム「Studio」への不正アクセスに伴う、情報流出の可能性に関するお詫びとお知らせ（Relic、2026-10-20）](https://relic.co.jp/news/notice/63588/)
+42. [Studio への不正アクセスによる情報流出の可能性について（青森市、2026-10-19、PDF）](https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/006/866/1019_01_huseiakusesu.pdf)
+43. [道の駅びんご府中HPにおけるHP作成プラットフォーム「Studio」への不正アクセスによる情報漏えいの可能性について（広島県府中市、2026-10-19）](https://www.city.fuchu.hiroshima.jp/soshiki/keizaikanko/syokokanko/osirase/11981.html)
+44. [Studio利用による個人情報流出の可能性について（和歌山市）](https://www.city.wakayama.wakayama.jp/shisei/1022414/1068855.html)
