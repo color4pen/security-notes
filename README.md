@@ -10,6 +10,11 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-22 [デジタルアーツ ― AIを使った総点検で、クラウドサービスの運用環境と社内環境に2025年7月頃からの不正アクセスの痕跡、i-FILTER@Cloudなど6サービスの一部顧客情報が閲覧された可能性](posts/2026-10-22-digital-arts-cloud-ops-credentials-intrusion-since-2025-07.md)
+- 2026-10-22 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
+- 2026-10-22 [イオングループ ― 13社の計42のWebサイトで不正アクセスを検知、前日の「システムの不具合」の調査で判明し、対象サイトを閲覧できない状態に](posts/2026-10-22-aeon-group-13-companies-42-websites-intrusion.md)
+- 2026-10-22 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
+- 2026-10-22 [ママワークス ― 「会員名簿とされるデータがネット上にある」と警察から報告、調査でシステム設定の脆弱性からの不正アクセスが原因と判明、住所・職務経歴・パスワードのハッシュ値などが漏えいの可能性](posts/2026-10-22-mamaworks-member-list-uploaded-police-report.md)
 - 2026-10-21 [相次ぐ国内の不正アクセスに各機関が一斉に注意喚起 ― JPCERT/CCが示した4つの攻撃類型と、国家サイバー統括室・IPAが求める点検](posts/2026-10-11-jpcert-nco-ipa-alerts-domestic-breach-wave.md)
 - 2026-10-21 [ユミルリンク「Cuenote FC」 ― メール配信基盤の脆弱性からサポート担当者の認証情報を奪われ、専用ASPプラン5システムでメールアドレスを含む延べ約900万件が持ち出し](posts/2026-10-20-ymirlink-cuenote-fc-support-credentials-9m.md)
 - 2026-10-21 [リクルート「カーセンサー」 ― 関連システムへの「外部からの不審なアクセス」を検知、検索サイトから販売店向けの業務システムまで全サービスを停止](posts/2026-10-19-recruit-carsensor-suspicious-access-all-services-halted.md)
