@@ -10,19 +10,19 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-22 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
+- 2026-10-22 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
+- 2026-10-22 [NEC ― 開発・保守の委託先が攻撃され、盗まれた正規アカウントで顧客のサーバが暗号化、関係者で共有していたクラウドストレージからもファイルが流出](posts/2026-10-21-nec-subcontractor-credentials-customer-servers-encrypted.md)
+- 2026-10-22 [リクルート「カーセンサー」 ― 関連システムへの「外部からの不審なアクセス」を検知、検索サイトから販売店向けの業務システムまで全サービスを停止](posts/2026-10-19-recruit-carsensor-suspicious-access-all-services-halted.md)
 - 2026-10-22 [京王電鉄グループ ― 9月のランサムウェア攻撃から3週間、「Qilin」が情報の一部を公開したと主張、会社は真偽と個人情報の流出を調査中](posts/2026-10-18-keio-group-ransomware-qilin-leak-claim.md)
 - 2026-10-22 [ニフティ ― 光回線の「回線申込・受付管理システム」に不正アクセス、自社サイト以外から申し込んだ2019年以降の顧客、最大54万2513件に漏えいの可能性](posts/2026-10-20-nifty-line-application-admin-tool-542k.md)
 - 2026-10-22 [JFA公式アプリ「JFA Passport」 ― 10月17日未明から約15時間半の不正アクセスで一部機能を停止、個人情報への影響は調査中](posts/2026-10-19-jfa-passport-app-unauthorized-access-15-hours.md)
 - 2026-10-22 [SpeeCAN RAIDEN（アルカディア） ― 全国の自治体の防災メールを載せた配信基盤に不正アクセス、メールアドレス最大約313万6千件と配信履歴の本文に漏洩の可能性](posts/2026-10-14-arcadia-speecan-raiden-municipal-disaster-mail-3-13m.md)
 - 2026-10-22 [デジタルアーツ ― AIを使った総点検で、クラウドサービスの運用環境と社内環境に2025年7月頃からの不正アクセスの痕跡、i-FILTER@Cloudなど6サービスの一部顧客情報が閲覧された可能性](posts/2026-10-22-digital-arts-cloud-ops-credentials-intrusion-since-2025-07.md)
-- 2026-10-22 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
 - 2026-10-22 [イオングループ ― 13社の計42のWebサイトで不正アクセスを検知、前日の「システムの不具合」の調査で判明し、対象サイトを閲覧できない状態に](posts/2026-10-22-aeon-group-13-companies-42-websites-intrusion.md)
-- 2026-10-22 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
 - 2026-10-22 [ママワークス ― 「会員名簿とされるデータがネット上にある」と警察から報告、調査でシステム設定の脆弱性からの不正アクセスが原因と判明、住所・職務経歴・パスワードのハッシュ値などが漏えいの可能性](posts/2026-10-22-mamaworks-member-list-uploaded-police-report.md)
 - 2026-10-21 [相次ぐ国内の不正アクセスに各機関が一斉に注意喚起 ― JPCERT/CCが示した4つの攻撃類型と、国家サイバー統括室・IPAが求める点検](posts/2026-10-11-jpcert-nco-ipa-alerts-domestic-breach-wave.md)
 - 2026-10-21 [ユミルリンク「Cuenote FC」 ― メール配信基盤の脆弱性からサポート担当者の認証情報を奪われ、専用ASPプラン5システムでメールアドレスを含む延べ約900万件が持ち出し](posts/2026-10-20-ymirlink-cuenote-fc-support-credentials-9m.md)
-- 2026-10-21 [リクルート「カーセンサー」 ― 関連システムへの「外部からの不審なアクセス」を検知、検索サイトから販売店向けの業務システムまで全サービスを停止](posts/2026-10-19-recruit-carsensor-suspicious-access-all-services-halted.md)
-- 2026-10-21 [NEC ― 開発・保守の委託先が攻撃され、盗まれた正規アカウントで顧客のサーバが暗号化、関係者で共有していたクラウドストレージからもファイルが流出](posts/2026-10-21-nec-subcontractor-credentials-customer-servers-encrypted.md)
 - 2026-10-21 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
 - 2026-10-21 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-21 [メドレー「アットリンク」 ― 産婦人科向け業務支援システムに不正アクセス、患者等の個人情報漏えいの可能性、最大787医療機関](posts/2026-10-16-medley-atlink-obgyn-system-787-institutions.md)
