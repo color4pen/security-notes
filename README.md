@@ -146,9 +146,13 @@
 - 2026-10-01 [Citrix NetScaler ADC/Gateway CVE-2026-88772/88771 悪用 ― DTLSの断片長を信じたパケットエンジンと、パッチ後に残る足場](posts/2026-10-01-citrix-netscaler-cve-2026-88772-88771.md)
 - 2026-10-01 [Cisco Catalyst SD-WAN Manager 認証回避ゼロデイ CVE-2026-76504 ― 1文字のURIエンコードが管理者APIを開けた](posts/2026-10-01-cisco-sdwan-manager-cve-2026-76504.md)
 
+### 脆弱性（注意報・新しい順）
+
+（まだ記事はありません）
+
 ## 記事の書き方
 
-記事は `posts/` にMarkdownで置きます（ファイル名は `YYYY-MM-DD-内容がわかる英数字.md`）。サイトは国内の記事を「社会面」、海外の記事を「国際面」として分けて表示します。
+記事は `posts/` にMarkdownで置きます（ファイル名は `YYYY-MM-DD-内容がわかる英数字.md`）。サイトは国内の記事を「社会面」、海外の記事を「国際面」、旬の脆弱性の記事を「注意報（脆弱性）」として分けて表示します。
 
 ### front matter
 
@@ -157,7 +161,7 @@
 title: "見出し ― 副見出し" # 「 ― 」の後ろは記事ページで副見出しとして表示
 date: 2026-10-01 # 公開日（必須）
 updated: 2026-10-03 # 最終更新日（任意。続報を追記したら更新）
-region: domestic # domestic（国内）| overseas（海外）。省略時は overseas
+region: domestic # domestic（国内）| overseas（海外）| vuln（脆弱性）。省略時は overseas
 status: ongoing # 国内向け・任意：ongoing（続報待ち）| concluded（確定）
 issue: 12 # 国内向け・任意：続報を追跡するGitHub Issue番号
 tags: [組織名, 不正アクセス, ゼロデイ] # 1つ目は分類ラベルとして目立たせて表示
@@ -170,7 +174,7 @@ description: 一覧に出す要約（任意。省略時は本文の最初の箇�
 | `title` | ○ | 記事タイトル |
 | `date` | ○ | 公開日 |
 | `tags` | | タグの配列。1つ目は分類ラベル。タグ絞り込みの候補は「ゼロデイ」「認証回避」「Webシェル」（各タブに該当記事があるものだけ表示） |
-| `region` | | `domestic`（国内）か `overseas`（海外）。省略すると `overseas` 扱いだが、明記を推奨 |
+| `region` | | `domestic`（国内）・`overseas`（海外）・`vuln`（脆弱性）のいずれか。省略すると `overseas` 扱いだが、明記を推奨 |
 | `updated` | | 最終更新日。公開日より新しいと一覧に「続報あり」（国内）/「更新」（海外）の印が付く |
 | `status` | | 国内向け。`ongoing` は「続報待ち」、`concluded` は「確定」として記事ヘッダーに表示。`ongoing` は一覧にも「続報待ち」の印が付く |
 | `issue` | | 国内向け。追跡用GitHub Issueの番号。記事ヘッダーにIssueへのリンクを出す |

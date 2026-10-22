@@ -9,7 +9,7 @@ export const postHref = (post: Post) => href(`notes/${post.id}/`);
 export const repoUrl = 'https://github.com/color4pen/security-notes';
 export const issueHref = (issue: number) => `${repoUrl}/issues/${issue}`;
 
-/** 紙面（国内=社会面 / 海外=国際面）の表示情報 */
+/** 紙面（国内=社会面 / 海外=国際面 / 脆弱性=注意報）の表示情報 */
 export const regions = {
   domestic: {
     label: '国内',
@@ -24,6 +24,13 @@ export const regions = {
     path: 'overseas/',
     lead: '海外の脆弱性悪用・侵害事例を、根本原因と対策の観点で読み解きます。',
     empty: '海外の記事は準備中です。',
+  },
+  vuln: {
+    label: '脆弱性',
+    page: '注意報',
+    path: 'vuln/',
+    lead: '悪用が確認された旬の脆弱性を、影響範囲と「今すぐやること」に絞ってまとめます。',
+    empty: '脆弱性の記事は準備中です。',
   },
 } as const satisfies Record<Region, object>;
 export const regionHref = (region: Region) => href(regions[region].path);

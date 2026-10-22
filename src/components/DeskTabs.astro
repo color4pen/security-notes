@@ -24,7 +24,7 @@ const tabs: {
   count: number;
 }[] = [
   { id: 'all', label: 'すべて', url: href(), count: posts.length },
-  ...(['domestic', 'overseas'] as const).map((region) => ({
+  ...(['domestic', 'overseas', 'vuln'] as const).map((region) => ({
     id: region,
     label: regions[region].label,
     sub: regions[region].page,
