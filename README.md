@@ -84,6 +84,8 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-22 [PHP2Shell（CVE-2026-109618／109619） ― メモリ不足で途中終了したリクエストの「後片付け漏れ」を次のリクエストが踏む、アプリより先に動くPHP本体の認証なしRCE](posts/2026-10-22-php2shell-cve-2026-109618-109619-oom-stale-state-rce.md)
+- 2026-10-22 [LiteLLM 1.107.0 のバックドア混入 ― ログに残った開発者のGitHubトークンで正規のリリース工程を乗っ取り、ハイフン1つ違いの偽リポジトリから「正しい来歴付き」で配った](posts/2026-10-22-litellm-1-107-0-release-pipeline-hijack-lookalike-fork.md)
 - 2026-10-21 [eMudhra 中間CA 8枚の秘密鍵漏洩 ― P-384の秘密鍵が「256未満の整数」だった、ブラウザは数時間で遮断、失効情報を見ないソフトはルートごと外すしかなかった](posts/2026-10-21-emudhra-intermediate-ca-p384-private-keys-under-256.md)
 - 2026-10-21 [UpdraftCentral の接続鍵流出 ― 開発元のサイトから盗まれた正規の署名鍵で、WordPressサイトに「正しく署名された」バックドア入りプラグインが送り込まれた](posts/2026-10-21-updraftcentral-cloud-keys-stolen-signed-backdoor-plugins.md)
 - 2026-10-21 [OVHcloud CLI のリリース差し替え ― 1年前に拡張機能で盗まれた開発者の鍵で、公開済み5リリースのバイナリとチェックサムが93分間すり替わった](posts/2026-10-21-ovhcloud-cli-release-assets-replaced-glassworm-developer-account.md)
