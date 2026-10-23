@@ -10,11 +10,11 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-23 [ブラストメール（ラクスライトクラウド） ― API用サーバー2台に侵入され、全契約者の情報と一部の配信先リストが持ち出された、新潟日報25万人・名鉄観光13万人など利用組織の公表が相次ぐ](posts/2026-10-23-rakus-light-cloud-blastmail-api-servers-all-customers.md)
 - 2026-10-23 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
 - 2026-10-23 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
 - 2026-10-23 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-23 [コミックシーモア ― 会員情報を管理するシステムに不正アクセス、メールアドレスとハッシュ化パスワードなどが流出、件数は精査中でサービスは停止](posts/2026-10-17-comic-cmoa-member-system-hashed-passwords.md)
-- 2026-10-23 [ブラストメール（ラクスライトクラウド） ― API用サーバー2台に侵入され、全契約者の情報と一部の配信先リストが持ち出された、新潟日報25万人・名鉄観光13万人など利用組織の公表が相次ぐ](posts/2026-10-23-rakus-light-cloud-blastmail-api-servers-all-customers.md)
 - 2026-10-23 [カプコン「CAPCOM ID」 ― 全世界1177万4247件のメールアドレスとログイン履歴情報が漏えい、196件はパスワードを不正に変更されていた](posts/2026-10-23-capcom-id-11-77m-emails-196-passwords-changed.md)
 - 2026-10-23 [KOMOJU ― 決済代行の非本番環境の脆弱性を突かれて社内管理画面に不正ログイン、一部加盟店のAPI認証情報と約4100件の個人データが漏洩](posts/2026-10-23-komoju-non-production-vuln-merchant-api-credentials.md)
 - 2026-10-23 [GETTIIS（リンクステーション） ― 主催者向け公演登録サービス「Gettii-Lite」の脆弱性を突かれ、チケット購入サイトの会員情報31万7971件が7時間で流出](posts/2026-10-23-linkstation-gettiis-gettii-lite-vuln-318k-members.md)
