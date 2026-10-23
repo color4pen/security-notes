@@ -10,12 +10,14 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
-- 2026-10-23 [カプコン「CAPCOM ID」 ― 全世界1177万4247件のメールアドレスとログイン履歴情報が漏えい、196件はパスワードを不正に変更されていた](posts/2026-10-23-capcom-id-11-77m-emails-196-passwords-changed.md)
+- 2026-10-23 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
+- 2026-10-23 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
+- 2026-10-23 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
+- 2026-10-23 [コミックシーモア ― 会員情報を管理するシステムに不正アクセス、メールアドレスとハッシュ化パスワードなどが流出、件数は精査中でサービスは停止](posts/2026-10-17-comic-cmoa-member-system-hashed-passwords.md)
 - 2026-10-23 [ブラストメール（ラクスライトクラウド） ― API用サーバー2台に侵入され、全契約者の情報と一部の配信先リストが持ち出された、新潟日報25万人・名鉄観光13万人など利用組織の公表が相次ぐ](posts/2026-10-23-rakus-light-cloud-blastmail-api-servers-all-customers.md)
+- 2026-10-23 [カプコン「CAPCOM ID」 ― 全世界1177万4247件のメールアドレスとログイン履歴情報が漏えい、196件はパスワードを不正に変更されていた](posts/2026-10-23-capcom-id-11-77m-emails-196-passwords-changed.md)
 - 2026-10-23 [KOMOJU ― 決済代行の非本番環境の脆弱性を突かれて社内管理画面に不正ログイン、一部加盟店のAPI認証情報と約4100件の個人データが漏洩](posts/2026-10-23-komoju-non-production-vuln-merchant-api-credentials.md)
 - 2026-10-23 [GETTIIS（リンクステーション） ― 主催者向け公演登録サービス「Gettii-Lite」の脆弱性を突かれ、チケット購入サイトの会員情報31万7971件が7時間で流出](posts/2026-10-23-linkstation-gettiis-gettii-lite-vuln-318k-members.md)
-- 2026-10-22 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
-- 2026-10-22 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
 - 2026-10-22 [NEC ― 開発・保守の委託先が攻撃され、盗まれた正規アカウントで顧客のサーバが暗号化、関係者で共有していたクラウドストレージからもファイルが流出](posts/2026-10-21-nec-subcontractor-credentials-customer-servers-encrypted.md)
 - 2026-10-22 [リクルート「カーセンサー」 ― 関連システムへの「外部からの不審なアクセス」を検知、検索サイトから販売店向けの業務システムまで全サービスを停止](posts/2026-10-19-recruit-carsensor-suspicious-access-all-services-halted.md)
 - 2026-10-22 [京王電鉄グループ ― 9月のランサムウェア攻撃から3週間、「Qilin」が情報の一部を公開したと主張、会社は真偽と個人情報の流出を調査中](posts/2026-10-18-keio-group-ransomware-qilin-leak-claim.md)
@@ -28,7 +30,6 @@
 - 2026-10-21 [相次ぐ国内の不正アクセスに各機関が一斉に注意喚起 ― JPCERT/CCが示した4つの攻撃類型と、国家サイバー統括室・IPAが求める点検](posts/2026-10-11-jpcert-nco-ipa-alerts-domestic-breach-wave.md)
 - 2026-10-21 [ユミルリンク「Cuenote FC」 ― メール配信基盤の脆弱性からサポート担当者の認証情報を奪われ、専用ASPプラン5システムでメールアドレスを含む延べ約900万件が持ち出し](posts/2026-10-20-ymirlink-cuenote-fc-support-credentials-9m.md)
 - 2026-10-21 [大阪公立大学 ― 仮想化基盤が狙われ約500台のサーバーが停止、バックアップの多くも暗号化](posts/2026-10-06-osaka-metropolitan-university-ransomware-500-servers.md)
-- 2026-10-21 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-21 [メドレー「アットリンク」 ― 産婦人科向け業務支援システムに不正アクセス、患者等の個人情報漏えいの可能性、最大787医療機関](posts/2026-10-16-medley-atlink-obgyn-system-787-institutions.md)
 - 2026-10-21 [岩井コスモ証券 ― ネット取引の委託先トレードワークスで「管理機能の設定不備」を突かれ、4,975名の情報が漏洩、同じ日に7口座で意図しない売買注文、5口座で約定](posts/2026-10-21-iwai-cosmo-tradeworks-admin-function-unauthorized-trades.md)
 - 2026-10-21 [住宅省エネ2024キャンペーン ― 国の補助金の申請を受けた事務局（博報堂）のシステムに「外部からの不正操作」、登録事業者2万3918名分が漏洩の可能性、全機能を停止](posts/2026-10-21-jutaku-shoene-2024-hakuhodo-subsidy-system-23k.md)
@@ -48,7 +49,6 @@
 - 2026-10-20 [クリプトン「SONICWIRE」「D2R」 ― 音源販売サイトに不正アクセス、会員最大約42万件の氏名・メールアドレス・ハッシュ化パスワードが閲覧・取得の可能性、全会員のパスワードを無効化](posts/2026-10-20-crypton-sonicwire-d2r-420k-hashed-passwords.md)
 - 2026-10-19 [アエナ公式通販アプリ ― 「機械的な連続アクセス」で会員マイページが閲覧され、最大81万7215人分の住所・電話番号・カード下4桁などに流出の可能性](posts/2026-10-15-aena-ec-app-mypage-817k-members.md)
 - 2026-10-19 [TEMAIRAZU（手間いらず） ― 宿泊予約の連携システムに不正アクセス、最大約445万人分の予約情報と、予約内容を知る偽メッセージ](posts/2026-10-12-temairazu-site-controller-4-45m-guests-phishing.md)
-- 2026-10-19 [コミックシーモア ― 会員情報を管理するシステムに不正アクセス、メールアドレスとハッシュ化パスワードなどが流出、件数は精査中でサービスは停止](posts/2026-10-17-comic-cmoa-member-system-hashed-passwords.md)
 - 2026-10-19 [IDCFクラウド ― 東日本リージョン1がランサムウェア攻撃で停止、契約する495の企業・自治体に影響](posts/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers.md)
 - 2026-10-19 [ジャパンタイムズ ― 2022年8月に使い終えた管理部門のファイルサーバーがランサムウェア被害、攻撃者が「盗んだ」とするデータを外部サイトで公開](posts/2026-10-19-japan-times-ransomware-retired-file-server-leak.md)
 - 2026-10-18 [セカンドリテイリング（ゲオ・セカンドストリート） ― 社内システムへの不正アクセスを確認、2日後の夜からアプリとWebサービスを一斉停止](posts/2026-10-18-second-retailing-geo-2ndstreet-internal-system-apps-halted.md)
