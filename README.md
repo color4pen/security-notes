@@ -88,6 +88,8 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-23 [APT41のUEFIブートキット「BlackX」 ― 最新パッチを当てた端末でもSecure Bootを破れた、失効を「手動で有効にする」更新の隙間](posts/2026-10-23-apt41-blackx-uefi-bootkit-baton-drop-secure-boot-revocation.md)
+- 2026-10-23 [VeloCloud Orchestrator CVE-2026-114625 ― 閲覧だけの利用者がSQLインジェクションで「superuser operator」に、SD-WAN管理サーバーで7月・9月に続く悪用](posts/2026-10-23-velocloud-orchestrator-cve-2026-114625-read-only-to-superuser-sqli.md)
 - 2026-10-22 [PHP2Shell（CVE-2026-109618／109619） ― メモリ不足で途中終了したリクエストの「後片付け漏れ」を次のリクエストが踏む、アプリより先に動くPHP本体の認証なしRCE](posts/2026-10-22-php2shell-cve-2026-109618-109619-oom-stale-state-rce.md)
 - 2026-10-22 [LiteLLM 1.107.0 のバックドア混入 ― ログに残った開発者のGitHubトークンで正規のリリース工程を乗っ取り、ハイフン1つ違いの偽リポジトリから「正しい来歴付き」で配った](posts/2026-10-22-litellm-1-107-0-release-pipeline-hijack-lookalike-fork.md)
 - 2026-10-21 [eMudhra 中間CA 8枚の秘密鍵漏洩 ― P-384の秘密鍵が「256未満の整数」だった、ブラウザは数時間で遮断、失効情報を見ないソフトはルートごと外すしかなかった](posts/2026-10-21-emudhra-intermediate-ca-p384-private-keys-under-256.md)
