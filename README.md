@@ -92,6 +92,9 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-24 [Railway の環境変数流出 ― ビルド基盤の権限昇格からCIの認証情報へ、約10万ワークスペースの秘密情報が復号されたおそれ、狙いはAIのAPIキー](posts/2026-10-24-railway-build-infrastructure-env-vars-ai-keys-distillation.md)
+- 2026-10-24 [INC・The Gentlemen系アフィリエイトの「AIが実行し、人が承認する」侵入 ― むき出しのC2から見えた8,257件のAI対話、46本の暗号化ツール、62組織](posts/2026-10-24-inc-gentlemen-affiliates-phantom-ai-opencode-exposed-servers.md)
+- 2026-10-24 [MythicRatatoskr ― C2をYggdrasilメッシュ網の中に隠したバックドア、UAC-0099の侵入をSandwormが引き継ぎウクライナの穀物物流企業でデータ消去](posts/2026-10-24-mythicratatoskr-yggdrasil-uac-0099-sandworm-wiper.md)
 - 2026-10-23 [APT41のUEFIブートキット「BlackX」 ― 最新パッチを当てた端末でもSecure Bootを破れた、失効を「手動で有効にする」更新の隙間](posts/2026-10-23-apt41-blackx-uefi-bootkit-baton-drop-secure-boot-revocation.md)
 - 2026-10-23 [VeloCloud Orchestrator CVE-2026-114625 ― 閲覧だけの利用者がSQLインジェクションで「superuser operator」に、SD-WAN管理サーバーで7月・9月に続く悪用](posts/2026-10-23-velocloud-orchestrator-cve-2026-114625-read-only-to-superuser-sqli.md)
 - 2026-10-22 [PHP2Shell（CVE-2026-109618／109619） ― メモリ不足で途中終了したリクエストの「後片付け漏れ」を次のリクエストが踏む、アプリより先に動くPHP本体の認証なしRCE](posts/2026-10-22-php2shell-cve-2026-109618-109619-oom-stale-state-rce.md)
