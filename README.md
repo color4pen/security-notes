@@ -10,6 +10,10 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-24 [佐川急便「お荷物問い合わせサービス」への不正アクセス ― 流出の可能性は最大約5323万件（重複を含む）、約100日分の送り状データが対象](posts/2026-10-24-sagawa-tracking-service-up-to-53m-records.md)
+- 2026-10-24 [日本ピザハット ― オンライン注文の決済APIに不正アクセス、お客様ID・メールアドレス・電話番号・セッションログイントークンなどが漏えい](posts/2026-10-24-pizzahut-japan-payment-api-customer-data.md)
+- 2026-10-24 [アンドエスティHD ― 複数サーバーへの侵入とデータ持ち出し、顧客約250万件・取引先約1万件の情報が漏えいのおそれ](posts/2026-10-24-andst-hd-server-intrusion-2-5m-customers.md)
+- 2026-10-24 [トレジャー・ファクトリー ― 出張買取・トレファク引越の案件管理システムに脆弱性悪用の不正アクセス、顧客メールアドレス74万6277件](posts/2026-10-24-treasure-factory-case-management-746k-emails.md)
 - 2026-10-23 [ブラストメール（ラクスライトクラウド） ― API用サーバー2台に侵入され、全契約者の情報と一部の配信先リストが持ち出された、新潟日報25万人・名鉄観光13万人など利用組織の公表が相次ぐ](posts/2026-10-23-rakus-light-cloud-blastmail-api-servers-all-customers.md)
 - 2026-10-23 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
 - 2026-10-23 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
