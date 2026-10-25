@@ -96,6 +96,8 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-25 [Brotli CVE-2026-111497（Node2Shell） ― 「壊れたデータ」を「続きを待つ」と取り違えた圧縮ライブラリが、Node.js・Bun・Envoy・Pythonの通信を同時にRCEの入口に変えた](posts/2026-10-25-brotli-cve-2026-111497-node2shell-decoder-oob-write.md)
+- 2026-10-25 [Time4Popcorn の放置されたアップデーター ― 失効したドメインを登録すれば数百万台にSYSTEM/root権限でコードを配れた、研究者は「善意の更新」で200万回以上止めた](posts/2026-10-25-time4popcorn-abandoned-updater-domains-operation-ixim.md)
 - 2026-10-24 [Railway の環境変数流出 ― ビルド基盤の権限昇格からCIの認証情報へ、約10万ワークスペースの秘密情報が復号されたおそれ、狙いはAIのAPIキー](posts/2026-10-24-railway-build-infrastructure-env-vars-ai-keys-distillation.md)
 - 2026-10-24 [INC・The Gentlemen系アフィリエイトの「AIが実行し、人が承認する」侵入 ― むき出しのC2から見えた8,257件のAI対話、46本の暗号化ツール、62組織](posts/2026-10-24-inc-gentlemen-affiliates-phantom-ai-opencode-exposed-servers.md)
 - 2026-10-24 [MythicRatatoskr ― C2をYggdrasilメッシュ網の中に隠したバックドア、UAC-0099の侵入をSandwormが引き継ぎウクライナの穀物物流企業でデータ消去](posts/2026-10-24-mythicratatoskr-yggdrasil-uac-0099-sandworm-wiper.md)
