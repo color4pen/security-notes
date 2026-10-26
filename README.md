@@ -100,6 +100,8 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-26 [Downloads に置かれた AGENTS.md がコーディングエージェントを乗っ取る ― Web が勝手に書けるフォルダーが「信頼された作業場所」になっていた](posts/2026-10-26-agents-md-downloads-folder-ai-coding-agent-hijack.md)
+- 2026-10-26 [Tailworm（Tailscale SSH ほか11件） ― 認証を省いた「root のまま動くSSHサーバー」で、ソケット転送が root 専用の docker.sock と systemd に届いた、修正版はまだない](posts/2026-10-26-tailworm-tailscale-ssh-unix-socket-forwarding-root.md)
 - 2026-10-25 [Brotli CVE-2026-111497（Node2Shell） ― 「壊れたデータ」を「続きを待つ」と取り違えた圧縮ライブラリが、Node.js・Bun・Envoy・Pythonの通信を同時にRCEの入口に変えた](posts/2026-10-25-brotli-cve-2026-111497-node2shell-decoder-oob-write.md)
 - 2026-10-25 [Time4Popcorn の放置されたアップデーター ― 失効したドメインを登録すれば数百万台にSYSTEM/root権限でコードを配れた、研究者は「善意の更新」で200万回以上止めた](posts/2026-10-25-time4popcorn-abandoned-updater-domains-operation-ixim.md)
 - 2026-10-24 [Railway の環境変数流出 ― ビルド基盤の権限昇格からCIの認証情報へ、約10万ワークスペースの秘密情報が復号されたおそれ、狙いはAIのAPIキー](posts/2026-10-24-railway-build-infrastructure-env-vars-ai-keys-distillation.md)
