@@ -10,6 +10,7 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-26 [ブラストメール（ラクスライトクラウド） ― API用サーバー2台に侵入され、全契約者の情報と一部の配信先リストが持ち出された、新潟日報25万人・名鉄観光13万人など利用組織の公表が相次ぐ](posts/2026-10-23-rakus-light-cloud-blastmail-api-servers-all-customers.md)
 - 2026-10-26 [ワイメール（イグレックス） ― メール配信サービスのポータルサーバーから「顧客環境のセットアップ用スクリプト」が持ち出され、自治体・企業のメルマガ配信環境からカード会社を装うフィッシングメール](posts/2026-10-26-igreks-ymail-portal-intrusion-phishing-to-subscribers.md)
 - 2026-10-26 [サンケイリビング新聞社 ― 「リビングWeb」などのサーバーに不正アクセス、会員・アンケート回答者の個人情報に漏えいの可能性、広島県・島根県・三重県など受託先の自治体事業にも広がる](posts/2026-10-26-sankei-living-server-intrusion-web-members-municipal-contracts.md)
 - 2026-10-26 [Tokio Marine X少額短期保険 ― 契約情報を管理するシステムに不正アクセスの可能性、お客様ポータルと7商品の新規申込を停止、ドコモの熱中症お見舞金保険も受付を前倒しで終了](posts/2026-10-26-tokio-marine-x-suspected-intrusion-portal-new-applications-halted.md)
@@ -18,7 +19,6 @@
 - 2026-10-25 [グリーンモンスター「FXなび」 ― 10月の不正アクセスの調査で、半年前の4月に別のIPから約619万件のユーザー情報が継続取得されたおそれが判明、原因は「アプリのAPIの機能」](posts/2026-10-25-greenmonster-fx-navi-app-api-6-19m-records-april.md)
 - 2026-10-25 [グッドスマイルカンパニー公式ショップ ― 脆弱性を突いた不正アクセスで約3日半にわたり管理情報が閲覧され、会員の氏名・住所・注文履歴・カード下4桁と有効期限に流出の可能性、サイトは閉鎖](posts/2026-10-25-goodsmile-official-shop-admin-data-viewed-card-last4.md)
 - 2026-10-25 [パナソニック オペレーショナルエクセレンス ― 人事情報システム導入プロジェクトのメンバーが、社内で禁止の外部生成AIに従業員・元従業員・家族約33万4千人分の個人情報をアップロード](posts/2026-10-25-panasonic-hr-project-prohibited-genai-upload-334k.md)
-- 2026-10-24 [ブラストメール（ラクスライトクラウド） ― API用サーバー2台に侵入され、全契約者の情報と一部の配信先リストが持ち出された、新潟日報25万人・名鉄観光13万人など利用組織の公表が相次ぐ](posts/2026-10-23-rakus-light-cloud-blastmail-api-servers-all-customers.md)
 - 2026-10-24 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
 - 2026-10-24 [カプコン「CAPCOM ID」 ― 全世界1177万4247件のメールアドレスとログイン履歴情報が漏えい、196件はパスワードを不正に変更されていた](posts/2026-10-23-capcom-id-11-77m-emails-196-passwords-changed.md)
 - 2026-10-24 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
