@@ -10,6 +10,8 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-26 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
+- 2026-10-26 [アンドエスティHD ― 複数サーバーへの侵入とデータ持ち出し、顧客約250万件・取引先約1万件の情報が漏えいのおそれ](posts/2026-10-24-andst-hd-server-intrusion-2-5m-customers.md)
 - 2026-10-26 [ブラストメール（ラクスライトクラウド） ― API用サーバー2台に侵入され、全契約者の情報と一部の配信先リストが持ち出された、新潟日報25万人・名鉄観光13万人など利用組織の公表が相次ぐ](posts/2026-10-23-rakus-light-cloud-blastmail-api-servers-all-customers.md)
 - 2026-10-26 [ワイメール（イグレックス） ― メール配信サービスのポータルサーバーから「顧客環境のセットアップ用スクリプト」が持ち出され、自治体・企業のメルマガ配信環境からカード会社を装うフィッシングメール](posts/2026-10-26-igreks-ymail-portal-intrusion-phishing-to-subscribers.md)
 - 2026-10-26 [サンケイリビング新聞社 ― 「リビングWeb」などのサーバーに不正アクセス、会員・アンケート回答者の個人情報に漏えいの可能性、広島県・島根県・三重県など受託先の自治体事業にも広がる](posts/2026-10-26-sankei-living-server-intrusion-web-members-municipal-contracts.md)
@@ -21,13 +23,11 @@
 - 2026-10-25 [パナソニック オペレーショナルエクセレンス ― 人事情報システム導入プロジェクトのメンバーが、社内で禁止の外部生成AIに従業員・元従業員・家族約33万4千人分の個人情報をアップロード](posts/2026-10-25-panasonic-hr-project-prohibited-genai-upload-334k.md)
 - 2026-10-24 [沖縄ツーリスト ― 社外からの問い合わせで個人情報漏えいの可能性が判明、OTSレンタカー・ホテル・アクティビティなど5サービスの新規予約を停止](posts/2026-10-22-okinawa-tourist-ots-reservation-services-suspended.md)
 - 2026-10-24 [カプコン「CAPCOM ID」 ― 全世界1177万4247件のメールアドレスとログイン履歴情報が漏えい、196件はパスワードを不正に変更されていた](posts/2026-10-23-capcom-id-11-77m-emails-196-passwords-changed.md)
-- 2026-10-24 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
 - 2026-10-24 [SpeeCAN RAIDEN（アルカディア） ― 全国の自治体の防災メールを載せた配信基盤に不正アクセス、メールアドレス最大約313万6千件と配信履歴の本文に漏洩の可能性](posts/2026-10-14-arcadia-speecan-raiden-municipal-disaster-mail-3-13m.md)
 - 2026-10-24 [JFA公式アプリ「JFA Passport」 ― 10月17日未明から約15時間半の不正アクセスで一部機能を停止、個人情報への影響は調査中](posts/2026-10-19-jfa-passport-app-unauthorized-access-15-hours.md)
 - 2026-10-24 [ユミルリンク「Cuenote FC」 ― メール配信基盤の脆弱性からサポート担当者の認証情報を奪われ、専用ASPプラン5システムでメールアドレスを含む延べ約900万件が持ち出し](posts/2026-10-20-ymirlink-cuenote-fc-support-credentials-9m.md)
 - 2026-10-24 [佐川急便「お荷物問い合わせサービス」への不正アクセス ― 流出の可能性は最大約5323万件（重複を含む）、約100日分の送り状データが対象](posts/2026-10-24-sagawa-tracking-service-up-to-53m-records.md)
 - 2026-10-24 [日本ピザハット ― オンライン注文の決済APIに不正アクセス、お客様ID・メールアドレス・電話番号・セッションログイントークンなどが漏えい](posts/2026-10-24-pizzahut-japan-payment-api-customer-data.md)
-- 2026-10-24 [アンドエスティHD ― 複数サーバーへの侵入とデータ持ち出し、顧客約250万件・取引先約1万件の情報が漏えいのおそれ](posts/2026-10-24-andst-hd-server-intrusion-2-5m-customers.md)
 - 2026-10-24 [トレジャー・ファクトリー ― 出張買取・トレファク引越の案件管理システムに脆弱性悪用の不正アクセス、顧客メールアドレス74万6277件](posts/2026-10-24-treasure-factory-case-management-746k-emails.md)
 - 2026-10-23 [Studio ― ノーコードWeb制作基盤のクラウド環境に不正アクセス、全利用者のアカウントとフォーム送信内容・外部APIキーが、復号鍵ごと流出の可能性](posts/2026-10-17-studio-cloud-environment-all-users-api-keys.md)
 - 2026-10-23 [コミックシーモア ― 会員情報を管理するシステムに不正アクセス、メールアドレスとハッシュ化パスワードなどが流出、件数は精査中でサービスは停止](posts/2026-10-17-comic-cmoa-member-system-hashed-passwords.md)
