@@ -10,6 +10,10 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-26 [ワイメール（イグレックス） ― メール配信サービスのポータルサーバーから「顧客環境のセットアップ用スクリプト」が持ち出され、自治体・企業のメルマガ配信環境からカード会社を装うフィッシングメール](posts/2026-10-26-igreks-ymail-portal-intrusion-phishing-to-subscribers.md)
+- 2026-10-26 [サンケイリビング新聞社 ― 「リビングWeb」などのサーバーに不正アクセス、会員・アンケート回答者の個人情報に漏えいの可能性、広島県・島根県・三重県など受託先の自治体事業にも広がる](posts/2026-10-26-sankei-living-server-intrusion-web-members-municipal-contracts.md)
+- 2026-10-26 [Tokio Marine X少額短期保険 ― 契約情報を管理するシステムに不正アクセスの可能性、お客様ポータルと7商品の新規申込を停止、ドコモの熱中症お見舞金保険も受付を前倒しで終了](posts/2026-10-26-tokio-marine-x-suspected-intrusion-portal-new-applications-halted.md)
+- 2026-10-26 [チャリロト ― 競輪・オートレース投票アプリの脆弱性を突かれ約3時間半の不正アクセス、チャリカ会員373名の住所・銀行口座・投票履歴などが取得された](posts/2026-10-26-chariloto-app-vuln-373-members-bank-accounts-betting-history.md)
 - 2026-10-25 [モスカード／バリューデザイン「Value Card」 ― ハウス電子マネーの発行基盤に不正アクセス、カード番号・PIN・残高の142万件が流出、うちモスカードは113万件でPINを強制変更](posts/2026-10-25-mos-card-valuedesign-value-card-id-pin-balance-1-42m.md)
 - 2026-10-25 [グリーンモンスター「FXなび」 ― 10月の不正アクセスの調査で、半年前の4月に別のIPから約619万件のユーザー情報が継続取得されたおそれが判明、原因は「アプリのAPIの機能」](posts/2026-10-25-greenmonster-fx-navi-app-api-6-19m-records-april.md)
 - 2026-10-25 [グッドスマイルカンパニー公式ショップ ― 脆弱性を突いた不正アクセスで約3日半にわたり管理情報が閲覧され、会員の氏名・住所・注文履歴・カード下4桁と有効期限に流出の可能性、サイトは閉鎖](posts/2026-10-25-goodsmile-official-shop-admin-data-viewed-card-last4.md)
