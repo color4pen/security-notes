@@ -10,6 +10,11 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-27 [Joshin（ジョーシン） ― 10月16日に検知したネットワークへの不正アクセスで、会員情報最大約600万件・サブスク約23万件・リフォーム写真約800件に漏えいの可能性](posts/2026-10-27-joshin-network-intrusion-6-23m-members-subscription-reform-photos.md)
+- 2026-10-27 [楽天トラベル ― 海外ホテル予約の一部ページと多言語予約サイトに不正アクセス、ログイン利用者最大約260万件・予約者約3.6万件のカード情報の一部が対象に](posts/2026-10-27-rakuten-travel-overseas-hotel-multilingual-sites-2-6m.md)
+- 2026-10-27 [バンダイロジパル ― 物流システムへの不正アクセスで「一番くじ ONLINE」の配送情報に漏えいの可能性、出荷システムを一時停止](posts/2026-10-27-bandai-logipal-logistics-system-ichiban-kuji-online-shipping-data.md)
+- 2026-10-27 [ワイズマン「MeLL+（メルタス）」 ― 医療・介護連携サービスのクラウド環境に不正アクセス、不正に使われた認証情報を無効化し8サービスを停止中](posts/2026-10-27-wiseman-mell-plus-cloud-intrusion-care-services-halted.md)
+- 2026-10-27 [台東区障害者支援アプリ「ささえ～る」 ― 委託先ミラボのシステムで不正に管理者アカウントが作られ、208人のメールアドレスと障害のカテゴリーなどがダウンロードされた](posts/2026-10-27-taito-sasaeru-app-mirabo-rogue-admin-account-208.md)
 - 2026-10-26 [お名前.com デスクトップクラウド ― FX自動売買にも使われるWindowsのクラウド環境で、顧客サーバーに不正なプログラム、影響の可能性は2万6739台、全プランのサーバーを停止](posts/2026-10-22-onamae-desktop-cloud-malicious-program-26k-servers.md)
 - 2026-10-26 [アンドエスティHD ― 複数サーバーへの侵入とデータ持ち出し、顧客約250万件・取引先約1万件の情報が漏えいのおそれ](posts/2026-10-24-andst-hd-server-intrusion-2-5m-customers.md)
 - 2026-10-26 [ブラストメール（ラクスライトクラウド） ― API用サーバー2台に侵入され、全契約者の情報と一部の配信先リストが持ち出された、新潟日報25万人・名鉄観光13万人など利用組織の公表が相次ぐ](posts/2026-10-23-rakus-light-cloud-blastmail-api-servers-all-customers.md)
