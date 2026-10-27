@@ -51,7 +51,7 @@
 | パストラバーサル | `path-traversal` | パストラバーサル、ファイルアップロード |
 | SSRF | `ssrf` | SSRF |
 | メモリ破壊 | `memory-corruption` | メモリ破壊、整数オーバーフロー、ヒープオーバーフロー、UAF |
-| 権限昇格 | `privilege-escalation` | 権限昇格、VMエスケープ |
+| 権限昇格 | `privilege-escalation` | 権限昇格、VMエスケープ、サンドボックス回避 |
 | 認証情報の悪用 | `credential-abuse` | 認証情報、APIキー、アクセストークン、AIキー、パスワード、秘密情報管理 |
 | フィッシング | `phishing` | フィッシング、AitM、なりすましメール、ビジネスメール詐欺、なりすまし、ClickFix |
 | Webシェル | `webshell` | Webシェル |

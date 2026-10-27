@@ -37,7 +37,7 @@
         { "name": "パストラバーサル", "slug": "path-traversal", "members": ["パストラバーサル", "ファイルアップロード"] },
         { "name": "SSRF", "slug": "ssrf", "members": ["SSRF"] },
         { "name": "メモリ破壊", "slug": "memory-corruption", "members": ["メモリ破壊", "整数オーバーフロー", "ヒープオーバーフロー", "UAF"] },
-        { "name": "権限昇格", "slug": "privilege-escalation", "members": ["権限昇格", "VMエスケープ"] },
+        { "name": "権限昇格", "slug": "privilege-escalation", "members": ["権限昇格", "VMエスケープ", "サンドボックス回避"] },
         { "name": "認証情報の悪用", "slug": "credential-abuse", "members": ["認証情報", "APIキー", "アクセストークン", "AIキー", "パスワード", "秘密情報管理"] },
         { "name": "フィッシング", "slug": "phishing", "members": ["フィッシング", "AitM", "なりすましメール", "ビジネスメール詐欺", "なりすまし", "ClickFix"] },
         { "name": "Webシェル", "slug": "webshell", "members": ["Webシェル"] },

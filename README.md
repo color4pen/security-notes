@@ -192,7 +192,7 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
-- 2026-10-27 [Wasmtime ― Cranelift の2件の欠陥で、細工したWasmモジュールがサンドボックスを抜けられる（CVSS 9.9）](posts/2026-10-27-wasmtime-cranelift-cve-2026-115889-115893-sandbox-escape.md)
+- 2026-10-27 [Wasmtime ― Cranelift の欠陥でWasmのサンドボックスを抜けられる](posts/2026-10-27-wasmtime-cranelift-cve-2026-115889-115893-sandbox-escape.md)
 - 2026-10-25 [HPE Aruba AOS-8／AOS-10 ― 認証なしRCEの欠陥が8件](posts/2026-10-25-hpe-aruba-aos-8-aos-10-eight-cvss10-cve-2026-79844.md)
 - 2026-10-25 [Pillow 13.0.0 ― 画像を開くだけでコード実行に至る欠陥を修正](posts/2026-10-25-pillow-13-0-0-critical-fpx-mpo-eps-rce-fixes.md)
 - 2026-10-23 [GitLab CVE-2026-110264 ― .orgファイル表示で認証なしRCE](posts/2026-10-23-gitlab-cve-2026-110264-org-mode-onigmo-rce.md)
