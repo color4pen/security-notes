@@ -244,16 +244,24 @@ summary:focus-visible {
   padding: 25px 0 27px;
   border-bottom: 1px solid var(--line);
 }
-.post-topline {
+.post-meta {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 14px;
+  gap: 6px 14px;
   font-size: 12px;
   color: var(--muted);
-  margin-bottom: 9px;
 }
-.post-topline time {
+.post-dates {
+  display: inline-flex;
+  gap: 10px;
   font-variant-numeric: tabular-nums;
+}
+.post-updated {
+  color: var(--ink);
+}
+.post-meta .tags {
+  gap: 7px;
 }
 .topic-label {
   font-weight: 600;
@@ -268,7 +276,7 @@ summary:focus-visible {
   font-size: 24px;
   line-height: 1.65;
   letter-spacing: 0.005em;
-  margin: 0 0 10px;
+  margin: 0 0 8px;
   font-weight: 700;
 }
 .post-main .post-title a:hover {
@@ -286,7 +294,7 @@ summary:focus-visible {
   color: #514d44;
   font-size: 13px;
   line-height: 1.95;
-  margin: 0 0 15px;
+  margin: 0 0 10px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -297,7 +305,8 @@ summary:focus-visible {
   flex-wrap: wrap;
   gap: 7px;
 }
-.tags > span {
+.tags > span,
+.tags > a {
   font-size: 11px;
   line-height: 1.6;
   padding: 0 9px 0 0;
@@ -307,7 +316,8 @@ summary:focus-visible {
   border-radius: 0;
   overflow-wrap: anywhere;
 }
-.tags > span:last-child {
+.tags > span:last-child,
+.tags > a:last-child {
   border-right: 0;
 }
 .empty {
@@ -429,6 +439,133 @@ summary:focus-visible {
 }
 .article-tags {
   margin-top: 20px;
+}
+.article-tags > a:hover,
+.article-taxonomy a:hover,
+.tag-list a:hover,
+.tags-index-link:hover,
+.other-hits a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.article-taxonomy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin: 10px 0 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+.article-taxonomy a {
+  color: var(--ink);
+}
+.article-taxonomy a span {
+  color: var(--muted);
+  margin-right: 4px;
+}
+.article-taxonomy a span::after {
+  content: ' /';
+}
+/* タグ絞り込み（分類ごと） */
+.tag-panel .filter-all {
+  margin-bottom: 12px;
+}
+.tag-group {
+  margin-bottom: 14px;
+}
+.tag-group h3 {
+  margin: 0 0 7px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.tag-panel .filter-buttons button,
+.tag-panel .filter-all {
+  min-height: 28px;
+  padding: 2px 9px;
+  font-size: 11.5px;
+}
+.tag-panel .filter-buttons {
+  gap: 5px;
+}
+.filter-buttons .count,
+.tag-list .count {
+  margin-left: 5px;
+  font-size: 10px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.filter-buttons button[aria-pressed='true'] .count {
+  color: inherit;
+}
+.tags-index-link {
+  display: inline-block;
+  font-size: 12px;
+  color: var(--accent);
+  margin-top: 4px;
+}
+.other-hits {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+.other-hits a {
+  color: var(--accent);
+}
+/* タグ一覧・タグページ */
+.tag-page {
+  padding-block: 28px 48px;
+}
+.tag-header {
+  padding-bottom: 18px;
+  border-bottom: 2px solid var(--ink);
+}
+.tag-header h1 {
+  font-family: var(--serif);
+  font-size: 26px;
+  margin: 8px 0 10px;
+}
+.tag-lead {
+  margin: 0;
+  font-size: 13px;
+  color: #514d44;
+  line-height: 1.9;
+}
+.tag-lead a {
+  color: var(--accent);
+}
+.tag-category {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.tag-category h2 {
+  font-family: var(--serif);
+  font-size: 17px;
+  margin: 0 0 12px;
+}
+.tag-category h2 span {
+  margin-left: 12px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+}
+.tag-siblings {
+  padding-top: 22px;
+}
+.tag-page .post-list > .post-row:first-child {
+  padding-top: 22px;
 }
 .article-grid {
   display: grid;
@@ -1083,8 +1220,8 @@ summary:focus-visible {
   .post-row {
     padding: 22px 0;
   }
-  .post-topline {
-    gap: 12px;
+  .post-meta {
+    gap: 5px 12px;
     font-size: 11px;
   }
   .reading {
@@ -1098,7 +1235,8 @@ summary:focus-visible {
     font-size: 12px;
     -webkit-line-clamp: 2;
   }
-  .tags > span {
+  .tags > span,
+  .tags > a {
     font-size: 10px;
     padding: 0 7px 0 0;
   }

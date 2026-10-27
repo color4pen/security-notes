@@ -14,6 +14,7 @@ import {
   summary,
   readingMinutes,
 } from '../../lib/posts';
+import { searchHref, tagHref, taxonomyFor, taxonomyOf } from '../../lib/taxonomy';
 export async function getStaticPaths() {
   const posts = await allPosts();
   return posts.map((post, index) => ({
@@ -91,10 +92,26 @@ const statusNote =
         <span>by color4pen</span>
       </div>
       <div class="tags article-tags">
-        {post.data.tags.map((tag) => (
-          <span>{tag}</span>
-        ))}
+        {post.data.tags.map((tag) => {
+          const taxonomy = taxonomyFor(tag);
+          return taxonomy && taxonomy.name === tag ? (
+            <a href={tagHref(taxonomy)}>{tag}</a>
+          ) : (
+            <a href={searchHref(tag)}>{tag}</a>
+          );
+        })}
       </div>
+      {taxonomyOf(post).length > 0 && (
+        <p class="article-taxonomy">
+          分類:
+          {taxonomyOf(post).map((tag) => (
+            <a href={tagHref(tag)}>
+              <span>{tag.category}</span>
+              {tag.name}
+            </a>
+          ))}
+        </p>
+      )}
     </header>
     <div class="article-grid">
       <article class="prose">

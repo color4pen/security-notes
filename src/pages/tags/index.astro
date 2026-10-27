@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { allPosts, href } from '../../lib/posts';
+import { categories, tagHref, taxonomyOf } from '../../lib/taxonomy';
+const posts = await allPosts();
+const counts = new Map<string, number>();
+for (const post of posts)
+  for (const tag of taxonomyOf(post))
+    counts.set(tag.name, (counts.get(tag.name) ?? 0) + 1);
+---
+
+<Layout
+  title="タグ一覧"
+  description="攻撃手法・対象技術・インシデント種別で、国内・海外・脆弱性の全記事をたどれます。"
+>
+  <div class="wrap tag-page">
+    <a class="back-link" href={href()}>← すべての記事へ</a>
+    <header class="tag-header">
+      <p class="eyebrow">
+        <span class="blue-square"></span> タグ一覧
+      </p>
+      <h1>攻撃手法・対象技術・インシデント種別で探す</h1>
+      <p class="tag-lead">
+        国内・海外・脆弱性のすべての面の記事が対象です。組織名・製品名・CVE番号などは、
+        <a href={href()}>すべての記事</a>のキーワード検索で探せます。
+      </p>
+    </header>
+    {categories.map((category) => (
+      <section class="tag-category">
+        <h2>
+          {category.name}
+          <span>{category.description}</span>
+        </h2>
+        <ul class="tag-list">
+          {category.tags
+            .filter((tag) => counts.has(tag.name))
+            .map((tag) => (
+              <li>
+                <a href={tagHref(tag)}>
+                  {tag.name}
+                  <span class="count">{counts.get(tag.name)}</span>
+                </a>
+              </li>
+            ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Layout>

@@ -1,16 +1,25 @@
 ---
 import PostRow from './PostRow.astro';
 import type { Tab } from './DeskTabs.astro';
-import { regions, type Post } from '../lib/posts';
+import { href, regions, type Post } from '../lib/posts';
+import { categories, taxonomyOf, tagsIndexHref } from '../lib/taxonomy';
 interface Props {
   tab: Tab;
   posts: Post[];
 }
 const { tab, posts } = Astro.props;
-// タグ絞り込みの候補。このタブの記事に付いているものだけを出す。
-const topics = ['ゼロデイ', '認証回避', 'Webシェル'].filter((topic) =>
-  posts.some((post) => post.data.tags.includes(topic)),
-);
+// タグ絞り込みの候補。分類（攻撃手法・対象技術・インシデント種別）ごとに、このタブの記事に付いているものだけを出す。
+const counts = new Map<string, number>();
+for (const post of posts)
+  for (const tag of taxonomyOf(post))
+    counts.set(tag.name, (counts.get(tag.name) ?? 0) + 1);
+const groups = categories
+  .map((category) => ({
+    ...category,
+    tags: category.tags.filter((tag) => counts.has(tag.name)),
+  }))
+  .filter((category) => category.tags.length > 0);
+const hasTopics = groups.length > 0;
 // タブ名・本数はタブに出ているので、ここでは繰り返さない（見出しはスクリーンリーダー向け）。
 const intro = {
   all: {
@@ -19,7 +28,7 @@ const intro = {
   },
   domestic: {
     title: `${regions.domestic.page}（${regions.domestic.label}）の記事`,
-    lead: '続報を追記しながら記録しています。最終更新日の新しい順。',
+    lead: '続報を追記しながら記録しています。公開日の新しい順（続報を追記した記事は更新日も併記）。',
   },
   overseas: {
     title: `${regions.overseas.page}（${regions.overseas.label}）の記事`,
@@ -39,7 +48,7 @@ const hasPosts = posts.length > 0;
       class="filter-bar"
       id="filters"
       role="search"
-      aria-label="このタブの記事を探す"
+      aria-label="記事を探す"
       hidden
     >
       <label class="search">
@@ -56,6 +65,14 @@ const hasPosts = posts.length > 0;
         <span class="sr-only">このタブの記事を検索</span>
         <input id="search" type="search" placeholder="キーワードで探す" />
       </label>
+      {tab !== 'all' && (
+        <p class="other-hits" id="other-hits" hidden>
+          他の面にも <span id="other-count">0</span>件 →{' '}
+          <a id="other-link" href={href('')}>
+            すべての記事で探す
+          </a>
+        </p>
+      )}
     </div>
   )}
 
@@ -64,7 +81,7 @@ const hasPosts = posts.length > 0;
       {intro.title}
     </h1>
     <p class="tab-lead">{intro.lead}</p>
-    {hasPosts && topics.length > 0 && (
+    {hasPosts && hasTopics && (
       <a class="mobile-tag-link" href="#tag-filter">
         タグで探す ↓
       </a>
@@ -88,7 +105,7 @@ const hasPosts = posts.length > 0;
     </div>
   </section>
   <aside class="blog-sidebar" aria-label="ブログの案内">
-    {hasPosts && topics.length > 0 && (
+    {hasPosts && hasTopics && (
       <section
         class="tag-panel"
         id="tag-filter"
@@ -96,16 +113,29 @@ const hasPosts = posts.length > 0;
         hidden
       >
         <h2 id="tag-heading">タグで探す</h2>
-        <div class="filter-buttons" role="group" aria-label="タグで絞り込み">
-          <button data-filter="all" aria-pressed="true">
-            すべて
-          </button>
-          {topics.map((topic) => (
-            <button data-filter={topic} aria-pressed="false">
-              {topic}
-            </button>
-          ))}
-        </div>
+        <button class="filter-all" data-filter="all" aria-pressed="true">
+          すべて
+        </button>
+        {groups.map((group) => (
+          <div class="tag-group">
+            <h3>{group.name}</h3>
+            <div
+              class="filter-buttons"
+              role="group"
+              aria-label={`${group.name}で絞り込み`}
+            >
+              {group.tags.map((tag) => (
+                <button data-filter={tag.name} aria-pressed="false">
+                  {tag.name}
+                  <span class="count">{counts.get(tag.name)}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        ))}
+        <a class="tags-index-link" href={tagsIndexHref}>
+          すべての面のタグ一覧 →
+        </a>
       </section>
     )}
     <section class="about" id="about" aria-labelledby="about-title">
@@ -117,7 +147,8 @@ const hasPosts = posts.length > 0;
   </aside>
 </div>
 <script>
-  // 検索・タグ絞り込みは、表示中のタブ（ページ）の記事だけを対象にする。
+  // 検索・タグ絞り込みは表示中のタブの記事を絞り込み、他の面の該当件数も知らせる。
+  // ?q=キーワード&tag=タグ で開くと、その条件で絞り込んだ状態から始まる。
   const filters = document.querySelector<HTMLElement>('#filters');
   const input = document.querySelector<HTMLInputElement>('#search');
   if (filters && input) {
@@ -128,15 +159,41 @@ const hasPosts = posts.length > 0;
       ...document.querySelectorAll<HTMLButtonElement>('[data-filter]'),
     ];
     const rows = [...document.querySelectorAll<HTMLElement>('[data-post]')];
-    let selected = 'all';
+    const regionsHere = new Set(rows.map((row) => row.dataset.region));
+    const otherHits = document.querySelector<HTMLElement>('#other-hits');
+    const otherLink = document.querySelector<HTMLAnchorElement>('#other-link');
+    const indexUrl = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/search-index.json`;
+    type Entry = { r: string; t: string[]; s: string };
+    let index: Promise<Entry[]> | undefined;
+    const params = new URLSearchParams(location.search);
+    let selected = params.get('tag') ?? 'all';
+    input.value = params.get('q') ?? '';
+    const matches = (tags: string[], text: string, query: string) =>
+      (selected === 'all' || tags.includes(selected)) && text.includes(query);
+    const showOthers = async (query: string) => {
+      if (!otherHits || !otherLink) return;
+      if (!query && selected === 'all') {
+        otherHits.hidden = true;
+        return;
+      }
+      index ??= fetch(indexUrl).then((response) => response.json());
+      const entries = await index;
+      const count = entries.filter(
+        (entry) => !regionsHere.has(entry.r) && matches(entry.t, entry.s, query),
+      ).length;
+      const search = new URLSearchParams();
+      if (input.value.trim()) search.set('q', input.value.trim());
+      if (selected !== 'all') search.set('tag', selected);
+      otherLink.href = `${otherLink.pathname}?${search}`;
+      document.querySelector('#other-count')!.textContent = String(count);
+      otherHits.hidden = count === 0;
+    };
     const update = () => {
       const query = input.value.trim().toLowerCase();
       let count = 0;
       for (const row of rows) {
         const tags = JSON.parse(row.dataset.tags ?? '[]') as string[];
-        const visible =
-          (selected === 'all' || tags.includes(selected)) &&
-          (row.dataset.search ?? '').includes(query);
+        const visible = matches(tags, row.dataset.search ?? '', query);
         row.hidden = !visible;
         if (visible) count++;
       }
@@ -149,6 +206,12 @@ const hasPosts = posts.length > 0;
       document.querySelector<HTMLElement>('#empty')!.hidden = count !== 0;
       document.querySelector('#result-count')!.textContent =
         `${count}件のノート`;
+      const search = new URLSearchParams();
+      if (input.value.trim()) search.set('q', input.value.trim());
+      if (selected !== 'all') search.set('tag', selected);
+      const qs = search.toString();
+      history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+      showOthers(query).catch(() => {});
     };
     buttons.forEach((button) =>
       button.addEventListener('click', () => {
@@ -167,5 +230,6 @@ const hasPosts = posts.length > 0;
       update();
       input.focus();
     });
+    if (input.value || selected !== 'all') update();
   }
 </script>

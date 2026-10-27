@@ -1,0 +1,73 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PostRow from '../../components/PostRow.astro';
+import { allPosts, href } from '../../lib/posts';
+import {
+  categories,
+  tagHref,
+  tagsIndexHref,
+  taxonomyOf,
+  taxonomyTags,
+} from '../../lib/taxonomy';
+export async function getStaticPaths() {
+  const posts = await allPosts();
+  return taxonomyTags
+    .map((tag) => ({
+      params: { slug: tag.slug },
+      props: {
+        tag,
+        posts: posts.filter((post) => taxonomyOf(post).includes(tag)),
+      },
+    }))
+    .filter(({ props }) => props.posts.length > 0);
+}
+const { tag, posts } = Astro.props;
+const category = categories.find((item) => item.name === tag.category)!;
+const all = await allPosts();
+const used = (item: typeof tag) =>
+  all.some((post) => taxonomyOf(post).includes(item));
+const members = tag.members.filter((member) => member !== tag.name);
+---
+
+<Layout
+  title={`タグ: ${tag.name}`}
+  description={`「${tag.name}」（${tag.category}）の記事 ${posts.length}件。国内・海外・脆弱性の全記事から公開日の新しい順に並べています。`}
+>
+  <div class="wrap tag-page">
+    <a class="back-link" href={tagsIndexHref}>← タグ一覧へ</a>
+    <header class="tag-header">
+      <p class="eyebrow">
+        <span class="blue-square"></span> タグ / {tag.category}
+      </p>
+      <h1>{tag.name}</h1>
+      <p class="tag-lead">
+        すべての面から{posts.length}件。公開日の新しい順。
+        {members.length > 0 && (
+          <span>
+            （{members.join('・')} のタグが付いた記事を含みます）
+          </span>
+        )}
+        <a href={`${href('')}?tag=${encodeURIComponent(tag.name)}`}>
+          キーワードと組み合わせて探す →
+        </a>
+      </p>
+    </header>
+    <div class="post-list">
+      {posts.map((post) => (
+        <PostRow post={post} showRegion />
+      ))}
+    </div>
+    <nav class="tag-siblings" aria-label={`${category.name}の他のタグ`}>
+      <p class="eyebrow">{category.name}の他のタグ</p>
+      <ul class="tag-list">
+        {category.tags
+          .filter((item) => item !== tag && used(item))
+          .map((item) => (
+            <li>
+              <a href={tagHref(item)}>{item.name}</a>
+            </li>
+          ))}
+      </ul>
+    </nav>
+  </div>
+</Layout>

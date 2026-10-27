@@ -1,0 +1,98 @@
+{
+  "aliases": {
+    "個人情報": "個人情報漏えい",
+    "個人情報流出": "個人情報漏えい",
+    "情報流出": "情報漏えい",
+    "リモートコード実行": "RCE",
+    "認証なしRCE": "RCE",
+    "認証前RCE": "RCE",
+    "CISA-KEV": "KEV",
+    "サプライチェーン攻撃": "サプライチェーン",
+    "メールサーバ": "メールサーバー",
+    "委託先・取引先": "委託先",
+    "EC": "ECサイト",
+    "会員アプリ": "スマホアプリ",
+    "アプリ": "スマホアプリ",
+    "クラウドサービス": "クラウド",
+    "仮想化基盤": "仮想化",
+    "暗号通貨マイナー": "クリプトマイニング",
+    "Webサービス停止": "サービス停止",
+    "ハッシュ化パスワード": "パスワードハッシュ",
+    "ローカル権限昇格": "権限昇格",
+    "認証情報窃取": "認証情報",
+    "API認証情報": "認証情報"
+  },
+  "categories": [
+    {
+      "name": "攻撃手法",
+      "description": "どうやって入られたか・何が使われたか",
+      "tags": [
+        { "name": "ゼロデイ", "slug": "zero-day", "members": ["ゼロデイ", "ゼロクリック"] },
+        { "name": "脆弱性悪用", "slug": "vuln-exploit", "members": ["脆弱性", "既知の脆弱性", "PoC", "未修正"] },
+        { "name": "認証回避", "slug": "auth-bypass", "members": ["認証回避", "認証欠落"] },
+        { "name": "認可不備", "slug": "broken-access-control", "members": ["認可不備", "権限の誤付与", "権限管理", "設計上の欠陥"] },
+        { "name": "RCE", "slug": "rce", "members": ["RCE"] },
+        { "name": "インジェクション", "slug": "injection", "members": ["コマンドインジェクション", "SQLインジェクション", "テンプレートインジェクション"] },
+        { "name": "XSS", "slug": "xss", "members": ["XSS", "蓄積型XSS"] },
+        { "name": "パストラバーサル", "slug": "path-traversal", "members": ["パストラバーサル", "ファイルアップロード"] },
+        { "name": "SSRF", "slug": "ssrf", "members": ["SSRF"] },
+        { "name": "メモリ破壊", "slug": "memory-corruption", "members": ["メモリ破壊", "整数オーバーフロー", "ヒープオーバーフロー", "UAF"] },
+        { "name": "権限昇格", "slug": "privilege-escalation", "members": ["権限昇格", "VMエスケープ"] },
+        { "name": "認証情報の悪用", "slug": "credential-abuse", "members": ["認証情報", "APIキー", "アクセストークン", "AIキー", "パスワード", "秘密情報管理"] },
+        { "name": "フィッシング", "slug": "phishing", "members": ["フィッシング", "AitM", "なりすましメール", "ビジネスメール詐欺", "なりすまし", "ClickFix"] },
+        { "name": "Webシェル", "slug": "webshell", "members": ["Webシェル"] },
+        { "name": "マルウェア", "slug": "malware", "members": ["マルウェア", "バックドア", "スパイウェア", "ブートキット", "ワイパー", "メモリ常駐型マルウェア", "情報窃取", "クリプトマイニング", "ボットネット", "インプラント", "プロキシウェア", "BYOVD"] },
+        { "name": "ランサムウェア", "slug": "ransomware", "members": ["ランサムウェア", "二重恐喝", "リークサイト"] },
+        { "name": "サプライチェーン", "slug": "supply-chain", "members": ["サプライチェーン", "アップデート改ざん", "Shai-Hulud", "GlassWorm"] },
+        { "name": "設定不備", "slug": "misconfiguration", "members": ["設定不備", "ハードコード秘密", "非本番環境"] },
+        { "name": "Webスキミング", "slug": "web-skimming", "members": ["Webスキミング"] },
+        { "name": "プロンプトインジェクション", "slug": "prompt-injection", "members": ["プロンプトインジェクション"] },
+        { "name": "標的型攻撃", "slug": "targeted-attack", "members": ["標的型攻撃", "APT"] },
+        { "name": "ドメイン悪用", "slug": "domain-abuse", "members": ["DNSハイジャック", "ホモグラフ", "タイポスクワッティング", "ドメイン失効"] }
+      ]
+    },
+    {
+      "name": "対象技術",
+      "description": "どの製品・仕組みが狙われたか",
+      "tags": [
+        { "name": "ネットワーク機器", "slug": "network-device", "members": ["ネットワーク機器", "VPN", "ファイアウォール", "ルーター", "SD-WAN", "無線LAN", "Wi-Fi", "エッジデバイス", "セキュリティアプライアンス", "リモートアクセス", "NetScaler", "SonicWall", "Ivanti", "Palo Alto Networks", "NX-OS", "VeloCloud", "HPE Aruba", "WAF"] },
+        { "name": "ECサイト", "slug": "ec", "members": ["ECサイト", "Magento", "Adobe Commerce", "EC-CUBE"] },
+        { "name": "CMS", "slug": "cms", "members": ["CMS", "WordPress", "Drupal", "プラグイン", "Rank Math", "UpdraftPlus"] },
+        { "name": "スマホアプリ", "slug": "mobile-app", "members": ["スマホアプリ", "iOS", "モバイル"] },
+        { "name": "API", "slug": "api", "members": ["API", "API悪用"] },
+        { "name": "クラウド・SaaS", "slug": "cloud", "members": ["クラウド", "SaaS", "PaaS", "クラウドストレージ", "Microsoft 365", "Google Workspace", "VPS"] },
+        { "name": "ID・認証基盤", "slug": "identity", "members": ["SAML", "OIDC", "Entra ID", "Active Directory", "LDAP", "JWT", "共通ID", "OAuthアプリ", "NTLM"] },
+        { "name": "メール", "slug": "email", "members": ["メールサーバー", "メール配信", "Microsoft Exchange", "Zimbra", "FortiMail", "メールセキュリティ", "メールアカウント"] },
+        { "name": "開発基盤・CI/CD", "slug": "devops", "members": ["CI/CD", "GitHub Actions", "GitHub", "GitLab", "Docker Hub", "開発者狙い"] },
+        { "name": "パッケージ配布", "slug": "package-registry", "members": ["npm", "PyPI"] },
+        { "name": "AI", "slug": "ai", "members": ["AI", "AIエージェント", "生成AI", "シャドーAI", "AI Gateway", "Codex", "Claude Code"] },
+        { "name": "OS・カーネル", "slug": "os", "members": ["Linux", "Windows", "カーネル", "OpenBSD", "Secure Boot", "UEFI"] },
+        { "name": "仮想化", "slug": "virtualization", "members": ["仮想化", "VMエスケープ", "Kubernetes"] },
+        { "name": "リモート管理ツール", "slug": "remote-management", "members": ["リモートサポート", "リモートデスクトップ", "リモート管理", "AnyDesk", "BeyondTrust", "MSP"] },
+        { "name": "IoT・制御システム", "slug": "iot-ics", "members": ["IoT", "制御システム", "重要インフラ", "DVR", "防犯カメラ"] },
+        { "name": "ブラウザ", "slug": "browser", "members": ["Chrome"] },
+        { "name": "決済", "slug": "payment", "members": ["クレジットカード", "後払い決済", "決済代行", "プリペイド", "口座情報", "銀行口座", "eギフト", "デジタルギフト", "ポイント"] },
+        { "name": "暗号資産", "slug": "crypto-asset", "members": ["暗号資産", "ハードウェアウォレット", "XRP Ledger"] },
+        { "name": "バックアップ・ファイル共有", "slug": "backup-file", "members": ["バックアップ", "ファイルサーバー", "クラウドストレージ", "AhsayCBS"] },
+        { "name": "管理画面", "slug": "admin-console", "members": ["管理画面", "管理ツール", "管理機能", "管理インターフェース", "管理基盤", "管理アカウント"] },
+        { "name": "証明書・PKI", "slug": "pki", "members": ["証明書", "PKI", "認証局", "Certificate Transparency"] }
+      ]
+    },
+    {
+      "name": "インシデント種別",
+      "description": "何が起きたか",
+      "tags": [
+        { "name": "不正アクセス", "slug": "unauthorized-access", "members": ["不正アクセス", "再侵入"] },
+        { "name": "個人情報漏えい", "slug": "personal-data-leak", "members": ["個人情報漏えい", "本人確認書類", "履歴書", "要配慮個人情報", "パスワードハッシュ"] },
+        { "name": "情報漏えい", "slug": "data-leak", "members": ["情報漏えい", "取引先情報", "人事情報"] },
+        { "name": "サービス停止", "slug": "service-outage", "members": ["サービス停止", "DoS"] },
+        { "name": "委託先経由", "slug": "third-party", "members": ["委託先", "海外子会社"] },
+        { "name": "金銭被害・不正利用", "slug": "financial-fraud", "members": ["不正取引", "ポイント不正交換", "不正発行", "アカウント不正利用", "特別損失"] },
+        { "name": "アカウント乗っ取り", "slug": "account-takeover", "members": ["アカウント乗っ取り"] },
+        { "name": "内部不正・ルール違反", "slug": "insider", "members": ["ルール違反"] },
+        { "name": "悪用確認", "slug": "exploited", "members": ["悪用確認", "KEV"] },
+        { "name": "注意喚起", "slug": "advisory", "members": ["注意喚起"] }
+      ]
+    }
+  ]
+}
