@@ -106,6 +106,8 @@
 
 ### 海外（国際面・新しい順）
 
+- 2026-10-27 [Gheist ― 盗まれたGitHubトークン850件超で1万3500本のブランチを作り、Actionsのログにシークレットをbase32で吐き出させて回収する](posts/2026-10-27-gheist-stolen-github-tokens-actions-log-secret-dump.md)
+- 2026-10-27 [Magento CMSブロックのローダー ― 953店舗に15か月で5つのドメインを渡り歩き、スキャナーには何も返さず、一度受け取った買い物客のブラウザーでは再実行され続ける](posts/2026-10-27-magento-cms-block-loader-deepveindrilling-953-stores.md)
 - 2026-10-26 [Downloads に置かれた AGENTS.md がコーディングエージェントを乗っ取る ― Web が勝手に書けるフォルダーが「信頼された作業場所」になっていた](posts/2026-10-26-agents-md-downloads-folder-ai-coding-agent-hijack.md)
 - 2026-10-26 [Tailworm（Tailscale SSH ほか11件） ― 認証を省いた「root のまま動くSSHサーバー」で、ソケット転送が root 専用の docker.sock と systemd に届いた、修正版はまだない](posts/2026-10-26-tailworm-tailscale-ssh-unix-socket-forwarding-root.md)
 - 2026-10-25 [Brotli CVE-2026-111497（Node2Shell） ― 「壊れたデータ」を「続きを待つ」と取り違えた圧縮ライブラリが、Node.js・Bun・Envoy・Pythonの通信を同時にRCEの入口に変えた](posts/2026-10-25-brotli-cve-2026-111497-node2shell-decoder-oob-write.md)
