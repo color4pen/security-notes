@@ -2,7 +2,7 @@
 title: "ConnectWise Cloud Backup ― アプリの鍵でM365テナントに侵入"
 date: 2026-10-18
 region: overseas
-tags: [ConnectWise, サプライチェーン攻撃, Microsoft 365, Entra ID, OAuthアプリ]
+tags: [ConnectWise, サプライチェーン, Microsoft 365, Entra ID, OAuthアプリ]
 description: "MSP向けのMicrosoft 365バックアップサービス ConnectWise Cloud Backup（旧SkyKick）のアプリの認証情報が攻撃者の手に渡り、10月15日、そのアプリに同意していた顧客テナントへアプリとしてサインインされた。Huntressは162テナントで不正なサインインを確認し、のちにサインイン活動のあったテナントは約1,000、成功は300超とした。1つのテナントでは、別のConnectWiseアプリが自分をグローバル管理者にし、他のアプリに新しいシークレットを足していた。アプリとしてのサインインには利用者のMFAも条件付きアクセスもかからない。ConnectWiseは10月17日に7つのアプリを無効化してサービスを止めたが、テナント内に足された認証情報や権限は残るため、各テナントでの点検が必要になる。ConnectWise Cloud Backup（旧SkyKick）の認証情報悪用。バックアップ用アプリ1つの鍵で数百のMicrosoft 365テナントへ、MFAも条件付きアクセスも効かなかった。"
 ---
 

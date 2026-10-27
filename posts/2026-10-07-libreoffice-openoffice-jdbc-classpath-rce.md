@@ -2,7 +2,7 @@
 title: "LibreOffice／OpenOffice ― 表計算ファイルを開くだけでJavaコード実行"
 date: 2026-10-07
 region: overseas
-tags: [LibreOffice, リモートコード実行, オフィスソフト, Java, 文書ファイル]
+tags: [LibreOffice, RCE, オフィスソフト, Java, 文書ファイル]
 description: "LibreOffice Calc と Apache OpenOffice Calc で、細工した表計算ファイルを開くと、自動更新されるデータベース範囲から外部のODBファイルとJDBCドライバーのJARが読み込まれ、マクロの警告なしに攻撃者のJavaコードが動く。LibreOfficeは10月5日に26.2.5／26.8.0で修正、OpenOfficeは4.1.16以前が影響を受け、4.1.17で修正予定。Java連携が有効な環境が対象。LibreOffice CVE-2026-63277／OpenOffice CVE-2026-59265。表計算ファイルを開くだけで外部のJavaコードが動く、マクロの警告を通らない「データ連携」の連鎖。"
 ---
 

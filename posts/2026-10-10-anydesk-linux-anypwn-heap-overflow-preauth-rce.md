@@ -2,7 +2,7 @@
 title: "AnyDesk Linux「AnyPwn」 ― 認証前rootの攻撃コードが公開"
 date: 2026-10-10
 region: overseas
-tags: [AnyDesk, リモートデスクトップ, ヒープオーバーフロー, 認証前RCE, Linux, PoC]
+tags: [AnyDesk, リモートデスクトップ, ヒープオーバーフロー, RCE, Linux, PoC]
 description: "V12が、AnyDesk Linux 8.0.2のセッションプロトコルに認証前のヒープバッファオーバーフローがあり、接続承認の前にrootでコマンドを実行できるとする攻撃コード「AnyPwn」を公開した。ベンダーは6月に8.0.3で直したが、変更履歴は「クラッシュにつながる不具合の修正」だけで、CVEもセキュリティ情報もない。8.0.3以降（最新は8.1.0）へ更新し、直るまでTCP 7070を閉じる。AnyDesk Linux AnyPwn。「クラッシュ修正」とだけ書かれたヒープオーバーフローに、認証前rootの攻撃コードが公開された。"
 ---
 
