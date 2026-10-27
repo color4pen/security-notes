@@ -1,14 +1,14 @@
 ---
-title: "集英社 HAPPY PLUS COMMUNITY ― CMS設定不備から特権アカウントが作られブロガー2835人分が漏えい"
+title: "集英社 HAPPY PLUS COMMUNITY ― CMS設定不備から情報漏えい"
 date: 2026-10-02
 region: domestic
 status: ongoing
 issue: 6
 tags: [集英社, 個人情報漏えい, CMS, API, 不正アクセス]
-description: 集英社はファッション誌ブロガー管理システム「HAPPY PLUS COMMUNITY」への不正アクセスで、ブロガー2,835人分の個人情報などが漏えいしたと9月28日に公表。原因はCMS設定不備に起因するAPI認証情報への攻撃と説明。
+description: "集英社はファッション誌ブロガー管理システム「HAPPY PLUS COMMUNITY」への不正アクセスで、ブロガー2,835人分の個人情報などが漏えいしたと9月28日に公表。原因はCMS設定不備に起因するAPI認証情報への攻撃と説明。CMS設定不備から特権アカウントが作られブロガー2835人分が漏えい。"
 ---
 
-# 集英社 HAPPY PLUS COMMUNITY ― CMS設定不備から特権アカウントが作られブロガー2835人分が漏えい
+# 集英社 HAPPY PLUS COMMUNITY ― CMS設定不備から情報漏えい
 
 ## 要点
 

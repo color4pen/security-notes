@@ -1,12 +1,12 @@
 ---
-title: "ガーナ・シエラレオネ・米領サモアのccTLD乗っ取り ― 国別ドメインのDNSを書き換え、GoogleやYouTubeの正規のHTTPS証明書を取得"
+title: "ccTLD乗っ取り ― 国別ドメインのDNSを書き換え正規証明書を取得"
 date: 2026-10-08
 region: overseas
 tags: [DNSハイジャック, 証明書, Google, Certificate Transparency, CAA]
-description: 攻撃者が .gh（ガーナ）・.sl（シエラレオネ）・.as（米領サモア）の国別トップレベルドメインを侵害して権威DNSを書き換え、google.com.gh などの正規のHTTPS証明書を認証局から取得した。Googleは自社のシステムは侵害されていないとし、Chromeで証明書を遮断。ドメイン所有者にはCTログの監視と、ACMEアカウントに紐づけた厳しいCAAレコードを求めている。
+description: "攻撃者が .gh（ガーナ）・.sl（シエラレオネ）・.as（米領サモア）の国別トップレベルドメインを侵害して権威DNSを書き換え、google.com.gh などの正規のHTTPS証明書を認証局から取得した。Googleは自社のシステムは侵害されていないとし、Chromeで証明書を遮断。ドメイン所有者にはCTログの監視と、ACMEアカウントに紐づけた厳しいCAAレコードを求めている。ガーナ・シエラレオネ・米領サモアのccTLD乗っ取り。国別ドメインのDNSを書き換え、GoogleやYouTubeの正規のHTTPS証明書を取得。"
 ---
 
-# ガーナ・シエラレオネ・米領サモアのccTLD乗っ取り ― 国別ドメインのDNSを書き換え、GoogleやYouTubeの正規のHTTPS証明書を取得
+# ccTLD乗っ取り ― 国別ドメインのDNSを書き換え正規証明書を取得
 
 ## 要点
 

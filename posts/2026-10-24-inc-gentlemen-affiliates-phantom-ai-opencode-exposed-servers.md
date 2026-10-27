@@ -1,12 +1,12 @@
 ---
-title: "INC・The Gentlemen系アフィリエイトの「AIが実行し、人が承認する」侵入 ― むき出しのC2から見えた8,257件のAI対話、46本の暗号化ツール、62組織"
+title: "INC・The Gentlemen系 ― 「AIが実行し人が承認する」侵入"
 date: 2026-10-24
 region: overseas
 tags: [ランサムウェア, INC Ransomware, The Gentlemen, AIエージェント, 脅威インテリジェンス]
-description: SOCRadarの調査チームSTRUは、INC RansomwareとThe Gentlemenの両方にかかわるアフィリエイトの基盤7台を見つけたと公表した。外から読めたC2サーバーには、OpenCodeと市販のLLMで侵入を進めた133セッション・8,257件の対話、独自の攻撃フレームワーク「Phantom」、10月1日の一斉暗号化に向けた46本のINC暗号化ツールが残っていた。入口はFortiClient EMS・SimpleHelp・cPanelの既知の脆弱性で、被害を広げたのは使い回されたパスワードだった。
+description: "SOCRadarの調査チームSTRUは、INC RansomwareとThe Gentlemenの両方にかかわるアフィリエイトの基盤7台を見つけたと公表した。外から読めたC2サーバーには、OpenCodeと市販のLLMで侵入を進めた133セッション・8,257件の対話、独自の攻撃フレームワーク「Phantom」、10月1日の一斉暗号化に向けた46本のINC暗号化ツールが残っていた。入口はFortiClient EMS・SimpleHelp・cPanelの既知の脆弱性で、被害を広げたのは使い回されたパスワードだった。INC・The Gentlemen系アフィリエイトの「AIが実行し、人が承認する」侵入。むき出しのC2から見えた8,257件のAI対話、46本の暗号化ツール、62組織。"
 ---
 
-# INC・The Gentlemen系アフィリエイトの「AIが実行し、人が承認する」侵入 ― むき出しのC2から見えた8,257件のAI対話、46本の暗号化ツール、62組織
+# INC・The Gentlemen系 ― 「AIが実行し人が承認する」侵入
 
 ## 要点
 

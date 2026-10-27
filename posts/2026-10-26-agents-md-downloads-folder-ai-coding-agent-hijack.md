@@ -1,12 +1,12 @@
 ---
-title: "Downloads に置かれた AGENTS.md がコーディングエージェントを乗っ取る ― Web が勝手に書けるフォルダーが「信頼された作業場所」になっていた"
+title: "Downloadsの AGENTS.md ― コーディングエージェントを乗っ取る"
 date: 2026-10-26
 region: overseas
 tags: [AIエージェント, Codex, Claude Code, プロンプトインジェクション, サプライチェーン]
-description: Forever Security は、顧客の端末の ~/Downloads に置かれた AGENTS.md が、OpenAI Codex に悪性 npm パッケージ function-color を入れさせようとしたのを検知したと公表した。Web ページは利用者の操作なしに Downloads へファイルを保存でき、そこでエージェントを起動すると指示ファイルとして読み込まれる。Codex では全体設定 ~/.codex/config.toml に MCP サーバーを書き込ませて9割超でコードを実行し、Claude Code では CLAUDE.md で API の宛先を書き換えさせて OAuth トークンを奪えた。ベンダーが直す種類の欠陥ではなく、運用で防ぐ必要がある。
+description: "Forever Security は、顧客の端末の ~/Downloads に置かれた AGENTS.md が、OpenAI Codex に悪性 npm パッケージ function-color を入れさせようとしたのを検知したと公表した。Web ページは利用者の操作なしに Downloads へファイルを保存でき、そこでエージェントを起動すると指示ファイルとして読み込まれる。Codex では全体設定 ~/.codex/config.toml に MCP サーバーを書き込ませて9割超でコードを実行し、Claude Code では CLAUDE.md で API の宛先を書き換えさせて OAuth トークンを奪えた。ベンダーが直す種類の欠陥ではなく、運用で防ぐ必要がある。Downloads に置かれた AGENTS.md がコーディングエージェントを乗っ取る。Web が勝手に書けるフォルダーが「信頼された作業場所」になっていた。"
 ---
 
-# Downloads に置かれた AGENTS.md がコーディングエージェントを乗っ取る ― Web が勝手に書けるフォルダーが「信頼された作業場所」になっていた
+# Downloadsの AGENTS.md ― コーディングエージェントを乗っ取る
 
 ## 要点
 

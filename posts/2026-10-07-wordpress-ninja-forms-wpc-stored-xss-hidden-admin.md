@@ -1,12 +1,12 @@
 ---
-title: "Ninja Forms／WPC Product Bundles の蓄積型XSS悪用 ― 管理者が投稿を開いた瞬間に、一覧に出ない管理者と裏口ログインが作られる"
+title: "Ninja Forms／WPC Product Bundles ― 蓄積型XSSで隠し管理者作成"
 date: 2026-10-07
 region: overseas
 tags: [WordPress, 蓄積型XSS, Webシェル, プラグイン, 永続化]
-description: Patchstackが、WordPressプラグイン Ninja Forms（CVE-2026-94504）と WPC Product Bundles for WooCommerce（CVE-2026-93836）の蓄積型XSSを使い、管理者のブラウザ上で偽プラグインのインストールと管理者作成を行う攻撃を10月4日から観測。ユーザー一覧に出ない管理者、元の管理者として入れる裏口URL、認証なしのファイルマネージャーが残り、プラグインを更新しても消えない。
+description: "Patchstackが、WordPressプラグイン Ninja Forms（CVE-2026-94504）と WPC Product Bundles for WooCommerce（CVE-2026-93836）の蓄積型XSSを使い、管理者のブラウザ上で偽プラグインのインストールと管理者作成を行う攻撃を10月4日から観測。ユーザー一覧に出ない管理者、元の管理者として入れる裏口URL、認証なしのファイルマネージャーが残り、プラグインを更新しても消えない。Ninja Forms／WPC Product Bundles の蓄積型XSS悪用。管理者が投稿を開いた瞬間に、一覧に出ない管理者と裏口ログインが作られる。"
 ---
 
-# Ninja Forms／WPC Product Bundles の蓄積型XSS悪用 ― 管理者が投稿を開いた瞬間に、一覧に出ない管理者と裏口ログインが作られる
+# Ninja Forms／WPC Product Bundles ― 蓄積型XSSで隠し管理者作成
 
 ## 要点
 

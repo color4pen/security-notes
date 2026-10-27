@@ -1,12 +1,12 @@
 ---
-title: "GhostAction再来 ― 「Security Audit」を名乗るワークフローが数百のGitHubリポジトリに押し込まれ、git履歴の奥に残った鍵まで掘り出す"
+title: "GhostAction再来 ― 偽「Security Audit」ワークフローで鍵を窃取"
 date: 2026-10-11
 region: overseas
 tags: [サプライチェーン, GitHub Actions, 認証情報, CI/CD, GhostAction]
-description: 乗っ取られたメンテナのアカウントから、セキュリティ監査を装うワークフローがPRなしでデフォルトブランチに直接コミットされた。10月8日の波ではpyxelやuber/athenadriverなど346リポジトリが対象になり、Actionsのシークレットに加えて、作業ツリーと全ブランチのgit履歴からAWS・AI・GitHubなどの鍵を抜いて平文HTTPで送る。
+description: "乗っ取られたメンテナのアカウントから、セキュリティ監査を装うワークフローがPRなしでデフォルトブランチに直接コミットされた。10月8日の波ではpyxelやuber/athenadriverなど346リポジトリが対象になり、Actionsのシークレットに加えて、作業ツリーと全ブランチのgit履歴からAWS・AI・GitHubなどの鍵を抜いて平文HTTPで送る。「Security Audit」を名乗るワークフローが数百のGitHubリポジトリに押し込まれ、git履歴の奥に残った鍵まで掘り出す。"
 ---
 
-# GhostAction再来 ― 「Security Audit」を名乗るワークフローが数百のGitHubリポジトリに押し込まれ、git履歴の奥に残った鍵まで掘り出す
+# GhostAction再来 ― 偽「Security Audit」ワークフローで鍵を窃取
 
 ## 要点
 

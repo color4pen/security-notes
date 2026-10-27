@@ -1,12 +1,12 @@
 ---
-title: "Star Blizzard RedFlick ― ClickFixからVHDX＋スケジュールタスクへ、1操作でCosmicPulseを入れるespionage配信"
+title: "Star Blizzard ― ClickFixからCosmicPulseを入れる諜報攻撃"
 date: 2026-10-02
 region: overseas
 tags: [Star Blizzard, RedFlick, CosmicPulse, フィッシング, APT, FSB, Microsoft]
-description: ロシア系Star Blizzardが、ClickFixに代わりVHDXと偽メンテ名のスケジュールタスク（RedFlick）でCosmicPulseを配布。2026年に13件超の大規模キャンペーン。
+description: "ロシア系Star Blizzardが、ClickFixに代わりVHDXと偽メンテ名のスケジュールタスク（RedFlick）でCosmicPulseを配布。2026年に13件超の大規模キャンペーン。Star Blizzard RedFlick。ClickFixからVHDX＋スケジュールタスクへ、1操作でCosmicPulseを入れるespionage配信。"
 ---
 
-# Star Blizzard RedFlick ― ClickFixからVHDX＋スケジュールタスクへ、1操作でCosmicPulseを入れるespionage配信
+# Star Blizzard ― ClickFixからCosmicPulseを入れる諜報攻撃
 
 ## 要点
 

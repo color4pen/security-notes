@@ -1,12 +1,12 @@
 ---
-title: "OpenBSD「Big Fish」― 37年前から続く共有メモリ添付カウンタの整数オーバーフローとUAFで、KARL／SMAP／SMEP付きのままローカルroot"
+title: "OpenBSD「Big Fish」 ― 37年前からの欠陥でローカルroot"
 date: 2026-10-19
 region: overseas
 tags: [OpenBSD, ローカル権限昇格, カーネル, 整数オーバーフロー, UAF]
-description: CalifのAndrew Griffiths氏が、OpenBSD 7.9でKARL・SMAP・SMEPが有効なまま、情報漏えいなしにローカルでrootを取る攻撃連鎖「Big Fish」を公開した。入口は約37年前のBSD由来で、共有メモリの添付数カウンタshm_nattchが符号付き16ビットのまま残っていたこと。オーバーフローと参照カウントのUAF、別の範囲外書き込みを組み合わせ、起動直後に場所が決まりやすい関数ポインタを書き換える。修正は7.9のerrata 018（信頼性）と026（セキュリティ）、7.8は054と062。CVEは付いておらず、悪用の報告もない。
+description: "CalifのAndrew Griffiths氏が、OpenBSD 7.9でKARL・SMAP・SMEPが有効なまま、情報漏えいなしにローカルでrootを取る攻撃連鎖「Big Fish」を公開した。入口は約37年前のBSD由来で、共有メモリの添付数カウンタshm_nattchが符号付き16ビットのまま残っていたこと。オーバーフローと参照カウントのUAF、別の範囲外書き込みを組み合わせ、起動直後に場所が決まりやすい関数ポインタを書き換える。修正は7.9のerrata 018（信頼性）と026（セキュリティ）、7.8は054と062。CVEは付いておらず、悪用の報告もない。37年前から続く共有メモリ添付カウンタの整数オーバーフローとUAFで、KARL／SMAP／SMEP付きのままローカルroot。"
 ---
 
-# OpenBSD「Big Fish」― 37年前から続く共有メモリ添付カウンタの整数オーバーフローとUAFで、KARL／SMAP／SMEP付きのままローカルroot
+# OpenBSD「Big Fish」 ― 37年前からの欠陥でローカルroot
 
 ## 要点
 

@@ -1,12 +1,12 @@
 ---
-title: "npmのTrusted Publishing「SlugFest」 ― 信頼の紐づけ先を「owner/repo」の名前で覚えていたため、空いた名前を取り直すだけで他人のパッケージを公開できた"
+title: "npm Trusted Publishing「SlugFest」 ― 他人のパッケージを公開できた"
 date: 2026-10-14
 region: overseas
 tags: [npm, サプライチェーン, GitHub Actions, OIDC, 設計上の欠陥]
-description: npmのTrusted Publishing（OIDCによるトークン不要の公開）は、信頼するGitHubリポジトリを、最初の公開が済むまで変わらない数値IDではなく「owner/repo」という名前だけで覚えていた。リポジトリの改名・移管・削除で空いた名前を攻撃者が取り直すと、認証情報を何も盗まずに他人のパッケージの新しい版を公開できた。Bloom Securityは1,500超のパッケージが該当したとし、GitHubは10月2日、未検証の設定を作成48時間で失効させる変更を入れた。
+description: "npmのTrusted Publishing（OIDCによるトークン不要の公開）は、信頼するGitHubリポジトリを、最初の公開が済むまで変わらない数値IDではなく「owner/repo」という名前だけで覚えていた。リポジトリの改名・移管・削除で空いた名前を攻撃者が取り直すと、認証情報を何も盗まずに他人のパッケージの新しい版を公開できた。Bloom Securityは1,500超のパッケージが該当したとし、GitHubは10月2日、未検証の設定を作成48時間で失効させる変更を入れた。"
 ---
 
-# npmのTrusted Publishing「SlugFest」 ― 信頼の紐づけ先を「owner/repo」の名前で覚えていたため、空いた名前を取り直すだけで他人のパッケージを公開できた
+# npm Trusted Publishing「SlugFest」 ― 他人のパッケージを公開できた
 
 ## 要点
 

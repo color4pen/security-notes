@@ -1,12 +1,12 @@
 ---
-title: "Cling（ClingSTUN）― 公開STUNサーバーとのやり取りに命令を紛れ込ませ、GoogleのSTUNを装って届くIoTボットネット"
+title: "Cling ― STUN通信に命令を紛れ込ませるIoTボットネット"
 date: 2026-10-06
 region: overseas
 tags: [Cling, ボットネット, IoT, STUN, Realtek, ルーター, 既知の脆弱性]
-description: Nozomi NetworksとFortiGuard Labsが、ルーターやDVRの既知の脆弱性で広がるLinuxボットネットCling（ClingSTUN）を報告。NAT越えのSTUN通信に登録と命令を紛れ込ませ、命令はGoogleのSTUNサーバーのIPアドレスを偽装した送信元から届いていた。
+description: "Nozomi NetworksとFortiGuard Labsが、ルーターやDVRの既知の脆弱性で広がるLinuxボットネットCling（ClingSTUN）を報告。NAT越えのSTUN通信に登録と命令を紛れ込ませ、命令はGoogleのSTUNサーバーのIPアドレスを偽装した送信元から届いていた。Cling（ClingSTUN）。公開STUNサーバーとのやり取りに命令を紛れ込ませ、GoogleのSTUNを装って届くIoTボットネット。"
 ---
 
-# Cling（ClingSTUN）― 公開STUNサーバーとのやり取りに命令を紛れ込ませ、GoogleのSTUNを装って届くIoTボットネット
+# Cling ― STUN通信に命令を紛れ込ませるIoTボットネット
 
 ## 要点
 

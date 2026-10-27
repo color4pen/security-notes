@@ -1,12 +1,12 @@
 ---
-title: "TA419 ― 元米政府高官やAnthropic社員を装ってAI政策の専門家に接近、MFAごとセッションを奪うAitMフィッシング"
+title: "TA419 ― AI政策の専門家を狙うAitMフィッシング"
 date: 2026-10-05
 region: overseas
 tags: [TA419, AitM, フィッシング, Microsoft 365, Entra ID, 中国, 標的型攻撃]
-description: Proofpointが中国寄りのTA419を報告。無害なメールで信頼を得てから偽OneDrive経由でMicrosoft 365のログインを中継し、MFA後のセッションCookieを奪う。日本の組織や防衛相のなりすましドメインも。
+description: "Proofpointが中国寄りのTA419を報告。無害なメールで信頼を得てから偽OneDrive経由でMicrosoft 365のログインを中継し、MFA後のセッションCookieを奪う。日本の組織や防衛相のなりすましドメインも。元米政府高官やAnthropic社員を装ってAI政策の専門家に接近、MFAごとセッションを奪うAitMフィッシング。"
 ---
 
-# TA419 ― 元米政府高官やAnthropic社員を装ってAI政策の専門家に接近、MFAごとセッションを奪うAitMフィッシング
+# TA419 ― AI政策の専門家を狙うAitMフィッシング
 
 ## 要点
 

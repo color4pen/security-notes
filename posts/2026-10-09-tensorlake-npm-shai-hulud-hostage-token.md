@@ -1,12 +1,12 @@
 ---
-title: "tensorlake npm 0.5.144 ― 正規リポジトリのmainから出たShai-Huludワーム、トークンを取り消すとホームを消す人質機構"
+title: "tensorlake npm ― 正規リポジトリからShai-Huludワームが配布"
 date: 2026-10-09
 region: overseas
 tags: [サプライチェーン, npm, Shai-Hulud, AIエージェント, 認証情報]
-description: AIエージェント基盤のnpm SDK「tensorlake」の0.5.144が、メンテナ名義でmainに直接押し込まれた後、正規のリリースフローとprovenance付きで公開された。preinstallで認証情報を奪い、奪ったGitHubトークンを取り消すとホームディレクトリを消す「人質」監視を仕込む。
+description: "AIエージェント基盤のnpm SDK「tensorlake」の0.5.144が、メンテナ名義でmainに直接押し込まれた後、正規のリリースフローとprovenance付きで公開された。preinstallで認証情報を奪い、奪ったGitHubトークンを取り消すとホームディレクトリを消す「人質」監視を仕込む。tensorlake npm 0.5.144。正規リポジトリのmainから出たShai-Huludワーム、トークンを取り消すとホームを消す人質機構。"
 ---
 
-# tensorlake npm 0.5.144 ― 正規リポジトリのmainから出たShai-Huludワーム、トークンを取り消すとホームを消す人質機構
+# tensorlake npm ― 正規リポジトリからShai-Huludワームが配布
 
 ## 要点
 

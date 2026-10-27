@@ -1,12 +1,12 @@
 ---
-title: "npmパッケージ imgdecode（MALFEX） ― インストールスクリプトなし、require()した瞬間に同梱のWindows用DLLがシェルコードを取りに行く"
+title: "npm「imgdecode」 ― require()だけでシェルコードを取得する悪性パッケージ"
 date: 2026-10-18
 region: overseas
 tags: [npm, サプライチェーン攻撃, マルウェア, Windows, 開発者狙い]
-description: 2023年からWindowsの開発者を狙ってnpmに悪性パッケージを出し続けている「MALFEX」が、削除されたJavaScriptの部品を2日以内に作り直し、最後はローダーをコンパイル済みのNode.jsネイティブアドオン（DLL）に移した。imgdecodeはrequire()されただけで、対話型のコンソールで動いているときに限り、GitHubから暗号化されたシェルコードを取得し、停止状態で起動したdllhost.exeに注入する。インストールスクリプトを使わないため、install scriptを止める対策では防げない。SafeDepが分析を公開した10月13日以降も、10月18日昼の時点でnpmに残っている。
+description: "2023年からWindowsの開発者を狙ってnpmに悪性パッケージを出し続けている「MALFEX」が、削除されたJavaScriptの部品を2日以内に作り直し、最後はローダーをコンパイル済みのNode.jsネイティブアドオン（DLL）に移した。imgdecodeはrequire()されただけで、対話型のコンソールで動いているときに限り、GitHubから暗号化されたシェルコードを取得し、停止状態で起動したdllhost.exeに注入する。インストールスクリプトを使わないため、install scriptを止める対策では防げない。SafeDepが分析を公開した10月13日以降も、10月18日昼の時点でnpmに残っている。npmパッケージ imgdecode（MALFEX）。インストールスクリプトなし、require()した瞬間に同梱のWindows用DLLがシェルコードを取りに行く。"
 ---
 
-# npmパッケージ imgdecode（MALFEX） ― インストールスクリプトなし、require()した瞬間に同梱のWindows用DLLがシェルコードを取りに行く
+# npm「imgdecode」 ― require()だけでシェルコードを取得する悪性パッケージ
 
 ## 要点
 

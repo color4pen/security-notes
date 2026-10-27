@@ -1,12 +1,12 @@
 ---
-title: "AdFection ― 広告が表示されただけで感染、イスラエルの広告会社Discover-Techの「狙った1台にだけ攻撃コードを返す」配信でAl JazeeraにCandiruのスパイウェア"
+title: "AdFection ― 広告配信経由でAl JazeeraにCandiruのスパイウェア"
 date: 2026-10-16
 region: overseas
 tags: [スパイウェア, ゼロクリック, Candiru, 広告, 監視]
-description: カナダのCitizen Labは、イスラエルの広告会社Discover-Techが買った広告を通じて、報道機関Al Jazeeraの端末にCandiru（現Integrity Labs）のスパイウェアが送り込まれたと報告した。広告はふだん何も返さず、広告IDやIPアドレスで選んだ相手にだけ攻撃用のJavaScriptを1回だけ返すため、広告配信網の審査をすり抜けた。少なくとも45台が標的になり、この手口の広告は約7.5万のアプリと約12万のWebサイトに表示されていた。Googleなどは10月上旬に同社を締め出した。
+description: "カナダのCitizen Labは、イスラエルの広告会社Discover-Techが買った広告を通じて、報道機関Al Jazeeraの端末にCandiru（現Integrity Labs）のスパイウェアが送り込まれたと報告した。広告はふだん何も返さず、広告IDやIPアドレスで選んだ相手にだけ攻撃用のJavaScriptを1回だけ返すため、広告配信網の審査をすり抜けた。少なくとも45台が標的になり、この手口の広告は約7.5万のアプリと約12万のWebサイトに表示されていた。Googleなどは10月上旬に同社を締め出した。広告が表示されただけで感染、イスラエルの広告会社Discover-Techの「狙った1台にだけ攻撃コードを返す」配信でAl JazeeraにCandiruのスパイウェア。"
 ---
 
-# AdFection ― 広告が表示されただけで感染、イスラエルの広告会社Discover-Techの「狙った1台にだけ攻撃コードを返す」配信でAl JazeeraにCandiruのスパイウェア
+# AdFection ― 広告配信経由でAl JazeeraにCandiruのスパイウェア
 
 ## 要点
 

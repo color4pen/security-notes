@@ -1,12 +1,12 @@
 ---
-title: "MythicRatatoskr ― C2をYggdrasilメッシュ網の中に隠したバックドア、UAC-0099の侵入をSandwormが引き継ぎウクライナの穀物物流企業でデータ消去"
+title: "MythicRatatoskr ― C2をYggdrasil網に隠すバックドアとデータ消去"
 date: 2026-10-24
 region: overseas
 tags: [APT, Sandworm, UAC-0099, ワイパー, C2, ウクライナ]
-description: ESETは、ウクライナの穀物物流企業への2025年の攻撃で、新しいGo製バックドア「MythicRatatoskr」が使われたと公表した。C2サーバーは、端末同士がエンドツーエンドで暗号化されたIPv6でつながる分散型のメッシュ網「Yggdrasil」の中にあり、国家系の攻撃者がこの網をこう使ったのは知る限り初めてだという。UAC-0099が7月にスピアフィッシングで入り、約2か月後にSandwormがグループポリシーでSDeleteを配ってデータを消した。
+description: "ESETは、ウクライナの穀物物流企業への2025年の攻撃で、新しいGo製バックドア「MythicRatatoskr」が使われたと公表した。C2サーバーは、端末同士がエンドツーエンドで暗号化されたIPv6でつながる分散型のメッシュ網「Yggdrasil」の中にあり、国家系の攻撃者がこの網をこう使ったのは知る限り初めてだという。UAC-0099が7月にスピアフィッシングで入り、約2か月後にSandwormがグループポリシーでSDeleteを配ってデータを消した。C2をYggdrasilメッシュ網の中に隠したバックドア、UAC-0099の侵入をSandwormが引き継ぎウクライナの穀物物流企業でデータ消去。"
 ---
 
-# MythicRatatoskr ― C2をYggdrasilメッシュ網の中に隠したバックドア、UAC-0099の侵入をSandwormが引き継ぎウクライナの穀物物流企業でデータ消去
+# MythicRatatoskr ― C2をYggdrasil網に隠すバックドアとデータ消去
 
 ## 要点
 

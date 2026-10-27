@@ -1,12 +1,12 @@
 ---
-title: "APT41のUEFIブートキット「BlackX」 ― 最新パッチを当てた端末でもSecure Bootを破れた、失効を「手動で有効にする」更新の隙間"
+title: "APT41「BlackX」 ― パッチ済みでもSecure Bootを破るブートキット"
 date: 2026-10-23
 region: overseas
 tags: [ブートキット, APT41, Secure Boot, UEFI, 中央アジア]
-description: Kaspersky GReATは10月22日、中央アジア3か国の外交機関を狙った2026年初めの攻撃で、BlackLotusに似たUEFIブートキット「BlackX」が使われたと公表した（APT41と中程度の確度で関連づけ）。狙われた端末は更新済みだったが、Baton Drop（CVE-2022-21894）の悪用に使われる古いブートマネージャーの署名証明書「Windows Production PCA 2011」の失効は、管理者が手で有効にしない限り行われない。攻撃者はそこを突いて独自のMOKを登録し、カーネルドライバーで防御製品を無力化しようとした。
+description: "Kaspersky GReATは10月22日、中央アジア3か国の外交機関を狙った2026年初めの攻撃で、BlackLotusに似たUEFIブートキット「BlackX」が使われたと公表した（APT41と中程度の確度で関連づけ）。狙われた端末は更新済みだったが、Baton Drop（CVE-2022-21894）の悪用に使われる古いブートマネージャーの署名証明書「Windows Production PCA 2011」の失効は、管理者が手で有効にしない限り行われない。攻撃者はそこを突いて独自のMOKを登録し、カーネルドライバーで防御製品を無力化しようとした。APT41のUEFIブートキット「BlackX」。最新パッチを当てた端末でもSecure Bootを破れた、失効を「手動で有効にする」更新の隙間。"
 ---
 
-# APT41のUEFIブートキット「BlackX」 ― 最新パッチを当てた端末でもSecure Bootを破れた、失効を「手動で有効にする」更新の隙間
+# APT41「BlackX」 ― パッチ済みでもSecure Bootを破るブートキット
 
 ## 要点
 

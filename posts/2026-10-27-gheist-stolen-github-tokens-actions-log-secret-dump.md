@@ -1,12 +1,12 @@
 ---
-title: "Gheist ― 盗まれたGitHubトークン850件超で1万3500本のブランチを作り、Actionsのログにシークレットをbase32で吐き出させて回収する"
+title: "Gheist ― 盗んだGitHubトークンでActionsのシークレットを回収"
 date: 2026-10-27
 region: overseas
 tags: [サプライチェーン, GitHub Actions, 認証情報, CI/CD, Gheist]
-description: Wiz が「Gheist」と名付けた自動ツールは、盗まれた GitHub トークンで `ci-sync-` で始まるブランチを作り、`sync-check.yml` を置いて push だけでワークフローを動かす。シークレットを base32 に変えてログに出させるため GitHub のマスクが効かず、ログを API で回収したら数秒で実行履歴を消す。外への通信はない。9月15日以降、850超のアカウントから1万3500本超のブランチが作られた。公開リポジトリでは GitHub の承認待ちで止まったが、非公開リポジトリと GitHub Enterprise Server では実行が完了し、AWS のロール取得まで確認された。
+description: "Wiz が「Gheist」と名付けた自動ツールは、盗まれた GitHub トークンで `ci-sync-` で始まるブランチを作り、`sync-check.yml` を置いて push だけでワークフローを動かす。シークレットを base32 に変えてログに出させるため GitHub のマスクが効かず、ログを API で回収したら数秒で実行履歴を消す。外への通信はない。9月15日以降、850超のアカウントから1万3500本超のブランチが作られた。公開リポジトリでは GitHub の承認待ちで止まったが、非公開リポジトリと GitHub Enterprise Server では実行が完了し、AWS のロール取得まで確認された。"
 ---
 
-# Gheist ― 盗まれたGitHubトークン850件超で1万3500本のブランチを作り、Actionsのログにシークレットをbase32で吐き出させて回収する
+# Gheist ― 盗んだGitHubトークンでActionsのシークレットを回収
 
 ## 要点
 

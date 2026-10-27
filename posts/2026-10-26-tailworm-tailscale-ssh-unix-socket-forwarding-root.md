@@ -1,12 +1,12 @@
 ---
-title: "Tailworm（Tailscale SSH ほか11件） ― 認証を省いた「root のまま動くSSHサーバー」で、ソケット転送が root 専用の docker.sock と systemd に届いた、修正版はまだない"
+title: "Tailworm ― Tailscale SSHなどのソケット転送でroot、未修正"
 date: 2026-10-26
 region: overseas
 tags: [脆弱性, Tailscale, 権限昇格, ゼロトラスト, 未修正]
-description: Cyberdione Labs の Erica Windisch が、Tailscale 1.104.2 と headscale 0.29.5 の11件の問題を「Tailworm」として公表した。中心は Tailscale SSH の Unix ソケット転送で、root で動く tailscaled がパスの確認と接続を root のまま行うため、SSH を許可された一般セッションから docker.sock や systemd のソケットに root として届き、検証済みパスのすり替え（TOCTOU）で許可リストも回避できたとする。実験室での再現のみで実際の悪用は報告されておらず、10月26日時点で Tailscale のセキュリティ情報・CVE・修正版は出ていない。
+description: "Cyberdione Labs の Erica Windisch が、Tailscale 1.104.2 と headscale 0.29.5 の11件の問題を「Tailworm」として公表した。中心は Tailscale SSH の Unix ソケット転送で、root で動く tailscaled がパスの確認と接続を root のまま行うため、SSH を許可された一般セッションから docker.sock や systemd のソケットに root として届き、検証済みパスのすり替え（TOCTOU）で許可リストも回避できたとする。実験室での再現のみで実際の悪用は報告されておらず、10月26日時点で Tailscale のセキュリティ情報・CVE・修正版は出ていない。Tailworm（Tailscale SSH ほか11件）。認証を省いた「root のまま動くSSHサーバー」で、ソケット転送が root 専用の docker.sock と systemd に届いた、修正版はまだない。"
 ---
 
-# Tailworm（Tailscale SSH ほか11件） ― 認証を省いた「root のまま動くSSHサーバー」で、ソケット転送が root 専用の docker.sock と systemd に届いた、修正版はまだない
+# Tailworm ― Tailscale SSHなどのソケット転送でroot、未修正
 
 ## 要点
 

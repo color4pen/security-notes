@@ -1,12 +1,12 @@
 ---
-title: "Warlock（Longlegs / Storm-2603）― SharePoint侵入からSYSVOL複製でドメイン全体へランサムを配る"
+title: "Warlock ― SharePoint侵入からドメイン全体にランサムウェア"
 date: 2026-10-02
 region: overseas
 tags: [Warlock, SharePoint, ランサムウェア, Storm-2603, Longlegs, BYOVD, SYSVOL]
-description: China-nexusのWarlock運用者が、未パッチのオンプレSharePointから入り、SYSVOLにランサムを置いてドメイン複製で一斉展開する手口。
+description: "China-nexusのWarlock運用者が、未パッチのオンプレSharePointから入り、SYSVOLにランサムを置いてドメイン複製で一斉展開する手口。Warlock（Longlegs / Storm-2603）。SharePoint侵入からSYSVOL複製でドメイン全体へランサムを配る。"
 ---
 
-# Warlock（Longlegs / Storm-2603）― SharePoint侵入からSYSVOL複製でドメイン全体へランサムを配る
+# Warlock ― SharePoint侵入からドメイン全体にランサムウェア
 
 ## 要点
 
