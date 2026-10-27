@@ -3,41 +3,53 @@ import {
   dateLabel,
   isOngoing,
   isUpdated,
-  lastModified,
   postHref,
   readingMinutes,
   regions,
   summary,
   type Post,
 } from '../lib/posts';
+import { taxonomyOf } from '../lib/taxonomy';
 interface Props {
   post: Post;
-  /** 「すべて」タブでは国内/海外の別を表示する */
+  /** 「すべて」タブなど、紙面をまたぐ一覧では国内/海外/脆弱性の別を表示する */
   showRegion?: boolean;
 }
 const { post, showRegion = false } = Astro.props;
 const domestic = post.data.region === 'domestic';
 const updated = isUpdated(post);
-// 国内は続報を追うので最終更新日を、海外は公開日を見出しの日付にする。
-const shownDate = domestic ? lastModified(post) : post.data.date;
+const taxonomy = taxonomyOf(post).map((tag) => tag.name);
+// 一覧はどの紙面も公開日順。日付は並び順と同じ公開日を出し、更新があれば別に添える。
+// 見出し → 要約 → メタ情報の順に読めるよう、メタ情報は最後に置く。
+const sideTags = post.data.tags.slice(1, 4);
 ---
 
 <article
   class="post-row"
   data-post
-  data-tags={JSON.stringify(post.data.tags)}
-  data-search={`${post.data.title} ${post.data.tags.join(' ')} ${summary(post)}`.toLowerCase()}
+  data-region={post.data.region}
+  data-tags={JSON.stringify([...new Set([...taxonomy, ...post.data.tags])])}
+  data-search={`${post.data.title} ${post.data.tags.join(' ')} ${taxonomy.join(' ')} ${summary(post)}`.toLowerCase()}
 >
   <div class="post-main">
-    <div class="post-topline">
-      <time datetime={shownDate.toISOString()}>
-        {domestic && updated ? '更新 ' : ''}
-        {dateLabel(shownDate)}
-      </time>
+    <h2 class="post-title">
+      <a href={postHref(post)}>{post.data.title}</a>
+    </h2>
+    <p class="post-summary">{summary(post)}</p>
+    <div class="post-meta">
+      <span class="post-dates">
+        <time datetime={post.data.date.toISOString()}>
+          公開 {dateLabel(post.data.date)}
+        </time>
+        {updated && post.data.updated && (
+          <time class="post-updated" datetime={post.data.updated.toISOString()}>
+            更新 {dateLabel(post.data.updated)}
+          </time>
+        )}
+      </span>
       {showRegion && (
         <span class="region-label">{regions[post.data.region].label}</span>
       )}
-      <span class="topic-label">{post.data.tags[0]}</span>
       {(updated || isOngoing(post)) && (
         <span class="marks">
           {updated && (
@@ -48,16 +60,15 @@ const shownDate = domestic ? lastModified(post) : post.data.date;
           {isOngoing(post) && <span class="mark mark-ongoing">続報待ち</span>}
         </span>
       )}
+      <span class="topic-label">{post.data.tags[0]}</span>
+      {sideTags.length > 0 && (
+        <span class="tags">
+          {sideTags.map((tag) => (
+            <span>{tag}</span>
+          ))}
+        </span>
+      )}
       <span class="reading">約{readingMinutes(post)}分で読む</span>
-    </div>
-    <h2 class="post-title">
-      <a href={postHref(post)}>{post.data.title}</a>
-    </h2>
-    <p class="post-summary">{summary(post)}</p>
-    <div class="tags">
-      {post.data.tags.slice(1, 4).map((tag) => (
-        <span>{tag}</span>
-      ))}
     </div>
   </div>
 </article>

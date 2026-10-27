@@ -63,15 +63,7 @@ export async function allPosts() {
       b.data.date.valueOf() - a.data.date.valueOf() || a.id.localeCompare(b.id),
   );
 }
-/** 紙面ごとの記事。国内は続報を追うため更新日順、海外は公開日順。 */
+/** 紙面ごとの記事。どの紙面も公開日（date）の新しい順で、allPosts の並びをそのまま使う。 */
 export function postsIn(posts: Post[], region: Region) {
-  const list = posts.filter((post) => post.data.region === region);
-  if (region === 'domestic')
-    list.sort(
-      (a, b) =>
-        lastModified(b).valueOf() - lastModified(a).valueOf() ||
-        b.data.date.valueOf() - a.data.date.valueOf() ||
-        a.id.localeCompare(b.id),
-    );
-  return list;
+  return posts.filter((post) => post.data.region === region);
 }
