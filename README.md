@@ -10,6 +10,7 @@
 
 続報を追いながら更新する記事です。最終更新日の新しい順に並べます。
 
+- 2026-10-27 [ギフティ ― 運用システムの脆弱性を突かれeギフトを約5.5億円分「新たに」不正発行された、当該システムは停止し再開しない方針](posts/2026-10-27-giftee-system-vuln-egift-unauthorized-issuance-550m-yen.md)
 - 2026-10-27 [Joshin（ジョーシン） ― 10月16日に検知したネットワークへの不正アクセスで、会員情報最大約600万件・サブスク約23万件・リフォーム写真約800件に漏えいの可能性](posts/2026-10-27-joshin-network-intrusion-6-23m-members-subscription-reform-photos.md)
 - 2026-10-27 [楽天トラベル ― 海外ホテル予約の一部ページと多言語予約サイトに不正アクセス、ログイン利用者最大約260万件・予約者約3.6万件のカード情報の一部が対象に](posts/2026-10-27-rakuten-travel-overseas-hotel-multilingual-sites-2-6m.md)
 - 2026-10-27 [バンダイロジパル ― 物流システムへの不正アクセスで「一番くじ ONLINE」の配送情報に漏えいの可能性、出荷システムを一時停止](posts/2026-10-27-bandai-logipal-logistics-system-ichiban-kuji-online-shipping-data.md)
