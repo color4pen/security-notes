@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-10-28 [ベーシック「ferret One」 ― 内部管理機能に不正アカウントを作成された](posts/2026-10-28-basic-ferret-one-internal-admin-rogue-account.md)
+- 2026-10-28 [スマートシェア「OWNLY」 ― ファイルアップロードの不備から参加者情報流出](posts/2026-10-28-smartshare-ownly-file-upload-mos-campaign-14k.md)
+- 2026-10-28 [So-net ― 会員データベースに不正アクセス、会員情報が漏えい](posts/2026-10-28-sonet-member-db-intrusion-plala-2-58m.md)
+- 2026-10-28 [ツクツク!!! ― 決済画面の改ざんでカード情報漏えいの可能性](posts/2026-10-28-tsukutsuku-card-page-tampering-19k-cards.md)
+- 2026-10-28 [UPSIDER「Breakthrough GRID」 ― 会員サイトから情報を持ち出された](posts/2026-10-28-upsider-breakthrough-grid-member-site-data-exfiltrated.md)
 - 2026-10-27 [バンダイロジパル ― 物流システムに不正アクセス、配送情報漏えいの可能性](posts/2026-10-27-bandai-logipal-logistics-system-ichiban-kuji-online-shipping-data.md)
 - 2026-10-27 [ギフティ ― システムの脆弱性を突かれeギフトを不正発行された](posts/2026-10-27-giftee-system-vuln-egift-unauthorized-issuance-550m-yen.md)
 - 2026-10-27 [Joshin ― ネットワークに不正アクセス、会員情報漏えいの可能性](posts/2026-10-27-joshin-network-intrusion-6-23m-members-subscription-reform-photos.md)
