@@ -116,6 +116,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-10-28 [Convertr ― 分析スクリプト改ざんで決済画面にスキマー](posts/2026-10-28-convertr-plausible-tracker-skimmer-brazil-checkouts.md)
+- 2026-10-28 [Keystone ― 公式サイト侵害で端末の真正性確認鍵が流出](posts/2026-10-28-keystone-website-breach-device-auth-key-18835-destroyed.md)
 - 2026-10-27 [Gheist ― 盗んだGitHubトークンでActionsのシークレットを回収](posts/2026-10-27-gheist-stolen-github-tokens-actions-log-secret-dump.md)
 - 2026-10-27 [Magento ― CMSブロックにローダーを埋め込む攻撃](posts/2026-10-27-magento-cms-block-loader-deepveindrilling-953-stores.md)
 - 2026-10-26 [Downloadsの AGENTS.md ― コーディングエージェントを乗っ取る](posts/2026-10-26-agents-md-downloads-folder-ai-coding-agent-hijack.md)
