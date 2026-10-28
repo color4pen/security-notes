@@ -1,7 +1,7 @@
 ---
 title: "Studio ― クラウド環境に不正アクセス、APIキー流出の可能性"
 date: 2026-10-17
-updated: 2026-10-23
+updated: 2026-10-28
 region: domestic
 status: ongoing
 issue: 47
@@ -61,6 +61,7 @@ description: "ノーコードWeb制作ツール「Studio」を運営するStudio
 - 【2026-10-19】書き換え権限のある認証情報も取られていたが、データを書き換え・削除した記録はない。暗号化の鍵は10月17日に切り替え済みで、古い鍵を廃止する作業中（[Studioの案内ページ](https://studio.design/ja/security/notice/2026-10-incident)）。
 
 - 【2026-10-20】個人情報保護委員会への報告は、利用者が個別報告と、Studioが取りまとめる連名報告のどちらかを選べることになった。連名報告なら速報の期限超過を遅延として扱わない。申し込み方法と受付期間は未定（[Studio](https://studio.design/ja/whats-new/unauthorized-access-2026-10-form)）。
+- 【2026-10-28】連名報告の申し込み受付は11月上旬に始める予定で、日程は改めて案内する。受付期間を設け、期間内に申し込みがなければ連名報告の対象外になる（その場合は個別に報告）。すでに問い合わせ窓口などで希望を伝えた利用者も、受付開始後にフォームから申し込む必要がある。案内はログイン時のお知らせと、10月28日から順次送るメールでも行う（[Studio](https://studio.design/ja/whats-new/unauthorized-access-2026-10-form)）
 
 ### わかっていないこと
 
@@ -115,6 +116,7 @@ description: "ノーコードWeb制作ツール「Studio」を運営するStudio
 | 2026-10-20（火） | 千葉県が委託4事業での漏えいの可能性を発表（[千葉県](https://www.pref.chiba.lg.jp/dejisui/press/2026/20261020incident.html)） |
 | 2026-10-21（水） | 北九州市が「北九州イノベーションゲート2026」の応募企業5社・延べ9件を発表（[北九州市](https://www.city.kitakyushu.lg.jp/files/001234959.pdf)） |
 | 2026-10-22（木） | デジタル庁が、2021年5月〜2023年3月のフォーム（一般的なご意見最大8,833件など）とStudioアカウント35件を発表（[デジタル庁](https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22)）。長野県が3事業計341件、田村市が465件を発表（[長野県](https://www.pref.nagano.lg.jp/rodokoyo/happyou/r081022_studio_huseiaccess.html)、[福島民友](https://www.minyu-net.com/news/detail/2026102308400856339)） |
+| 2026-10-28（水） | Studioが、個人情報保護委員会への連名報告の申し込み受付を11月上旬に始める予定と案内。受付期間内に申し込みがなければ連名報告の対象外になるとした（[Studio](https://studio.design/ja/whats-new/unauthorized-access-2026-10-form)） |
 
 ## 発表内容の整理
 
@@ -234,7 +236,7 @@ Luupの対象には、現在はStudio以外のシステムで運用している�
 30. [当社ウェブサイトのお問い合わせフォーム送信情報の流出の可能性に関するお詫びとお知らせ（TRUSTART、2026-10-19）](https://www.trustart.co.jp/news/20261019)
 31. [外部サービス「Studio」への不正アクセスに伴う、当社Webサイトのお問い合わせ情報流出の可能性に関するお詫びとお知らせ（第一報）（メディアリンク、2026-10-19）](https://www.medialink-ml.co.jp/news/2026/important-notice-20261019/)
 32. [【重要】Studioにおける不正アクセスに伴うお問い合わせ情報の漏えいのおそれについて（JIJ、2026-10-19）](https://www.j-ij.com/ja/news/ImportantNotice-20261019)
-33. [【重要】フォーム機能をご利用のお客様へ：個人情報保護委員会へのご報告についてのご案内（Studio、2026-10-17公開・10-20更新）](https://studio.design/ja/whats-new/unauthorized-access-2026-10-form)
+33. [【重要】フォーム機能をご利用のお客様へ：個人情報保護委員会へのご報告についてのご案内（Studio、2026-10-17公開・10-28更新）](https://studio.design/ja/whats-new/unauthorized-access-2026-10-form)
 34. [【重要】当社が利用するWebサイト制作サービス「Studio」への不正アクセスに関するお知らせ（TVer、2026-10-20）](https://tver.co.jp/news/20261020.html)
 35. [新潟市の2事業で問い合わせた個人や法人の名前など67件が流出か（朝日新聞、2026-10-20）](https://www.asahi.com/articles/ASVBM3TP2VBMUOHB003M.html)
 36. [不正アクセスに伴う個人情報等漏えいの可能性について（新潟市、2026-10-19、報道資料PDF）](https://www.city.niigata.lg.jp/shisei/koho/houdou/202610.files/261019_4.pdf)
