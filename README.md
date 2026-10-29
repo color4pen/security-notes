@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-10-29 [アララ メッセージ ― 不正アクセスで配信リストのメールアドレスが流出](posts/2026-10-29-arara-message-mail-delivery-3m-addresses-leak.md)
+- 2026-10-29 [ベネフィット・ワン「トク買」 ― 委託先への不正アクセスで会員情報が漏えい](posts/2026-10-29-benefit-one-tokugai-forestec-member-data-payment-auth.md)
+- 2026-10-29 [花キューピット ― 管理システムへの不正アクセスで会員情報が漏えい](posts/2026-10-29-hana-cupid-admin-system-intrusion-4-24m-members.md)
+- 2026-10-29 [JAL・JTA ― 委託先アマデウスへの不正アクセスで予約情報が参照された](posts/2026-10-29-jal-jta-amadeus-pss-reservation-records-92k.md)
+- 2026-10-29 [ソニー生命 ― 不正アクセスで代理店扱いの他社契約者情報が漏えい](posts/2026-10-29-sony-life-customer-web-medicare-life-385k.md)
 - 2026-10-28 [ベーシック「ferret One」 ― 内部管理機能に不正アカウントを作成された](posts/2026-10-28-basic-ferret-one-internal-admin-rogue-account.md)
 - 2026-10-28 [スマートシェア「OWNLY」 ― ファイルアップロードの不備から参加者情報流出](posts/2026-10-28-smartshare-ownly-file-upload-mos-campaign-14k.md)
 - 2026-10-28 [So-net ― 会員データベースに不正アクセス、会員情報が漏えい](posts/2026-10-28-sonet-member-db-intrusion-plala-2-58m.md)
