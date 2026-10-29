@@ -121,6 +121,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-10-29 [Alpine Linux ― 自前GitLabにRCE攻撃、侵害を前提に再構築](posts/2026-10-29-alpine-linux-gitlab-cve-2026-97229-exploit-attempt-rebuild.md)
+- 2026-10-29 [Oracle PeopleSoft ― 悪用中のRCEは3つの脆弱性の連鎖と判明](posts/2026-10-29-oracle-peoplesoft-cve-2026-35273-three-chained-flaws.md)
+- 2026-10-29 [Volt Typhoon ― 使い捨て中継網で管理基盤のゼロデイを悪用](posts/2026-10-29-volt-typhoon-silent-train-ephemeral-relay-zero-days.md)
 - 2026-10-28 [Convertr ― 分析スクリプト改ざんで決済画面にスキマー](posts/2026-10-28-convertr-plausible-tracker-skimmer-brazil-checkouts.md)
 - 2026-10-28 [Keystone ― 公式サイト侵害で端末の真正性確認鍵が流出](posts/2026-10-28-keystone-website-breach-device-auth-key-18835-destroyed.md)
 - 2026-10-27 [Gheist ― 盗んだGitHubトークンでActionsのシークレットを回収](posts/2026-10-27-gheist-stolen-github-tokens-actions-log-secret-dump.md)
