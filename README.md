@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-10-30 [DIRIGIO「PICKS」 ― モバイルオーダーのAPIに不正アクセス](posts/2026-10-30-dirigio-picks-mobile-order-api-intrusion.md)
+- 2026-10-30 [ドン・キホーテなど4社 ― 時計修理の委託先がランサムウェア被害](posts/2026-10-30-donki-watch-repair-contractor-ransomware.md)
+- 2026-10-30 [電力・ガス取引監視等委員会 ― 「デントリネット」に不正アクセス](posts/2026-10-30-egc-dentorinet-unauthorized-access.md)
+- 2026-10-30 [クロンオンライン診療 ― 不正ログインで患者情報が閲覧](posts/2026-10-30-micin-curon-credential-stuffing-73-patients.md)
+- 2026-10-30 [資さんうどん ― 委託先サーバーの設定不備で従業員情報が閲覧可能に](posts/2026-10-30-sukesan-udon-attendance-system-misconfiguration.md)
 - 2026-10-29 [アララ メッセージ ― 不正アクセスで配信リストのメールアドレスが流出](posts/2026-10-29-arara-message-mail-delivery-3m-addresses-leak.md)
 - 2026-10-29 [ベネフィット・ワン「トク買」 ― 委託先への不正アクセスで会員情報が漏えい](posts/2026-10-29-benefit-one-tokugai-forestec-member-data-payment-auth.md)
 - 2026-10-29 [花キューピット ― 管理システムへの不正アクセスで会員情報が漏えい](posts/2026-10-29-hana-cupid-admin-system-intrusion-4-24m-members.md)
