@@ -126,6 +126,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-10-30 [KeyDrift ― Cisco SD-WANの制御装置に鍵収集マルウェアが潜伏](posts/2026-10-30-keydrift-cisco-sd-wan-controller-ipsec-key-collection.md)
+- 2026-10-30 [Yoba ― 偽のChatGPT・Claudeアプリで署名済み実行ファイルを悪用](posts/2026-10-30-yoba-fake-chatgpt-claude-apps-signed-binary-sideloading.md)
 - 2026-10-29 [Alpine Linux ― 自前GitLabにRCE攻撃、侵害を前提に再構築](posts/2026-10-29-alpine-linux-gitlab-cve-2026-97229-exploit-attempt-rebuild.md)
 - 2026-10-29 [Oracle PeopleSoft ― 悪用中のRCEは3つの脆弱性の連鎖と判明](posts/2026-10-29-oracle-peoplesoft-cve-2026-35273-three-chained-flaws.md)
 - 2026-10-29 [Volt Typhoon ― 使い捨て中継網で管理基盤のゼロデイを悪用](posts/2026-10-29-volt-typhoon-silent-train-ephemeral-relay-zero-days.md)
