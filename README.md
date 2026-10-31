@@ -222,6 +222,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-10-31 [Cisco ASA／FTD ― SSL VPNで装置を再起動させる欠陥がゼロデイ悪用](posts/2026-10-31-cisco-asa-ftd-cve-2026-76418-ssl-vpn-dos-zero-day-kev.md)
+- 2026-10-31 [Ivanti Connect Secure ― ゼロデイ連鎖の残る2件を修正、悪用を確認](posts/2026-10-31-ivanti-connect-secure-cve-2026-111357-118527-chain-fixed-kev.md)
 - 2026-10-29 [Linuxカーネル「Fragnesia」 ― PHP2Shellと連鎖しroot奪取に悪用された](posts/2026-10-29-linux-kernel-fragnesia-cve-2026-46300-php2shell-chain-kev.md)
 - 2026-10-29 [VMware ESX ― 操作をログに残さない欠陥がゼロデイ悪用されていた](posts/2026-10-29-vmware-esx-cve-2026-41709-logging-bypass-warp-panda-kev.md)
 - 2026-10-27 [Wasmtime ― Cranelift の欠陥でWasmのサンドボックスを抜けられる](posts/2026-10-27-wasmtime-cranelift-cve-2026-115889-115893-sandbox-escape.md)
