@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-10-31 [DHC ― オンラインショップで会員情報が書き換えられた](posts/2026-10-31-dhc-online-shop-member-data-tampered.md)
+- 2026-10-31 [松屋フーズ ― 公式アプリの管理システムに不正アクセス](posts/2026-10-31-matsuya-official-app-admin-system-intrusion.md)
+- 2026-10-31 [良品計画 ― MUJIアプリへの不正アクセスで顧客情報流出の可能性](posts/2026-10-31-ryohin-keikaku-muji-app-unauthorized-access.md)
+- 2026-10-31 [Vook ― データ分析ツールの脆弱性を突かれDBに不正アクセス](posts/2026-10-31-vook-data-analysis-tool-vuln-database-access.md)
+- 2026-10-31 [ワールド子会社ティンパンアレイ ― 業務サーバーに不正アクセス](posts/2026-10-31-world-tinpanalley-business-server-intrusion.md)
 - 2026-10-30 [DIRIGIO「PICKS」 ― モバイルオーダーのAPIに不正アクセス](posts/2026-10-30-dirigio-picks-mobile-order-api-intrusion.md)
 - 2026-10-30 [ドン・キホーテなど4社 ― 時計修理の委託先がランサムウェア被害](posts/2026-10-30-donki-watch-repair-contractor-ransomware.md)
 - 2026-10-30 [電力・ガス取引監視等委員会 ― 「デントリネット」に不正アクセス](posts/2026-10-30-egc-dentorinet-unauthorized-access.md)
