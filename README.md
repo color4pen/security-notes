@@ -131,6 +131,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-10-31 [Binance ― ホットウォレットから暗号資産が大量流出](posts/2026-10-31-binance-hot-wallet-signing-eip-7702-tradertraitor.md)
+- 2026-10-31 [Cursor拡張マーケット ― 改ざん版Claude Code拡張が配布](posts/2026-10-31-cursor-marketplace-trojanized-claude-code-extension-ssh-backdoor.md)
+- 2026-10-31 [Polymarket ― 外部の計測スクリプトが資金抜き取りコードに](posts/2026-10-31-polymarket-debugbear-rum-script-wallet-drainer.md)
 - 2026-10-30 [KeyDrift ― Cisco SD-WANの制御装置に鍵収集マルウェアが潜伏](posts/2026-10-30-keydrift-cisco-sd-wan-controller-ipsec-key-collection.md)
 - 2026-10-30 [Yoba ― 偽のChatGPT・Claudeアプリで署名済み実行ファイルを悪用](posts/2026-10-30-yoba-fake-chatgpt-claude-apps-signed-binary-sideloading.md)
 - 2026-10-29 [Alpine Linux ― 自前GitLabにRCE攻撃、侵害を前提に再構築](posts/2026-10-29-alpine-linux-gitlab-cve-2026-97229-exploit-attempt-rebuild.md)
