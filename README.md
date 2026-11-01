@@ -229,6 +229,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-01 [Drupal Commerce ― 認可の欠陥が悪用され修正版を公開](posts/2026-11-01-drupal-commerce-core-cve-2026-118539-access-bypass-exploited.md)
+- 2026-11-01 [WordPress ― コア更新中に突けるRCEを修正、攻撃の試みも](posts/2026-11-01-wordpress-7-1-4-core-update-race-rce-exploit-attempts.md)
 - 2026-10-31 [Cisco ASA／FTD ― SSL VPNで装置を再起動させる欠陥がゼロデイ悪用](posts/2026-10-31-cisco-asa-ftd-cve-2026-76418-ssl-vpn-dos-zero-day-kev.md)
 - 2026-10-31 [Ivanti Connect Secure ― ゼロデイ連鎖の残る2件を修正、悪用を確認](posts/2026-10-31-ivanti-connect-secure-cve-2026-111357-118527-chain-fixed-kev.md)
 - 2026-10-29 [Linuxカーネル「Fragnesia」 ― PHP2Shellと連鎖しroot奪取に悪用された](posts/2026-10-29-linux-kernel-fragnesia-cve-2026-46300-php2shell-chain-kev.md)
