@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-01 [クラブツーリズム ― 不正アクセスでネット会員情報が流出した可能性](posts/2026-11-01-club-tourism-internet-member-data-unauthorized-access.md)
+- 2026-11-01 [ドトールコーヒー ― 不正アクセスで従業員・退職者の情報が流出した可能性](posts/2026-11-01-doutor-coffee-employee-data-unauthorized-access.md)
+- 2026-11-01 [Japanticket ― 外部分析ツール経由で予約者情報が漏えい](posts/2026-11-01-japanticket-analytics-tool-customer-data-leak.md)
+- 2026-11-01 [NTTデータ委託先 ― デジタル証券基盤から社債購入者情報が流出した可能性](posts/2026-11-01-nttdata-digital-securities-platform-bond-investor-data.md)
+- 2026-11-01 [佐賀大学 ― ランサムウェア被害で個人情報と患者情報が流出した可能性](posts/2026-11-01-saga-university-ransomware-personal-and-patient-data.md)
 - 2026-10-31 [DHC ― オンラインショップで会員情報が書き換えられた](posts/2026-10-31-dhc-online-shop-member-data-tampered.md)
 - 2026-10-31 [松屋フーズ ― 公式アプリの管理システムに不正アクセス](posts/2026-10-31-matsuya-official-app-admin-system-intrusion.md)
 - 2026-10-31 [良品計画 ― MUJIアプリへの不正アクセスで顧客情報流出の可能性](posts/2026-10-31-ryohin-keikaku-muji-app-unauthorized-access.md)
