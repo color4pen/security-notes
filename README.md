@@ -136,6 +136,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-01 [n0nランサムウェア ― 公開状態の作業サーバーから手口が判明](posts/2026-11-01-n0n-ransomware-exposed-workspace-credential-only-ai-agent.md)
+- 2026-11-01 [Northflank ― 侵害を受け顧客のAIキーが不正利用される](posts/2026-11-01-northflank-env-vars-breach-ai-key-llmjacking-black-october.md)
 - 2026-10-31 [Binance ― ホットウォレットから暗号資産が大量流出](posts/2026-10-31-binance-hot-wallet-signing-eip-7702-tradertraitor.md)
 - 2026-10-31 [Cursor拡張マーケット ― 改ざん版Claude Code拡張が配布](posts/2026-10-31-cursor-marketplace-trojanized-claude-code-extension-ssh-backdoor.md)
 - 2026-10-31 [Polymarket ― 外部の計測スクリプトが資金抜き取りコードに](posts/2026-10-31-polymarket-debugbear-rum-script-wallet-drainer.md)
