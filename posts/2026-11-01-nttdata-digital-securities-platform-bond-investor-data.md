@@ -1,7 +1,7 @@
 ---
 title: "NTTデータ委託先 ― デジタル証券基盤から社債購入者情報が流出した可能性"
 date: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 region: domestic
 status: ongoing
 issue: 108
@@ -20,12 +20,19 @@ description: "NTTデータは2026年10月31日、デジタル特典付き社債�
 - 近鉄グループホールディングスは、第135回社債を100万円以上購入した投資家2,678人の氏名と購入金額が流出した可能性があると公表した（[日本経済新聞](https://www.nikkei.com/article/DGXZQOUF3108B0R31C26A0000000/)、[MUFGモルガン・スタンレー証券](https://www.sc.mufg.jp/company/news/inform/info20261031.html)）。
 - MUFGモルガン・スタンレー証券は、自社の顧客95人の氏名と購入金額が対象で、口座番号やパスワードは含まれないとしている（[MUFGモルガン・スタンレー証券](https://www.sc.mufg.jp/company/news/inform/info20261031.html)）。
 
+### わかったこと
+
+- 【2026-11-02追記】JR西日本は10月31日、第80回無担保社債（2024年6月19日発行）の投資家2件の氏名、住所、電話番号、メールアドレス、性別、生年月日が漏えいした可能性があると公表した。10月30日にNTTデータから、「デジタル証券プラットフォーム」内の情報が外部に持ち出された可能性があると報告を受けた。対象者には販売会社の楽天証券から個別に連絡している（[JR西日本（PDF）](https://www.westjr.co.jp/press/article/2026/10/31/items/261031_00_press_gaibuservice.pdf)）。
+- 【2026-11-02追記】SBI証券は、近鉄GHD第135回社債を同社で購入した対象顧客が1,169名で、漏えいした可能性のある情報は氏名と購入金額だと公表した。同社のシステムが不正アクセスを受けたものではないとしている（[SBI証券](https://www.sbisec.co.jp/ETGate/?_ActionID=DefaultAID&_ControlID=WPLETmgR001Control&_DataStoreID=DSWPLETmgR001Control&_PageID=WPLETmgR001Mdtl30&burl=search_home&cat1=home&cat2=info&dir=info&file=home_info261031_bond.html&getFlg=on&OutSide=on)）。
+- 【2026-11-02追記】野村證券も10月31日、デジタル特典付き社債の購入者の顧客管理業務の一部をNTTデータの委託先が担っており、一部の顧客の情報が漏えいした可能性があると公表した。漏えいした可能性のある情報の内容は確認中で、口座番号やパスワードは含まれず、不正利用も確認されていない（[野村證券](https://www.nomuraholdings.com/jp/news/topics/20261031.html)）。
+- 【2026-11-02追記】クレディセゾンは10月31日、不動産セキュリティ・トークン「セゾンのスマート不動産投資」の外部委託先の会員管理プラットフォームに10月29日3時42分〜6時17分に不正アクセスがあり、1,889名の情報が漏えいしたと公表した。外部からアクセスできた認証の仕組みの不備が悪用されたと委託先から報告を受けたという。委託先の名称や、NTTデータ側の件との関係は書かれていない（[クレディセゾン](https://www.saisoncard.co.jp/customer-support/information/20261031/)）。
+
 ### わかっていないこと
 
 - 委託先の名称と、SaaSが侵害された経路・原因
-- 影響を受けた社債・発行体・証券会社の全体と総件数
+- 影響を受けた社債・発行体・証券会社の全体と総件数（【2026-11-02追記】JR西日本2件、SBI証券1,169名が判明。野村證券は件数・項目とも確認中）
 - 実際に持ち出されたデータがあるか
-- フィリップ・キャピタル証券が同日公表したデジタル証券の委託先での不正アクセスと、同じ委託先か
+- フィリップ・キャピタル証券が同日公表したデジタル証券の委託先での不正アクセスと、同じ委託先か（【2026-11-02追記】クレディセゾンも10月29日に委託先で起きた不正アクセスを公表したが、委託先の名称や関係はどちらも書かれていない）
 - STdirectServicesの再開時期
 
 ### 関係しそうな既知の手口
@@ -44,6 +51,12 @@ description: "NTTデータは2026年10月31日、デジタル特典付き社債�
 
 | 時期 | 出来事 |
 | --- | --- |
+| 2026-10-29（木）3:42〜6:17 | クレディセゾン「セゾンのスマート不動産投資」の外部委託先の会員管理プラットフォームに不正アクセス。同日22時に会員プラットフォームを緊急停止（[クレディセゾン](https://www.saisoncard.co.jp/customer-support/information/20261031/)。NTTデータ側の件との関係は不明） |
+| 2026-10-30（金） | NTTデータがJR西日本や野村證券などに、デジタル証券プラットフォームへの不正アクセスと情報持ち出しの可能性を報告（[JR西日本（PDF）](https://www.westjr.co.jp/press/article/2026/10/31/items/261031_00_press_gaibuservice.pdf)、[野村證券](https://www.nomuraholdings.com/jp/news/topics/20261031.html)） |
+| 2026-10-31（土） | NTTデータがSTdirectServicesの停止を発表。楽天証券、近鉄GHD、MUFGモルガン・スタンレー証券、SBI証券、野村證券、JR西日本、クレディセゾンが相次いで公表（各社の発表） |
+
+| 時期 | 出来事 |
+| --- | --- |
 | 2026-10-29（木） | フィリップ・キャピタル証券のデジタル証券の委託先が異常を検知し、同日不正アクセスを特定（フィリップ・キャピタル証券）。NTTデータ側の件と同じかは不明 |
 | 10-30（金） | 委託先への不正アクセスが発生（楽天証券） |
 | 10-31（土） | NTTデータがSTdirectServicesの停止を発表。楽天証券、MUFGモルガン・スタンレー証券、近鉄GHD、フィリップ・キャピタル証券などが公表（各社） |
@@ -57,7 +70,9 @@ description: "NTTデータは2026年10月31日、デジタル特典付き社債�
 | 楽天証券 | 延べ362件。カゴメ第1回（2023年2月21日発行、一部顧客）、JR西日本第80回（2024年6月19日発行、一部顧客）、近鉄GHD第135回（2026年7月24日発行、100万円以上の購入者） | ID・パスワード、取引情報は含まれない |
 | 近鉄GHD | 第135回社債を100万円以上購入した投資家2,678人 | 氏名、購入金額 |
 | MUFGモルガン・スタンレー証券 | 自社顧客95人 | 氏名、購入金額（口座番号・パスワードは含まれない） |
-| SBI証券 | 告知を掲載（今回は内容を確認できていない） | — |
+| SBI証券 | 近鉄GHD第135回社債の購入者1,169名 | 氏名、購入金額 |
+| JR西日本 | 第80回社債の投資家2件 | 氏名、住所、電話番号、メールアドレス、性別、生年月日 |
+| 野村證券 | デジタル特典付き社債の一部購入者（件数確認中） | 確認中（口座番号・パスワードは含まれない） |
 
 楽天証券は、自社口座への不正ログインや不正取引は確認されていないとしたうえで、ログイン時のパスキー認証を必須にすると案内している（[楽天証券](https://www.rakuten-sec.co.jp/web/info/info20261031-01.html)）。
 
@@ -93,6 +108,9 @@ description: "NTTデータは2026年10月31日、デジタル特典付き社債�
 - [楽天証券の告知](https://www.rakuten-sec.co.jp/web/info/info20261031-01.html)
 - [MUFGモルガン・スタンレー証券の告知](https://www.sc.mufg.jp/company/news/inform/info20261031.html)
 - [フィリップ・キャピタル証券の告知](https://www.phillip.co.jp/information/news/11486)
+- [JR西日本の発表（PDF）](https://www.westjr.co.jp/press/article/2026/10/31/items/261031_00_press_gaibuservice.pdf)
+- [野村證券のお知らせ](https://www.nomuraholdings.com/jp/news/topics/20261031.html)
+- [クレディセゾンのお知らせ](https://www.saisoncard.co.jp/customer-support/information/20261031/)
 - [日本経済新聞の報道](https://www.nikkei.com/article/DGXZQOUF3108B0R31C26A0000000/)
 - [SBI証券の告知](https://www.sbisec.co.jp/ETGate/?_ActionID=DefaultAID&_ControlID=WPLETmgR001Control&_DataStoreID=DSWPLETmgR001Control&_PageID=WPLETmgR001Mdtl30&burl=search_home&cat1=home&cat2=info&dir=info&file=home_info261031_bond.html&getFlg=on&OutSide=on)
 - [JPCERT/CC「直近で相次いでいる国内組織における不正アクセスに関する注意喚起」](https://www.jpcert.or.jp/at/2026/at260030.html)
