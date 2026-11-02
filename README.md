@@ -141,6 +141,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-02 [ChatGPT ― 共有リンクを開くだけで他人のセッションでコード実行](posts/2026-11-02-chatgpt-share-link-mathlive-postmessage-account-takeover.md)
+- 2026-11-02 [GOLD OGRE ― AIエージェントにAD侵入を任せAur0raランサムウェアを展開](posts/2026-11-02-gold-ogre-aur0ra-ransomware-cursor-ai-agents.md)
+- 2026-11-02 [Name.com ― DeFiサイトのドメインが乗っ取られ資金抜き取りページに](posts/2026-11-02-name-com-defi-frontends-domain-hijack-step-drainer.md)
 - 2026-11-01 [n0nランサムウェア ― 公開状態の作業サーバーから手口が判明](posts/2026-11-01-n0n-ransomware-exposed-workspace-credential-only-ai-agent.md)
 - 2026-11-01 [Northflank ― 侵害を受け顧客のAIキーが不正利用される](posts/2026-11-01-northflank-env-vars-breach-ai-key-llmjacking-black-october.md)
 - 2026-10-31 [Binance ― ホットウォレットから暗号資産が大量流出](posts/2026-10-31-binance-hot-wallet-signing-eip-7702-tradertraitor.md)
