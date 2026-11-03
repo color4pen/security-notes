@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-03 [GMOペイメントゲートウェイ ― ライフカード向け機能でVプリカ利用者情報が窃取](posts/2026-11-03-gmo-pg-lifecard-vpreca-69-accounts.md)
+- 2026-11-03 [アイスタイル ― 不正アクセスで「@cosme共通ID」の会員情報が漏えい](posts/2026-11-03-istyle-cosme-common-id-3m-members.md)
+- 2026-11-03 [ノジマ ― ECサイトの会員管理システムから会員情報が漏えい](posts/2026-11-03-nojima-online-member-system-7m-records.md)
+- 2026-11-03 [プレステージ・インターナショナル ― ロードサービス受付システムから情報持ち出し](posts/2026-11-03-prestige-international-road-service-system-breach.md)
+- 2026-11-03 [テレビ東京ダイレクト ― 不正アクセスで通販サイト「テレ東マート」を閉鎖](posts/2026-11-03-tv-tokyo-direct-teleto-mart-site-closed.md)
 - 2026-11-02 [GMOトラスト・ログイン ― 設定不備で顧客企業の社員情報が取得された](posts/2026-11-02-gmo-trust-login-public-storage-customer-files-exposed.md)
 - 2026-11-02 [iDA「MyBRANDS」 ― 委託先のクラウド鍵が悪用され会員データが送信](posts/2026-11-02-ida-mybrands-cloud-access-key-misuse.md)
 - 2026-11-02 [日本交通 ― 7月の不正アクセスで従業員・応募者などの情報漏えいの可能性](posts/2026-11-02-nihon-kotsu-intrusion-290k-personal-data.md)
