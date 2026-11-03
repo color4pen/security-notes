@@ -245,6 +245,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-03 [Langflow ― 認証なしでコード実行できる脆弱性を1.13.0で修正](posts/2026-11-03-langflow-cve-2026-93680-110186-unauth-rce-fixed-1-13-0.md)
+- 2026-11-03 [Siemens SIMATIC IoT2050 ― Node-REDの認証欠落を突く攻撃を観測](posts/2026-11-03-siemens-simatic-iot2050-node-red-cve-2026-58115-exploited.md)
 - 2026-11-01 [Drupal Commerce ― 認可の欠陥が悪用され修正版を公開](posts/2026-11-01-drupal-commerce-core-cve-2026-118539-access-bypass-exploited.md)
 - 2026-11-01 [WordPress ― コア更新中に突けるRCEを修正、攻撃の試みも](posts/2026-11-01-wordpress-7-1-4-core-update-race-rce-exploit-attempts.md)
 - 2026-10-31 [Cisco ASA／FTD ― SSL VPNで装置を再起動させる欠陥がゼロデイ悪用](posts/2026-10-31-cisco-asa-ftd-cve-2026-76418-ssl-vpn-dos-zero-day-kev.md)
