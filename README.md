@@ -146,6 +146,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-03 [Lazarus ― 韓国の必須セキュリティソフト配下でマルウェアを実行](posts/2026-11-03-lazarus-operation-flashhole-crossweb-ex-github-c2.md)
+- 2026-11-03 [RVTools ― 検索広告経由で改ざん版インストーラーが配布された](posts/2026-11-03-trojanized-rvtools-malvertising-unc2465-devicesync.md)
+- 2026-11-03 [XCPEボットネット ― 製造元がTV端末に仕込んだバックドアをGoogleが解体](posts/2026-11-03-xcpe-botnet-videostrong-preinstalled-backdoor-takedown.md)
 - 2026-11-02 [ChatGPT ― 共有リンクを開くだけで他人のセッションでコード実行](posts/2026-11-02-chatgpt-share-link-mathlive-postmessage-account-takeover.md)
 - 2026-11-02 [GOLD OGRE ― AIエージェントにAD侵入を任せAur0raランサムウェアを展開](posts/2026-11-02-gold-ogre-aur0ra-ransomware-cursor-ai-agents.md)
 - 2026-11-02 [Name.com ― DeFiサイトのドメインが乗っ取られ資金抜き取りページに](posts/2026-11-02-name-com-defi-frontends-domain-hijack-step-drainer.md)
