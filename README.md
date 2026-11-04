@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-04 [CBcloud「ピックゴー」 ― 不正アクセスで7NOW・出前館の顧客情報が取得](posts/2026-11-04-cbcloud-pickgo-7now-demaecan-customer-data.md)
+- 2026-11-04 [デニーズアプリ ― 旧アプリの移行処理で認証情報を不正に作成された](posts/2026-11-04-dennys-app-migration-forged-credentials.md)
+- 2026-11-04 [セガ フェイブ ― ALL.Net・Aime関連サーバーに不正アクセス、サービス停止](posts/2026-11-04-sega-fave-allnet-aime-servers-unauthorized-access.md)
+- 2026-11-04 [サントリー ― 外部クラウドサービスからファイルがダウンロードされ個人情報漏えい](posts/2026-11-04-suntory-external-cloud-files-downloaded.md)
+- 2026-11-04 [ウィルズ「ネットマイル」 ― 不正アクセスで会員情報漏えいの可能性、サイト停止](posts/2026-11-04-wills-netmile-member-data-unauthorized-access.md)
 - 2026-11-03 [GMOペイメントゲートウェイ ― ライフカード向け機能でVプリカ利用者情報が窃取](posts/2026-11-03-gmo-pg-lifecard-vpreca-69-accounts.md)
 - 2026-11-03 [アイスタイル ― 不正アクセスで「@cosme共通ID」の会員情報が漏えい](posts/2026-11-03-istyle-cosme-common-id-3m-members.md)
 - 2026-11-03 [ノジマ ― ECサイトの会員管理システムから会員情報が漏えい](posts/2026-11-03-nojima-online-member-system-7m-records.md)
