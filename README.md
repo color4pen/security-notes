@@ -151,6 +151,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-04 [BTCPay Server ― 古い版のサーバーでホットウォレットの資金が抜かれた](posts/2026-11-04-btcpay-server-2-4-1-hot-wallet-drain.md)
+- 2026-11-04 [cPGuard ― 更新配信基盤が乗っ取られ、悪性スクリプトが配られた](posts/2026-11-04-cpguard-update-channel-hijack-backdoor-shadow-collection.md)
+- 2026-11-04 [Linuxカーネル CVE-2026-98432 ― TCP接続処理の競合でRCEのおそれ](posts/2026-11-04-linux-kernel-cve-2026-98432-ipv4-tcp-options-uaf.md)
 - 2026-11-03 [Lazarus ― 韓国の必須セキュリティソフト配下でマルウェアを実行](posts/2026-11-03-lazarus-operation-flashhole-crossweb-ex-github-c2.md)
 - 2026-11-03 [RVTools ― 検索広告経由で改ざん版インストーラーが配布された](posts/2026-11-03-trojanized-rvtools-malvertising-unc2465-devicesync.md)
 - 2026-11-03 [XCPEボットネット ― 製造元がTV端末に仕込んだバックドアをGoogleが解体](posts/2026-11-03-xcpe-botnet-videostrong-preinstalled-backdoor-takedown.md)
