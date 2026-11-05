@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-05 [クラブネッツ ― CNポイントのサテライトシステムに不正アクセス](posts/2026-11-05-clubnets-cn-point-satellite-system-rce.md)
+- 2026-11-05 [電通総研「FACERE」 ― 権限設定の不備で利用企業の環境に不正アクセス](posts/2026-11-05-dentsusoken-facere-access-permission-misconfiguration.md)
+- 2026-11-05 [Getchu.com ― 会員管理システムに不正アクセス、会員情報が流出](posts/2026-11-05-getchu-member-system-unauthorized-access.md)
+- 2026-11-05 [MOTEX ― Webサイトに不正アクセス、LANSCOPE関連サイトを停止](posts/2026-11-05-motex-lanscope-websites-unauthorized-access.md)
+- 2026-11-05 [ヤクルト本社 ― ホームページへの不正アクセスで個人情報漏えい](posts/2026-11-05-yakult-website-unauthorized-access-39505-records.md)
 - 2026-11-04 [CBcloud「ピックゴー」 ― 不正アクセスで7NOW・出前館の顧客情報が取得](posts/2026-11-04-cbcloud-pickgo-7now-demaecan-customer-data.md)
 - 2026-11-04 [デニーズアプリ ― 旧アプリの移行処理で認証情報を不正に作成された](posts/2026-11-04-dennys-app-migration-forged-credentials.md)
 - 2026-11-04 [セガ フェイブ ― ALL.Net・Aime関連サーバーに不正アクセス、サービス停止](posts/2026-11-04-sega-fave-allnet-aime-servers-unauthorized-access.md)
