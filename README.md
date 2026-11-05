@@ -261,6 +261,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-05 [Barracuda ESG ― 連鎖でroot権限を奪える2件の脆弱性を修正](posts/2026-11-05-barracuda-esg-cve-2026-116606-111560-auth-bypass-root.md)
+- 2026-11-05 [Puppet・OpenVox ― サーバーでのコード実行とノードなりすましの脆弱性を修正](posts/2026-11-05-puppet-openvox-cve-2026-115731-115732-server-rce-impersonation.md)
 - 2026-11-03 [Langflow ― 認証なしでコード実行できる脆弱性を1.13.0で修正](posts/2026-11-03-langflow-cve-2026-93680-110186-unauth-rce-fixed-1-13-0.md)
 - 2026-11-03 [Siemens SIMATIC IoT2050 ― Node-REDの認証欠落を突く攻撃を観測](posts/2026-11-03-siemens-simatic-iot2050-node-red-cve-2026-58115-exploited.md)
 - 2026-11-01 [Drupal Commerce ― 認可の欠陥が悪用され修正版を公開](posts/2026-11-01-drupal-commerce-core-cve-2026-118539-access-bypass-exploited.md)
