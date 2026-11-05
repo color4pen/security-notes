@@ -156,6 +156,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-05 [Poisoned Source ― 解析タグ改ざんなどでスマホに既知脆弱性を攻撃](posts/2026-11-05-apt29-poisoned-source-plerdy-mobile-n-day-watering-hole.md)
+- 2026-11-05 [NIKKE PCランチャー ― 公式CDNのスクリプトが改ざんされ不正コードを配信](posts/2026-11-05-nikke-pc-launcher-cdn-scripts-tampered-k2f-agent.md)
+- 2026-11-05 [Zyxel GS1900 ― 6月の修正をすり抜けるゼロデイでスイッチが侵害](posts/2026-11-05-zyxel-gs1900-cve-2026-107441-patch-bypass-kapibala.md)
 - 2026-11-04 [BTCPay Server ― 古い版のサーバーでホットウォレットの資金が抜かれた](posts/2026-11-04-btcpay-server-2-4-1-hot-wallet-drain.md)
 - 2026-11-04 [cPGuard ― 更新配信基盤が乗っ取られ、悪性スクリプトが配られた](posts/2026-11-04-cpguard-update-channel-hijack-backdoor-shadow-collection.md)
 - 2026-11-04 [Linuxカーネル CVE-2026-98432 ― TCP接続処理の競合でRCEのおそれ](posts/2026-11-04-linux-kernel-cve-2026-98432-ipv4-tcp-options-uaf.md)
