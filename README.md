@@ -160,6 +160,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-06 [CWPdoor ― 管理パネル用サーバーに潜伏する受動型バックドア](posts/2026-11-06-cwpdoor-trojanized-cwpsrv-passive-backdoor.md)
+- 2026-11-06 [GhostMap ― インストールするだけで端末が起動ループする](posts/2026-11-06-ghostmap-android-apk-system-server-boot-loop.md)
+- 2026-11-06 [sshole ― 長いパスワードで鍵専用アカウントに入れる](posts/2026-11-06-sshole-openssh-musl-password-auth-bypass.md)
 - 2026-11-05 [Poisoned Source ― 解析タグ改ざんなどでスマホに既知脆弱性を攻撃](posts/2026-11-05-apt29-poisoned-source-plerdy-mobile-n-day-watering-hole.md)
 - 2026-11-05 [NIKKE PCランチャー ― 公式CDNのスクリプトが改ざんされ不正コードを配信](posts/2026-11-05-nikke-pc-launcher-cdn-scripts-tampered-k2f-agent.md)
 - 2026-11-05 [Zyxel GS1900 ― 6月の修正をすり抜けるゼロデイでスイッチが侵害](posts/2026-11-05-zyxel-gs1900-cve-2026-107441-patch-bypass-kapibala.md)
