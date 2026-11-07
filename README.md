@@ -276,6 +276,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-07 [Airbyte ― Connector Builderの任意コード実行が悪用された](posts/2026-11-07-airbyte-connector-builder-rce-exploited-jvn12040144.md)
+- 2026-11-07 [YOOtheme Pro ― 画像処理の脆弱性が悪用されWebシェル設置](posts/2026-11-07-yootheme-pro-cve-2026-102785-image-handler-webshell.md)
 - 2026-11-05 [Barracuda ESG ― 連鎖でroot権限を奪える2件の脆弱性を修正](posts/2026-11-05-barracuda-esg-cve-2026-116606-111560-auth-bypass-root.md)
 - 2026-11-05 [Puppet・OpenVox ― サーバーでのコード実行とノードなりすましの脆弱性を修正](posts/2026-11-05-puppet-openvox-cve-2026-115731-115732-server-rce-impersonation.md)
 - 2026-11-03 [Langflow ― 認証なしでコード実行できる脆弱性を1.13.0で修正](posts/2026-11-03-langflow-cve-2026-93680-110186-unauth-rce-fixed-1-13-0.md)
