@@ -11,12 +11,17 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-06 [JNSA ― セキュリティ理解度チェックから個人情報漏えいの恐れ](posts/2026-11-06-jnsa-security-literacy-check-service-breach.md)
+- 2026-11-06 [ロート製薬 ― 通販の電話システム経由で顧客情報が漏えい](posts/2026-11-06-rohto-phone-crm-customer-data-leak.md)
+- 2026-11-06 [WebMoney ― 不正アクセスで決済情報漏えいの可能性](posts/2026-11-06-webmoney-unauthorized-access-payment-data.md)
 - 2026-11-05 [クラブネッツ ― CNポイントのサテライトシステムに不正アクセス](posts/2026-11-05-clubnets-cn-point-satellite-system-rce.md)
 - 2026-11-05 [電通総研「FACERE」 ― 権限設定の不備で利用企業の環境に不正アクセス](posts/2026-11-05-dentsusoken-facere-access-permission-misconfiguration.md)
 - 2026-11-05 [Getchu.com ― 会員管理システムに不正アクセス、会員情報が流出](posts/2026-11-05-getchu-member-system-unauthorized-access.md)
+- 2026-11-05 [アイリスプラザ ― 外部クラウドへの不正アクセスで顧客情報漏えいの可能性](posts/2026-11-05-iris-plaza-external-cloud-customer-data-leak.md)
 - 2026-11-05 [九州電力送配電 ― 不正アクセスで電力量情報が漏えいした可能性](posts/2026-11-05-kyushu-electric-power-transmission-electricity-data-leak.md)
 - 2026-11-05 [MOTEX ― Webサイトに不正アクセス、LANSCOPE関連サイトを停止](posts/2026-11-05-motex-lanscope-websites-unauthorized-access.md)
 - 2026-11-05 [NTTドコモ ― オンラインショップ等への不正アクセスで顧客情報流出](posts/2026-11-05-ntt-docomo-online-shop-my-docomo-data-leak.md)
+- 2026-11-05 [SMBCコンシューマーファイナンス ― 保証システムから顧客情報が漏えい](posts/2026-11-05-smbc-cf-guarantee-system-320k-personal-data.md)
 - 2026-11-05 [ユニコレ ― プログラムの不備を突かれ会員情報が漏えい](posts/2026-11-05-ths-unicolle-member-data-leak.md)
 - 2026-11-05 [ヤクルト本社 ― ホームページへの不正アクセスで個人情報漏えい](posts/2026-11-05-yakult-website-unauthorized-access-39505-records.md)
 - 2026-11-04 [CBcloud「ピックゴー」 ― 不正アクセスで7NOW・出前館の顧客情報が取得](posts/2026-11-04-cbcloud-pickgo-7now-demaecan-customer-data.md)
