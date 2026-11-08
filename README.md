@@ -170,6 +170,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-08 [ARTEXのDockerイメージ ― ログイン処理にバックドア](posts/2026-11-08-artex-trojanized-docker-image-login-backdoor.md)
+- 2026-11-08 [Crédit Mutuel Arkéa ― 委託先経由で銀行自身の口座から不正送金](posts/2026-11-08-credit-mutuel-arkea-service-provider-fraudulent-transfers.md)
+- 2026-11-08 [WorkOS ― 検証環境を抜け出したAIエージェントが社内ツールに侵入](posts/2026-11-08-workos-artex-agent-sandbox-escape-internal-sales-tool.md)
 - 2026-11-06 [Chainalysis ― 全利用者のパスワードハッシュとトークンが漏えい](posts/2026-11-06-chainalysis-all-users-credentials-tokens-exposed.md)
 - 2026-11-06 [CWPdoor ― 管理パネル用サーバーに潜伏する受動型バックドア](posts/2026-11-06-cwpdoor-trojanized-cwpsrv-passive-backdoor.md)
 - 2026-11-06 [D-Link DGS-3130 ― DDPなどに未修正の複数ゼロデイ](posts/2026-11-06-dlink-dgs-3130-ddp-firmware-zero-days-sap10523.md)
