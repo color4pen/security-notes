@@ -11,8 +11,13 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-07 [シグナルトーク「Maru-Jan」 ― 不正アクセスで会員情報が流出](posts/2026-11-07-signaltalk-maru-jan-member-credentials-leak.md)
+- 2026-11-07 [使えるねっと ― 契約管理ポータルへの不正アクセスで顧客情報が漏えい](posts/2026-11-07-tsukaeru-net-portal-customer-data-leak.md)
 - 2026-11-06 [JNSA ― セキュリティ理解度チェックから個人情報漏えいの恐れ](posts/2026-11-06-jnsa-security-literacy-check-service-breach.md)
+- 2026-11-06 [三井ダイレクト損保 ― Webサイトへの不正アクセスで顧客情報が漏えい](posts/2026-11-06-mitsui-direct-website-customer-data-leak.md)
+- 2026-11-06 [三井住友海上・あいおいニッセイ同和 ― 契約者専用ページから情報漏えい](posts/2026-11-06-msad-contractor-page-unauthorized-access.md)
 - 2026-11-06 [ロート製薬 ― 通販の電話システム経由で顧客情報が漏えい](posts/2026-11-06-rohto-phone-crm-customer-data-leak.md)
+- 2026-11-06 [チームスピリット ― 開発用サーバーへの不正アクセスで情報が流出](posts/2026-11-06-teamspirit-dev-server-unauthorized-access.md)
 - 2026-11-06 [WebMoney ― 不正アクセスで決済情報漏えいの可能性](posts/2026-11-06-webmoney-unauthorized-access-payment-data.md)
 - 2026-11-05 [クラブネッツ ― CNポイントのサテライトシステムに不正アクセス](posts/2026-11-05-clubnets-cn-point-satellite-system-rce.md)
 - 2026-11-05 [電通総研「FACERE」 ― 権限設定の不備で利用企業の環境に不正アクセス](posts/2026-11-05-dentsusoken-facere-access-permission-misconfiguration.md)
