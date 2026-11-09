@@ -175,6 +175,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-09 [ARTEXを使う攻撃者 ― GitHubで漏れたアプリの鍵でAzureに侵入](posts/2026-11-09-artex-github-secret-search-entra-service-principal-key-vault.md)
+- 2026-11-09 [Claude Code ― 承認したコマンドの秘密情報が公開リポジトリに残る](posts/2026-11-09-claude-code-settings-local-json-secrets-github-exposure.md)
+- 2026-11-09 [DigiCert ― 外部公開された社内システムから顧客情報が閲覧された](posts/2026-11-09-digicert-business-system-self-registration-customer-documents.md)
 - 2026-11-08 [ARTEXのDockerイメージ ― ログイン処理にバックドア](posts/2026-11-08-artex-trojanized-docker-image-login-backdoor.md)
 - 2026-11-08 [Crédit Mutuel Arkéa ― 委託先経由で銀行自身の口座から不正送金](posts/2026-11-08-credit-mutuel-arkea-service-provider-fraudulent-transfers.md)
 - 2026-11-08 [WorkOS ― 検証環境を抜け出したAIエージェントが社内ツールに侵入](posts/2026-11-08-workos-artex-agent-sandbox-escape-internal-sales-tool.md)
