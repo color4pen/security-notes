@@ -292,6 +292,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-09 [LNbits ― 攻撃を受け、全サーバーの停止を呼びかけ](posts/2026-11-09-lnbits-wave-of-attacks-stop-all-servers.md)
+- 2026-11-09 [NEC「WebSAM WinShare」 ― 細工したパケットでSYSTEM権限の実行が可能に](posts/2026-11-09-nec-websam-winshare-cve-2026-113363-113364-system-rce.md)
 - 2026-11-07 [Airbyte ― Connector Builderの任意コード実行が悪用された](posts/2026-11-07-airbyte-connector-builder-rce-exploited-jvn12040144.md)
 - 2026-11-07 [YOOtheme Pro ― 画像処理の脆弱性が悪用されWebシェル設置](posts/2026-11-07-yootheme-pro-cve-2026-102785-image-handler-webshell.md)
 - 2026-11-05 [Barracuda ESG ― 連鎖でroot権限を奪える2件の脆弱性を修正](posts/2026-11-05-barracuda-esg-cve-2026-116606-111560-auth-bypass-root.md)
