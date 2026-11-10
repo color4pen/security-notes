@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-09 [技研製作所 ― 業務用サーバーにランサムウェアを含む不正アクセス](posts/2026-11-09-giken-business-server-ransomware.md)
+- 2026-11-09 [ラクスル ― 認証情報を悪用され印刷データなどが流出したおそれ](posts/2026-11-09-raksul-data-submission-system-credentials-abuse.md)
+- 2026-11-09 [シェアフル ― 社内管理システムに不正アクセス、利用者情報流出の可能性](posts/2026-11-09-shareful-admin-system-unauthorized-access.md)
+- 2026-11-09 [早稲田大学 ― MyWasedaのユーザー管理システムに侵入され情報取得](posts/2026-11-09-waseda-mywaseda-user-system-intrusion.md)
+- 2026-11-09 [よーじや ― 会員情報取得APIを不正利用され会員情報が流出](posts/2026-11-09-yojiya-member-api-key-abuse.md)
 - 2026-11-08 [teket ― 不正アクセスで会員情報が流出、全サービス停止](posts/2026-11-08-teket-ticket-platform-member-data-leak.md)
 - 2026-11-07 [シグナルトーク「Maru-Jan」 ― 不正アクセスで会員情報が流出](posts/2026-11-07-signaltalk-maru-jan-member-credentials-leak.md)
 - 2026-11-07 [ステップゴルフ ― 業務システムからDBのバックアップが漏えいした可能性](posts/2026-11-07-stepgolf-business-system-db-backup-leak.md)
