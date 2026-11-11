@@ -185,6 +185,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-10 [Fireworks AI ― 侵害の範囲が顧客データとモデルに広がった](posts/2026-11-10-fireworks-ai-breach-expands-customer-data-models-notion.md)
+- 2026-11-10 [NEAR AI ― SGLangの脆弱性を突かれ推論サーバーに侵入された](posts/2026-11-10-near-ai-sglang-rce-inference-server-intrusion.md)
+- 2026-11-10 [Xen Orchestra ― 空のトークンで認証を回避する脆弱性が悪用された](posts/2026-11-10-xen-orchestra-vsa-2026-062-empty-token-auth-bypass-exploited.md)
 - 2026-11-09 [ARTEXを使う攻撃者 ― GitHubで漏れたアプリの鍵でAzureに侵入](posts/2026-11-09-artex-github-secret-search-entra-service-principal-key-vault.md)
 - 2026-11-09 [Claude Code ― 承認したコマンドの秘密情報が公開リポジトリに残る](posts/2026-11-09-claude-code-settings-local-json-secrets-github-exposure.md)
 - 2026-11-09 [DigiCert ― 外部公開された社内システムから顧客情報が閲覧された](posts/2026-11-09-digicert-business-system-self-registration-customer-documents.md)
