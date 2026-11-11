@@ -308,6 +308,9 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-11 [Google Chrome ― XML処理のゼロデイ脆弱性が悪用され修正](posts/2026-11-11-chrome-cve-2026-125350-xml-uaf-zero-day-kev.md)
+- 2026-11-11 [Cisco BroadWorks ― 8月修正のXXE脆弱性で悪用を確認](posts/2026-11-11-cisco-broadworks-cve-2026-20320-xxe-exploited-kev.md)
+- 2026-11-11 [Microsoft Outlook ― NTLMハッシュを漏らすゼロデイが悪用され修正](posts/2026-11-11-outlook-cve-2026-124194-ntlm-hash-leak-zero-day-kev.md)
 - 2026-11-09 [LNbits ― 攻撃を受け、全サーバーの停止を呼びかけ](posts/2026-11-09-lnbits-wave-of-attacks-stop-all-servers.md)
 - 2026-11-09 [NEC「WebSAM WinShare」 ― 細工したパケットでSYSTEM権限の実行が可能に](posts/2026-11-09-nec-websam-winshare-cve-2026-113363-113364-system-rce.md)
 - 2026-11-07 [Airbyte ― Connector Builderの任意コード実行が悪用された](posts/2026-11-07-airbyte-connector-builder-rce-exploited-jvn12040144.md)
