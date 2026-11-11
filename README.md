@@ -11,7 +11,12 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-10 [ビックカメラ ― 法人向け問い合わせフォームの設定不備で取引先情報が漏えい](posts/2026-11-10-biccamera-corporate-inquiry-form-misconfiguration.md)
+- 2026-11-10 [日本商工会議所 ― ネット試験管理システムに不正ファイル、受験者情報漏えいの可能性](posts/2026-11-10-jcci-net-exam-management-system-malicious-file.md)
+- 2026-11-10 [ソフト99 ― 問い合わせフォームから不正ファイルを置かれ情報漏えいの可能性](posts/2026-11-10-soft99-online-shop-inquiry-form-upload.md)
 - 2026-11-09 [技研製作所 ― 業務用サーバーにランサムウェアを含む不正アクセス](posts/2026-11-09-giken-business-server-ransomware.md)
+- 2026-11-09 [ニトリ ― 管理システムへの不正アクセスで個人情報流出の可能性](posts/2026-11-09-nitori-system-intrusion-personal-data.md)
+- 2026-11-09 [NTTデータ・住友生命 ― Vitality申込システムから利用者情報が漏えい](posts/2026-11-09-nttdata-sumitomo-life-vitality-application-system.md)
 - 2026-11-09 [ラクスル ― 認証情報を悪用され印刷データなどが流出したおそれ](posts/2026-11-09-raksul-data-submission-system-credentials-abuse.md)
 - 2026-11-09 [シェアフル ― 社内管理システムに不正アクセス、利用者情報流出の可能性](posts/2026-11-09-shareful-admin-system-unauthorized-access.md)
 - 2026-11-09 [早稲田大学 ― MyWasedaのユーザー管理システムに侵入され情報取得](posts/2026-11-09-waseda-mywaseda-user-system-intrusion.md)
