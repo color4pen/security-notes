@@ -1,7 +1,7 @@
 ---
 title: "Getchu.com ― 会員管理システムに不正アクセス、会員情報が流出"
 date: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 region: domestic
 status: ongoing
 issue: 125
@@ -18,6 +18,10 @@ description: "通販サイト「Getchu.com」を運営するゲインズは2026�
 - ゲインズは、Getchu.comの会員管理システムが不正アクセスを受け、会員情報が流出したと公表した（[Getchu.com](https://www.getchu.com/getchu/news20261104.html)）。
 - 対象は2026年10月28日17時30分までに登録した会員で、流出した項目には会員ID・メールアドレス・パスワード・氏名・郵便番号・住所・電話番号が含まれる（会員によって登録項目は異なる）（同）。
 - クレジットカード情報は含まれず、DL.Getchu.comとGyutto.comは影響を受けていない（同）。
+
+### わかったこと
+
+- 【2026-11-11追記】Getchu.comは11月4日のお知らせを11月6日17時に更新し、アフィリエイター会員については、既に公表した項目に加えて支払口座情報（銀行名、支店名、口座種類、口座番号）も流出したと公表した（[Getchu.com](https://www.getchu.com/getchu/news20261104.html)）。
 
 ### わかっていないこと
 
@@ -44,6 +48,7 @@ description: "通販サイト「Getchu.com」を運営するゲインズは2026�
 | 2026-10-28 17:30ごろ | 会員管理システムへの不正アクセスが判明 | [Getchu.com](https://www.getchu.com/getchu/news20261104.html) |
 | 2026-11-04 1:00ごろ | 遮断と安全確認の対応を完了 | 同 |
 | 2026-11-04 | 会員情報の流出を公表、パスワードを強制リセット | 同 |
+| 2026-11-06 17:00 | お知らせを更新し、アフィリエイター会員の支払口座情報（銀行名・支店名・口座種類・口座番号）の流出を公表 | [Getchu.com](https://www.getchu.com/getchu/news20261104.html) |
 
 ## 発表内容の整理
 
@@ -77,3 +82,4 @@ description: "通販サイト「Getchu.com」を運営するゲインズは2026�
 ## 参考リンク
 
 - [Getchu.com 会員向けのお知らせ（2026-11-04）](https://www.getchu.com/getchu/news20261104.html)
+- [Getchu.com 会員向けのお知らせ（2026-11-06 17時更新）](https://www.getchu.com/getchu/news20261104.html)

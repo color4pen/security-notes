@@ -1,7 +1,7 @@
 ---
 title: "NTTデータ・住友生命 ― Vitality申込システムから利用者情報が漏えい"
 date: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 region: domestic
 status: ongoing
 issue: 154
@@ -20,6 +20,11 @@ description: "NTTデータが住友生命から受託する「住友生命Vitali
 - 対象は約8万名。氏名、住所、電話番号、生年月日、メールアドレス、クレジットカード番号（一部マスキング済み）のいずれかで、カード番号が漏えいしたのは約1,000名（同）。
 - 保険契約や保険に付随するVitalityの情報、歩数などのデータは含まれない。不正利用やネット上での公開・拡散は確認されていない（[住友生命](https://www.sumitomolife.co.jp/news/detail/newsrelease_261109.html)）。
 - 原因や詳細な経緯は調査中（[NTTデータ](https://www.nttdata.com/global/ja/news/release/2026/110900/)）。
+
+### わかったこと
+
+- 【2026-11-11追記】東京都は11月10日、住友生命と連携して実施するイベント「東京グリーンビズウォーク」で、住友生命の専用アプリに登録した約3万8千名のうち475名の情報が漏えいしたと公表した。内訳は、氏名（漢字・カナ）・生年月日・アプリの会員番号の4項目が460件、これにメールアドレスと電話番号を加えた6項目が6件、電話番号とメールアドレスの2項目が9件。対象者には住友生命から順次メールを送っており、都は住友生命に原因と再発防止策の詳細な報告を求めている（[東京都政策企画局](https://www.seisakukikaku.metro.tokyo.lg.jp/information/press/2026/11/2026111001)）。
+- 【2026-11-11追記】京都府舞鶴市も11月10日、住友生命と共催するウオーキング事業で、利用者の氏名・電話番号・勤務先などの個人情報が漏えいしたと発表した（[京都新聞](https://www.kyoto-np.co.jp/articles/-/1823692)）。
 
 ### わかっていないこと
 
@@ -45,6 +50,7 @@ description: "NTTデータが住友生命から受託する「住友生命Vitali
 | 2026-11-02 | NTTデータが不正アクセスを確認し、住友生命に報告 | [住友生命](https://www.sumitomolife.co.jp/news/detail/newsrelease_261109.html) |
 | 2026-11-03 | 外部からのアクセスを遮断、申込受付などを停止 | [NTTデータ](https://www.nttdata.com/global/ja/news/release/2026/110900/) |
 | 2026-11-09 | 両社が約8万名の漏えいを公表、問い合わせ窓口を開設 | 同 |
+| 2026-11-10 | 自治体の連携事業でも漏えいが判明。東京都はグリーンビズウォーク参加者475名、舞鶴市も共催事業の利用者情報の漏えいを公表 | [東京都政策企画局](https://www.seisakukikaku.metro.tokyo.lg.jp/information/press/2026/11/2026111001)、[京都新聞](https://www.kyoto-np.co.jp/articles/-/1823692) |
 
 ## 発表内容の整理
 
@@ -77,3 +83,5 @@ description: "NTTデータが住友生命から受託する「住友生命Vitali
 - [NTTデータ「当社受託システムにおける個人情報漏えいについて」（2026-11-09）](https://www.nttdata.com/global/ja/news/release/2026/110900/)
 - [住友生命「業務委託先システムへの不正アクセスによるお客さま情報漏えいに関するお詫びとお知らせ」（2026-11-09）](https://www.sumitomolife.co.jp/news/detail/newsrelease_261109.html)
 - [ITmedia NEWS「NTTデータ、住友生命から受託したシステムに不正アクセス　『Vitality』利用者約8万人の情報漏えい」（2026-11-10）](https://www.itmedia.co.jp/news/article/2611/10/2000003051/)
+- [東京都政策企画局「連携事業者が利用するシステムへの不正アクセスによる個人情報の漏えいについて」（2026-11-10）](https://www.seisakukikaku.metro.tokyo.lg.jp/information/press/2026/11/2026111001)
+- [京都新聞「京都府舞鶴市と住友生命の共催事業で『個人情報漏えい』　氏名や電話番号、勤務先など流出」（2026-11-10）](https://www.kyoto-np.co.jp/articles/-/1823692)
