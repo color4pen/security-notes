@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-11 [電通デジタル「TONARIWA」 ― 管理アカウントに不正アクセス、情報漏えいの可能性](posts/2026-11-11-dentsu-digital-tonariwa-admin-account-credential-leak.md)
+- 2026-11-11 [オープンロジ ― 不正アクセスで出荷データのお届け先情報が持ち出された](posts/2026-11-11-openlogi-shipping-data-exfiltration.md)
+- 2026-11-11 [セブン銀行 ― 在留カード提出サイトなどに不正アクセス、券面情報流出の恐れ](posts/2026-11-11-seven-bank-residence-card-submission-site-unauthorized-access.md)
+- 2026-11-11 [SMBC日興証券 ― 持株会管理システムに不正アクセス、会員情報が漏えい](posts/2026-11-11-smbc-nikko-esop-management-system-unauthorized-access.md)
+- 2026-11-11 [靖國神社 ― 授与品の通販サイトに不正アクセス、会員情報が漏えい](posts/2026-11-11-yasukuni-online-shop-member-data-leak.md)
 - 2026-11-10 [ビックカメラ ― 法人向け問い合わせフォームの設定不備で取引先情報が漏えい](posts/2026-11-10-biccamera-corporate-inquiry-form-misconfiguration.md)
 - 2026-11-10 [日本商工会議所 ― ネット試験管理システムに不正ファイル、受験者情報漏えいの可能性](posts/2026-11-10-jcci-net-exam-management-system-malicious-file.md)
 - 2026-11-10 [ソフト99 ― 問い合わせフォームから不正ファイルを置かれ情報漏えいの可能性](posts/2026-11-10-soft99-online-shop-inquiry-form-upload.md)
