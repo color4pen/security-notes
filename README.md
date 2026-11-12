@@ -190,6 +190,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-11 [AntiFox ― AIペンテスト基盤の稼働拠点からAWSの秘密情報が読まれた](posts/2026-11-11-antifox-ai-pentest-platform-aws-secrets-intrusions.md)
+- 2026-11-11 [ScreenConnect ― 侵害されたMSPの環境から攻撃用クライアントを配布](posts/2026-11-11-screenconnect-msp-rogue-client-sckit-worm.md)
 - 2026-11-10 [Fireworks AI ― 侵害の範囲が顧客データとモデルに広がった](posts/2026-11-10-fireworks-ai-breach-expands-customer-data-models-notion.md)
 - 2026-11-10 [NEAR AI ― SGLangの脆弱性を突かれ推論サーバーに侵入された](posts/2026-11-10-near-ai-sglang-rce-inference-server-intrusion.md)
 - 2026-11-10 [Xen Orchestra ― 空のトークンで認証を回避する脆弱性が悪用された](posts/2026-11-10-xen-orchestra-vsa-2026-062-empty-token-auth-bypass-exploited.md)
