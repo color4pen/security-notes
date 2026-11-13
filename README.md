@@ -322,6 +322,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-13 [Apache HTTP Server ― HTTP/2処理に認証不要のRCE脆弱性](posts/2026-11-13-apache-httpd-cve-2026-119618-mod-http2-rce.md)
+- 2026-11-13 [Check Point Security Gateway ― PHP2Shellと権限昇格の連鎖で悪用](posts/2026-11-13-check-point-gateway-php2shell-cve-2026-123039-exploited.md)
 - 2026-11-11 [Google Chrome ― XML処理のゼロデイ脆弱性が悪用され修正](posts/2026-11-11-chrome-cve-2026-125350-xml-uaf-zero-day-kev.md)
 - 2026-11-11 [Cisco BroadWorks ― 8月修正のXXE脆弱性で悪用を確認](posts/2026-11-11-cisco-broadworks-cve-2026-20320-xxe-exploited-kev.md)
 - 2026-11-11 [Microsoft Outlook ― NTLMハッシュを漏らすゼロデイが悪用され修正](posts/2026-11-11-outlook-cve-2026-124194-ntlm-hash-leak-zero-day-kev.md)
