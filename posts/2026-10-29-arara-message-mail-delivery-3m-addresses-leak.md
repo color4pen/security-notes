@@ -1,7 +1,7 @@
 ---
 title: "アララ メッセージ ― 不正アクセスで配信リストのメールアドレスが流出"
 date: 2026-10-29
-updated: 2026-11-12
+updated: 2026-11-13
 region: domestic
 status: ongoing
 issue: 96
@@ -127,6 +127,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 11-11（水） | 日本サッカー協会が、JFA STOREの後払い決済（GMOペイメントサービス）の委託先経由で利用者11名分のメールアドレスが漏えいしたと公表（[日本サッカー協会](http://www.jfa.jp/about_jfa/news/00037015/)） |
 | 11-11（水） | 内閣府がメールマガジン14種類などの利用者のメールアドレス62,863件（重複除外61,751件）の漏えいを公表。三菱UFJフィナンシャル・グループが電子ギフト委託先ギフトパッド経由で株主のメールアドレス20,000件、野村ホールディングスも株主のメールアドレス1万3500件の流出を公表（[内閣府（PDF）](https://www.cao.go.jp/others/csi/security/20261111notice.pdf)、[MUFG（PDF）](https://www.mufg.jp/dam/pressrelease/2026/pdf/news-20261111-001_ja.pdf)、[日本経済新聞](https://www.nikkei.com/article/DGXZQOUB118EO0R11C26A1000000/)） |
 | 11-12（木） | キユーピーがグループ5社の自動返信メール受信者のメールアドレス12万5788件の流出を発表（[日本経済新聞](https://www.nikkei.com/article/DGXZQOUC122T10S6A111C2000000/)） |
+| 11-12（木） | Terravie（アドベンチャーワールドのチケット等）が、7月1日〜10月31日にメールを送った客5,709件のメールアドレスと一部のメール本文（定型文）の流出を確定（【2026-11-13追記】）。東京都府中市は、むさし府中商工会議所の報告として「ふちゅPay」利用者・加盟店のメールアドレス3,363件の流出を公表（[Terravie](https://terravie.co.jp/58/)、[府中市](https://www.city.fuchu.tokyo.jp/kurashi/machi/fuchupay/oshirase2.html)） |
 
 ## 発表内容の整理
 
