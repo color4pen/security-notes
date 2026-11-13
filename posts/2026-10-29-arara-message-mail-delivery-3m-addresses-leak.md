@@ -128,6 +128,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 11-11（水） | 内閣府がメールマガジン14種類などの利用者のメールアドレス62,863件（重複除外61,751件）の漏えいを公表。三菱UFJフィナンシャル・グループが電子ギフト委託先ギフトパッド経由で株主のメールアドレス20,000件、野村ホールディングスも株主のメールアドレス1万3500件の流出を公表（[内閣府（PDF）](https://www.cao.go.jp/others/csi/security/20261111notice.pdf)、[MUFG（PDF）](https://www.mufg.jp/dam/pressrelease/2026/pdf/news-20261111-001_ja.pdf)、[日本経済新聞](https://www.nikkei.com/article/DGXZQOUB118EO0R11C26A1000000/)） |
 | 11-12（木） | キユーピーがグループ5社の自動返信メール受信者のメールアドレス12万5788件の流出を発表（[日本経済新聞](https://www.nikkei.com/article/DGXZQOUC122T10S6A111C2000000/)） |
 | 11-12（木） | Terravie（アドベンチャーワールドのチケット等）が、7月1日〜10月31日にメールを送った客5,709件のメールアドレスと一部のメール本文（定型文）の流出を確定（【2026-11-13追記】）。東京都府中市は、むさし府中商工会議所の報告として「ふちゅPay」利用者・加盟店のメールアドレス3,363件の流出を公表（[Terravie](https://terravie.co.jp/58/)、[府中市](https://www.city.fuchu.tokyo.jp/kurashi/machi/fuchupay/oshirase2.html)） |
+| 11-13（金） | 三井住友海上（約1.5万件）、あいおいニッセイ同和損保（約1.6万件）、三井ダイレクト損保（約1,200件）が、ドライブレコーダー映像共有用のオンラインストレージ「Fleekdrive」の運営会社がアララに委託していたメール配信経由で、顧客のメールアドレス計約3.2万件の漏えいを公表（【2026-11-13夕追記】）（[三井住友海上（PDF）](https://www.ms-ins.com/news/fy2026/pdf/1113_1.pdf)、[あいおいニッセイ同和（PDF）](https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026111301533.pdf)、[日本経済新聞](https://www.nikkei.com/article/DGXZQOUB1326D0T11C26A1000000/)） |
 
 ## 発表内容の整理
 
@@ -176,6 +177,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | コングレ（【2026-11-06追記】11月5日） | メールアドレス計3万9144件（IMAGINUS等）（[コングレ](https://www.congre.com/news/20261105/)） |
 | NTTタウンページ（【2026-11-06追記】11月5日） | メールアドレス14万2126件（10月8日〜31日配信分）（[NTTタウンページ](https://www.ntt-tp.co.jp/news/other-news/notice261104.html)） |
 | コナカ子会社（サマンサタバサ等）（【2026-11-06追記】11月5日） | 各公式オンラインショップ・フィットハウスアプリのメールアドレス計43万4414件（[コナカ（PDF）](https://www.konaka.co.jp/ir/assets/2026/11/261105.pdf)） |
+| 三井住友海上・あいおいニッセイ同和損保・三井ダイレクト損保（【2026-11-13夕追記】11月13日） | Fleekdrive社（ドライブレコーダー映像の共有に使うオンラインストレージ）がメール配信をアララに委託しており、7月1日〜10月30日にFleekdriveの配信メールを受け取った顧客のメールアドレスが漏えい。三井住友海上 約1.5万件、あいおいニッセイ同和 約1.6万件（いずれも11月13日9時時点）、三井ダイレクト損保 約1,200件（日経・産経の報道）。氏名・住所・電話番号・契約情報・映像・メール本文は対象外。不正使用は未確認（[三井住友海上（PDF）](https://www.ms-ins.com/news/fy2026/pdf/1113_1.pdf)、[あいおいニッセイ同和（PDF）](https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026111301533.pdf)、[日本経済新聞](https://www.nikkei.com/article/DGXZQOUB1326D0T11C26A1000000/)、[産経ニュース](https://www.sankei.com/article/20261113-FMZN5OBXB5OTDJQX2OGXP6XVZU/)） |
 
 **考察**
 
