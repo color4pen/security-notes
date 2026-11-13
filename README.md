@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-12 [サイバーセキュリティクラウド ― GitHubに不正アクセス、顧客情報漏えいの恐れ](posts/2026-11-12-cyber-security-cloud-github-credential-leak.md)
+- 2026-11-12 [ギフティ「giftee」 ― 認証基盤への不正アクセスで主要機能を停止](posts/2026-11-12-giftee-prismatix-auth-service-unauthorized-access.md)
+- 2026-11-12 [甲賀市 ― 音声放送システムのサーバーがランサムウェア被害](posts/2026-11-12-koka-city-broadcast-system-ransomware.md)
+- 2026-11-12 [USMH「Scan＆Go ignica」 ― 不正アクセスで会員情報流出の可能性](posts/2026-11-12-usmh-scan-and-go-ignica-unauthorized-access.md)
+- 2026-11-12 [Yeny ― API接続設定の不備で会員の電話番号が漏えい](posts/2026-11-12-yeny-api-misconfiguration-phone-numbers-leak.md)
 - 2026-11-11 [電通デジタル「TONARIWA」 ― 管理アカウントに不正アクセス、情報漏えいの可能性](posts/2026-11-11-dentsu-digital-tonariwa-admin-account-credential-leak.md)
 - 2026-11-11 [オープンロジ ― 不正アクセスで出荷データのお届け先情報が持ち出された](posts/2026-11-11-openlogi-shipping-data-exfiltration.md)
 - 2026-11-11 [セブン銀行 ― 在留カード提出サイトなどに不正アクセス、券面情報流出の恐れ](posts/2026-11-11-seven-bank-residence-card-submission-site-unauthorized-access.md)
