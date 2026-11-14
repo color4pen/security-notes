@@ -11,9 +11,14 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-13 [マネックス証券 ― 委託先の口座開設システムに不正アクセス、情報漏えいのおそれ](posts/2026-11-13-monex-account-opening-system-contractor-unauthorized-access.md)
+- 2026-11-13 [paiza ― 検証環境が固定パスワードのまま外部から接続できる状態だった](posts/2026-11-13-paiza-staging-environment-fixed-password-exposure.md)
+- 2026-11-13 [プレイド「KARTE」 ― 不正アクセスを検知し全機能を停止](posts/2026-11-13-plaid-karte-unauthorized-access-all-services-suspended.md)
+- 2026-11-13 [ヤマダデンキ ― リフォーム管理システムに不正アクセス](posts/2026-11-13-yamada-denki-reform-management-system-unauthorized-access.md)
 - 2026-11-12 [サイバーセキュリティクラウド ― GitHubに不正アクセス、顧客情報漏えいの恐れ](posts/2026-11-12-cyber-security-cloud-github-credential-leak.md)
 - 2026-11-12 [ギフティ「giftee」 ― 認証基盤への不正アクセスで主要機能を停止](posts/2026-11-12-giftee-prismatix-auth-service-unauthorized-access.md)
 - 2026-11-12 [甲賀市 ― 音声放送システムのサーバーがランサムウェア被害](posts/2026-11-12-koka-city-broadcast-system-ransomware.md)
+- 2026-11-12 [Qoo10 ― 不正アクセスで会員の個人情報が閲覧された](posts/2026-11-12-qoo10-system-unauthorized-access-personal-data-viewed.md)
 - 2026-11-12 [USMH「Scan＆Go ignica」 ― 不正アクセスで会員情報流出の可能性](posts/2026-11-12-usmh-scan-and-go-ignica-unauthorized-access.md)
 - 2026-11-12 [Yeny ― API接続設定の不備で会員の電話番号が漏えい](posts/2026-11-12-yeny-api-misconfiguration-phone-numbers-leak.md)
 - 2026-11-11 [電通デジタル「TONARIWA」 ― 管理アカウントに不正アクセス、情報漏えいの可能性](posts/2026-11-11-dentsu-digital-tonariwa-admin-account-credential-leak.md)
