@@ -200,6 +200,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-13 [FaceStealer ― 偽のビデオ会議で暗号資産を窃取、FBIが基盤を押収](posts/2026-11-13-facestealer-fake-video-meetings-crypto-theft-fbi-seizure.md)
+- 2026-11-13 [SilentAir ― 乗っ取った携帯事業者の設備からSMSを横取り](posts/2026-11-13-silentair-mobile-operators-ss7-sms-interception.md)
 - 2026-11-12 [CL-STA-1238 ― 公開AIペンテスト基盤Cairnで自律的に侵入](posts/2026-11-12-cl-sta-1238-cairn-ai-pentest-framework-autonomous-intrusions.md)
 - 2026-11-12 [wfx-loot ― 乗っ取られたGitHubアカウントでCIの秘密情報を窃取](posts/2026-11-12-wfx-loot-hijacked-github-accounts-ci-secret-stealer.md)
 - 2026-11-11 [AntiFox ― AIペンテスト基盤の稼働拠点からAWSの秘密情報が読まれた](posts/2026-11-11-antifox-ai-pentest-platform-aws-secrets-intrusions.md)
