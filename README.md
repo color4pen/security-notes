@@ -11,7 +11,12 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-14 [アトラス「Confit」 ― 学術大会の発表者情報が不正アクセスで取得された](posts/2026-11-14-atlas-confit-presentation-data-unauthorized-access.md)
+- 2026-11-14 [京阪HD ― 公式LINEの連携サービス経由で利用者情報流出の可能性](posts/2026-11-14-keihan-comsbi-saas-line-official-account-data-leak.md)
+- 2026-11-13 [アップルワールド「Rikisha Easy REZ!」 ― サーバーに不正アクセス、サービス停止](posts/2026-11-13-appleworld-rikisha-easy-rez-server-compromise.md)
+- 2026-11-13 [京成電鉄 ― スカイライナー座席予約システムに不正アクセス](posts/2026-11-13-keisei-skyliner-seat-reservation-system-unauthorized-access.md)
 - 2026-11-13 [マネックス証券 ― 委託先の口座開設システムに不正アクセス、情報漏えいのおそれ](posts/2026-11-13-monex-account-opening-system-contractor-unauthorized-access.md)
+- 2026-11-13 [大阪府 ― 食費支援事業の申請システムから本人確認書類の画像が漏えい](posts/2026-11-13-osaka-pref-food-support-application-system-id-images-leak.md)
 - 2026-11-13 [paiza ― 検証環境が固定パスワードのまま外部から接続できる状態だった](posts/2026-11-13-paiza-staging-environment-fixed-password-exposure.md)
 - 2026-11-13 [プレイド「KARTE」 ― 不正アクセスを検知し全機能を停止](posts/2026-11-13-plaid-karte-unauthorized-access-all-services-suspended.md)
 - 2026-11-13 [ヤマダデンキ ― リフォーム管理システムに不正アクセス](posts/2026-11-13-yamada-denki-reform-management-system-unauthorized-access.md)
