@@ -1,7 +1,7 @@
 ---
 title: "プレイド「KARTE」 ― 不正アクセスを検知し全機能を停止"
 date: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
 region: domestic
 status: ongoing
 issue: 169
@@ -20,6 +20,7 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 - ステータスページは同日14時44分に停止を告知した。KARTE Messageの一括メール配信は途中で止まる場合があり、KARTE Datahubのジョブフローで処理中のデータ連携は失敗する場合があるとしている。終了時期は未定（[KARTE Status](https://status.karte.io/)）。
 - 同日23時35分の更新で、「外部に漏洩した可能性のある情報を確認し、該当のお客様にはメールにてご連絡させていただきました」と報告した（同）。
 - 2026年12月期の業績への影響は精査中（[プレイド 適時開示](https://pdf.irpocket.com/C4165/xoA3/Laiu/qCUD/WYIe.pdf)）。
+- 【2026-11-15追記】ステータスページは11月14日21時05分の更新で、「引き続き不正アクセスの影響があった範囲を調査中でございますが、大きな続報はない状態です」とし、サービス再開の目処は未定と報告した。今後は同ページで定期的に進捗を更新し、次回は15日午前11時ごろの予定（[KARTE Status](https://status.karte.io/)）。同日18時03分にも、影響範囲を調査中・再開未定との更新があった（[日本時事新聞](https://jpjj.jp/articles/plaid-karte-unauthorized-access-halt/)）。
 
 ### わかっていないこと
 
@@ -43,6 +44,8 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 | 2026-11-13 15:00 | 調査継続と更新 | 同 |
 | 2026-11-13 | 適時開示「当社サービスへの不正アクセスに関するお知らせ」 | [プレイド 適時開示](https://pdf.irpocket.com/C4165/xoA3/Laiu/qCUD/WYIe.pdf) |
 | 2026-11-13 23:35 | 漏えいの可能性のある情報を確認し、該当顧客にメールで連絡したと報告 | [KARTE Status](https://status.karte.io/) |
+| 2026-11-14 18:03 | 影響範囲を引き続き調査中、再開の目処は未定と更新（【2026-11-15追記】） | [日本時事新聞](https://jpjj.jp/articles/plaid-karte-unauthorized-access-halt/) |
+| 2026-11-14 21:05 | 「大きな続報はない状態」、再開未定。今後は定期的に更新し、次回は15日11時ごろと告知（【2026-11-15追記】） | [KARTE Status](https://status.karte.io/) |
 
 ## 発表内容の整理
 
@@ -72,4 +75,5 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 
 - [プレイド「当社サービスへの不正アクセスに関するお知らせ」（2026-11-13、適時開示PDF）](https://pdf.irpocket.com/C4165/xoA3/Laiu/qCUD/WYIe.pdf)
 - [KARTE Status](https://status.karte.io/)
+- [日本時事新聞「プレイドの「KARTE」に不正アクセス、全機能を停止　漏えいの可能性ある情報を確認」](https://jpjj.jp/articles/plaid-karte-unauthorized-access-halt/)
 - [日本経済新聞「マーケ支援のプレイド、不正アクセスでサービス停止」（2026-11-13）](https://www.nikkei.com/article/DGXZQOUC13B0E0T11C26A1000000/)
