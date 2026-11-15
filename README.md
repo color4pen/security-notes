@@ -336,6 +336,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-15 [Ivanti Endpoint Manager ― 認証なしでコードを実行される欠陥を修正](posts/2026-11-15-ivanti-epm-cve-2026-121653-unauth-sqli-rce.md)
+- 2026-11-15 [UnrealIRCd ― 一般利用者がサーバー権限で命令を実行できる欠陥が悪用](posts/2026-11-15-unrealircd-cve-2026-114713-labeled-response-command-injection-kev.md)
 - 2026-11-13 [Apache HTTP Server ― HTTP/2処理に認証不要のRCE脆弱性](posts/2026-11-13-apache-httpd-cve-2026-119618-mod-http2-rce.md)
 - 2026-11-13 [Check Point Security Gateway ― PHP2Shellと権限昇格の連鎖で悪用](posts/2026-11-13-check-point-gateway-php2shell-cve-2026-123039-exploited.md)
 - 2026-11-11 [Google Chrome ― XML処理のゼロデイ脆弱性が悪用され修正](posts/2026-11-11-chrome-cve-2026-125350-xml-uaf-zero-day-kev.md)
