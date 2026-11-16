@@ -210,6 +210,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-16 [Barracuda ― 回収し忘れた委託先のクラウド鍵で社内クラウドに侵入](posts/2026-11-16-barracuda-cloud-breach-unrevoked-vendor-key-artex.md)
+- 2026-11-16 [Telegram ― HTMLウィジェットのJSエンジンにコード実行の欠陥](posts/2026-11-16-telegram-html-widgets-quickjs-code-execution-webrat.md)
 - 2026-11-14 [ArcticRAT ― Android RATが盗んだSMSをAIで仕分け](posts/2026-11-14-arcticrat-android-rat-llm-sms-financial-triage.md)
 - 2026-11-14 [Citrus Ransomware ― 委託先のアカウントを入口に社内を暗号化](posts/2026-11-14-citrus-ransomware-contractor-access-gpo-sn00py.md)
 - 2026-11-13 [FaceStealer ― 偽のビデオ会議で暗号資産を窃取、FBIが基盤を押収](posts/2026-11-13-facestealer-fake-video-meetings-crypto-theft-fbi-seizure.md)
