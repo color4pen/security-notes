@@ -26,6 +26,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 - 【2026-11-14夕追記】板橋区は11月12日、「いたばしPay」のシステム委託会社フィノバレーがメール配信に使っていたアララ メッセージ経由で、利用者と加盟店のメールアドレス114,987件が漏えいしたと公表した。メールアドレス以外は含まれず、他の配信システムに切り替えて配信と決済は通常どおり（[板橋区](https://www.city.itabashi.tokyo.jp/bunka/1061832/1062076/1066763/1066938.html)）。
 - 【2026-11-15追記】美十（おたべ・京ばあむオンラインショップ）は11月13日の第2報で、GMOメイクショップの顧客管理・メール配信支援サービス「MakeRepeater」が連携するアララ メッセージ経由で、7月1日〜10月28日に配信先として登録していた客のメールアドレス105,497件が漏えいしたと公表した。メールアドレス以外は含まれず、同社のオンラインショップとGMOメイクショップのシステム基盤への不正アクセスは確認されていない。個別のアドレスの特定は引き続き調査中（[美十 第2報](https://www.otabe.jp/view/news/20261113142303)）。
 - 【2026-11-16追記】TKC経由の自治体の公表がさらに続いた。川崎市は11月13日の第2報で、「オンライン手続かわさき（e-KAWASAKI）」から送った通知メールの宛先メールアドレス66,451件の漏えいをTKCから報告されたと発表した（[川崎市](https://www.city.kawasaki.jp/templates/prs/170/0000191731.html)）。新潟市は同日、「e-NIIGATA」から7月1日〜10月31日に送った通知メールのメールアドレス37,931件（テスト用アドレス等を含む可能性あり）の漏えいを公表し、申請完了などの通知メールは停止が続いている（[セキュリティ対策Lab](https://rocket-boys.co.jp/security-measures-lab/niigata-city-e-niigata-arara-email-leak-37931-202611/)）。下野市は2,181件（[下野市](https://www.city.shimotsuke.lg.jp/0017/info-0000010791-3.html)）、那須塩原市はスマート申請システムとマイナンバーカード交付予約管理システムで計5,652件（[WALK NEWS](https://www.walknews.com/1427263/)）、奈良市はマイナンバーカード受け取り予約者らの1,617件（[産経新聞](https://www.sankei.com/article/20261113-B7JFAFJ5LVONBGCEQCWWWD5TVE/)）を公表した。いずれもメールアドレスのみで、氏名やマイナンバーは含まれないとしている。
+- 【2026-11-16夕追記】GMOメイクショップ経由の公表が続いた。キリンビールは11月16日、オンラインショップ「DRINX」の会員のメールアドレス58,613件の漏えいを確認したと発表した。11月13日にGMOメイクショップから連絡を受けたもので、氏名・住所・電話番号・パスワード・カード情報は含まれないとしている（[キリンビール](https://www.kirinholdings.com/jp/newsroom/release/2026/1116_01.pdf)）。青森市のオカムラ食品工業も同日、10月31日まで運営していた「ポートオンラインショップ」のメルマガ配信先のメールアドレス8,197件（7月1日〜10月28日の配信分）の漏えいを公表した（[日テレNEWS](https://news.ntv.co.jp/category/society/raf255a95604cd429e88e896b5e4b8c610)）。柏市は11月13日、ウイングアークNEXが運営する子育て関連のメール配信サービス3種で、登録メールアドレス6,928件の漏えいが確認されたと発表した（[柏市](https://www.city.kashiwa.lg.jp/koho/pressrelease/r8houdou/11gatsu/r8111301.html)）。
 
 ### わかったこと
 
@@ -141,6 +142,8 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 11-13（金） | 横浜市が電子申請・届出システム利用者のメールアドレス117,489件の漏えいを発表（11月3日公表の約82万件は可能性の範囲）。加古川市もオンライン申請システム等の利用者のメールアドレスの漏えいを公表（申請システム分12,806件、神戸新聞）（【2026-11-14夕追記】[横浜市（PDF）](https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/somu/2026/1113denshishinsei.files/20261113so_dx.pdf)、[加古川市](https://www.city.kakogawa.lg.jp/soshikikarasagasu/kikakubu/jouhouseisakuka/onlineshinsei/51384.html)、[神戸新聞NEXT](https://www.kobe-np.co.jp/news/touban/202611/0021031328.shtml)） |
 | 11-13（金） | 美十（おたべ・京ばあむオンラインショップ）が第2報で、GMOメイクショップ「MakeRepeater」経由のメールアドレス105,497件の漏えいを公表（【2026-11-15追記】[美十 第2報](https://www.otabe.jp/view/news/20261113142303)） |
 | 11-12〜13 | 川崎市（e-KAWASAKI 66,451件）、新潟市（e-NIIGATA 37,931件）、那須塩原市（5,652件）、下野市（2,181件）、奈良市（1,617件）がTKC経由のメールアドレス漏えいを公表（【2026-11-16追記】[川崎市](https://www.city.kawasaki.jp/templates/prs/170/0000191731.html)、[下野市](https://www.city.shimotsuke.lg.jp/0017/info-0000010791-3.html)、[産経新聞](https://www.sankei.com/article/20261113-B7JFAFJ5LVONBGCEQCWWWD5TVE/)） |
+| 11-13（金） | 柏市が子育て関連メール配信3種の登録メールアドレス6,928件の漏えいを発表（【2026-11-16夕追記】[柏市](https://www.city.kashiwa.lg.jp/koho/pressrelease/r8houdou/11gatsu/r8111301.html)） |
+| 11-16（月） | キリンビール（DRINX 58,613件）、オカムラ食品工業（ポートオンラインショップ 8,197件）がGMOメイクショップ経由のメールアドレス漏えいを発表（【2026-11-16夕追記】[キリンビール](https://www.kirinholdings.com/jp/newsroom/release/2026/1116_01.pdf)、[日テレNEWS](https://news.ntv.co.jp/category/society/raf255a95604cd429e88e896b5e4b8c610)） |
 
 ## 発表内容の整理
 
@@ -199,6 +202,9 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 川崎市「e-KAWASAKI」（【2026-11-16追記】11月13日 第2報） | TKCが使うアララのメール送信サービス経由で、通知メールの宛先メールアドレス66,451件（[川崎市](https://www.city.kawasaki.jp/templates/prs/170/0000191731.html)） |
 | 新潟市「e-NIIGATA」（【2026-11-16追記】11月13日） | 7月1日〜10月31日の通知メールのメールアドレス37,931件。テスト用アドレス等を含む可能性があり、人数ではない（[セキュリティ対策Lab](https://rocket-boys.co.jp/security-measures-lab/niigata-city-e-niigata-arara-email-leak-37931-202611/)） |
 | 下野市・那須塩原市・奈良市（【2026-11-16追記】11月12〜13日） | 下野市 2,181件、那須塩原市 5,652件、奈良市 1,617件。いずれもメールアドレスのみ（[下野市](https://www.city.shimotsuke.lg.jp/0017/info-0000010791-3.html)、[WALK NEWS](https://www.walknews.com/1427263/)、[産経新聞](https://www.sankei.com/article/20261113-B7JFAFJ5LVONBGCEQCWWWD5TVE/)） |
+| 柏市（【2026-11-16夕追記】11月13日） | ウイングアークNEX運営の「すくすくメールかしわ」など3種で登録メールアドレス6,928件。氏名・電話番号等の漏えいは確認されていない（[柏市](https://www.city.kashiwa.lg.jp/koho/pressrelease/r8houdou/11gatsu/r8111301.html)） |
+| キリンビール「DRINX」（【2026-11-16夕追記】11月16日） | GMOメイクショップ経由で会員のメールアドレス58,613件。氏名・住所・電話番号・パスワード・カード情報は対象外（[キリンビール](https://www.kirinholdings.com/jp/newsroom/release/2026/1116_01.pdf)） |
+| オカムラ食品工業「ポートオンラインショップ」（【2026-11-16夕追記】11月16日） | GMOメイクショップ経由でメルマガ配信先のメールアドレス8,197件（7月1日〜10月28日配信分）。メールアドレスのみ（[日テレNEWS](https://news.ntv.co.jp/category/society/raf255a95604cd429e88e896b5e4b8c610)） |
 
 **考察**
 
@@ -290,3 +296,6 @@ PHP2Shellは修正版の公開前から悪用の試みが観測されていた�
 - [産経新聞「奈良市もアララ　市民のアドレス1600件超漏洩」（2026年11月13日）](https://www.sankei.com/article/20261113-B7JFAFJ5LVONBGCEQCWWWD5TVE/)
 - [セキュリティ対策Lab「新潟市「e-NIIGATA」でメールアドレス3万7,931件が漏えい」（2026年11月15日）](https://rocket-boys.co.jp/security-measures-lab/niigata-city-e-niigata-arara-email-leak-37931-202611/)
 - [WALK NEWS「栃木県那須塩原市、行政サービスのメールアドレス5,652件が漏えい」（2026年11月15日）](https://www.walknews.com/1427263/)
+- [柏市「メール配信サービス（「すくすくメールかしわ」、「ひとり親サポートメール」及び「子育ておしごとメール」）で使用するシステムへの不正アクセス事案の発生及び個人情報漏えいについて」（2026年11月13日）](https://www.city.kashiwa.lg.jp/koho/pressrelease/r8houdou/11gatsu/r8111301.html)
+- [キリンビール「業務委託先への不正アクセスによるお客様情報漏えいに関するお詫びとお知らせ」（2026年11月16日）](https://www.kirinholdings.com/jp/newsroom/release/2026/1116_01.pdf)
+- [日テレNEWS「「アララ」不正アクセスの影響　オカムラ食品工業オンラインショップでメールアドレス8197件が漏えい」（2026年11月16日）](https://news.ntv.co.jp/category/society/raf255a95604cd429e88e896b5e4b8c610)
