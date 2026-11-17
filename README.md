@@ -215,6 +215,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-17 [ARTEXを使う攻撃者 ― 公開されたAIアプリからAIのAPIキーを収集](posts/2026-11-17-artex-ai-gateway-provider-key-theft-amazon-madpot.md)
+- 2026-11-17 [Optimizely Web ― 顧客サイトのスクリプトに不正コードが注入された](posts/2026-11-17-optimizely-web-project-javascript-injection-skimmer.md)
 - 2026-11-16 [Barracuda ― 回収し忘れた委託先のクラウド鍵で社内クラウドに侵入](posts/2026-11-16-barracuda-cloud-breach-unrevoked-vendor-key-artex.md)
 - 2026-11-16 [Telegram ― HTMLウィジェットのJSエンジンにコード実行の欠陥](posts/2026-11-16-telegram-html-widgets-quickjs-code-execution-webrat.md)
 - 2026-11-14 [ArcticRAT ― Android RATが盗んだSMSをAIで仕分け](posts/2026-11-14-arcticrat-android-rat-llm-sms-financial-triage.md)
