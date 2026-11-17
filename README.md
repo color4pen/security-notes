@@ -11,6 +11,10 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-16 [大和リビング「D-ROOM NAVI」 ― 不正アクセスで取引先・従業員情報が漏えい](posts/2026-11-16-daiwa-living-droom-navi-unauthorized-access-passwords.md)
+- 2026-11-16 [ミツモア ― 不正ログインと機能の脆弱性で依頼者の住所などが漏えい](posts/2026-11-16-meetsmore-credential-stuffing-availability-feature-vuln.md)
+- 2026-11-16 [メルパラ・Jメール ― 不正アクセスでサービス停止、カード情報漏えいの可能性](posts/2026-11-16-mic-merupara-jmail-unauthorized-access-card-page.md)
+- 2026-11-16 [理研「富岳」 ― 運用系システムに不正アクセス、運用を停止](posts/2026-11-16-riken-fugaku-operations-system-intrusion-credentials.md)
 - 2026-11-14 [アトラス「Confit」 ― 学術大会の発表者情報が不正アクセスで取得された](posts/2026-11-14-atlas-confit-presentation-data-unauthorized-access.md)
 - 2026-11-14 [京阪HD ― 公式LINEの連携サービス経由で利用者情報流出の可能性](posts/2026-11-14-keihan-comsbi-saas-line-official-account-data-leak.md)
 - 2026-11-14 [ポケットチェンジ「Pokepay」 ― 不正アクセスで地域通貨などの決済基盤を停止](posts/2026-11-14-pokepay-enterprise-unauthorized-access-service-suspended.md)
@@ -32,6 +36,7 @@
 - 2026-11-12 [USMH「Scan＆Go ignica」 ― 不正アクセスで会員情報流出の可能性](posts/2026-11-12-usmh-scan-and-go-ignica-unauthorized-access.md)
 - 2026-11-12 [Yeny ― API接続設定の不備で会員の電話番号が漏えい](posts/2026-11-12-yeny-api-misconfiguration-phone-numbers-leak.md)
 - 2026-11-11 [電通デジタル「TONARIWA」 ― 管理アカウントに不正アクセス、情報漏えいの可能性](posts/2026-11-11-dentsu-digital-tonariwa-admin-account-credential-leak.md)
+- 2026-11-11 [ラキール ― 窃取されたAWSアクセスキーで顧客環境に不正アクセス](posts/2026-11-11-lakeel-aws-access-key-stolen-source-code-server.md)
 - 2026-11-11 [オープンロジ ― 不正アクセスで出荷データのお届け先情報が持ち出された](posts/2026-11-11-openlogi-shipping-data-exfiltration.md)
 - 2026-11-11 [セブン銀行 ― 在留カード提出サイトなどに不正アクセス、券面情報流出の恐れ](posts/2026-11-11-seven-bank-residence-card-submission-site-unauthorized-access.md)
 - 2026-11-11 [SMBC日興証券 ― 持株会管理システムに不正アクセス、会員情報が漏えい](posts/2026-11-11-smbc-nikko-esop-management-system-unauthorized-access.md)
