@@ -11,6 +11,7 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-17 [楽天証券 ― テスト環境への不正アクセスで顧客情報が漏えいした可能性](posts/2026-11-17-rakuten-sec-test-environment-unauthorized-access.md)
 - 2026-11-16 [大和リビング「D-ROOM NAVI」 ― 不正アクセスで取引先・従業員情報が漏えい](posts/2026-11-16-daiwa-living-droom-navi-unauthorized-access-passwords.md)
 - 2026-11-16 [ミツモア ― 不正ログインと機能の脆弱性で依頼者の住所などが漏えい](posts/2026-11-16-meetsmore-credential-stuffing-availability-feature-vuln.md)
 - 2026-11-16 [メルパラ・Jメール ― 不正アクセスでサービス停止、カード情報漏えいの可能性](posts/2026-11-16-mic-merupara-jmail-unauthorized-access-card-page.md)
