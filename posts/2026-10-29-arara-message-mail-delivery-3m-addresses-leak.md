@@ -32,6 +32,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 
 - 【2026-11-17夕追記】キリンビバレッジは11月17日、企業向け置き型スムージー定期購買サービス「Wellstock」会員専用サイトで、GMOメイクショップの「makeshop byGMO」のメール配信機能経由で、7月1日〜10月28日に配信先となっていたメールアドレス154件の漏えいを確認したと発表した（11月13日にGMOメイクショップから連絡）。氏名・住所・会社名・電話番号・パスワード・カード情報は対象外（[キリンビバレッジ（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1117_02.pdf)）。
 - 【2026-11-18追記】11月17日、自治体の公表がさらに続いた。宮崎市は第2報で、「スマート申請システム」（提供：デンサン、構築：TKC）で登録・利用されたメールアドレス8,982件の流出を確認したと発表した（対象は7月〜10月に同システムからメールを受け取った人）（[宮崎市](https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/419576.html)）。郡山市はオンライン申請サービスの漏えいを7,486件と確定した（11月4日時点では約3万2,600件に漏えいの可能性としていた。マイナンバーカード交付予約システムの約2万件は調査中）（[福島民友](https://www.minyu-net.com/news/detail/2026111808065957367)）。氷見市は「氷見市お知らせメール」の利用者メールアドレス1,023件（7月1日〜10月31日の送信先）（[氷見市](https://www.city.himi.toyama.jp/emergency/15355.html)）、能美市はシステム研究所が運営する「マイナンバー交付予約システム」「ネットdeスマート申請」のメールアドレス758件の漏えいを公表した（[能美市](https://www.city.nomi.lg.jp/docs/7809.html)）。いずれもメールアドレスのみとしている。
+- 【2026-11-18夕追記】11月17日には堺市が、TKC提供の「堺市電子申請システム」で7月1日〜10月31日に同システムからメールを受け取った人のメールアドレス64,073件が漏えいしたと発表した（[堺市（PDF）](https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf)）。大村市も同日、デジタル地域通貨アプリ「ゆでぴ」のユーザーと加盟店の登録メールアドレス9,901件の流出を確認したと発表した。パスワードや決済情報は対象外としている（[大村市](https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html)）。11月18日には、メルシャン子会社の日本リカーが、GMOメイクショップ「makeshop byGMO」のメール配信経由で、オンラインショップ「Your Cellar」の会員・ゲスト購入者のメールアドレス2,245件の漏えいを確認したと発表した（[日本リカー（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1118_03.pdf)）。
 
 ### わかったこと
 
@@ -152,6 +153,8 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 11-16（月） | 宇佐美グループが第2報でメールアドレス911,470件と法人問い合わせ1,757件を公表。神戸新聞社がメールアドレス約4万件の流出を公表、18日に配信再開予定（【2026-11-17追記】[宇佐美グループ 第2報（PDF）](https://usappy.jp/assets/img/information/261116.pdf)、[神戸新聞NEXT](https://www.kobe-np.co.jp/news/information/202611/0021041154.shtml)） |
 | 11-17（火） | キリンビバレッジが「Wellstock」会員のメールアドレス154件の漏えいを発表（GMOメイクショップ経由）（【2026-11-17夕追記】[キリンビバレッジ（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1117_02.pdf)） |
 | 11-17（火） | 宮崎市（スマート申請システム 8,982件）、郡山市（オンライン申請サービス 7,486件で確定）、氷見市（お知らせメール 1,023件）、能美市（758件）がメールアドレスの漏えいを公表（【2026-11-18追記】[宮崎市](https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/419576.html)、[福島民友](https://www.minyu-net.com/news/detail/2026111808065957367)、[氷見市](https://www.city.himi.toyama.jp/emergency/15355.html)、[能美市](https://www.city.nomi.lg.jp/docs/7809.html)） |
+| 11-17（火） | 堺市（電子申請システム 64,073件、TKC経由）、大村市（地域通貨アプリ「ゆでぴ」9,901件）がメールアドレスの漏えいを公表（【2026-11-18夕追記】[堺市（PDF）](https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf)、[大村市](https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html)） |
+| 11-18（水） | 日本リカー（「Your Cellar」2,245件、GMOメイクショップ経由）がメールアドレスの漏えいを発表（【2026-11-18夕追記】[日本リカー（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1118_03.pdf)） |
 
 ## 発表内容の整理
 
@@ -219,6 +222,9 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 宮崎市「スマート申請システム」（【2026-11-18追記】11月17日 第2報） | デンサン提供・TKC構築のシステム経由で、7〜10月にメールを受信した人のメールアドレス8,982件（[宮崎市](https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/419576.html)） |
 | 郡山市オンライン申請サービス（【2026-11-18追記】11月17日） | 7月1日〜10月末に市のアドレスからメールを受信した人のメールアドレス7,486件で確定（当初は約3万2,600件に可能性）。マイナンバーカード交付予約システム（約2万件に可能性）は調査中（[福島民友](https://www.minyu-net.com/news/detail/2026111808065957367)） |
 | 氷見市・能美市（【2026-11-18追記】11月17日） | 氷見市「お知らせメール」1,023件（7月1日〜10月31日の送信先）、能美市（システム研究所運営のマイナンバー交付予約システム等）758件。いずれもメールアドレスのみ（[氷見市](https://www.city.himi.toyama.jp/emergency/15355.html)、[能美市](https://www.city.nomi.lg.jp/docs/7809.html)） |
+| 堺市電子申請システム（【2026-11-18夕追記】11月17日） | TKC提供のシステムで7月1日〜10月31日に同システムからメールを受信した人のメールアドレス64,073件。11月13日にTKCから含まれることが確定したと報告（[堺市（PDF）](https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf)） |
+| 大村市「ゆでぴ」（【2026-11-18夕追記】11月17日） | デジタル地域通貨アプリのユーザー・加盟店の登録メールアドレス9,901件。アララから提供されたデータとフィノバレーのシステム記録を照合して確認。パスワード・決済情報、メール本文は対象外（[大村市](https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html)） |
+| 日本リカー「Your Cellar」（【2026-11-18夕追記】11月18日 第3報） | GMOメイクショップ「makeshop byGMO」経由で、会員・ゲスト購入者のメールアドレス2,245件。氏名・住所・電話番号・パスワード・カード情報は対象外（[日本リカー（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1118_03.pdf)） |
 
 **考察**
 
@@ -318,3 +324,6 @@ PHP2Shellは修正版の公開前から悪用の試みが観測されていた�
 - [福島民友「郡山市の漏えい、メアド情報7486件　アララへの不正アクセス問題」（2026年11月18日）](https://www.minyu-net.com/news/detail/2026111808065957367)
 - [氷見市「「氷見市お知らせメール」における利用者メールアドレスの漏えいについて」（2026年11月17日）](https://www.city.himi.toyama.jp/emergency/15355.html)
 - [能美市「【重要】不正アクセスによるメールアドレス漏えいについて」（2026年11月17日）](https://www.city.nomi.lg.jp/docs/7809.html)
+- [堺市「堺市電子申請システムで利用するメール配信サービスにおける不正アクセスに伴う情報漏えいについて」（2026年11月17日、PDF）](https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf)
+- [大村市「「ゆでぴ」が利用する外部メール配信サービスへの不正アクセスに伴うメールアドレスの流出について」（2026年11月17日）](https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html)
+- [日本リカー「業務委託先への不正アクセスによるお客様情報漏えいに関するお詫びとお知らせ（第3報）」（2026年11月18日、PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1118_03.pdf)
