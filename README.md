@@ -220,6 +220,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-18 [Hugging FaceのKokoro ― 研究者が空きドメインで公開者アカウントを取得](posts/2026-11-18-kokoro-hugging-face-publisher-account-takeover-domain.md)
+- 2026-11-18 [Operation ShadowCloud ― GitHubとSharePointを指令経路にする新バックドア](posts/2026-11-18-operation-shadowcloud-gitdoor-graphdoor-cloud-c2.md)
 - 2026-11-17 [ARTEXを使う攻撃者 ― 公開されたAIアプリからAIのAPIキーを収集](posts/2026-11-17-artex-ai-gateway-provider-key-theft-amazon-madpot.md)
 - 2026-11-17 [Optimizely Web ― 顧客サイトのスクリプトに不正コードが注入された](posts/2026-11-17-optimizely-web-project-javascript-injection-skimmer.md)
 - 2026-11-16 [Barracuda ― 回収し忘れた委託先のクラウド鍵で社内クラウドに侵入](posts/2026-11-16-barracuda-cloud-breach-unrevoked-vendor-key-artex.md)
