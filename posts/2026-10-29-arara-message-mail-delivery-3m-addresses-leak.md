@@ -35,6 +35,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 - 【2026-11-18夕追記】11月17日には堺市が、TKC提供の「堺市電子申請システム」で7月1日〜10月31日に同システムからメールを受け取った人のメールアドレス64,073件が漏えいしたと発表した（[堺市（PDF）](https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf)）。大村市も同日、デジタル地域通貨アプリ「ゆでぴ」のユーザーと加盟店の登録メールアドレス9,901件の流出を確認したと発表した。パスワードや決済情報は対象外としている（[大村市](https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html)）。11月18日には、メルシャン子会社の日本リカーが、GMOメイクショップ「makeshop byGMO」のメール配信経由で、オンラインショップ「Your Cellar」の会員・ゲスト購入者のメールアドレス2,245件の漏えいを確認したと発表した（[日本リカー（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1118_03.pdf)）。
 
 - 【2026-11-19追記】GMOメイクショップ「MakeRepeater」経由の公表がさらに続いた。やまり菓子舗（11月18日、19,081件）、モリスポリテールズ（11月17日、4,851件）、Hamee「HameeBiz」（11月17日、298件）、ウラノ「PazuMe」（11月17日、最大466件）で、いずれもメールアドレスのみとしている（[やまり菓子舗](https://www.yamari.shop/view/news/20261118080733)、[モリスポ](https://www.morispo.shop/view/news/20261117095621)、[Hamee](https://hamee.co.jp/news/vQ14AKQe)、[PazuMe](https://www.pazume.shop/view/news/20261117135410)）。
+- 【2026-11-19夕追記】東京都は11月18日、賃貸住宅オーナー支援サイト（東京都賃貸住宅 断熱・再エネ推進コンシェルジュ事業）で登録時などに配信したメールの配信記録から、メールアドレス320件（うち個人を特定できる可能性があるもの148件）の漏えいを確認したと発表した。都は7月にサイトを移行しており、現在はアララのサービスを使っていない（[東京都](https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819)）。
 
 ### わかったこと
 
@@ -158,6 +159,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 11-17（火） | 堺市（電子申請システム 64,073件、TKC経由）、大村市（地域通貨アプリ「ゆでぴ」9,901件）がメールアドレスの漏えいを公表（【2026-11-18夕追記】[堺市（PDF）](https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf)、[大村市](https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html)） |
 | 11-18（水） | 日本リカー（「Your Cellar」2,245件、GMOメイクショップ経由）がメールアドレスの漏えいを発表（【2026-11-18夕追記】[日本リカー（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1118_03.pdf)） |
 | 11-17〜18 | やまり菓子舗（19,081件）、モリスポリテールズ（4,851件）、Hamee「HameeBiz」（298件）、ウラノ「PazuMe」（最大466件）がMakeRepeater経由のメールアドレス漏えいを公表（【2026-11-19追記】[やまり菓子舗](https://www.yamari.shop/view/news/20261118080733)、[モリスポ](https://www.morispo.shop/view/news/20261117095621)、[Hamee](https://hamee.co.jp/news/vQ14AKQe)、[PazuMe](https://www.pazume.shop/view/news/20261117135410)） |
+| 11-18（水） | 東京都が賃貸住宅オーナー支援サイトのメール配信記録からメールアドレス320件（個人特定の可能性148件）の漏えいを発表（【2026-11-19夕追記】[東京都](https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819)） |
 
 ## 発表内容の整理
 
@@ -228,6 +230,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 堺市電子申請システム（【2026-11-18夕追記】11月17日） | TKC提供のシステムで7月1日〜10月31日に同システムからメールを受信した人のメールアドレス64,073件。11月13日にTKCから含まれることが確定したと報告（[堺市（PDF）](https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf)） |
 | 大村市「ゆでぴ」（【2026-11-18夕追記】11月17日） | デジタル地域通貨アプリのユーザー・加盟店の登録メールアドレス9,901件。アララから提供されたデータとフィノバレーのシステム記録を照合して確認。パスワード・決済情報、メール本文は対象外（[大村市](https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html)） |
 | 日本リカー「Your Cellar」（【2026-11-18夕追記】11月18日 第3報） | GMOメイクショップ「makeshop byGMO」経由で、会員・ゲスト購入者のメールアドレス2,245件。氏名・住所・電話番号・パスワード・カード情報は対象外（[日本リカー（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1118_03.pdf)） |
+| 東京都 賃貸住宅オーナー支援サイト（【2026-11-19夕追記】11月18日） | 登録時などに配信したメールの配信記録に含まれるメールアドレス320件（うち個人を特定できる可能性があるもの148件）。7月にサイトを移行済みで、現在はアララのサービスを利用していない（[東京都](https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819)） |
 
 **考察**
 
@@ -334,3 +337,4 @@ PHP2Shellは修正版の公開前から悪用の試みが観測されていた�
 - [モリスポリテールズ「アララ株式会社で発生したメール配信サービスへの不正アクセスによるお客様情報の漏えいに関するお詫びとお知らせ」（2026年11月17日）](https://www.morispo.shop/view/news/20261117095621)
 - [Hamee「HameeBizのメール配信に利用していた外部サービスへの不正アクセスに関するお詫びとお知らせ」（2026年11月17日）](https://hamee.co.jp/news/vQ14AKQe)
 - [ウラノ「当社の業務委託先が利用するメール配信サービスへの不正アクセスによるお客さまメールアドレスの漏えいに関するお詫びとお知らせ」（2026年11月17日）](https://www.pazume.shop/view/news/20261117135410)
+- [東京都「メール配信サービスへの不正アクセスによる個人情報の漏えいについて」（2026年11月18日）](https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111819)
