@@ -364,6 +364,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-19 [Apache Roller ― 認証前のXML-RPC処理の欠陥が悪用](posts/2026-11-19-apache-roller-cve-2026-129448-xmlrpc-deserialization-exploited.md)
+- 2026-11-19 [OpenJDK ― Base64デコードの欠陥「Java4Shell」を修正](posts/2026-11-19-openjdk-java4shell-cve-2026-114938-base64-heap-overflow.md)
 - 2026-11-17 [Apache Axis 1.x ― 修正版のない欠陥がConfluence狙いで悪用](posts/2026-11-17-apache-axis-cve-2026-90436-confluence-n-central-exploited.md)
 - 2026-11-15 [Ivanti Endpoint Manager ― 認証なしでコードを実行される欠陥を修正](posts/2026-11-15-ivanti-epm-cve-2026-121653-unauth-sqli-rce.md)
 - 2026-11-15 [UnrealIRCd ― 一般利用者がサーバー権限で命令を実行できる欠陥が悪用](posts/2026-11-15-unrealircd-cve-2026-114713-labeled-response-command-injection-kev.md)
