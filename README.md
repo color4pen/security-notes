@@ -225,6 +225,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-19 [COLD RELIC ― 侵害した組織の社員を装い、別の組織に侵入](posts/2026-11-19-cold-relic-impersonation-cloud-identity-second-organization.md)
+- 2026-11-19 [Microsoft agent-framework ― PyPIに認証情報を盗む不正版が公開](posts/2026-11-19-microsoft-agent-framework-pypi-compromise-pth-credential-stealer.md)
 - 2026-11-18 [Hugging FaceのKokoro ― 研究者が空きドメインで公開者アカウントを取得](posts/2026-11-18-kokoro-hugging-face-publisher-account-takeover-domain.md)
 - 2026-11-18 [Operation ShadowCloud ― GitHubとSharePointを指令経路にする新バックドア](posts/2026-11-18-operation-shadowcloud-gitdoor-graphdoor-cloud-c2.md)
 - 2026-11-17 [ARTEXを使う攻撃者 ― 公開されたAIアプリからAIのAPIキーを収集](posts/2026-11-17-artex-ai-gateway-provider-key-theft-amazon-madpot.md)
