@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-19 [空き家活用 ― データベースの接続元制限に不備、漏えいのおそれ](posts/2026-11-19-akiya-katsuyo-database-connection-restriction-misconfig.md)
+- 2026-11-19 [厚生労働省 ― 医薬品安定供給・流通確認システムに不正アクセス](posts/2026-11-19-mhlw-drug-supply-system-unauthorized-access.md)
+- 2026-11-19 [オープン ― BizRobo! miniの認証サーバーなどクラウド環境に不正アクセス](posts/2026-11-19-open-bizrobo-mini-cloud-auth-server-unauthorized-access.md)
+- 2026-11-19 [大崎電気工業 ― ランサムウェアでスマートメーターの生産・出荷が停止](posts/2026-11-19-osaki-electric-ransomware-smart-meter-production-halt.md)
+- 2026-11-19 [CloudTriage ― 監視サービスの管理基盤に不正アクセス](posts/2026-11-19-terilogy-cloudtriage-management-platform-unauthorized-access.md)
 - 2026-11-18 [チャットプラス ― ChatPlusなどのWebサーバーに不正アクセス](posts/2026-11-18-chatplus-web-server-unauthorized-access.md)
 - 2026-11-18 [京葉ガス「ウィズ京葉ガス」 ― 不正アクセスで会員情報漏えいのおそれ](posts/2026-11-18-keiyo-gas-with-keiyogas-unauthorized-access.md)
 - 2026-11-18 [ミスドネットオーダー ― 不正アクセスで利用停止](posts/2026-11-18-misterdonut-net-order-unauthorized-access-suspended.md)
