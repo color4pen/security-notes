@@ -24,6 +24,12 @@ description: "Parameter は10月28日、細工した ChatGPT の公開共有リ�
 - **自社の Web アプリを作る側**：`postMessage` の受け手で `event.origin` と `event.source` の両方を確かめているか、外部の UI 部品（数式入力、エディタ、グラフなど）がページ全体にメッセージの受け手を置いていないかを確認する（Parameter の教訓）。
 - CSP で許可しているドメインに、JSONP のように呼び出し側が中身を決められるエンドポイントがないかを確認する。
 
+## 登場する組織・サービス
+
+- **ChatGPT**：OpenAIが提供する対話型AIサービス。今回、共有リンクのページを開くだけで、他人の操作としてコードを実行されうる問題が報告された（[Parameter](https://www.parameter.ai/labs/we-found-a-gap-at-openai)）。
+- **MathLive**：数式をウェブページ上で表示・編集するためのライブラリ。ChatGPTの画面でも使われており、今回の問題の一端になったと報告されている（[同](https://www.parameter.ai/labs/we-found-a-gap-at-openai)）。
+- **Parameter**：セキュリティの調査を行う企業。今回の問題を報告した側である（[同](https://www.parameter.ai/labs/we-found-a-gap-at-openai)）。
+
 ## 概要
 
 - セキュリティ企業 Parameter の研究者は、ChatGPT の普通の共有機能で公開した会話のリンクを他人が開くと、その人のログイン中のセッションで攻撃者の JavaScript が `chatgpt.com` として動く連鎖を見つけた（Parameter）。

@@ -22,6 +22,10 @@ description: "11月1日、BTCPay Server 2.4.1（2026年7月公開）以前を動
 - 信頼できる端末から、ホスティング、SSH、アプリ、API、Lightning の認証情報を取り消して作り直す（BTCPay Server）。
 - 動いているサーバーは最新の 2.4.7 に上げる（BTCPay Server）。
 
+## 登場する組織・サービス
+
+- **BTCPay Server**：店舗などが、自分のサーバーでビットコインなどの支払いを受け取るための、公開されているソフト。接続した財布（ホットウォレット）の鍵を扱うため、古い版の欠陥は資金の持ち出しにつながった（[公式の事案説明](https://blog.btcpayserver.org/btcpay-server-security-incident-2-4-1-and-earlier/)）。
+
 ## 概要
 
 - 11月1日、BTCPay Server を動かす複数のサーバーで、ホットウォレットの BTC と LTC が攻撃者に抜かれた。BTCPay は同日 22:25（UTC）に X で利用者へサーバーを止めるよう呼びかけた（BTCPay Server）。

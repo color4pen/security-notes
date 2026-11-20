@@ -22,6 +22,12 @@ description: "Sekoia は、改ざんした正規サイト、なりすましの�
 - Web サイトの運営者は、`a.plerdy.com/public/js/click/main.js` を読み込んでいたなら、8月27日〜9月3日に自サイトの訪問者が攻撃を受けた可能性がある。Plerdy 以外も含め、自サイトのテンプレートと JavaScript ファイルに見覚えのない外部スクリプトの読み込みがないか確かめる。
 - 下の「検知に使える指標」のドメインへの通信がないか、DNS とプロキシのログを調べる。
 
+## 登場する組織・サービス
+
+- **APT29**：Sekoiaが、今回の攻撃の実行者と見ている攻撃グループ（[Sekoia](https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits)）。
+- **Plerdy**：ウェブサイトの訪問者の動きを調べるための解析サービス（ヒートマップなど）（[Plerdy](https://www.plerdy.com/)）。今回、サイトに埋め込まれる解析用のタグが改ざんされ、スマホ向けの既知の欠陥を突く攻撃に使われたと報告された（[Sekoia](https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits)）。
+- **Sekoia**：脅威の調査・検知を行うセキュリティ企業。今回の攻撃（Poisoned Source）を報告した側である（[同](https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits)）。
+
 ## 概要
 
 - フランスの Sekoia が10月中旬に見つけ、11月4日に「Poisoned Source」として公表した水飲み場攻撃。訪問者の端末を調べ、iOS か Android かに合わせた攻撃を、利用者の操作なしで配っていた（Sekoia）。

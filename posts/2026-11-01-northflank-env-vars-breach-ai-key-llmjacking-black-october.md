@@ -23,6 +23,10 @@ description: "開発者向けクラウド基盤の Northflank は10月30日（UT
 - **データベースなどのアドオン**：Northflank が用意した資格情報の入れ替え機能（PostgreSQL、MongoDB、MySQL、Redis、MinIO、RabbitMQ）で入れ替え、インターネットへの公開設定をしている場合は外す（Northflank）。
 - **監査ログ**：無料プランを含む全利用者で有効になったので、不審な操作がないか確かめ、記録を保存しておく（Northflank）。
 
+## 登場する組織・サービス
+
+- **Northflank**：アプリやコンテナ、データベースなどをまとめて動かせる、開発者向けのクラウド基盤。環境変数（接続鍵など）を預かるため、今回の侵害で顧客のAIキーなどが不正利用された（[Northflank Status](https://status.northflank.com/cmvv0rn5a092f14rutwccodpp)）。
+
 ## 概要
 
 - 10月30日 11:43（UTC、日本時間20:43）、クラウドセキュリティ企業 Wiz からの脅威アラートで Northflank は異常に気づき、約20分後にネットワークポリシーの修正を入れた。13:40（UTC）に環境変数の入れ替えを呼びかけ、13:58 には「すべての環境変数が復号されたものと考えること」と告知した（Northflank）。

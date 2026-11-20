@@ -22,6 +22,11 @@ description: "Google の脅威インテリジェンスグループ（GTIG）は�
 - **購入時**：Google の Android TV のパートナー一覧に載っているメーカーの製品を選ぶ。Google Play プロテクトが有効になっているか確認する（GTIG）。
 - **企業・家庭のネットワーク管理者**：下の「検知ポイント」にあるドメインへの通信がないか、DNS とプロキシのログを確認する。会議室や店頭のサイネージに格安の Android 端末を使っていないか棚卸しする。
 
+## 登場する組織・サービス
+
+- **Videostrong Technology Co.**：Android TV用のセットトップボックスなどを製造する会社。今回、製品にあらかじめバックドアが仕込まれ、多数の端末がXCPEボットネットに使われていたと報告された（[Google Threat Intelligence Group](https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/)）。
+- **Google Threat Intelligence Group（GTIG）**：Googleの脅威調査部門。今回、このボットネットの解体を発表した（[同](https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/)）。
+
 ## 概要
 
 - GTIG は11月2日、Videostrong が `x.cpe`（一部では `com.oemservice`）というバックドアをファームウェアに組み込み、130万台超のセットトップボックスをボットネットにしていたと「高い確度」で評価した。内部の一人の不正や開発上のミスではないとしている（GTIG）。

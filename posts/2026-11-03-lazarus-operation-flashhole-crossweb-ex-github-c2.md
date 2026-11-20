@@ -21,6 +21,12 @@ description: "Kaspersky は、Lazarus が遅くとも2025年7月から韓国の�
 - **検知**：`INISAFECrossWebEXSvc.exe` から `fsquirt.exe` などが子プロセスとして起動していないか、`C:\Windows\System32\RasConv\`、`C:\ProgramData\RasConv\mscoree.dll`、`C:\Windows\System32\DrvConh\` があるか、EDR とファイルの棚卸しで確認する。
 - **通信の確認**：下の「検知ポイント」の C2 ドメインと、業務で使っていない GitHub API への通信を確認する。
 
+## 登場する組織・サービス
+
+- **Lazarus**：Kasperskyが、今回の攻撃キャンペーン「Operation FlashHole」の実行者と見ている攻撃グループ（[Securelist](https://securelist.com/lazarus-operation-flashhole/121541/)）。
+- **INISAFE CrossWeb EX**：韓国で使われるセキュリティソフト。Kasperskyによると、このソフトのプロセスの配下でマルウェアが実行された（[同](https://securelist.com/lazarus-operation-flashhole/121541/)）。
+- **Kaspersky**：セキュリティ製品の提供と脅威の調査を行う企業。今回のキャンペーンを報告した側である（[同](https://securelist.com/lazarus-operation-flashhole/121541/)）。
+
 ## 概要
 
 - Kaspersky は10月21日、北朝鮮の Lazarus による「Operation FlashHole」を Securelist で公表した。以前報告された「Operation SyncHole」に続く活動と位置づけている（Securelist）。

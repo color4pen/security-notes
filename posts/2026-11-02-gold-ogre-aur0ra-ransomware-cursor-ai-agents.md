@@ -23,6 +23,12 @@ description: "Sophos CTU は、ランサムウェア Aur0ra を運営する GOLD
 - **検知**：下の表の指標（Cobalt Strike の C2、データ送信先、SOCKS の中継）と、BloodHound、NetExec、Certipy、PetitPotam、Kerberoasting、Chisel の使用を EDR のアラートで確認する（Sophos）。
 - 対応の速さが要になる。Sophos は、既存の対策は今も有効だが、AI で攻撃の段階が速くなるため素早い対応が必要だとしている。
 
+## 登場する組織・サービス
+
+- **Aur0ra（Aurora）**：身代金要求型の不正プログラム（ランサムウェア）。Sophosによると、侵入後の作業にAIエージェントが使われた事例がある（[Sophos](https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution)）。
+- **GOLD OGRE**：Sophosが、この一連の活動につけた呼び名（[同](https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution)）。
+- **Sophos**：セキュリティ製品の提供と脅威の調査を行う企業。今回の手口を報告した側である（[同](https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution)）。
+
 ## 概要
 
 - Sophos の Counter Threat Unit（CTU）は、5月に報告した「AI を使った侵入後の攻撃フレームワーク」（複数社の EDR、Sophos 自身のエージェントを含めて回避を試していたもの）と同じ基盤が、その後 Aur0ra の攻撃で Cobalt Strike を配っていたことを見つけた。分析を進めた結果、Aur0ra を運営する犯罪グループ GOLD OGRE が攻撃全体で AI を多用していると判断した（Sophos）。

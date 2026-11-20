@@ -22,6 +22,12 @@ description: "Vega は、VMware 環境の棚卸しツール RVTools を検索し
 - **感染端末が vCenter／ESXi の管理用だった場合**：その端末から使った vCenter・ESXi の認証情報を変更し、アクセスの記録を確認する（Vega）。
 - **入手経路を決める**：ツールは社内の承認済みの配布元から入れ、検索広告からはダウンロードしない。
 
+## 登場する組織・サービス
+
+- **RVTools**：VMwareの仮想化環境の構成を一覧・確認するためのツール。今回、正規の配布元ではなく、検索広告から誘導された偽サイト経由で改ざん版が配られた（[Vega](https://vega.io/blog/trojanized-rvtools-python-stager-linked-to-unc2465)）。
+- **UNC2465**：改ざん版の配布に関係すると、Vegaが指摘する攻撃グループ（[同](https://vega.io/blog/trojanized-rvtools-python-stager-linked-to-unc2465)）。
+- **Vega**：セキュリティの調査を行う企業。今回の改ざん版インストーラーを報告した側である（[同](https://vega.io/blog/trojanized-rvtools-python-stager-linked-to-unc2465)）。
+
 ## 概要
 
 - Vega は11月2日、RVTools を装った MSI が `DeviceSync.py` という Python 製の常駐プログラムを入れると報告した。MSI は本物の RVTools も入れるため、利用者は異常に気づきにくい（Vega）。

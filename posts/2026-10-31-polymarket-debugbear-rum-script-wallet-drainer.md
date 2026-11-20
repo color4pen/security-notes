@@ -23,6 +23,11 @@ description: "10月29日（UTC）、Polymarket が読み込んでいた DebugBea
 - **自社サイトで外部の計測・広告スクリプトを読み込んでいる運営者**：ログイン後のページや資金・決済を扱うページで動いている外部スクリプトを洗い出し、本当に必要なものだけ残す。残すものは、版の固定、内容のハッシュ照合、別オリジンの iframe への隔離などを検討する（詳しくは後述）。
 - **Polymarket の利用者**：Polymarket は全セッションをリセットしており、対象のウォレットは請求なしで返金するとしている。金額がおかしい場合は Polymarket の案内する窓口から再確認を求める（Polymarket）。
 
+## 登場する組織・サービス
+
+- **Polymarket**：先行きの出来事に対する予測市場（かけに近い取引）を扱うサービス。今回、サイトに読み込む外部の計測用スクリプトが、資金を抜き取るコードに差し替わった（[Polymarket Status](https://status.polymarket.com/history/1)）。
+- **DebugBear**：ウェブサイトの表示速度などを測るサービス。実際の利用者の画面での計測（RUM）用のスクリプトを配信しており、今回その配信が改ざんされたと報告された（[Ohey](https://ohey.ca/research/polymarket-debugbear-wallet-drainer/)、[DebugBear](https://www.debugbear.com/)）。
+
 ## 概要
 
 - 10月29日、DebugBear の配信サーバーから Polymarket に配られていた計測スクリプトが、15,187 バイトの資金抜き取りコード（ウォレットドレイナー）に差し替えられた。本来のファイルは 60,493 バイトだった（Ohey）。

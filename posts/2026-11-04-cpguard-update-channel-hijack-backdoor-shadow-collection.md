@@ -21,6 +21,11 @@ description: "Linux サーバー向けセキュリティ製品 cPGuard の更新
 - `grep 'Successfully updated' /opt/cpguard/logs/install_log` で 5.88.12〜5.88.19 を入れた記録がないか調べる。記録があれば侵害されたものとして扱う。記録がない、またはログが欠けている場合も安全とは言えない（OPSSHIELD）。
 - 該当しうるサーバーでは、信頼できる復旧環境から root とパスワードを持つ全ローカルアカウントのパスワードを変え、DB のパスワード、S3 のアクセスキー、DigitalOcean のトークン、root のシェル履歴に残った秘密情報を作り直す。`/root/.ssh` の秘密鍵は作り直し、古い公開鍵を信頼しているすべてのシステムから消す（OPSSHIELD）。
 
+## 登場する組織・サービス
+
+- **cPGuard**：Linuxサーバー向けに、マルウェア対策や通信の防御などをまとめて提供するセキュリティ製品（[OPSSHIELD](https://www.opsshield.com/)）。今回、更新の配信の仕組みが乗っ取られ、不正なスクリプトが配られた（[OPSSHIELDのお知らせ](https://opsshield.com/notice/cpguard-update-channel-compromise.html)）。
+- **OPSSHIELD**：cPGuardの提供元。今回の侵害と、修正版への更新を案内した（[同](https://opsshield.com/notice/cpguard-update-channel-compromise.html)）。
+
 ## 概要
 
 - 11月2日 02:06（UTC）、正体不明の攻撃者が盗んだ認証情報で OPSSHIELD の更新配信基盤（CDN）に入り、cPGuard の更新経路で悪性スクリプトを配った。OPSSHIELD は配信開始から12時間以内に気づいた（OPSSHIELD）。
