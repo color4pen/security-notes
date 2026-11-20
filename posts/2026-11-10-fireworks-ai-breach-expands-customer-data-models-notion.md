@@ -26,6 +26,11 @@ description: "10月6日に評価ジョブの環境変数（秘密情報）が盗
 - 自分のFireworksアカウントに、見覚えのないAPIキー、利用者、評価器、学習ジョブ、データセットがないか確かめる（Fireworks）。
 - 影響を受けたNotionのワークスペースでは、事案の期間にNotion AIにパスワードやAPIキーを貼り付けていたら交換する（Notion）。
 
+## 登場する組織・サービス
+
+- **Fireworks AI**：公開されているAIモデルを、クラウド上で動かしたり学習したりするための基盤を提供する企業（[Fireworks](https://fireworks.ai/)）。利用企業は顧客データやモデルを預けることがあり、今回の侵害ではそれらの範囲が広がったと発表した（[公式の更新](https://fireworks.ai/security/bulletins/october-2026-security-incident-update)）。
+- **Notion**：文書やデータベースをチームで共有するツールを提供する企業。AI機能の一部でFireworks AIを使っており、委託先の侵害として利用者への影響を説明した（[Notionの注意喚起](https://www.notion.com/en-us/security/advisories/security-incident-involving-a-third-party-ai-vendor)）。
+
 ## 概要
 
 - Fireworks AIは、オープンウェイトのモデルの推論や学習を提供するAI基盤。The Recordによると顧客は1万社を超える。

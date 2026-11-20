@@ -34,6 +34,11 @@ description: "マルエツなどを傘下に持つユナイテッド・スーパ
 
 > この記事では、公式発表・報道で確認できた内容を「事実」、筆者の推測や意見を「考察」として分けて書いています。確認できなかった情報は書いていません。
 
+## 登場する組織・サービス
+
+- **ユナイテッド・スーパーマーケット・ホールディングス（USMH）**：食品スーパーなどを展開するグループの持株会社（[USMH](https://www.usmh.co.jp/)）。今回、会員アプリへの不正アクセスを発表した（[お知らせ（PDF）](https://www.usmh.co.jp/wp-content/uploads/2026/11/us_20261112.pdf)）。
+- **Scan＆Go ignica**：店舗で商品のバーコードをスマートフォンで読み取り、レジに並ばずに支払えるアプリ。ネットでの注文・配送の機能もある（[ignica](https://ignica.com/services)、[Google Play](https://play.google.com/store/apps/details?id=jp.co.usmh.mobile.app&hl=ja)）。会員情報がアプリ側にあり、今回の不正アクセスの対象になった。
+
 ## 何が起きたか（時系列）
 
 | 日付 | 出来事 | 出典 |

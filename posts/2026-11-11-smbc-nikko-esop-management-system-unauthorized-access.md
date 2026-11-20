@@ -32,6 +32,11 @@ description: "SMBC日興証券が持株会事務の受託業務で使うシス�
 
 - （考察）同じグループのSMBCコンシューマーファイナンスでも保証システムからの漏えいが公表されている（[SMBCコンシューマーファイナンス](https://color4pen.github.io/security-notes/notes/2026-11-05-smbc-cf-guarantee-system-320k-personal-data/)）。両者が同じ攻撃や同じ経路であることを示す情報はない。
 
+## 登場する組織・サービス
+
+- **SMBC日興証券株式会社**：株式や債券などの取引を扱う証券会社。今回、持株会の管理システムへの不正アクセスを発表した（[お知らせ（PDF）](https://www.smbcnikko.co.jp/news/release/2026/pdf/261111_01.pdf)）。
+- **持株会管理システム**：従業員などが自社の株を積み立てて持つ「持株会」の会員情報や拠出の管理に使うシステム。会員の個人情報や口座情報が載る（[同](https://www.smbcnikko.co.jp/news/release/2026/pdf/261111_01.pdf)）。
+
 ## 概要
 
 - 持株会の会員は、勤め先の持株会を通じて自社株を積み立てる従業員が中心で、SMBC日興証券と直接取引していない人も含まれうる。発表は、影響のあった持株会に個別に連絡するとしている（[SMBC日興証券](https://www.smbcnikko.co.jp/news/release/2026/pdf/261111_01.pdf)）。

@@ -23,6 +23,12 @@ description: "スウェーデンのEneaは、少なくともアジア6か国の�
 - 事業者は、自社網の内部でも信号プロトコルの検知を入れ、信号網のセキュリティを通常のITセキュリティの監視とつなぐ（Enea）。
 - 利用者側（考察）：SMSで届く2FAコードは、国をまたぐ信号網の攻撃で横取りされうる。重要なアカウントは、認証アプリやパスキーなどSMSに頼らない方式に切り替える。
 
+## 登場する組織・サービス
+
+- **Enea**：通信事業者向けに、事業者同士の信号のやり取りを監視・防御するソフトなどを提供する企業（[Enea](https://www.enea.com/)、[Signaling Security](https://www.enea.com/solutions/signaling-security/)）。今回、SilentAirとLIMINAL PANDAの活動を報告した側である（[Eneaの報告](https://www.enea.com/insights/the-enemy-within-tracking-liminal-panda-and-silentair-through-mobile-networks/)）。
+- **SilentAir**：Eneaが報告した攻撃グループ。乗っ取った携帯事業者の設備から、事業者間の信号（SS7やDiameter）を使い、加入者の位置情報やSMS・通話を横取りしたとされる（[同報告](https://www.enea.com/insights/the-enemy-within-tracking-liminal-panda-and-silentair-through-mobile-networks/)）。
+- **LIMINAL PANDA**：通信事業者を狙い、GTPという信号の仕組みに命令を隠す不正プログラム「GTPDoor」を使うとされる別の攻撃グループ。Eneaは今回、新版の使用も確認したが、SilentAirとの直接の関係は確認していないとしている（[同報告](https://www.enea.com/insights/the-enemy-within-tracking-liminal-panda-and-silentair-through-mobile-networks/)）。
+
 ## 概要
 
 - 通信向けソフトウェアのEnea（スウェーデン）は、2026年11月11日付のブログで、携帯事業者の内部に入り込んで信号網の攻撃を行う新しいグループを「SilentAir」と名付けて報告した。国家レベルの攻撃者と高い確度で判断し、中国系の活動とは低い確度で結び付けている（Enea）。

@@ -23,6 +23,11 @@ description: "攻撃者がオープンソースの推論エンジンSGLangのRCE
 - NEAR AIから `security@near.ai` で連絡を受けた利用者は、案内の手順に従う。頼んでいないアカウントや残高に関する連絡には注意する（NEAR AI）。
 - NEAR AIのエージェントやCloudを使っていて連絡がない場合、NEAR AIは「対応は不要」としている（The Hacker News）。
 
+## 登場する組織・サービス
+
+- **NEAR AI**：AIエージェント（指示を受けて作業を進めるプログラム）などの開発・運用を行う取り組み。今回、推論サーバーへの侵入を自ら公表した（[Security Incident Report](https://near.ai/blog/security-incident-report-sglang-vulnerability)）。
+- **SGLang**：大規模な言語モデルに質問を投げ、答えを生成する処理（推論）を行うための公開ソフト。今回、その欠陥を突かれて推論サーバーに侵入された（[同](https://near.ai/blog/security-incident-report-sglang-vulnerability)）。
+
 ## 概要
 
 - NEAR AIは、TEEで推論を行う「機密推論」を売りにするAI基盤。2026年11月9日に事案の報告を公表した（NEAR AI）。

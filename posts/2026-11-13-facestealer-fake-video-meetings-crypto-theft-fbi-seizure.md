@@ -24,6 +24,11 @@ description: "FBIは、北朝鮮のBlueNoroff（Sapphire Sleet、UNC1069など�
 - 通信アプリに多要素認証とログイン通知を設定し、消えるメッセージを使う（FBI）。
 - 侵害が疑われるときは、関わっていない端末で新しいウォレット（新しいシードフレーズ）を作って資産を移し、通信アプリと開発者アカウントのパスワード変更・全セッションのログアウト・多要素認証の追加を行い、知人と勤務先に知らせる（FBI）。
 
+## 登場する組織・サービス
+
+- **FaceStealer**：偽のビデオ会議に誘い、画面や操作を乗っ取って暗号資産を盗む一連の詐欺の呼び名。FBIは、この仕組みに使われていた基盤を押収したと発表した（[FBI](https://www.fbi.gov/investigate/cyber/facestealer-cryptocurrency-theft-scheme)）。
+- **FBI**：アメリカの連邦捜査局。サイバー犯罪の捜査も行い、今回FaceStealerの基盤押収を公表した側である（[同](https://www.fbi.gov/investigate/cyber/facestealer-cryptocurrency-theft-scheme)）。
+
 ## 概要
 
 - 米連邦捜査局（FBI）は2026年11月12日、北朝鮮の国家支援の攻撃者による「FaceStealer」と呼ぶソーシャルエンジニアリングについて、注意喚起（FLASH AC-111226-MS）を出した。過去18か月で4億ドルを超える暗号資産が盗まれたとしている（FBI）。

@@ -38,6 +38,12 @@ description: "NTTデータが住友生命から受託する「住友生命Vitali
 
 - （考察）発表は手口に触れていない。生命保険業界では10月にも[ソニー生命](https://color4pen.github.io/security-notes/notes/2026-10-29-sony-life-customer-web-medicare-life-385k/)で不正アクセスによる契約者情報の漏えいが公表されているが、両者の手口が同じかはわからない。
 
+## 登場する組織・サービス
+
+- **住友生命保険相互会社**：生命保険を扱う会社（[会社概要](https://www.sumitomolife.co.jp/about/company/outline.html)）。健康増進プログラム「Vitality」を提供しており、今回その申し込みシステムの漏えいを発表した（[お知らせ](https://www.sumitomolife.co.jp/news/detail/newsrelease_261109.html)）。
+- **Vitality**：健康診断や運動などの取組をポイントにし、特典や保険料の優遇で健康習慣の継続を後押しするプログラム（[「Vitality」とは](https://vitality.sumitomolife.co.jp/about/)）。体験版や企業型などの申し込みに、氏名や連絡先、一部ではカード番号が使われる。
+- **株式会社NTTデータ**：官公庁や企業向けのシステム構築・運用を手がける会社。Vitalityの申し込みに関するシステムの構築・運用を住友生命から受託しており、今回の不正アクセスを発表した（[NTTデータ](https://www.nttdata.com/global/ja/news/release/2026/110900/)）。
+
 ## 概要
 
 - 止まっているのは体験版・企業型とVitalityスマートの新規申込、Vitalityスマートの解約・カード情報変更などの手続き、福利厚生タイプの団体ポータル。Vitalityアプリと「Vitality保険」の手続きには影響がない（[住友生命](https://www.sumitomolife.co.jp/news/detail/newsrelease_261109.html)）。

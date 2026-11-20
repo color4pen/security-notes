@@ -31,6 +31,10 @@ description: "「法人専用ビックカメラ・ドットコム」の法人顧
 
 - （考察）設定の不備で、送信用の公開フォームから保存済みの問い合わせデータが取り出せる状態になっていた可能性がある。ただし発表は具体的な設定や手法を示していない。
 
+## 登場する組織・サービス
+
+- **株式会社ビックカメラ**：家電量販店を運営する会社。今回、法人向けの問い合わせフォームの設定不備で、取引先の情報が漏えいしたと発表した（[お知らせ（PDF）](https://www.biccamera.co.jp/pdf/news/2026/20261110.pdf)）。
+
 ## 概要
 
 - 同社グループが11月2日・6日に公表した、メール配信委託先[アララ](https://color4pen.github.io/security-notes/notes/2026-10-29-arara-message-mail-delivery-3m-addresses-leak/)への不正アクセスによる漏えいとは別の事案（[セキュリティ対策Lab](https://rocket-boys.co.jp/security-measures-lab/20261110_biccamera_b2b_contact_form_133039_data_breach/)）。

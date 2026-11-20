@@ -38,6 +38,10 @@ description: "物流サービスのオープンロジのシステムに11月8〜
 
 - （考察）配送を担う委託先から複数の荷主の顧客情報が一度に取られた例には[CBcloud「ピックゴー」](https://color4pen.github.io/security-notes/notes/2026-11-04-cbcloud-pickgo-7now-demaecan-customer-data/)がある。物流事業者は多くのEC事業者の配送先を一か所にまとめて持つため、一社の侵害が多数の荷主に広がる。
 
+## 登場する組織・サービス
+
+- **株式会社オープンロジ**：ネット通販などの事業者が、倉庫での保管・出荷を外部に任せられる物流のクラウドサービスを提供する会社（[会社概要](https://corp.openlogi.com/company/)）。注文者へのお届け先情報を預かるため、今回の不正アクセスでそのデータが持ち出された（[お知らせ](https://corp.openlogi.com/news/notice-20261111/)）。
+
 ## 概要
 
 - 荷主側の公表として、HUMAN MADE（「CURRY UP」のECサイト）（[日本経済新聞](https://www.nikkei.com/article/DGXZQOUC119D10R11C26A1000000/)）、SKIYAKI（「Bitfan」）（[SKIYAKI](https://skiyaki.com/contents/1126864)）、マイネット（累計25件）（[マイネット](https://www.mynet.co.jp/news/info/251111)）、アデリア（「津軽びいどろオンラインショップ」、管理画面のログインアカウント等の認証情報を11月10日にリセット）（[津軽びいどろオンラインショップ](https://tsugaruvidro-online.com/pages/20261111)）が確認できた。

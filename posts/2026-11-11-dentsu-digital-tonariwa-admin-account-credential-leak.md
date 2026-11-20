@@ -38,6 +38,11 @@ description: "LINE連携のマーケティング基盤「TONARIWA」で、シス
 
 - （考察）クラウド基盤の管理用の認証情報が漏れ、そこから権限を広げられる流れは、[Shippio](https://color4pen.github.io/security-notes/notes/2026-11-04-shippio-platform-internal-tool-credential-abuse/)や[iDA「MyBRANDS」](https://color4pen.github.io/security-notes/notes/2026-11-02-ida-mybrands-cloud-access-key-misuse/)と同じ型に見える。同じ攻撃者や同じ経路であることを示す情報はない。
 
+## 登場する組織・サービス
+
+- **株式会社電通デジタル**：デジタル広告や、企業のデジタル変革の支援を行う会社（[会社概要](https://www.dentsudigital.co.jp/about/corporate-data/)）。今回、同社が提供する「TONARIWA」の管理アカウントへの不正アクセスを発表した（[お知らせ](https://www.dentsudigital.co.jp/news/updates/services/2026-1111-001111)）。
+- **TONARIWA（トナリワ）**：企業のLINE公式アカウント向けに、属性に応じた配信、チャットボット、キャンペーンの管理などを提供するメッセージ配信の仕組み（[TONARIWA](https://dd.dentsudigital.co.jp/service/lp/tonariwa/)）。利用企業が友だちや会員の情報を預けるため、管理アカウントを奪われるとそれらの情報に影響しうる。
+
 ## 概要
 
 - TONARIWAは、企業のLINE公式アカウントと連携してメッセージ配信などを支援するサービス（[日本経済新聞](https://www.nikkei.com/article/DGXZQOUC11AHR0R11C26A1000000/)）。

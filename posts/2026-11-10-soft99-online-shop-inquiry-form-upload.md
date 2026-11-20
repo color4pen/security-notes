@@ -31,6 +31,10 @@ description: "ソフト99公式オンラインショップで、問い合わせ�
 
 - （考察）外部から命令を受け付けるファイルを置く手口は、一般にWebシェルと呼ばれる。ファイルアップロード機能が入口になった国内事例には[スマートシェア「OWNLY」](https://color4pen.github.io/security-notes/notes/2026-10-28-smartshare-ownly-file-upload-mos-campaign-14k/)がある。同じソフトウェアが使われたことを示す情報はない。
 
+## 登場する組織・サービス
+
+- **株式会社ソフト９９コーポレーション**：自動車用のワックスやガラス撥水剤など、ケミカル用品の製造・販売を行う会社。通信販売も手がける（[会社概要](https://www.soft99.co.jp/corporate/profile/outline/)）。今回、問い合わせフォームから不正なファイルを置かれ、情報漏えいの可能性があると発表した（[お知らせ](https://www.soft99.co.jp/important/detail/261110/)）。
+
 ## 概要
 
 - 発表は不正ファイルの名前や、悪用された脆弱性の番号を示していない（[ソフト99](https://www.soft99.co.jp/important/detail/261110/)）。

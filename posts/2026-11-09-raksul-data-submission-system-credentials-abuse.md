@@ -41,6 +41,10 @@ description: "ネット印刷「ラクスル」のデータ入稿処理システ
 
 - （考察）クラウド上の保管領域にアクセスする鍵が漏れてデータを持ち出される例は国内でも続いている（例：[iDA「MyBRANDS」](https://color4pen.github.io/security-notes/notes/2026-11-02-ida-mybrands-cloud-access-key-misuse/)）。ラクスルの「認証情報」が何を指すかは公表されていない。
 
+## 登場する組織・サービス
+
+- **ラクスル株式会社**：印刷物のネット注文を中心に、広告や物流など法人向けのサービスも手がける会社（[事業・サービス](https://corp.raksul.com/services/)）。今回、認証情報を悪用され、印刷用データなどが流出したおそれがあると発表した（[お知らせ](https://corp.raksul.com/news/press/261109_unauthorized-access/)）。
+
 ## 概要
 
 - 発覚から約1日半で第一報を出し、サービスの部分停止と再開状況もあわせて示している（[ラクスル](https://corp.raksul.com/news/press/261109_unauthorized-access/)）。

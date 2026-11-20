@@ -23,6 +23,11 @@ description: "MSP（IT運用の委託先）が使うScreenConnectのクラウド
 - 怪しい端末にはScreenConnectで接続しない。EDRのライブレスポンスやWinRMなど別の経路で調べる。すでに接続した技術者の端末も侵害を疑う（Huntress、ConnectWise）。
 - 信頼できる端末から、ScreenConnectとIDプロバイダーのセッションを無効にし、パスワードを変え、多要素認証を必須にする（ConnectWise）。
 
+## 登場する組織・サービス
+
+- **ScreenConnect（ConnectWise ScreenConnect）**：離れた場所にあるパソコンを、画面を見ながら操作・支援するためのソフト。他社のITシステムを代わりに管理する事業者（MSP）が、顧客の端末の保守に使うことが多い（[Huntressの注意喚起](https://support.huntress.io/hc/en-us/articles/57422935234195-2026-November-ScreenConnect)）。今回、侵害されたMSPの環境から、攻撃用のクライアントが配られた。
+- **Huntress**：中小企業やMSP向けに、侵入の検知などを提供するセキュリティ企業。今回のScreenConnectを悪用した動きを注意喚起した側である（[同](https://support.huntress.io/hc/en-us/articles/57422935234195-2026-November-ScreenConnect)）。
+
 ## 概要
 
 - 2026年11月11日 17:47（UTC、日本時間12日 2:47）ごろから、複数のクラウド版ScreenConnectの管理画面からRun Commandが顧客の端末に送られ、攻撃者のScreenConnectクライアントと「SCKit」と呼ばれるツールキットが入れられた（Huntress）。

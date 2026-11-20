@@ -26,6 +26,11 @@ description: "データ基盤サービスQuboleがAWS連携に使うアカウン
 - 当てはまるセッションがあれば、そのロールが読めた秘密情報、パラメータ、Lambdaの環境変数をすべて交換し、ロールの有効なセッションを無効にする。認証情報を交換しても、すでに発行された一時的なセッションは切れない（Wiz）。
 - 使っていない連携用ロールは削除するか、信頼ポリシーからQuboleのアカウントを外す。
 
+## 登場する組織・サービス
+
+- **Qubole**：クラウド上で大量のデータを処理・分析するための基盤を提供するサービス。利用企業のAWSアカウントに接続して作業するため、Qubole側の認証情報が悪用されると、顧客環境にも入れる（[Wiz](https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild)）。今回、自社AWSアカウントの認証情報を使われ、顧客環境への侵入が報告された。
+- **Wiz**：クラウド環境の設定や権限の問題を調べるセキュリティ企業。今回、Qubole経由の侵入を報告した側である（[同](https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild)）。
+
 ## 概要
 
 - Sentraが複数の顧客環境で不審な動きを見つけ、Wizに共有した。WizはSentra、Mandiantと協力して調べ、11月9日に公表した（Wiz）。

@@ -24,6 +24,12 @@ description: "2026年11月10日から、4,837のGitHubアカウントの盗ま�
 - 該当したら、コミットした（とされる）アカウントのPAT、OAuthアプリの許可、SSH鍵、セッションを無効にして2FAを有効にし、リポジトリが読めるシークレットと変数をすべて交換する。汚染されたコミットで `npm install` した端末は侵害されたものとして扱い、鍵を交換する（SafeDep）。
 - クラウド側の後付けの裏口を探す。Entra IDの見覚えのない `wfx-ci-` で始まるフェデレーション資格情報、CloudTrailの `wfx-` で始まるセッション名に続く `CreateAccessKey` や `UpdateAssumeRolePolicy`、GCPのワークロードID プールからの `GenerateAccessToken`・`SignJwt` を確認する（The Hacker News が伝えるSafeDepの推奨）。
 
+## 登場する組織・サービス
+
+- **wfx-loot**：乗っ取ったGitHubアカウントを使い、GitHub Actions（ソフトを自動でビルド・公開する仕組み）の実行から秘密情報を盗む不正プログラム（[StepSecurity](https://www.stepsecurity.io/blog/wfx-phantom-the-github-actions-secret-stealer)）。
+- **GitHub／GitHub Actions**：ソフトのソースコードを置くサービスと、そこに連動して検査や公開を自動で行う仕組み。認証情報や鍵が設定されていることがあり、アカウントを奪われるとその秘密も狙われる。
+- **StepSecurity**：ソフトウェアの開発基盤の安全を調べ、注意喚起する企業。今回、wfx-loot（関連してwfx-phantomとも呼ばれる動き）を報告した側である（[同](https://www.stepsecurity.io/blog/wfx-phantom-the-github-actions-secret-stealer)）。
+
 ## 概要
 
 - Aikido Securityは、11月10日12時45分（UTC、日本時間21時45分）ごろから、攻撃者が盗んだGitHubの認証情報を使い、書き込めるリポジトリに窃取スクリプトを送り込んでいると報告した。マルウェアの自称と盗んだデータの呼び名から、この活動を「wfx-loot」と呼んでいる（Aikido Security、2026年11月12日付）。

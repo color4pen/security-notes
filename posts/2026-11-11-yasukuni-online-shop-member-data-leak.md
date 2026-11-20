@@ -32,6 +32,10 @@ description: "靖國神社のオンライン授与品・頒布品サイトが10�
 
 - （考察）ハッシュ化されたパスワードが漏れた国内事例には[シグナルトーク「Maru-Jan」](https://color4pen.github.io/security-notes/notes/2026-11-07-signaltalk-maru-jan-member-credentials-leak/)がある。漏れたハッシュは時間をかけて解析されうるため、使い回し先のパスワード変更が実際の対策になる。
 
+## 登場する組織・サービス
+
+- **靖國神社**：東京都千代田区にある神社。授与品・頒布品の通信販売サイトを運営しており、今回そのサイトへの不正アクセスで会員情報が漏えいしたと発表した（[お知らせ](https://www.yasukuni.or.jp/news_detail.html?id=734)）。
+
 ## 概要
 
 - 判明から公表まで約2週間あり、その間に調査で漏えいを確認したという流れ（[靖國神社](https://www.yasukuni.or.jp/news_detail.html?id=734)）。

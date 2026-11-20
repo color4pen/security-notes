@@ -36,6 +36,11 @@ description: "旅行会社向け予約手配システム「Rikisha Easy REZ!」�
 
 > この記事では、公式発表・報道で確認できた内容を「事実」、筆者の推測や意見を「考察」として分けて書いています。確認できなかった情報は書いていません。
 
+## 登場する組織・サービス
+
+- **株式会社アップルワールド**：旅行会社向けに、国内外のホテルなどの予約手配を提供する会社（[企業情報](https://appleworld.co.jp/corporate)）。今回、同社が運営する予約手配システムのサーバーへの不正アクセスを発表した（[お知らせ](https://appleworld.co.jp/news/cp6xtywu279)）。
+- **Rikisha Easy REZ!**：旅行会社専用の予約手配システム。旅行会社がホテルなどを手配する際に使い、旅行者の予約情報や旅行会社の担当者情報が載る（[特定商取引法に基づく表記](https://www.rikisha-easyrez.jp/commercial_transactions.php)、[お知らせ](https://appleworld.co.jp/news/cp6xtywu279)）。
+
 ## 何が起きたか（時系列）
 
 | 日時 | 出来事 | 出典 |
