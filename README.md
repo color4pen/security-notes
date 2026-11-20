@@ -230,6 +230,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-20 [Chase・Visa・Mastercard ― 委託先からカード会員のマーケティング情報が流出](posts/2026-11-20-chase-visa-mastercard-vendor-breach-n0n-marketing-data.md)
+- 2026-11-20 [N-able Mail Assure・SpamExperts ― 不正アクセスで管理画面を停止](posts/2026-11-20-n-able-mail-assure-spamexperts-server-breach-portal-offline.md)
+- 2026-11-20 [TheMailer ― 迷惑メール判定を抜けるまでAIが書き直すフィッシングキット](posts/2026-11-20-themailer-ai-phishing-kit-inbox-loop-rewrite.md)
 - 2026-11-19 [COLD RELIC ― 侵害した組織の社員を装い、別の組織に侵入](posts/2026-11-19-cold-relic-impersonation-cloud-identity-second-organization.md)
 - 2026-11-19 [Microsoft agent-framework ― PyPIに認証情報を盗む不正版が公開](posts/2026-11-19-microsoft-agent-framework-pypi-compromise-pth-credential-stealer.md)
 - 2026-11-18 [Hugging FaceのKokoro ― 研究者が空きドメインで公開者アカウントを取得](posts/2026-11-18-kokoro-hugging-face-publisher-account-takeover-domain.md)
