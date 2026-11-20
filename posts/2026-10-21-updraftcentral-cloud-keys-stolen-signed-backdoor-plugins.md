@@ -25,6 +25,10 @@ description: "バックアッププラグイン UpdraftPlus の開発元 TeamUpd
 - 見覚えのないプラグイン（Must-Use を含む）、見覚えのない管理者、**`manage_options`／`install_plugins` を持つ「編集者」**を探す（TeamUpdraft、Patchstack）。痕跡があれば10月17日より前のバックアップから戻す。
 - teamupdraft.com のパスワードと二要素認証を設定し直す。UpdraftCentral 経由で触られたサイトは、リモートストレージの認証も設定し直す（TeamUpdraft）。
 
+## 登場する組織・サービス
+
+- **UpdraftPlus／UpdraftCentral**：WordPressサイトのバックアップなどを行うプラグインと、それを遠隔でまとめて管理するクラウドサービス。今回、クラウド側の署名鍵が盗まれ、正規に見せかけた改ざん版プラグインが配られた（[TeamUpdraft](https://teamupdraft.com/blog/security-incident-october-2026/)）。
+
 ## 概要
 
 - TeamUpdraft は、10月17〜18日の週末に teamupdraft.com が不正アクセスを受け、顧客データベース（氏名・メール・請求先住所・注文履歴・ハッシュ化パスワード・二要素認証の設定、UpdraftCentral／UpdraftVault／UpdraftClone の接続鍵）が見られたとみられると発表した（TeamUpdraft）。

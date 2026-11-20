@@ -23,6 +23,12 @@ description: "ESETは、ウクライナの穀物物流企業への2025年の攻�
 - `ieupdate`・`updater.exe`・`WindowsDefenderSvc.exe` のような**正規の名前を装ったサービス**、`.updatecache` や `.crond` のような**ドットで始まる設定ファイル**を探す（ESET）。
 - Active Directory のグループポリシーで `SDelete` のような消去ツールが配られていないか、GPOの変更を監視する（ESET の観測した手口からの考察）。
 
+## 登場する組織・サービス
+
+- **MythicRatatoskr**：遠隔操作用の裏口（バックドア）につけられた呼び名。指令のやり取りを、分散ネットワーク「Yggdrasil」の中に隠すとされる（[ESET](https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/)）。
+- **UAC-0099／Sandworm**：ESETが、今回のバックドアとデータ消去に関係すると見ている攻撃グループ（[同](https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/)）。
+- **ESET**：セキュリティ製品の提供と脅威の調査を行う企業。今回の手口を報告した側である（[同](https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/)）。
+
 ## 概要
 
 - ESET は2026年10月22日、ウクライナの穀物物流企業への攻撃で、これまで知られていなかった Go 製のバックドア「**MythicRatatoskr**」が使われたと公表した（ESET）。

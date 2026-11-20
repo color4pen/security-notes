@@ -26,6 +26,11 @@ description: "SOCRadarの調査チームSTRUは、INC RansomwareとThe Gentlemen
 - VPN・RMM・バックアップ・セキュリティ製品の管理画面で**同じパスワードを使い回していないか**確かめ、MFAとIP制限をかける（SOCRadar）。
 - MSPに運用を任せている場合は、MSP側のRMMにも同じ対策を求める（SOCRadar）。
 
+## 登場する組織・サービス
+
+- **INC／The Gentlemen**：身代金要求型の攻撃に使われる名前。SOCRadarによると、侵入作業の一部をAIに任せ、人が承認する形で進めていた記録が、公開状態のサーバーから見つかった（[SOCRadar](https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/)）。
+- **SOCRadar**：脅威の調査・監視を行うセキュリティ企業。今回の作業基盤と手口を報告した側である（[同](https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/)）。
+
 ## 概要
 
 - SOCRadar の脅威調査チーム STRU は2026年10月20日、INC Ransomware と The Gentlemen Ransomware の両方とかかわるアフィリエイト（実働部隊）の基盤を見つけたと公表した。The Hacker News が10月23日に報じた（SOCRadar、The Hacker News）。

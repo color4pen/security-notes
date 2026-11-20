@@ -24,6 +24,10 @@ description: "OVHcloud のコマンドラインツール ovhcloud-cli で、10�
 - バイナリを消し、**v0.16.0** を入れる。v0.16.0 は不変（immutable）リリースで、リリースの証明（attestation）が付く。`gh release verify-asset v0.16.0 <ファイル>` で照合できる（OVHcloud、The Hacker News）。
 - 自分の組織の GitHub で **immutable releases** を有効にする。有効化より前に作ったリリースは保護されない点に注意する（GitHub、The Hacker News）。
 
+## 登場する組織・サービス
+
+- **OVHcloud CLI**：クラウド事業者OVHcloudのサービスを、コマンドで操作するための公式ツール。今回、開発者の鍵が盗まれ、公開された版が差し替えられた（[GitHub Security Advisory](https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw)）。
+
 ## 概要
 
 - 10月19日、OVHcloud の開発者の GitHub アカウントを使って、公開済みの5つのリリースのバイナリがマルウェア入りのものに差し替えられた。`checksums.txt` も差し替えられたので、公開されたハッシュは偽のバイナリと一致していた（OVHcloud、OpenSourceMalware）。

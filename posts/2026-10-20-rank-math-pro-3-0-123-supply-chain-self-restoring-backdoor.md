@@ -28,6 +28,10 @@ description: "WordPress向けSEOプラグイン Rank Math の有料版 PRO で�
 - 復元した場合も含め、WordPress・データベース・`wp-config.php` の鍵とソルト・決済やSMTPのAPIキー・ホスティングやSSHの認証情報をすべて変更する（Rank Math）。
 - 3.0.124 は、メールのリンクではなく rankmath.com に直接ログインして入手する（Rank Math）。
 
+## 登場する組織・サービス
+
+- **Rank Math PRO**：WordPressサイトの検索結果での見え方を整えるための、有料の拡張機能。今回、公式の配布物に、削除しても戻ってくる裏口が混入していた（[Rank Math](https://rankmath.com/kb/pro-3-0-123-security-incident/)）。
+
 ## 概要
 
 - Rank Math は10月16日、PRO 3.0.123 の一部の配布物にマルウェアが入っていたと公表した。公式サイトからのダウンロードと更新が対象で、プラグインを有効化するとサイトが乗っ取られうる（Rank Math、The Hacker News）。

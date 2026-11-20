@@ -27,6 +27,10 @@ description: "インドの認証局 eMudhra が2025年4月に作った中間CA�
 - macOS 付属の `/usr/bin/curl` は、OS が遮断していても `/etc/ssl/cert.pem` を失効確認なしで使う。まとめサイトにある回避手順を検討する。
 - 自社サイトが emSign ECC Root CA - G3 につながる証明書を使っている場合は、別のチェーンへ移す。eMudhra は G3 系からの発行を止めた（Mozilla Bugzilla）。
 
+## 登場する組織・サービス
+
+- **eMudhra（emSign）**：電子証明書を発行する認証局。今回、中間CAの秘密鍵の作り方が不適切だったとして、証明書の信頼が問題になった（[Mozilla](https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/)）。
+
 ## 概要
 
 - eMudhra が2025年4月30日の鍵生成で作った中間CA 8枚は、P-384の秘密鍵がすべて**256未満の整数**だった。「1からの最初の256個の鍵」を順に作るだけで、公開鍵から秘密鍵がわかる（Mozilla）。

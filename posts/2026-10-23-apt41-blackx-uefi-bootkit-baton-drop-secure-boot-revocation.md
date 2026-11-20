@@ -23,6 +23,12 @@ description: "Kaspersky GReATは10月22日、中央アジア3か国の外交機�
 - 適用できたかを、イベントID 1036（DB更新）・1799（ブートマネージャー更新）・1037（DBX更新）・1042（SVN）で確かめる（Microsoft）。
 - 外交・政府・防衛関連など狙われやすい組織は、EFIシステムパーティション（ESP）の不審なファイル、MOKの登録、失効済み証明書で署名されたドライバーを点検する（Kaspersky、考察）。
 
+## 登場する組織・サービス
+
+- **BlackX**：パソコンの起動処理（UEFI）に潜む不正プログラム（ブートキット）。KasperskyがAPT41によるものと報告し、修正済みでもSecure Bootの失効処理が未適用だと突破されうるとした（[Securelist](https://securelist.com/uefi-bootkit-blackx/121539/)）。
+- **APT41**：Kasperskyが、今回のブートキットの実行者と見ている攻撃グループ（[同](https://securelist.com/uefi-bootkit-blackx/121539/)）。
+- **Kaspersky**：セキュリティ製品の提供と脅威の調査を行う企業。今回のブートキットを報告した側である（[同](https://securelist.com/uefi-bootkit-blackx/121539/)）。
+
 ## 概要
 
 - Kaspersky GReAT は2026年10月22日、タジキスタン・ウズベキスタン・トルクメニスタンの外交機関を狙った2026年初めの攻撃で、UEFIブートキット「BlackX」を見つけたと公表した。APT41 によるものと中程度の確度でみている（Kaspersky）。

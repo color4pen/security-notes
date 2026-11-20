@@ -23,6 +23,10 @@ description: "開発者向けPaaSのRailwayは10月22日（UTC）の予備報告
 - データベースを公開ネットワークから外す。GitHub の監査ログと連携アプリ、Docker Hub などのレジストリの監査ログを確かめる（Railway）。
 - 10月21日の停止中にpushしたコミットは反映されていない。最新のコミットを再デプロイし、GitHub連携とCLI・CIの認証情報を作り直す（Railway）。
 
+## 登場する組織・サービス
+
+- **Railway**：アプリの構築・公開を行うためのクラウド基盤。ビルド時に環境変数（接続鍵など）を扱うため、今回の侵害で秘密情報が流出した（[予備報告](https://blog.railway.com/p/preliminary-report-october-security-incident)）。
+
 ## 概要
 
 - 開発者向けPaaSの Railway は2026年10月21日（UTC）、顧客の環境変数を保存するシステムで異常を検知し、第三者が暗号化された環境変数を取得し、一部は復号した可能性があると公表した（Railway）。
