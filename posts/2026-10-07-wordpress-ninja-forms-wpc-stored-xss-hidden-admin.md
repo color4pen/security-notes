@@ -22,6 +22,10 @@ description: "Patchstackが、WordPressプラグイン Ninja Forms（CVE-2026-94
 - 管理画面ではなくデータベースで管理者アカウントを一覧し、管理画面の一覧と突き合わせる。`wp-content/mu-plugins/` に `class-wp-token-validate.php` や `class-wp-query-*.php` がないか、`wp_options` に `fz_emer_login_tokens` がないかを確かめる（Patchstack）。
 - 痕跡があれば侵害されたものとして扱い、不正なアカウント・プラグイン・must-use プラグイン・オプションを消したうえで、管理者のパスワードと WordPress の認証用ソルトを変える（Patchstack）。
 
+## 登場する組織・サービス
+
+- **Ninja Forms／WPC Product Bundles**：WordPressサイトにフォームや商品の組み合わせ販売を足すプラグイン。今回、入力内容を保存する処理（蓄積型XSS）の欠陥で、隠しの管理者アカウントを作る攻撃が報告された（[Patchstack](https://patchstack.com/articles/four-ways-back-in-the-wordpress-xss-campaign-that-hides-its-own-admin-account/)）。
+
 ## 概要
 
 - WordPressのセキュリティ企業Patchstackは2026年10月6日、2つの無関係なプラグインの蓄積型XSSを入り口に、同じJavaScriptを管理者のブラウザで動かす攻撃キャンペーンを報告した。最初の観測は10月4日（WPC Product Bundles for WooCommerce）、翌5日には Ninja Forms でも同じ攻撃が見つかった。

@@ -22,6 +22,11 @@ description: "乗っ取られたメンテナのアカウントから、セキュ
 - 該当したら、Actionsのシークレットだけでなく、**過去に一度でもリポジトリにコミットされたすべての鍵**（どのブランチでも、削除済みでも）をローテーションする。あわせて、注入に使われたGitHubの認証情報（PATやセッション）を探して取り消す（StepSecurity、GitGuardian）。
 - ワークフローは全ブランチ・フォークから削除する。きれいになるまでリリースを切らない（StepSecurity、Socket）。
 
+## 登場する組織・サービス
+
+- **GitHub Actions**：GitHub上で、テストや公開などの作業を自動で進める仕組み。今回、「GhostAction」と呼ばれる攻撃で、偽の「Security Audit」作業が仕込まれ、認証情報（鍵）が盗まれたと報告された（[StepSecurity](https://www.stepsecurity.io/blog/ghostaction-returns)）。製品の欠陥ではなく、乗っ取られた管理者アカウントからの書き込みである。
+- **StepSecurity**：開発の工程を守るための調査・製品を行う企業。今回の再来を報告した側の一つである（[同](https://www.stepsecurity.io/blog/ghostaction-returns)）。
+
 ## 概要
 
 - GhostActionは2025年9月にGitGuardianが名付けたGitHub Actionsの認証情報窃取キャンペーンで、当時は327ユーザーの817リポジトリから3,325件のシークレットが盗まれた。GitGuardianは2026年8月31日〜9月30日にも373のユーザー・組織の772公開リポジトリに同じ手口が使われたと報告し、「止まっていなかった」と結論づけた。

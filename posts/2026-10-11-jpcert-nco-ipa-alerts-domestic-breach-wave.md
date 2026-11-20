@@ -37,6 +37,11 @@ description: "9月前後から国内で不正アクセスによる大量の個�
 
 - （考察）ケースBの「アプリを解析してAPIのエンドポイントやキーを特定」「本来画面操作では実行できない内部APIへの攻撃」は、[ローソンID](/security-notes/notes/2026-10-10-lawson-id-app-display-mechanism-2-15m-records/)の「本人に情報を表示する仕組みの悪用」や[skyticket](/security-notes/notes/2026-10-11-skyticket-adventure-three-intrusions-14-64m/)の「管理機能の不正操作」と説明が近い。ただし、各社の事案が注意喚起のどのケースに当たるかは公表されていない。
 
+## 登場する組織・サービス
+
+- **JPCERT/CC**：国内の組織に、不正アクセスなどの技術的な注意喚起を出す一般社団法人。今回、国内で個人情報漏えいが相次いでいるとして注意喚起を出した（[AT-2026-0030](https://www.jpcert.or.jp/at/2026/at260030.html)）。
+- **NCO／IPA**：政府のサイバーセキュリティ関係機関（[cyber.go.jp の案内（PDF）](https://www.cyber.go.jp/pdf/press/taiou.pdf)）と、独立行政法人情報処理推進機構。同様の注意喚起を出している。
+
 ## 概要
 
 - 9月前後から国内で大量の個人情報漏えいの公表が続いたことを受け、10月7日から9日の3日間で、個人情報保護委員会、JPCERT/CC、警察庁、NCO、総務省、経済産業省、IPA、金融庁が相次いで注意喚起を出した。

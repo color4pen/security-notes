@@ -24,6 +24,10 @@ description: "Nozomi NetworksとFortiGuard Labsが、ルーターやDVRの既知
 - ネットワーク監視で、短い間隔で繰り返されるSTUNのBinding Requestのうち、トランザクションIDがすべて0のもの、STUNサーバー宛てのSTUNの形式に合わないUDPデータグラムを探す（Nozomi Networksの推奨）。
 - 機器の中に `/root/.cling`、`/usr/local/bin/.cling`、初期化スクリプトへの追記、`wget.r`／`wget.p` が残っていないかを確かめる（Nozomi Networks）。
 
+## 登場する組織・サービス
+
+- **Cling／ClingStun**：ルーターや録画機などのLinux機器に感染する、不正プログラム（ボットネット）の呼び名。通信の仲介に使うSTUNという仕組みに、指令を紛れ込ませると報告された（[Nozomi Networks](https://www.nozominetworks.com/blog/a-stunning-disguise-cling-malware-masquerades-as-google-)、[FortiGuard Labs](https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure)）。
+
 ## 概要
 
 - Nozomi Networksは10月1日、Realtek Jungle SDKの脆弱性CVE-2021-35394を狙う通信の急増を追ううちに、命令のやり取りにSTUN（NAT越えのための標準プロトコル）を使うボットネット「Cling」を見つけたと報告した。FortiGuard Labsも10月5日に同じマルウェアを「ClingSTUN」として報告した。

@@ -22,6 +22,11 @@ description: "AIエージェント基盤のnpm SDK「tensorlake」の0.5.144が�
 - **先に** `gh-token-monitor` の常駐を止めてから、奪われた可能性のあるGitHub／npm／クラウド／SSH等の認証情報をローテーションする。監視が残ったままトークンを取り消すと、ホームディレクトリ削除が走る（Socket、StepSecurity）。
 - 自分のGitHubに説明文「Shai-Hulud: Here We Go Again」の公開リポジトリ、作者 `claude@users.noreply.github.com` の想定外コミット、`.claude`／`.vscode` の想定外ファイルがないか確認する（StepSecurity、The Hacker News）。
 
+## 登場する組織・サービス
+
+- **tensorlake**：プログラムから外部の処理をつなぐための、npm上の正規パッケージ。今回、正規の公開場所から「Shai-Hulud」と呼ばれる自己増殖型の不正コード（ワーム）が配られた（[Socket](https://socket.dev/blog/tensorlake-compromise)）。
+- **Socket**：公開パッケージの安全性を調べる企業。今回の侵害を報告した側の一つである（[同](https://socket.dev/blog/tensorlake-compromise)）。
+
 ## 概要
 
 - 2026年10月8日 01:12 UTC頃、AIエージェント用サンドボックスを扱うTypeScript SDK `tensorlake` の 0.5.144 がnpmに公開された。Socketは約11分後に検知した。

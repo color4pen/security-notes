@@ -22,6 +22,10 @@ description: "Have I Been Squattedの研究者が、ChromiumのIDN表示チェ�
 - DNS・プロキシ・メールのログで `xn--` で始まるドメインを目印にする。業務でほとんど使わないなら、許可リスト外はタグ付け・警告・遮断する（研究者の推奨）。
 - パスキー（FIDO2）など、接続先ドメインに結び付いた認証へ移行する。表示がどう見えても、`apple.com` 用のパスキーは `xn--80a6aa68c8d.com` には応答しない（研究者の推奨）。
 
+## 登場する組織・サービス
+
+- **Chromium**：ChromeやEdgeなどの土台になっている、公開されているブラウザーエンジン。今回、国際化ドメイン名（見た目が似た文字を使う住所）が、本物そっくりに表示される問題が報告された（[Have I Been Squatted](https://haveibeensquatted.com/blog/turning-idn-edge-cases-into-typosquats)）。
+
 ## 概要
 
 - 2017年、Xudong Zhengがキリル文字だけで書いた `аррӏе.com` を登録し、主要ブラウザが apple.com と見分けのつかない形で表示することを示した。Chromiumは以後、全文字がラテン文字のそっくりさんで構成されたラベルをPunycodeで表示する「全文字なりすまし」チェックを入れている。

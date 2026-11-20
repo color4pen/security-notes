@@ -22,6 +22,11 @@ description: "Proofpointが中国寄りのTA419を報告。無害なメールで
 - 面識のない専門家や元高官からの「委員会への参加依頼」「報告書への協力依頼」は、別の連絡手段で本人確認してからリンクを開く（Proofpointの推奨）。
 - Proofpointが公開した送信元アドレス・ドメイン（後述）を、メールゲートウェイ・プロキシ・DNSのログで照合する。
 
+## 登場する組織・サービス
+
+- **TA419**：Proofpointが、今回の攻撃の実行者と見ている攻撃グループ。AI政策の専門家などを狙い、正規のログイン画面に見せかけて認証情報を盗む手法（AitM）を使ったとされる（[Proofpoint](https://www.proofpoint.com/us/blog/threat-insight/hallucinating-credibility-china-aligned-ta419-impersonates-its-way-us-ai-policy)）。
+- **Proofpoint**：メールなどの脅威対策と調査を行う企業。今回のキャンペーンを報告した側である（[同](https://www.proofpoint.com/us/blog/threat-insight/hallucinating-credibility-china-aligned-ta419-impersonates-its-way-us-ai-policy)）。
+
 ## 概要
 
 - Proofpointは、中国寄りでスパイ活動を目的とする攻撃者TA419が、2026年7月に元ホワイトハウス科学技術政策局（OSTP）の幹部や著名な経済学者を装い、米国のAI政策の専門家に認証情報フィッシングを仕掛けたと報告した。2月にはAnthropicの上級社員を装った例もあった。

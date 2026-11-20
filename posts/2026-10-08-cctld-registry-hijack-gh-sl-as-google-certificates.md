@@ -22,6 +22,10 @@ description: "攻撃者が .gh（ガーナ）・.sl（シエラレオネ）・.a
 - CAAレコードで証明書を発行できる認証局を限定し、可能ならACMEアカウントと検証方法まで縛る（Google）。
 - 身に覚えのない証明書を見つけたら、発行した認証局に問題報告（Certificate Problem Report）を出す（The Hacker News）。
 
+## 登場する組織・サービス
+
+- **国別ドメイン（ccTLD）の登録管理**：`.gh`（ガーナ）、`.sl`（シエラレオネ）、`.as`（米領サモア）などのドメインを管理する登録機関。今回、DNSの設定を書き換えられ、正規のHTTPS証明書まで取得されたと、Googleが報告した（[Google](https://blog.google/security/chromes-response-to-recent-cctld-registry-hijacks/)）。
+
 ## 概要
 
 - Googleは2026年10月6日（米国時間）、.gh・.sl・.as の国別トップレベルドメイン（ccTLD）で起きた一連のドメイン乗っ取りについて、Chromeの対応を公表した。攻撃者はccTLD側を侵害して権威DNSを書き換え、Googleのドメインを含む証明書を取得していた。

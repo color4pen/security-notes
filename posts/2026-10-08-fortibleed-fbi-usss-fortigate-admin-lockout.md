@@ -24,6 +24,10 @@ description: "米FBIとシークレットサービスが、インターネット
 - 全管理者のパスワードをPBKDF2で保存し直し、`login-lockout-upon-weaker-encryption`（7.2・7.4系では `login-lockout-upon-downgrade`）で古いSHA-256のハッシュを消す（Fortinet）。
 - 身に覚えのない管理者アカウント、VPNユーザー、REST APIキー、設定変更がないか確かめる（FBI・USSS）。
 
+## 登場する組織・サービス
+
+- **Fortinet FortiGate**：ネットワークの入口を守るファイアウォール。離れた場所から入る接続（SSL-VPN）も扱う。今回、「FortiBleed」と呼ばれる事案では、使い回された認証情報で管理画面を乗っ取られたと報告された（特定の新しい欠陥というより、認証情報の悪用である）（[FBI・USSS（PDF）](https://www.ic3.gov/CSA/2026/261006.pdf)、[Fortinet](https://www.fortinet.com/blog/psirt-blogs/analysis-of-reported-credential-compromise-of-fortigate-devices)）。
+
 ## 概要
 
 - 米連邦捜査局（FBI）と米シークレットサービス（USSS）は2026年10月6日（米国時間）、共同サイバーセキュリティ勧告 JCSA-20261006-01 で、FortiGateを狙う認証情報窃取作戦「FortiBleed」が今も続いていると警告した。過去に入手した認証情報で、公開されたFortiGateへのスキャンが続いているという。

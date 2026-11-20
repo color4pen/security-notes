@@ -22,6 +22,10 @@ description: "LibreOffice Calc と Apache OpenOffice Calc で、細工した表�
 - Apache OpenOffice は、4.1.17 が出るまで設定画面で Java 連携を無効にする。できなければ、信頼できない文書を開かない。4.1.17 が出たら更新する（Apache OpenOffice）。
 - （考察）Java 連携を使っていない LibreOffice の環境では、更新に加えて Java 連携を無効にしておくと、同じ種類の欠陥への備えになる。
 
+## 登場する組織・サービス
+
+- **LibreOffice／Apache OpenOffice**：文書や表計算などを扱う、公開されているオフィスソフト。今回、表計算ファイルを開くだけでJavaのコードを実行できる欠陥が報告された（[The Document Foundation](https://www.libreoffice.org/security/)）。
+
 ## 概要
 
 - LibreOffice Calc と Apache OpenOffice Calc は、表計算の範囲を外部のデータベースとつなぎ、自動で更新する機能を持つ。細工した表計算ファイル（.ods）を開くと、この自動更新が外部のデータベースファイル（.odb）を取りに行き、そこに書かれたJavaのデータベースドライバー（JDBCドライバー）を、指定された場所のJARファイルから読み込んで起動する。

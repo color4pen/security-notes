@@ -23,6 +23,10 @@ description: "V12が、AnyDesk Linux 8.0.2のセッションプロトコルに�
 - すぐ更新できない場合は、TCP 7070への到達を制限する（V12、The Hacker News）。
 - （考察）CVEがないため、脆弱性スキャナのCVEフィードだけでは拾えない。AnyDesk Linuxの実バージョンと、7070の公開有無をインベントリで確認する。
 
+## 登場する組織・サービス
+
+- **AnyDesk**：離れたパソコンを遠隔で操作するためのソフト。今回、Linux版について、ログイン前に管理者権限（root）を取れる欠陥「AnyPwn」の攻撃コードが公開された（[V12](https://github.com/v12-security/pocs/tree/main/anydesk)）。
+
 ## 概要
 
 - 2026年10月8日、V12セキュリティチームがGitHubで「AnyPwn」を公開した。AnyDesk Linuxのセッションプロトコルに、接続を承認する前にrootで任意コマンドを実行できるヒープバッファオーバーフローがある、とする攻撃コードである。
