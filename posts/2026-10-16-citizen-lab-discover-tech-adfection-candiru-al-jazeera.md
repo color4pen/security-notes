@@ -22,6 +22,12 @@ description: "カナダのCitizen Labは、イスラエルの広告会社Discove
 - 「広告配信サーバ → Candiru の選別用サーバ → C&C」という順の通信が短時間に続いた端末がないかを確かめる（Citizen Lab）。
 - 社用端末と社内の出口で広告とトラッキングを遮断し、MDMで端末の広告IDを無効にする。報道・人権・外交・政府など狙われやすい立場の人の端末を優先する（Citizen Lab）。
 
+## 登場する組織・サービス
+
+- **AdFection／Discover Tech**：広告の配信に使う技術。Citizen Labによると、標的広告の仕組みがスパイウェアを届ける経路に使われた（[Citizen Lab](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/)）。
+- **Candiru**（のちに Integrity Labs とも）：他者の依頼を受けてスパイウェアを提供するとされる企業。今回、報道機関Al Jazeeraの端末が標的になったと報告された（[同](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/)）。
+- **Citizen Lab**：大学に属する調査機関。今回の攻撃経路を報告した側である（[同](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/)）。
+
 ## 概要
 
 - Citizen Lab（トロント大学）は10月15日、標的型の広告を通じて傭兵型スパイウェアがゼロクリックで配られたことを、初めて技術的に公に確認したと発表し、この手口を **AdFection** と名付けた（Citizen Lab）。

@@ -25,6 +25,10 @@ description: "研究者のQuentin Kaiser氏が、Broadcomの独自のWi-Fi実装
 - 可能な範囲で **WPS を無効化**する。欠陥の入口は WPS の EAP 断片組み立てであり、通常の WPA 鍵を知らなくても届く（Kaiser）。無効化が設定画面にない機種もある（考察）。
 - ホテル・近隣の Wi-Fi を踏み台にした攻撃の文脈（Nearest-Neighbour、CaptiveCrunch）を踏まえ、社用ノートが「信頼できない AP」に勝手につながらないよう、既知 SSID の自動接続を絞る（Kaiser が引用する Volexity／Microsoft の文脈、考察）。
 
+## 登場する組織・サービス
+
+- **Broadcom**：半導体などを設計・製造する企業。同社の無線LAN（Wi-Fi）用ソフトには、接続の簡易設定（WPS）を扱う処理が含まれ、今回その古い欠陥でルーターの管理者権限を取れると報告された（[Kaiser](https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/)）。
+
 ## 概要
 
 - Quentin Kaiser 氏が 2026年10月16日の Hexacon（パリ）で発表し、同日に長文の技術解説を公開した。Broadcom 独自の 802.11 実装にある WPS EAP の断片再組み立てに、少なくとも 2010 年から続くバッファオーバーフローがある（Kaiser）。

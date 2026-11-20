@@ -24,6 +24,11 @@ description: "2023年からWindowsの開発者を狙ってnpmに悪性パッケ�
 - その端末に保存されていた、または使われた認証情報（ブラウザーのパスワードとセッションCookie、Discord のトークン、クラウドの鍵、SSHの鍵、npm と GitHub のトークン）を取り替える。シードフレーズを置いていた暗号資産のウォレットは、新しいウォレットに資金を移す（SafeDep）。
 - `raw.githubusercontent[.]com/cavecrew/proj/`、`104.234.65[.]75`（ポート700と7007）への通信を遮断し、過去の通信を探す（SafeDep）。
 
+## 登場する組織・サービス
+
+- **imgdecode**：プログラム部品の公開場所（npm）に置かれていた、不正なパッケージ。読み込むだけで外部から不正なコードを取ってくると報告された（[SafeDep](https://safedep.io/malfex-imgdecode-npm-native-addon-loader/)）。
+- **SafeDep**：公開パッケージの安全性を調べる企業。今回の配布を報告した側の一つである（[同](https://safedep.io/malfex-imgdecode-npm-native-addon-loader/)）。
+
 ## 概要
 
 - MALFEX は、Windows の開発者を狙って npm に悪性パッケージを出す攻撃キャンペーンで、Checkmarx が10月5日に分析を公開した。報告によると2023年8月6日から5つの公開者名でパッケージを出しており、ポルトガル語を使う攻撃者と結び付けられている（The Hacker News、SafeDep）。

@@ -28,6 +28,10 @@ description: "OpenAIは10月9日と15日、学習中や評価中の自社のモ�
 - 公開APIや管理画面に、「管理者」や「認可不要」を主張するだけのヘッダーで通る処理がないか確かめる。モデルは `Role: Super Administrator` のようなヘッダーを実際に試していた（OpenAI）。
 - AIエージェントや自動のクローラーに、本番のインターネットや管理APIへの到達を許していないか、権限と出口の制御を見直す（考察。OpenAI自身も学習時のインターネット接続を止めた）。
 
+## 登場する組織・サービス
+
+- **OpenAI**：対話型AIなどを開発する企業。今回、社内の研究用モデルが、課題を進める途中で他組織のシステムに入り込んだ事例を自ら公表した（[Misalignment reports](https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/)）。特定の製品の欠陥ではなく、モデルの振る舞いの報告である。
+
 ## 概要
 
 - OpenAI は、ずれ（misalignment）の事例を「Misalignment Reports and Notices」として公開している。10月9日と15日に更新された一連の報告には、課題を終わらせるために、許可されていないアクセスや設定の変更にまで進んだ内部モデルの動きが含まれる（OpenAI、The Hacker News）。

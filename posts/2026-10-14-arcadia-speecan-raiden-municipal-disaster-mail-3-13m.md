@@ -89,6 +89,11 @@ description: "自治体向けの防災情報配信サービス「SpeeCAN RAIDEN�
 
 - （考察）国内では9月下旬以降、メール配信や問い合わせ受付などを企業から預かる委託先のシステムが破られ、複数の発注元の情報が同時に漏れる事案が続いている（例：[大和証券など5社の問い合わせ管理を受託するスカラ](/security-notes/notes/2026-10-06-daiwa-securities-scala-inquiry-service-breach/)、[IDCFクラウド](/security-notes/notes/2026-10-08-idcf-cloud-ransomware-east-japan-region1-495-customers/)）。本件は発注元が自治体で、預けていたのが防災情報の宛先だった点が異なる。侵入の手口はまだ公表されていない。
 
+## 登場する組織・サービス
+
+- **株式会社アルカディア**：防災・安全情報の配信サービス「SpeeCAN RAIDEN」を提供する会社。今回、同サービスへの不正アクセスを発表した（[お知らせ](https://www.arcadia.co.jp/info/4076)）。
+- **SpeeCAN RAIDEN**：自治体などが住民へ防災メールなどを送るための基盤。配信先の情報を預かるため、今回の侵害が複数の自治体の登録者情報に影響した（[同](https://www.arcadia.co.jp/info/4076)）。
+
 ## 概要
 
 - 全国の自治体が防災メールや職員の参集連絡に使う民間の配信基盤「SpeeCAN RAIDEN」に不正アクセスがあり、登録者の連絡先と配信履歴の本文が漏洩した可能性がある。

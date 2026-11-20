@@ -26,6 +26,11 @@ description: "CalifのAndrew Griffiths氏が、OpenBSD 7.9でKARL・SMAP・SMEP�
 - パッチ後に再起動し、カーネルが新しい版になっていることを確認する（OpenBSD の通常手順）。
 - マルチユーザーのシェルや、リモート欠陥でユーザー権限まで取られたあとの「二段目」として効く欠陥なので、共有ホストや踏み台の OpenBSD を優先する（考察）。
 
+## 登場する組織・サービス
+
+- **OpenBSD**：安全性を重視して開発されている、公開されているOS。今回、「Big Fish」と呼ばれる、共有メモリの処理に長年あった欠陥で、同じ機械にログインできる利用者が管理者権限（root）を取れると報告された（[Calif](https://calif.io/research/big-fish)）。
+- **Calif**：セキュリティの調査を行う組織。今回の欠陥を報告した側である（[同](https://calif.io/research/big-fish)）。
+
 ## 概要
 
 - Calif の Andrew Griffiths 氏が 2026年10月16日に「Big Fish」を公開した。OpenBSD 7.9 で、KARL・SMAP・SMEP が有効なまま、情報漏えいなしにローカル root を取る連鎖を示し、PoC を GitHub に置いた（Calif）。

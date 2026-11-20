@@ -37,6 +37,10 @@ description: "MSP向けのMicrosoft 365バックアップサービス ConnectWis
 - ConnectWise／SkyKick のアプリがグローバル管理者や Exchange 管理者などのディレクトリロールを持っていないか確かめ、意図して付けたものでなければ外す（Huntress）。
 - ConnectWise が全認証情報の再発行を確認するまで、無効にしたアプリを戻さない（Huntress）。
 
+## 登場する組織・サービス
+
+- **ConnectWise Cloud Backup**（旧 SkyKick Backup）：他社のMicrosoft 365などを代わりにバックアップ・管理するためのサービス。ベンダー側が持つアプリの認証情報が悪用され、顧客企業のMicrosoft 365に入られた（[Huntress](https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access)、[Todyl](https://www.todyl.com/blog/investigation-unauthorized-access-through-the-connectwise-cloud-backup-microsoft-365-app)）。
+
 ## 概要
 
 - ConnectWise Cloud Backup は、MSP（IT運用を請け負う事業者）が顧客の Microsoft 365 や Google Workspace のデータをバックアップするためのクラウドサービス。仕事の性質上、導入された各テナントで、メールボックス、OneDrive、SharePoint、Teams、ディレクトリのデータへの広い権限を与えられている（Huntress、The Hacker News）。

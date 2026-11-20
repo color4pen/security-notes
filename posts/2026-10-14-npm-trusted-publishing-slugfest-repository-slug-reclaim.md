@@ -24,6 +24,10 @@ description: "npmのTrusted Publishing（OIDCによるトークン不要の公�
 - 新しく設定を作ったら、**2日以内に** その設定で1回公開する。最初の公開で、設定がリポジトリの変わらない識別子に結びつく（npm Docs）。
 - Trusted Publishingに移ったパッケージは、「Publishing access」で「Require two-factor authentication and disallow tokens」を選び、従来のトークンでの公開を止める（npm Docs）。
 
+## 登場する組織・サービス
+
+- **npm Trusted Publishing**：プログラム部品を公開する場所（npm）で、あらかじめ登録した公開元だけが新しい版を出せるようにする仕組み。今回、「SlugFest」と呼ばれる設定の不備で、他人のパッケージを公開できうると報告された（[Bloom Security](https://bloom.security/blog/slugfest-millions-of-ai-agents-download-exposed-npm-packages)）。
+
 ## 概要
 
 - npmのTrusted Publishingは2025年7月に一般提供された。長く使い回される公開用トークンをCIに置く代わりに、GitHub ActionsなどのワークフローがOIDCの短命なトークンを取得し、npmレジストリで数分で切れる公開用の認証情報と交換する仕組みである（Bloom Security、GitHub）。

@@ -28,6 +28,11 @@ description: "Windows向けバックアップソフト AOMEI Backupper が更新
 - 社外のIPアドレスへの SMB（TCP 445）と WebDAV の送信を止める。お知らせ画面を使ってNTLM認証の応答を外へ送らせる手口への対策になる（GTIG）。
 - 警告が出たら、ベンダーの配布ページを今見て「きれいだから誤検知」と判断しない。書き換えは数分で元に戻るためである。端末に残った設定ファイルと、警告の時刻のプロキシの記録を保全して調べる（GTIG）。
 
+## 登場する組織・サービス
+
+- **AOMEI Backupper**：パソコンのバックアップなどを行うソフト。今回、更新を配るサーバーが改ざんされ、不正なプログラムが配られた（製品本体の欠陥ではない）（[Google Threat Intelligence Group](https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering)）。
+- **UNC7017**：この改ざんに関係すると、GTIGが呼ぶ攻撃グループ（[同](https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering)）。
+
 ## 概要
 
 - AOMEI Backupper は、更新とお知らせのために2つの設定ファイル（`down_html.ini` と `Notifycfg.ini`）をAOMEIのサーバーからHTTPSで定期的に取得する。攻撃者は2026年4〜7月、この2つをAOMEIのサーバー上で1回5〜10分だけ書き換え、時間が過ぎると元に戻した（GTIG）。
