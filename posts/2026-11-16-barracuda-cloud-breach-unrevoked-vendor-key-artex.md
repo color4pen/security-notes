@@ -23,6 +23,11 @@ description: "Barracudaは、過去の案件でAI関連の委託先に渡し、�
 - 自社でも、委託先や外部サービスに渡したクラウドのアクセスキー・サービスプリンシパルを棚卸しし、案件が終わったものを失効させる（考察）。
 - Barracudaが公表したIPアドレスやUser-Agent、`i` と数字だけの名前のリソースが自社のクラウドやGitHubにないか確認する（Barracuda）。
 
+## 登場する組織・サービス
+
+- **Barracuda**：メールの防御や、ネットワーク・クラウドのセキュリティ製品を提供する企業（[Barracuda](https://www.barracuda.com/)）。今回、終了した委託案件のあとも残っていたクラウドのアクセスキーを入口に、クラウド環境へ侵入されたと公表した（[Trust Center](https://trust.barracuda.com/security/barracuda-xdr-integration-credentials)）。
+- **ARTEX**：2026年7月に公開された、侵入テストを自動化するオープンソースのフレームワーク。Barracudaは、今回の侵入の名前の付け方や作業の順序がARTEXの特徴と一致したと説明している（[Barracuda Blog](https://it.blog.barracuda.com/2026/11/11/anatomy-of-a-machine-speed-intrusion)）。
+
 ## 概要
 
 - Barracudaは2026年11月10日にTrust Centerで注意喚起を出し、11月11日に技術的な経緯をブログ「Forty-four hours: Anatomy of a machine-speed intrusion」で公開した。11月13日の更新で、最初のアクセスキーの入手経路を明らかにした（Barracuda）。

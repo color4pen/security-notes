@@ -23,6 +23,12 @@ description: "ランサムウェアグループn0nが11月19日（米国時間�
 - 金融機関・カード会社でマーケティングや会員優待を外部に委託している場合は、委託先に渡している顧客データの項目、保存期間、委託先の認証方式（MFA、VPNの認証情報、クラウドのキー）を確認する（考察）。
 - 委託先から事故の連絡が来たときに、どのデータを渡していたかすぐ答えられるよう、委託先ごとの提供データの一覧を作っておく（考察）。
 
+## 登場する組織・サービス
+
+- **JPMorgan Chase**：米国の銀行・カード発行会社。今回、自社システムではなく委託先が持っていたカード会員のマーケティングデータが公開されたと説明している（[Chase公式X](https://x.com/Chase/status/2123405210445857009)）。
+- **Visa／Mastercard**：国際的なカード決済のネットワークを運営する会社。今回、いずれも自社の決済システムではなく、会員優待などの委託先で情報が漏れたと説明している（[The Next Web](https://thenextweb.com/news/jpmorgan-chase-visa-mastercard-vendor-breach-n0n-leak)、[Cybernews](https://cybernews.com/security/n0n-ransomware-leaks-alleged-mastercard-customers-data/)）。
+- **n0n**：2026年9月中旬から確認されているランサムウェア（恐喝）グループ。支払い期限のあと、3社の委託先から取ったと主張するデータをリークサイトで公開した（[Cybernews](https://cybernews.com/security/jpmorgan-chase-data-leak-non-ransomware-gang/)）。
+
 ## 概要
 
 - n0nは2026年9月中旬から確認されている新しいランサムウェア（恐喝）グループで、支払いの期限（48時間）が過ぎた後にJPMorgan Chaseのデータを公開した（[Cybernews](https://cybernews.com/security/jpmorgan-chase-data-leak-non-ransomware-gang/)）。

@@ -23,6 +23,11 @@ description: "Varonis Threat Labsは11月、自前で運用するフィッシン
 - 文面の不自然さや文法の誤りを見分け方として教えるのをやめ、「急がせる」「予想外の依頼」「ログインを求める」といった要求の内容で疑うよう教育を変える（Varonis）。
 - 日本語の文面だから、あるいは迷惑メールフォルダーに入らなかったから安全、とは判断しない（考察）。
 
+## 登場する組織・サービス
+
+- **TheMailer**：攻撃者が自分のサーバーに置いて使う、フィッシングメールの作成・配信ツール。送信テストで迷惑メールに入ると、商用AIで文面を書き直して再送する機能を備える（[Varonis](https://www.varonis.com/blog/themailer-ai-phishing-kit)）。
+- **Varonis**：データの保管場所や権限の管理を助けるセキュリティ企業。調査部門のVaronis Threat LabsがTheMailerを分析して公表した（[About Varonis](https://www.varonis.com/company/about-us)、[Varonisの分析](https://www.varonis.com/blog/themailer-ai-phishing-kit)）。
+
 ## 概要
 
 - TheMailerは、攻撃者が自分のサーバーに置いて使う、フィッシングメールの作成・配信ツール。見た目はメールマーケティングツールに近い（[Varonis](https://www.varonis.com/blog/themailer-ai-phishing-kit)）。

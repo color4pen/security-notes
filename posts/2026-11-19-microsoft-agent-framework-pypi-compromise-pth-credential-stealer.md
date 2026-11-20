@@ -27,6 +27,11 @@ description: "2026年11月17日（UTC）、MicrosoftのAIエージェント開�
 - 窃取コードは**新しいトークンを発行させて**持ち出すため、保存済みの秘密を入れ替えるだけでは足りない。その環境が使えたマネージドidentityやフェデレーション資格情報のサインイン・操作ログを、インストール時刻以降について確認する（SafeDep）。
 - プロキシ・DNSのログで`webhook[.]site/d381fd80-ec62-42ad-8f5c-d1b15103c9bb`への通信を探す（Socket、THN）。
 
+## 登場する組織・サービス
+
+- **Microsoft Agent Framework**：AIエージェント（指示を受けて作業を進めるプログラム）をPythonや.NETで作るための、Microsoftの公開フレームワーク（[公式ドキュメント](https://learn.microsoft.com/en-us/agent-framework/)、[GitHub](https://github.com/microsoft/agent-framework/)）。Python版はPyPIで `agent-framework` として配られる。今回、正規の配布元に認証情報を盗む不正な版が公開された。
+- **PyPI**：Pythonのライブラリを公開・入手するための公式の配布サイト。開発者が `pip install` でパッケージを入れる先になる（[PyPI](https://pypi.org/)、[agent-framework](https://pypi.org/project/agent-framework/)）。今回、ここに不正な版が載った。
+
 ## 概要
 
 - 11月17日（UTC）、agent-frameworkの不正な2版が33分の間隔でPyPIに公開された。Aikido、Chainguard、Endor Labs、OX Security、SafeDep、Socket、StepSecurity、Wizがそれぞれ分析を公開した（The Hacker News）。

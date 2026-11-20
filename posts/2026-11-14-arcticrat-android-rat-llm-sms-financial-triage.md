@@ -24,6 +24,11 @@ description: "Zimperiumは、暗号資産アプリ11種を狙うスパイウェ�
 - 企業のモバイル管理では、開発者向けオプションとワイヤレスデバッグを無効にし、提供元不明のアプリのインストールを禁止する（考察）。
 - 金融・暗号資産の認証にSMSのワンタイムコードしか使えない場合は、認証アプリやパスキーなど別の方式に切り替える（考察）。
 
+## 登場する組織・サービス
+
+- **ArcticRAT**：Android端末を遠隔操作する不正プログラム（RAT）。SMSの内容などを送り出し、被害者の金銭状況の仕分けに生成AIを使うとされる（[Zimperium](https://zimperium.com/blog/arcticrat-ai-powered-android-rat)）。
+- **Zimperium**：モバイル端末向けのセキュリティを手がける企業。今回、ArcticRATの分析を公表した（[Zimperium](https://www.zimperium.com/)、[分析記事](https://zimperium.com/blog/arcticrat-ai-powered-android-rat)）。
+
 ## 概要
 
 - モバイルセキュリティ企業のZimperiumの研究チームzLabsは、2026年11月12日付のブログでArcticRATを報告した。名前は初期の検体のパッケージ名（`net.iceflow.arcticlink`、`net.frostlink.iceforge`）に由来する（Zimperium）。

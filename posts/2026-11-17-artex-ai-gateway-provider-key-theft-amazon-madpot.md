@@ -30,6 +30,11 @@ description: "Amazon Threat Intelligenceは、おとりのLLM APIに届いたAI�
 - Langflowは1.3.0以降に更新する（CVE-2025-3248、KEV登録済み）。RAGFlow（CVE-2026-28797）は、アドバイザリに修正版の記載はないが、テンプレートをサンドボックスで処理するようになった0.25.0以降に更新する（The Hacker News）。
 - AIプロバイダー側の利用料や使用量に急な変化がないか確認し、ゲートウェイに登録したキーを入れ替える（Amazon）。
 
+## 登場する組織・サービス
+
+- **ARTEX**：生成AIへの問い合わせを中継する「AIゲートウェイ」を、犯罪者向けに提供する仕組み。利用者が各AIサービスの鍵を預けるため、鍵が盗まれると正規のAIサービスを攻撃者に使われる（[AWS Security Blog](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/)）。
+- **Amazon MadPot**：Amazonが運用する、攻撃を誘って観察するためのおとり環境（ハニーポット）と、その分析に基づく脅威情報。今回、ARTEXを使う犯罪キャンペーンを観察して公表した（[同ブログ](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/)）。
+
 ## 概要
 
 - Amazon Threat Intelligenceは2026年11月13日、AWS Security Blogで報告を公開した（Amazon）。

@@ -24,6 +24,12 @@ description: "Kasperskyは、委託先の社員から盗んだ認証情報でVPN
 - `ms-DS-MachineAccountQuota` を0にするなど、一般ユーザーがマシンアカウントを作れないようにする（考察）。
 - セキュリティ製品の管理コンソールへの接続を、管理用の端末と多要素認証に限る。Citrusは管理コンソールを使って保護をまとめて無効にしていた（Kaspersky）。
 
+## 登場する組織・サービス
+
+- **Citrus**：Kasperskyが報告した、これまで知られていなかったランサムウェアのグループ。委託先の社員の認証情報を入口にし、社内の一斉設定（グループポリシー）で暗号化ソフトを配る（[Securelist](https://securelist.com/citrus-ransomware/121879/)）。
+- **Sn00py**：Citrusが暗号化に使うランサムウェア。今回の報告で、この系統の暗号化が確認されている（[同](https://securelist.com/citrus-ransomware/121879/)）。
+- **Kaspersky**：セキュリティ製品の開発と、攻撃の調査・公表を行う企業。今回、Citrusの手口を報告した側である（[同](https://securelist.com/citrus-ransomware/121879/)）。
+
 ## 概要
 
 - Kasperskyは2026年11月11日付のSecurelistで、これまで報告のなかったランサムウェアのグループ「Citrus」の手口を公開した（Kaspersky）。

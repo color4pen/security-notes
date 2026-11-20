@@ -24,6 +24,11 @@ description: "研究者のAlon Hertz氏らは、累計約1億8,000万回ダウ�
 - 自社で使うHugging Faceのモデル・データセットを洗い出し、更新を自動で取り込む構成になっていないか確認する（考察）。
 - 自分たちが公開側の場合、アカウントの登録メールのドメインが失効していないか確認し、二要素認証を有効にする（考察）。
 
+## 登場する組織・サービス
+
+- **Hugging Face**：機械学習のモデルやデータセットを公開・共有するためのプラットフォーム。開発者はここにアカウントを置き、モデルを配布する（[Hugging Face](https://huggingface.co/)）。今回、音声合成モデル「Kokoro」の公開アカウントが乗っ取られた。
+- **Kokoro（Kokoro-82M）**：Hugging Face上で公開されている、テキストを音声に変換するモデル（[hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M)）。今回、その公開者アカウントと関連ドメインが乗っ取られた（[BleepingComputer](https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/)）。
+
 ## 概要
 
 - 研究者のAlon Hertz氏は2026年11月中旬、Mediumで結果を公表した。BleepingComputerは11月17日に報じた（Hertz、BleepingComputer）。

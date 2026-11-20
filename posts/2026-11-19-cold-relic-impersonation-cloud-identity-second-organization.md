@@ -23,6 +23,11 @@ description: "ロシアのスパイ活動グループCOLD RELIC（旧COLDRIVER�
 - 新しいパスキーやMFA端末の登録、Customer Takeoutの作成、アラートセンターのアラート削除、ユーザー一覧のダウンロードを検知するアラートを用意する（GTIG）。
 - 取引先や同じ業界の人から、メッセージアプリ経由で文書のリンクが届いた場合は、別の連絡手段で本人に確認する（考察）。
 
+## 登場する組織・サービス
+
+- **COLD RELIC**：GoogleのMandiantとGTIG（Google Threat Intelligence Group）が報告した、ロシアのスパイ活動グループ。今回、侵害した組織の社員を装い、別の組織のクラウド上のアカウントも奪ったとされる（[Google Cloud（Mandiant・GTIG）](https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise)）。
+- **Mandiant／GTIG**：Googleの脅威インテリジェンス部門。企業や政府への侵入を調べ、攻撃グループの手口を公表している。今回のなりすましによる侵入を報告した側である（[同](https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise)）。
+
 ## 概要
 
 - COLD RELICは、以前COLDRIVER・UNC4057として追跡され、Star Blizzard、Callisto、Gossamer Bearとも呼ばれるロシア政府系のスパイ活動グループ。米司法省はロシア連邦保安庁（FSB）の内部で活動していると評価している（GTIG）。

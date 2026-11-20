@@ -24,6 +24,10 @@ description: "2026年11月16日、A/Bテスト基盤Optimizely Webの顧客プ�
 - 自社のフォームでカード番号を受け付けている場合、11月16日に入力されたカード情報は漏れた可能性があるものとして扱う。HttpOnlyでないCookieに入っていたセッションや秘密情報も入れ替える（Report URI）。
 - 11月16日に該当サイトを見たiPhone・iPadの利用者は、iOS 18.7.3以降またはiOS 26.3以降に更新する（Report URI）。
 
+## 登場する組織・サービス
+
+- **Optimizely Web**：ウェブサイトの表示を来訪者ごとに変え、どちらが成果が高いかを試す（A/Bテストなどの）実験プラットフォーム。利用企業のサイトにJavaScriptを埋め込んで使う（[公式ドキュメント](https://docs.optimizely.com/web-experimentation/docs)）。今回、プロジェクトに不正なスクリプトが入れられ、決済情報を盗む改ざんに使われた。
+
 ## 概要
 
 - 最初に報告したのはReport URIのScott Helme氏で、11月16日に分析を公開した（Report URI）。BleepingComputerも、urlscan.ioの記録で多数のサイトが不正スクリプトを読み込んでいたことを独自に確認した（BleepingComputer）。

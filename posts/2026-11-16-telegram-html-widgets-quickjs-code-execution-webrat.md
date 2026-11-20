@@ -22,6 +22,12 @@ description: "Telegramが11月9日に全ボットに開放したHTMLウィジェ
 - 知らないボットを起動しない。チャットに届いているHTMLウィジェットを開かない。Kasperskyは、修正が出るまでウィジェットを起動しないよう勧めている（Kaspersky）。
 - 業務端末でTelegram Desktopを使っている場合、`Telegram.exe` から `powershell.exe` が起動していないかをEDRで確認する（考察）。
 
+## 登場する組織・サービス
+
+- **Telegram**：メッセージアプリ。チャンネルやサイトに埋め込むHTMLウィジェット（小さな表示枠）を公式に提供している（[Telegram](https://telegram.org/)、[Bot APIの更新履歴](https://core.telegram.org/bots/api-changelog)）。今回、そのウィジェットの処理の欠陥を突いて、閲覧者の環境でコードを実行される問題が報告された。
+- **QuickJS**：JavaScriptを実行するための小型のエンジン。Telegramのウィジェット処理などで使われる。今回の欠陥の技術的な対象になったとする報告がある（[Код.ру](https://kod.ru/telegram-quickjs-uyazvimost-vidzhety)）。
+- **WebRAT**：ブラウザ経由で端末を遠隔操作する不正プログラム。Kasperskyは、今回の欠陥を悪用したとみられる攻撃でこのプログラムを確認したとしている（[KasperskyのTelegram投稿](https://t.me/kasperskylab_ru/7881)）。
+
 ## 概要
 
 - Telegramは2026年11月9日のBot API 10.4で、ボットがHTMLウィジェット（スクリプト付きの対話型メッセージ）を送れる機能を追加した。本番環境ではウィジェットは個人チャットにだけ送れ、転送できない保護付きコンテンツになる（Telegram Bot API）。

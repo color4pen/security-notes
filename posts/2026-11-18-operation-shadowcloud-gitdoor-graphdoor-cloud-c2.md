@@ -27,6 +27,12 @@ description: "Kasperskyは、アジアとアフリカの主に政府機関を狙
 - 正規の実行ファイルの横に置かれた`jli.dll`・`SbieDll.dll`・`python39.dll`・`WINMM.dll`・`libcef.dll`などのDLLと`config.ini`の組み合わせ（DLLサイドローディング）を探す（Kaspersky Part 1）。
 - 業務でGitHub APIやMicrosoft Graph、Ablyを使わない端末・サーバーから、それらへの通信が出ていないか確認する（考察）。
 
+## 登場する組織・サービス
+
+- **Operation ShadowCloud**：Kasperskyが報告した、正規のクラウドサービスを侵入後の遠隔操作の拠点（C2）に使う一連の攻撃の呼び名（[Securelist 第1報](https://securelist.com/operation-shadowcloud-gitdoor/122004/)）。
+- **GitDoor／GraphDoor**：それぞれGitHubとMicrosoft Graph（Microsoft 365などのAPI）の正規の仕組みに紛れて、攻撃者の指示を受け取る不正プログラム（[第1報](https://securelist.com/operation-shadowcloud-gitdoor/122004/)、[第2報](https://securelist.com/operation-shadowcloud-graphdoor/122005/)）。
+- **Kaspersky**：セキュリティ製品の開発と、攻撃の調査・公表を行う企業。今回、ShadowCloudの手口を報告した側である。
+
 ## 概要
 
 - Kasperskyは2026年11月17日、Securelistで2部構成の分析を公開した（Kaspersky Part 1・Part 2）。
