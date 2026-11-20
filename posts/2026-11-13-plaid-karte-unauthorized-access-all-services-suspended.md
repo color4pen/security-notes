@@ -1,7 +1,7 @@
 ---
 title: "プレイド「KARTE」 ― 不正アクセスを検知し全機能を停止"
 date: 2026-11-13
-updated: 2026-11-19
+updated: 2026-11-20
 region: domestic
 status: ongoing
 issue: 169
@@ -59,6 +59,9 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 - 【2026-11-19夕追記】ステータスページは11月19日11時08分の更新で、申請のあった顧客への取り込みデータの送付を続け、対象データ・顧客の特定と案内方法を検討する段階だとした。再開の目処は未定のままで、次回更新のタイミングも「現在検討」としており、定時の予告がなくなった（[KARTE Status](https://status.karte.io/)）。
 - 【2026-11-19夕追記】11月19日、毎日新聞社は「毎日新聞デジタル」のニュースアプリで連携していた会員情報のうち、姓（苗字のみ）約14万件、年齢約7万件、契約プラン名約1万8,000件、まいポID約2,700件、メールアドレス約80件の漏えいを公表した。パスワード・決済情報・生年月日・住所・電話番号は連携していなかったとしている（[毎日新聞](https://mainichi.jp/articles/20261119/org/00m/040/001000d)）。MOSHは、11月12日4時39分時点の全登録者（ゲスト・クリエイター）928,617件のメールアドレスとユーザーIDの漏えいを公表した（[MOSH](https://mosh.jp/news/20261119)）。
 - 【2026-11-19夕追記】モリサワは11月19日の第二報で、件数（23,957件）は変わらないものの、2023年5月より前の購入者、Morisawa IDの登録のみの人、退会者も対象に含まれると範囲を広げ、住所・電話番号・生年月日などにも漏えいの可能性があるとした（[モリサワ](https://www.morisawa.co.jp/about/news/19311)）。ベルフェイスは11月18日の第2報で、KARTEの管理画面上で削除済みのデータも対象に含まれ、過去の利用者やイベント参加者などの氏名・メールアドレスが加わったと公表した（[ベルフェイス](https://bellface.co.jp/news/8217/)）。カイテクは11月18日の続報で、プレイドから受け取ったデータを精査し、流出したのはワーカーのメールアドレス27,530件で姓名は含まれないと訂正した。契約終了後もプレイドのシステムに同社の情報が残っていたとして、同社に事実解明を求めている（[カイテク](https://corp.caitech.co.jp/news/notice261118/)）。
+- 【2026-11-20追記】ステータスページは11月20日午前の時点で、11月19日11時08分以降更新されていない（[KARTE Status](https://status.karte.io/)）。
+- 【2026-11-20追記】11月19日も利用企業の公表が続いた。シャープは公式通販「COCORO STORE」で連携していた年齢・生年月日・性別・KARTE上の顧客識別IDが最大3,264,445件流出したおそれがあると発表した（11月15日判明分。氏名・住所・メールアドレスの流出は確認されておらず、パスワードとカード情報は連携していない）（[シャープ](https://corporate.jp.sharp/info/notices/261119-a.html)）。SOMPOひまわり生命は、「MYひまわり」6万件（内部管理用ID・メール配信承諾フラグ）と「aruku」26万件（内部管理用ID・任意入力の生年月日・性別）の漏えいを確認し、対象者に11月24日〜12月4日にメールで連絡するとした（[SOMPOひまわり生命](https://www.himawari-life.co.jp/-/media/himawari/files/company/news/2026/a-02-2026-11-19.pdf?la=ja-JP)）。
+- 【2026-11-20追記】コーセーは「ADDICTION」ブランドサイト会員の氏名（かな）139,990件（[コーセー](https://koseholdings.co.jp/ja/kose/urgent/10304/)）、LayerXは「バクラク」利用者の識別子60,000件（[LayerX](https://layerx.co.jp/news/202611192057/)）、ハウス食品グループ本社はメールアドレス・性別・生まれ年44,800件（[ハウス食品グループ本社](https://housefoods-group.com/newsrelease/pdf/261119_osirase.pdf)）、タカラベルモントは「BEAUTY CITY」16,408件（氏名・メールアドレス・生年月日など）と「TB WEB ORDER」16,011件（サロン名・メールアドレス）（[タカラベルモント](https://www.sankei.com/pressrelease/prtimes/TGDUQIIAAVJETAQGLTCO3JX6KI/)）、GOはタクシーアプリ「GO」のユーザーID 11,224名分（漏えいの可能性）（[GO](https://goinc.jp/news/info/2026/11/19/1ged4wbk8ug0heonnp2cm0/)）、三菱UFJニコスは「PO PAY」の登録カード区分情報250件（[三菱UFJニコス](https://info.cr.mufg.jp/news/down2.php?attach_id=1101&category=1&page=1&seq=11207)）を、それぞれ11月19日に公表した。
 
 ### わかったこと
 
@@ -116,6 +119,7 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 | 2026-11-18 | ベルフェイス第2報（削除済みデータも対象、過去の接点者の氏名・メールアドレスを追加）、カイテク続報（ワーカーのメールアドレス27,530件、姓名は含まず、契約終了後もデータが残存）（【2026-11-19夕追記】） | [ベルフェイス](https://bellface.co.jp/news/8217/)、[カイテク](https://corp.caitech.co.jp/news/notice261118/) |
 | 2026-11-19 11:08 | 取り込みデータの送付を継続、対象データ・顧客の特定と案内方法を検討する段階。再開未定、次回更新のタイミングも検討中（【2026-11-19夕追記】） | [KARTE Status](https://status.karte.io/) |
 | 2026-11-19 | モリサワ第二報（対象範囲を拡大、住所・電話番号・生年月日なども可能性）、MOSH（928,617件）、毎日新聞デジタル（姓 約14万件ほか）が公表（【2026-11-19夕追記】） | [モリサワ](https://www.morisawa.co.jp/about/news/19311)、[MOSH](https://mosh.jp/news/20261119)、[毎日新聞](https://mainichi.jp/articles/20261119/org/00m/040/001000d) |
+| 2026-11-19 | シャープ（COCORO STORE 最大3,264,445件）、SOMPOひまわり生命（MYひまわり6万件・aruku 26万件）、コーセー（ADDICTION 139,990件）、LayerX（60,000件）、ハウス食品（44,800件）、タカラベルモント（16,408件・16,011件）、GO（11,224名）、三菱UFJニコス（PO PAY 250件）が公表（【2026-11-20追記】） | [シャープ](https://corporate.jp.sharp/info/notices/261119-a.html)、[SOMPOひまわり生命](https://www.himawari-life.co.jp/-/media/himawari/files/company/news/2026/a-02-2026-11-19.pdf?la=ja-JP)、[コーセー](https://koseholdings.co.jp/ja/kose/urgent/10304/) ほか |
 
 ## 発表内容の整理
 
@@ -189,3 +193,11 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 - [モリサワ「当社委託先サービスへの不正アクセスによる個人情報漏洩に関するお詫びとお知らせ（第二報）」（2026-11-19）](https://www.morisawa.co.jp/about/news/19311)
 - [MOSH「当社が利用する外部サービス「KARTE」への不正アクセスに伴う、お客様情報の漏えいに関するお詫びとお知らせ」（2026-11-19）](https://mosh.jp/news/20261119)
 - [毎日新聞社「当社委託先の外部サービスへの不正アクセスに伴う「毎日新聞デジタル」会員情報の一部漏えいについて」（2026-11-19）](https://mainichi.jp/articles/20261119/org/00m/040/001000d)
+- [シャープ「シャープ公式通販「COCORO STORE」で利用する外部マーケティングツール「KARTE」への不正アクセスに関するお詫びとお知らせ」（2026-11-19）](https://corporate.jp.sharp/info/notices/261119-a.html)
+- [SOMPOひまわり生命「当社委託先への不正アクセスによるお客さま情報の漏えいについて」（2026-11-19、PDF）](https://www.himawari-life.co.jp/-/media/himawari/files/company/news/2026/a-02-2026-11-19.pdf?la=ja-JP)
+- [コーセー「当社が利用する株式会社プレイドのサービスへの不正アクセスによるお客さまの個人情報漏えいに関するお詫びとお知らせ」（2026-11-19）](https://koseholdings.co.jp/ja/kose/urgent/10304/)
+- [LayerX「当社が利用するクラウドサービス「KARTE」への不正アクセスに起因する、情報漏えいのお知らせ」（2026-11-19）](https://layerx.co.jp/news/202611192057/)
+- [ハウス食品グループ本社「当社の委託先サービスへの不正アクセスに伴う、お客様情報の漏えいについてのお詫びとお知らせ」（2026-11-19、PDF）](https://housefoods-group.com/newsrelease/pdf/261119_osirase.pdf)
+- [タカラベルモント「「BEAUTY CITY」および「TB WEB ORDER」におけるお客様情報漏えいに関するお詫びとお知らせ」（2026-11-19、産経ニュース掲載のPR TIMES）](https://www.sankei.com/pressrelease/prtimes/TGDUQIIAAVJETAQGLTCO3JX6KI/)
+- [GO「株式会社プレイド『KARTE』への不正アクセスに伴う情報漏洩の可能性について」（2026-11-19）](https://goinc.jp/news/info/2026/11/19/1ged4wbk8ug0heonnp2cm0/)
+- [三菱UFJニコス「当社委託先が提供するサービスへの不正アクセスについて」（2026-11-19、PDF）](https://info.cr.mufg.jp/news/down2.php?attach_id=1101&category=1&page=1&seq=11207)
