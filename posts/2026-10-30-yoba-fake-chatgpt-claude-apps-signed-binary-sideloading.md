@@ -22,6 +22,11 @@ description: "Check Point Research が、「GPT-5.6 Sol」「GPT-6 Astra」「Cl
 - 端末に `C:\ProgramData\WMProcess\` フォルダ、そこにある `WMPDMC.exe` と `wmpdui.dll`、作成者が「Microsoft Corporation」で説明が「Collects device metadata for Windows Media Player.」のスケジュールタスクがないかを確かめる（Check Point Research）。
 - プロキシや DNS のログで、`dns.google/resolve` への `*.dedyn.io` の TXT 問い合わせ、`t.me/yoba_fanclub`、`files.catbox.moe` への通信を探す（Check Point Research）。
 
+## 登場する組織・サービス
+
+- **Yoba**：偽のChatGPTやClaudeのデスクトップアプリに仕込まれていた不正プログラムの呼び名。署名済みの実行ファイルを悪用する手法が使われた（[Check Point Research](https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/)）。
+- **Check Point Research**：セキュリティ企業Check Pointの調査部門。今回の配布を報告した側である（[同](https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/)）。
+
 ## 概要
 
 - Check Point Research（CPR）は、約2か月追跡してきた「Yoba」と呼ぶキャンペーンを公表した。新しい AI ツールの人気に便乗し、偽のデスクトップアプリとしてマルウェアを配っていた（Check Point Research）。

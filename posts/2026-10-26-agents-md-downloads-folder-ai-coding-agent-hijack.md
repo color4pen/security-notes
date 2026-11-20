@@ -23,6 +23,11 @@ description: "Forever Security は、顧客の端末の ~/Downloads に置かれ
 - 端末で npm パッケージ `function-color` が見つかったら、その端末は侵害されたものとして扱い、エージェントのトークンを入れ替える（Forever Security）。
 - 承認の確認とサンドボックスを有効のままにし、それを外すよう求める指示を疑う（Forever Security）。
 
+## 登場する組織・サービス
+
+- **OpenAI Codex／Claude Code**：プログラム作成を助けるAIエージェント。作業フォルダーの指示ファイル（`AGENTS.md`など）を読むため、ダウンロードフォルダーに置かれた指示で設定を書き換えられうると報告された（[Forever Security](https://forever.security/blog/hijacking-ai-agents-via-downloads-folder/)）。
+- **Forever Security**：セキュリティの調査を行う組織。今回の手法を報告した側である（[同](https://forever.security/blog/hijacking-ai-agents-via-downloads-folder/)）。
+
 ## 概要
 
 - Forever Security は、顧客の端末でコーディングエージェントが悪性 npm パッケージ `function-color` を入れようとしたのを止め、その指示元が `~/Downloads` に置かれた `AGENTS.md` だったと公表した。ファイルがどうやって置かれたかはわかっていない（Forever Security）。

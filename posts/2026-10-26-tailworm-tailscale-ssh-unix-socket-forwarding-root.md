@@ -24,6 +24,10 @@ description: "Cyberdione Labs の Erica Windisch が、Tailscale 1.104.2 と hea
 - 使っていない Tailscale SSH は止める（考察）。なお Tailscale は「全員に Tailscale SSH の無効化を勧めるわけではない」としている（The Hacker News）。
 - App Connector の権限を不要な端末から外し、Unix ソケットへ向けた `tailscale serve` の転送を消す。ノード鍵の有効期限を有効にする（The Hacker News）。
 
+## 登場する組織・サービス
+
+- **Tailscale**：離れた機器どうしを、仮想的な私設ネットワークでつなぐサービス。SSH（遠隔ログイン）などの機能があり、今回ソケット転送の欠陥「Tailworm」が報告された（[Tailworm](https://tailworm.com/)）。
+
 ## 概要
 
 - Tailscale SSH は、接続してきた**利用者を認証せず端末で判断し**、ポリシーのルール1本で SSH を許すかを決める。SSH サーバーは root で動く `tailscaled` に組み込まれている（Tailworm 報告書、The Hacker News）。

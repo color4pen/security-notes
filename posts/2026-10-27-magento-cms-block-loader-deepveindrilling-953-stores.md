@@ -33,6 +33,11 @@ description: "Sansec によると、2025年7月から953の EC サイト（ほ�
   - データベース・管理画面・API 連携のパスワードを変える
 - APSB26-73（PolyShell）と APSB25-88（SessionReaper）を当てる（Sansec）。
 
+## 登場する組織・サービス
+
+- **Magento（Adobe Commerce）**：通販サイトを作るためのソフト。今回、サイト内のコンテンツ部品（CMSブロック）に不正なプログラムを埋め込む攻撃が報告された（[Sansec](https://sansec.io/research/magento-cms-block-loader-deepveindrilling)）。
+- **Sansec**：通販サイトの改ざんなどを調べるセキュリティ企業。今回の攻撃（DeepVeinDrilling）を報告した側である（[同](https://sansec.io/research/magento-cms-block-loader-deepveindrilling)）。
+
 ## 概要
 
 - オランダの EC セキュリティ企業 Sansec は10月24日、2025年7月から続く攻撃で、**953店舗（ほとんどが Magento）**にローダーが埋め込まれたと公表した。攻撃者は数か月ごとにドメインを変え、15か月で5つのドメインを使った（Sansec、The Hacker News）。

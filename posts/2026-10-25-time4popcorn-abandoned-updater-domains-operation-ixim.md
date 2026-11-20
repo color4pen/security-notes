@@ -22,6 +22,11 @@ description: "海賊版ストリーミングアプリ Popcorn Time の派生版 
 - すぐ消せない場合は更新プログラムを止める。Windows は `sc.exe stop "Update service"` と `sc.exe config "Update service" start= disabled`、macOS は `launchctl unload -w /Library/LaunchDaemons/PT.updd.plist`（Eye Security）。Android版は更新機能をアプリ本体から切り離せないので、アンインストールする。
 - 社内では `Updater.exe`（Windows）・`PT.updd`（macOS）の有無と、Eye Security が公表した更新用ドメインへの通信を調べる（Eye Security）。
 
+## 登場する組織・サービス
+
+- **Time4Popcorn**：映像を視聴するためのソフトで、「Popcorn Time」の名前でも配布された派生版。更新確認に使うドメインが放置され、乗っ取られると不正な更新を配れる状態だった（[Eye Security](https://labs.eye.security/operation-ixim-preventing-a-botnet-of-millions-of-popcorn-time-users/)）。
+- **Eye Security**：セキュリティの調査を行う企業。今回の問題（Operation Ixim）を報告した側である（[同](https://labs.eye.security/operation-ixim-preventing-a-botnet-of-millions-of-popcorn-time-users/)）。
+
 ## 概要
 
 - Time4Popcorn の更新プログラムは、起動時から常駐して**暗号化なしのHTTPで更新用ドメインに問い合わせ、返ってきた実行ファイルを署名を確かめずにWindowsではSYSTEM、macOSではroot権限で実行していた**（Eye Security）。

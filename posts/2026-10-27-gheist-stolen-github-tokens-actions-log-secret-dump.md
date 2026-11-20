@@ -25,6 +25,12 @@ description: "Wiz が「Gheist」と名付けた自動ツールは、盗まれ�
 - self-hosted ランナーで `.gdmp_pat`・`.gdmp_patg`・`.gdmp_sweep` というファイルや、ログ中の `===== gdmp-pivot:` が見つかったら、**ランナーのホストとそのインスタンスロールを侵害されたものとして扱う**（Wiz）。
 - 公開リポジトリで承認待ちになっている見覚えのない実行は、**承認しない**（Wiz）。
 
+## 登場する組織・サービス
+
+- **Gheist**：盗んだGitHubの認証情報（トークン）を使い、自動処理（Actions）に保存された秘密情報を集める攻撃の呼び名（[Wiz](https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles)）。
+- **GitHub**：プログラムの保管や共同作業、自動処理（Actions）を提供するサービス。トークンとActionsに置いた秘密情報を扱うため、今回の悪用の対象になった（[同](https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles)）。
+- **Wiz**：クラウドセキュリティの調査・製品を行う企業。今回の攻撃を報告した側である（[同](https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles)）。
+
 ## 概要
 
 - Wiz の Rami McCarthy 氏と Hila Ramati 氏は10月25日、盗まれた GitHub トークンを大量に使う自動ツールを「Gheist」として公表した。2026年9月15日から追跡し、**850超のアカウントから1万3500本超のブランチ**が作られた。10月24日時点でも活動は続いていた（Wiz、The Hacker News）。

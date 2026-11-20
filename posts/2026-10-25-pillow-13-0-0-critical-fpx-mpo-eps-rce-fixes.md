@@ -20,6 +20,10 @@ description: "Pythonの画像ライブラリPillowは2026年10月16日（UTC）�
 - `pip install -U "Pillow>=13.0.0"` で更新し、Pillowを同梱したコンテナイメージやwheel、Lambdaレイヤーなども作り直す。
 - アップロード画像などの信頼できない入力を開く処理では、`Image.open()` の `formats` 引数で必要な形式だけに絞る。
 
+## 登場する組織・サービス
+
+- **Pillow**：Pythonで画像を開いたり加工したりするための、公開されているライブラリ。今回、特定の画像を開くだけでコード実行に至りうる欠陥が修正された（[PyPI](https://pypi.org/project/pillow/13.0.0/)、[GitHub Security Advisories](https://github.com/python-pillow/Pillow/security/advisories)）。
+
 ## 何が起きているか
 
 **事実（Pillowのセキュリティ勧告、PyPI、CVEレコード）**

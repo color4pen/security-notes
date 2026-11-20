@@ -23,6 +23,11 @@ description: "Cisco Talos が、2月に修正された CVE-2026-20127（CVSS 10.
 - 下の「検知ポイント」のファイルが Controller・Validator にないかを確かめ、見つかったらインシデント対応を始めて Cisco TAC に相談する。TAC に連絡する前に、各制御装置で `request admin-tech` を取っておく（Talos、Cisco、The Hacker News 経由）。
 - Snort を使っているなら、KeyDrift の通信を見るルール（Snort 2 は 67387〜67416、Snort 3 は 7:44〜7:73）を有効にする。Snort 2 のルールは既定で無効になっている（Talos、The Hacker News）。
 
+## 登場する組織・サービス
+
+- **Cisco Catalyst SD-WAN（Controller／Manager／Validator）**：複数の拠点の通信を、ソフトでまとめて制御するためのCiscoの仕組み。制御装置が侵害されると、拠点間の通信の設定や鍵に影響しうる（[Ciscoの勧告](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk)）。
+- **KeyDrift**：Cisco Talosが確認した、SD-WANの制御装置に潜み、通信の暗号鍵などを集める不正プログラムの呼び名（[Talos](https://blog.talosintelligence.com/uat-11473-keydrift/)）。
+
 ## 概要
 
 - Cisco Talos は10月28日、Cisco Catalyst SD-WAN の制御装置の中で動くマルウェア群「KeyDrift」の分析を公開した。攻撃者は CVE-2026-20127 で認証を回避して入り込み、KeyDrift を置いた（Talos）。

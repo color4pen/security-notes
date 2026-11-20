@@ -24,6 +24,12 @@ description: "ブラジルのECプラットフォーム Convertr が自前で運
 - 自社サイトに**第三者や自社の別サーバーから読み込むスクリプト**（分析・広告・チャットなど）があるなら、決済ページで読み込む必要があるかを見直す。
 - Convertr 上の店舗は、トラッカーがきれいになったことを Convertr に確認し、決済代行会社に知らせる。ブラウザーのキャッシュに最大24時間残るため、清掃後もその間は買い物客に危険が残る（Sansec）。
 
+## 登場する組織・サービス
+
+- **Convertr**：決済ページ（チェックアウト）を提供するサービス。ブラジルの店舗などで使われ、今回その決済画面にカード情報を盗む仕組みが仕込まれた（[Sansec](https://sansec.io/research/convertr-plausible-supply-chain-attack)）。
+- **Plausible**：ウェブサイトのアクセス解析ツール。自分のサーバーに置く版（Community Edition）の欠陥を突かれ、配信する計測用スクリプトが改ざんされたとされる（[同](https://sansec.io/research/convertr-plausible-supply-chain-attack)）。
+- **Sansec**：通販サイトの改ざんなどを調べるセキュリティ企業。今回の手口を報告した側である（[同](https://sansec.io/research/convertr-plausible-supply-chain-attack)）。
+
 ## 概要
 
 - Convertr はブラジルのファッションブランド数十社のオンラインストアと決済を動かすプラットフォームで、加盟店の売上は20億レアル超（Convertr の公表値、Sansec 経由）。全加盟店のページが、Convertr 自身の Plausible サーバー `analytics.convertr.app.br` からトラッカーを読み込んでいた（Sansec）。

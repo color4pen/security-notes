@@ -28,6 +28,12 @@ Lumen Black Lotus Labs によると、「Silent Train」経由で次のゼロデ
 - SD-WAN の管理基盤、RMM、エンドポイント管理などの**管理画面をインターネットに直接出さない**。VPN、踏み台サーバー、専用の管理ネットワーク経由に限る（Lumen）。
 - 家庭・小規模オフィスのルーターや IoT 機器、FortiGate などの境界機器は、管理画面を外に出さず、ファームウェアを更新する。サポートが切れた機器は入れ替える。中継に使われた機器の中には既知の脆弱性がない機種もある（Lumen）。
 
+## 登場する組織・サービス
+
+- **Volt Typhoon**：Lumenが、今回の攻撃の実行者と見ている攻撃グループ。SD-WANや遠隔管理などの管理基盤の、未修正の欠陥を悪用したとされる（[Lumen Black Lotus Labs](https://www.lumen.com/blog/en-us/silent-train-volt-typhoon-operational-framework)）。
+- **Silent Train**：同グループが使ったとされる、短期間だけ使う中継の仕組みの呼び名（[同](https://www.lumen.com/blog/en-us/silent-train-volt-typhoon-operational-framework)）。
+- **Lumen Black Lotus Labs**：通信事業者Lumenの脅威調査部門。今回の枠組みを報告した側である（[同](https://www.lumen.com/blog/en-us/silent-train-volt-typhoon-operational-framework)）。
+
 ## 概要
 
 - Lumen の脅威調査チーム Black Lotus Labs は、中国の国家支援とされる攻撃グループ Volt Typhoon が使う中継網を「Silent Train」と名付け、3年間の追跡結果を公表した。The Hacker News が10月28日に報じた（Lumen、The Hacker News）。

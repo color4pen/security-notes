@@ -43,6 +43,11 @@ description: "日本航空と日本トランスオーシャン航空は2026年10
 
 - （考察）韓国の報道では、大韓航空とアシアナ航空も同じアマデウスの件で通知を受け、アマデウスのシステム上のアカウントに割り当てられたログイン情報を使った不正アクセスとみられると伝えられている（[The Korea Times](https://www.koreatimes.co.kr/business/companies/20261025/korean-air-breach-exposes-blind-spot-in-airline-cybersecurity)）。JALの発表はこの点に触れていない。
 
+## 登場する組織・サービス
+
+- **日本航空（JAL）／日本トランスオーシャン航空（JTA）**：航空会社。予約・発券や搭乗手続きのシステムを委託先に委ねており、今回その侵害で予約情報が参照されたと発表した（[JAL](https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html)）。
+- **Amadeus IT Group, S.A.（アマデウス）**：航空会社向けに、予約・発券などの旅客サービスシステム（PSS）を提供する会社。航空会社の予約情報を扱うため、今回の不正アクセスがJAL・JTAの予約情報に影響した（[同](https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html)）。
+
 ## 概要
 
 - JAL・JTAの予約や搭乗手続きを処理するアマデウスのシステムに不正アクセスがあり、約3年分の予約記録の一部、約9万2,000名分が外部から参照された形跡があった。

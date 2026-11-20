@@ -23,6 +23,11 @@ description: "10月29日、Cursor の VS Code 拡張マーケットプレイス�
 - 端末から使えた認証情報とセッションを、信頼できる別の端末から入れ替える。作り直すかどうかも検討する（Cursor）。
 - 組織では、承認した発行元の拡張だけを許可し、新しく公開された版の導入を一定期間遅らせる設定を検討する（Microsoft が Cursor の推奨設定として紹介）。
 
+## 登場する組織・サービス
+
+- **Cursor**：AIを使ってプログラムを書くための編集ソフト。拡張機能の配布場所（マーケットプレイス）があり、今回そこで改ざん版の拡張が配られた（[Cursorの案内](https://cursor.com/blog/claude-code-extension-security-notice)）。
+- **Claude Code（拡張機能）**：Anthropicのコーディング支援ツールを、Cursor上で使うための拡張。今回、正規に見せかけた改ざん版にSSHの裏口が仕込まれていた（[Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/)）。
+
 ## 概要
 
 - Cursor は10月29日、自社の拡張マーケットプレイスで Anthropic の Claude Code 拡張の改ざん版が配布されていたと公表した。拡張を読み込むと、端末の情報を攻撃者に送り、攻撃者の SSH 公開鍵を登録し、攻撃者のサーバーへの逆向き SSH トンネルを張って常駐させようとする（Cursor）。
