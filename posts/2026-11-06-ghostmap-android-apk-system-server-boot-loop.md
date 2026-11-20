@@ -21,6 +21,11 @@ description: "Bitdefender が、実行コードも権限も要らない細工 AP
 - 既にループに入った端末は、工場出荷状態へのリセット、または（事前に USB デバッグが有効なら）クラッシュの合間に ADB で該当ファイルを消す。セーフモードでは直らない（Bitdefender）。
 - Bitdefender は `Android.Riskware.Ghostmap.rA` として検知し警告できるが、サードパーティアプリはインストール自体を止められない（Bitdefender）。
 
+## 登場する組織・サービス
+
+- **GhostMap**：Androidの欠陥につけた呼び名。細工したアプリを入れるだけで、端末が起動と再起動を繰り返す状態になりうる（[Bitdefender Labs](https://www.bitdefender.com/en-us/blog/labs/ghostmap-android)）。
+- **Bitdefender Labs**：セキュリティ企業Bitdefenderの調査部門。今回、この欠陥を報告した側である（[同](https://www.bitdefender.com/en-us/blog/labs/ghostmap-android)）。
+
 ## 概要
 
 - 2026年11月5日ごろ、Bitdefender Labs が GhostMap を公表した。細工した APK を入れるだけで、アプリを開かず権限も要らずに、端末が起動ループに陥る（Bitdefender）。

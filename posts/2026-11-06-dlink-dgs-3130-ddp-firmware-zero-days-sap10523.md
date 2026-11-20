@@ -22,6 +22,10 @@ description: "DGS-3130-30TS（H/W Rev. B1）の D-Link Discovery Protocol（DDP�
 - 不要な／既定の SNMP コミュニティ（特に `public` / `private`）を削除する。必要なら SNMPv3 と送信元制限へ移す（D-Link）。
 - SSH・Web UI・SNMP を管理用セグメントと許可ホストだけに閉じ、設定バックアップを取り、想定外の再起動・設定変更・工場出荷リセットがないか監視する（D-Link）。DDP 無効化はファームウェア側の別指摘を直さない。
 
+## 登場する組織・サービス
+
+- **D-Link**：ネットワーク機器を製造・販売する企業。DGS-3130は企業向けのスイッチ（複数の機器をつなぐ装置）である（[セキュリティ告知](https://supportannouncement.us.dlink.com/)）。今回、機器どうしの発見などに使う通信（DDP）などの、未修正の複数の欠陥が報告された。
+
 ## 概要
 
 - D-Link は 2026年11月6日、暫定セキュリティ発表 SAP10523 を出した。対象はマネージド Gigabit スタッカブルスイッチ DGS-3130-30TS（H/W Rev. B1）で、Spectrum Community Solutions の Giresh Kumar Enugu 氏が 11月2日に報告した複数の欠陥を扱う（D-Link、BleepingComputer）。

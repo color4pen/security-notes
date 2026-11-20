@@ -28,6 +28,10 @@ description: "仏協同組合銀行グループのCrédit Mutuel Arkéaで、攻
 - 委託先のプラットフォームから自社の勘定系・送金系へ届く経路を洗い出し、その経路で出せる送金の上限と承認の手順を確かめる。
 - 顧客口座だけでなく、自社名義の口座（決済用・資金繰り用）の送金も監視の対象に入れる。
 
+## 登場する組織・サービス
+
+- **Crédit Mutuel Arkéa**：フランスの銀行グループ。今回、委託先を経由して、銀行自身の口座から不正な送金が行われたと説明している（[公式の説明](https://www.cm-arkea.com/arkea/banque/assurances/pa_38386/fr/informations-complementaires-suite-a-l-attaque-dont-le-credit-mutuel-arkea-a-ete-victime)）。
+
 ## 概要
 
 - フランスの協同組合銀行グループCrédit Mutuel Arkéaが、11月4日にサイバー攻撃で「不正な取引」が実行されたと公表した（BleepingComputer、01net）。

@@ -23,6 +23,11 @@ description: "musl 上で PAM なしの OpenSSH において、パスワード�
 - すぐ更新できない場合は `PasswordAuthentication no` にして `sshd` を再起動する。鍵ログインが使えることを先に確かめる（Alpine）。
 - ログに、パスワードを持たないはずのアカウント（`alpine`・`root`・鍵専用ユーザーなど）への `Accepted password for` がないか見る（Alpine）。
 
+## 登場する組織・サービス
+
+- **OpenSSH**：遠隔のコンピューターへ安全にログインするために広く使われる、公開されている通信ソフト（[リリースノート](https://www.openssh.org/releasenotes.html)）。今回、「sshole」と呼ばれる、長いパスワードの扱いの欠陥が報告された。
+- **musl**：Linuxでプログラムを動かすための基本ライブラリの一つ。Alpine Linuxなど、このライブラリを使う環境で今回の欠陥の影響が出るとされる。
+
 ## 概要
 
 - OpenSSH と musl の組み合わせで、パスワード認証を意図的に閉じたアカウントへ、極端に長いパスワードを1回送るだけで入れる欠陥が公表された。研究者の呼称は sshole（Alpine、sshhole.com、報道）。

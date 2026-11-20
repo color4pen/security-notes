@@ -20,6 +20,10 @@ description: Bitcoin Lightningのウォレット・決済基盤LNbitsが11月8�
 - セルフホストのLNbitsは、修正版が出るまで止めておく。
 - 再開する前に、11月8日以降に作られたアカウントと出金の記録を確認する。
 
+## 登場する組織・サービス
+
+- **LNbits**：ビットコインの即時送金網（Lightning Network）の上で、複数の財布や口座を管理するための公開ソフト。自分のサーバーに置いて使う（[GitHub](https://github.com/lnbits/lnbits/)、[公式の説明](https://docs.lnbits.com/guide/faq/general)）。今回、攻撃を受け、運営側は利用中の全サーバーの停止を呼び掛けた（[LNbitsのX投稿](https://x.com/lnbits/status/2119428804951048237)）。
+
 ## 何が起きているか
 
 **事実（LNbitsの発表）**

@@ -22,6 +22,11 @@ description: "Claude Codeで「Yes, and don't ask again」を選ぶと、承認�
 - 見つかったファイルに一度でも入っていたパスワード・トークン・鍵は、掃除より先に**すべて交換（ローテーション）**する。
 - 手元のPCの `.claude/settings.local.json` も開き、秘密情報を含むルールを消す。コミットしていなくても、npmパッケージやDockerイメージ、zip、同期フォルダに紛れ込むことがある。
 
+## 登場する組織・サービス
+
+- **Claude Code**：Anthropicが提供する、プログラムの作成を助けるAIツール。確認したコマンドを「次回から聞かない」とすると、その内容が `.claude/settings.local.json` に残る（[Apiiro](https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again)）。今回、そのファイルが公開リポジトリに含まれ、秘密情報が残る問題が指摘された。
+- **Anthropic**：対話型AI「Claude」などを開発する企業。Claude Codeの提供元である。
+
 ## 概要
 
 - セキュリティ企業Apiiroは11月6日、Claude Codeが承認済みのコマンドを保存するファイルを通じて、パスワードやAPIキーが公開GitHubリポジトリに大量に残っていると発表した（The Hacker News、11月7日）。

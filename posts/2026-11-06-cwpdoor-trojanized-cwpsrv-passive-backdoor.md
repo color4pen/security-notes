@@ -20,6 +20,11 @@ description: "QiAnXin XLab が、CWP のパネル用サーバー cwpsrv を差�
 - `ss -axp | grep integrity` で Unix ソケット `ngx_http_integrity_helper` の有無を見る。`strings /usr/local/cwpsrv/bin/cwpsrv | grep X-Ngx-Integrity` と、`ps` 上の不審な helper 子プロセスも確認する（XLab）。
 - 感染が分かったら、攻撃者が残した `cwpsrv.prev-YYYYMMDD-HHMMSS` 形式のバックアップから正規バイナリへ戻し、最新版へ上げ、パネルの認証情報をすべて作り直す。ホストは侵害済みとして扱う（XLab）。
 
+## 登場する組織・サービス
+
+- **Control Web Panel（CWP）**：Linuxサーバー上で、ウェブサイトやメールなどの管理画面を提供するソフト。内部で動くサーバー部品が `cwpsrv` である（[XLab / 奇安信](https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel/)）。
+- **CWPdoor**：正規の `cwpsrv` に見せかけた不正な版に潜む、外部からの命令を待つバックドア。今回、この埋め込みが報告された（[同](https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel/)）。
+
 ## 概要
 
 - 2026年11月5日、QiAnXin の XLab が CWPdoor を公表した。CWP の管理画面を出す `cwpsrv` を、ソースにバックドアを埋め込んで再コンパイルしたバイナリへ差し替える（XLab）。

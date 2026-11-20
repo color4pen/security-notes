@@ -23,6 +23,12 @@ description: "MSP向けのリモート管理製品N-centralについて、研究
 - 11月8日以降のログイン、パスワード変更、管理者アカウントの作成、スクリプトの配布、リモート接続の記録を確認し、ログを保全する（Huntress、Previdian）。
 - 修正版が出たら当て、N-ableが復旧してよいと案内してから戻す。
 
+## 登場する組織・サービス
+
+- **N-able**：他社のITシステムを代わりに管理する事業者（MSP）向けに、遠隔管理やセキュリティの製品を提供する企業（[N-able](https://www.n-able.com/)）。今回、クラウド版のN-centralを停止した。
+- **N-able N-central**：他社のITシステムを遠隔で監視・管理するための製品（[Huntress](https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains)）。今回、未修正の脆弱性群「Able2Shell」が公開された。
+- **Huntress**：中小企業やMSP向けに、侵入の検知などを提供するセキュリティ企業。今回の停止と欠陥の公表を報じた側の一つである（[同](https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains)）。
+
 ## 概要
 
 - 研究者が11月8日（日）の夜、N-centralの未修正の脆弱性33件の説明と攻撃コードを、GitHubのリポジトリ「Able2Shell」で公開した。脆弱性は少なくとも4つの攻撃の連鎖につながり、3つはリモートでのコード実行、1つはrootへの権限昇格になる（Huntress）。

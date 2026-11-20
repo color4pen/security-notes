@@ -22,6 +22,10 @@ description: "『勝利の女神：NIKKE』の PC ランチャーが読み込む
 - 確かめたあと、ランチャーのキャッシュ `%APPDATA%\nikke_launcher\tbs_cache`（HMT 版は `nikke_launcher_hmt`、Google Play Games 版は `nikke_launcher_google`）を消してからランチャーを開く。改ざんされたファイルがキャッシュに残っている可能性がある。
 - 痕跡があった場合は、別の安全な端末からパスワードを変え、Web サービスのセッションを切り、開発用のトークンや SSH 鍵を作り直す。暗号資産は新しいウォレットに移す（下の「対策と検知」）。
 
+## 登場する組織・サービス
+
+- **『勝利の女神：NIKKE』**：スマートフォンやPCで遊べるゲーム。PC版は専用の起動用ソフト（ランチャー）から更新や起動を行う。今回、公式の配信サーバー（CDN）上のスクリプトが改ざんされ、不正なコードが配られた（[調査リポジトリ](https://github.com/MotherSphere/NIKKE-Launcher-Check)）。
+
 ## 概要
 
 - NIKKE は韓国の Shift Up が開発し、Level Infinite が配信するスマートフォン・PC 向けゲーム。PC ランチャーは、お知らせなどの画面を Level Infinite の CDN（`playerinfinite.com`、Tencent COS）から読み込み、組み込みのブラウザーで表示する。

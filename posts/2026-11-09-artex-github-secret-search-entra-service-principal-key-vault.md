@@ -22,6 +22,11 @@ description: "Microsoftは、AIの攻撃フレームワークARTEXを使う攻�
 - サインインエラー `AADSTS7000215`（シークレットが不正）や `AADSTS7000222`（シークレットが期限切れ）は、誰かが自社アプリの資格情報を持っている兆候。失敗の後に成功があれば緊急で対応する（Microsoft）。
 - GitHubで公開されたことのある資格情報は、消したかどうかに関係なく交換する。
 
+## 登場する組織・サービス
+
+- **ARTEX**：侵入テストやクラウドへの侵入を、AIに任せてある程度自動で進めるための仕組み。攻撃者が公開された認証情報を探すのにも使われている（[Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/)）。今回、GitHub上に漏れたアプリの鍵からAzure（Entra ID）へ入る手口が報告された。
+- **Microsoft**：クラウド「Azure」やID基盤「Entra ID」を提供する企業。今回、ARTEXを使う攻撃者が公開された秘密情報を悪用していると報告した（[同](https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/)）。
+
 ## 概要
 
 - Microsoft Threat Intelligenceは11月5日、エージェント型のAI攻撃フレームワーク（ARTEXなど）を使う攻撃者が、公開GitHubリポジトリで秘密情報を探し、その後の攻撃までエージェントに任せていると公表した（Microsoft）。

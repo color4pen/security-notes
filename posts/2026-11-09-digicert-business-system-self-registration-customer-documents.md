@@ -22,6 +22,10 @@ description: "認証局のDigiCertは、2025年2月の基盤移行でVPNの内�
 - DigiCertの利用企業は、通知メールが届いていないか確認する。届いた場合、担当者の連絡先と提出書類を使ったなりすましやフィッシングに注意する。
 - 自社でも、社内向けシステムの置き場所を変える作業（クラウド移行、ネットワークの組み替え）が、セキュリティの審査なしで行われていないか確かめる。
 
+## 登場する組織・サービス
+
+- **DigiCert**：ウェブサイトの暗号化などに使う電子証明書を発行する認証局（[DigiCert](https://www.digicert.com/)）。今回、外部から到達できた社内の業務システムから、顧客が提出した書類などが閲覧されたと明らかにした（[Mozilla Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=2084460)）。
+
 ## 概要
 
 - DigiCertは10月20日にMozillaのBugzillaで速報を出し、11月上旬に詳しい報告書を公開した。CAの事故報告として、Mozilla、Chrome、Microsoft、Appleのルート証明書プログラムの規則に基づく報告になる（Bugzilla、The Record）。

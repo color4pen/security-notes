@@ -32,6 +32,10 @@ description: "圧入機メーカーの技研製作所は、業務用サーバー
 
 - （考察）再発防止策に「外部からの接続とログイン認証の見直し」が入っており、外部から到達できる接続口の認証が突かれた可能性はあるが、同社は経路を明らかにしていない。国内ではネットワーク機器を経由して侵入されランサムウェア被害に至った例もある（例：[アンビションDXホールディングス](https://color4pen.github.io/security-notes/notes/2026-10-21-ambition-dx-ransomware-final-report-140k-files-580k/)）。
 
+## 登場する組織・サービス
+
+- **株式会社技研製作所**：杭を静かに地中へ押し込む建設機械や工法の研究・製造・販売、工事などを行う会社（[会社概要](https://www.giken.com/ja/aboutus/corporate_profile/)）。今回、業務用サーバーへのランサムウェアを含む不正アクセスを発表した（[お知らせ](https://www.giken.com/ja/news/notices/notice_20261109/)）。
+
 ## 概要
 
 - 対象者には個別に連絡し、連絡がつかない人にはこの公表で通知に代えるとしている（[技研製作所](https://www.giken.com/ja/news/notices/notice_20261109/)）。

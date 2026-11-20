@@ -23,6 +23,11 @@ description: "分散ストレージSwarmのEthersphereで、攻撃者がリリ�
 - Swarm Desktopを使っている場合は、ログ `bee-desktop.log` に `Bee Desktop version: 0.56.2 (production)` がないか確かめる。あれば0.56.3を入れ、ノードの鍵とパスワードは盗まれた前提で、別の安全な端末から資金、チェックブック、ステークを新しい鍵に移す（Socket、The Hacker News）。
 - `~/.solidity/`、systemdのユーザーユニット `solidity-langsupport-runner.service`、LaunchAgent `com.solidity.langsupport.runner`、Windowsのサービス `ScreenConnect Client (5cbe79c9c25524df)` を探して取り除く。アプリやパッケージを入れ直しても消えない。可能なら端末を作り直す（The Hacker News）。
 
+## 登場する組織・サービス
+
+- **Ethersphere／Swarm**：ファイルを分散して保管するネットワーク「Swarm」の開発を進めるプロジェクト。プログラムからSwarmを使うためのライブラリが `bee-js` である（[bee-js](https://bee-js.ethswarm.org/docs/)）。今回、公開の自動化の仕組みを乗っ取られ、不正な版が配られた（[SafeDep](https://safedep.io/blog/ethersphere-bee-js-npm-compromise)）。
+- **bee-js／Swarm Desktop**：それぞれJavaScriptからSwarmに接続するライブラリと、パソコンでSwarmを使うためのアプリ。ウォレットの鍵などを扱うため、不正な版は鍵の盗難につながる（[同](https://safedep.io/blog/ethersphere-bee-js-npm-compromise)）。
+
 ## 概要
 
 - Swarmは分散ストレージのネットワークで、bee-jsはそのノード（Bee）を使うためのJavaScriptライブラリ、Swarm Desktopは自分のPCでノードとそのイーサリアムのウォレットを動かすElectronアプリ（Socket）。
