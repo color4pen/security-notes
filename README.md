@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-20 [Kyash ― 社内ツールへの不正アクセスで利用者の取引情報を含む資料が流出の可能性](posts/2026-11-20-kyash-internal-web-tool-access-control-flaw.md)
+- 2026-11-20 [三井ショッピングパークアプリ ― 不正アクセスで会員情報が漏えい、提供停止](posts/2026-11-20-mitsui-shopping-park-app-unauthorized-access-suspended.md)
+- 2026-11-20 [六花亭オンラインショップ ― 決済画面の改ざんでカード情報が流出した可能性](posts/2026-11-20-rokkatei-online-shop-payment-page-tampering-card-data.md)
+- 2026-11-20 [SBCメディカルグループ ― 顧客データベースへの不正アクセスで個人情報が流出](posts/2026-11-20-sbc-medical-group-database-breach-plaintext-passwords.md)
+- 2026-11-20 [東京都「赤ちゃんファースト」 ― 委託先への不正アクセスでポイント交換サイトを停止](posts/2026-11-20-tokyo-akachan-first-point-site-ringbell-unauthorized-access.md)
 - 2026-11-19 [空き家活用 ― データベースの接続元制限に不備、漏えいのおそれ](posts/2026-11-19-akiya-katsuyo-database-connection-restriction-misconfig.md)
 - 2026-11-19 [厚生労働省 ― 医薬品安定供給・流通確認システムに不正アクセス](posts/2026-11-19-mhlw-drug-supply-system-unauthorized-access.md)
 - 2026-11-19 [オープン ― BizRobo! miniの認証サーバーなどクラウド環境に不正アクセス](posts/2026-11-19-open-bizrobo-mini-cloud-auth-server-unauthorized-access.md)
