@@ -22,6 +22,11 @@ description: "China-nexusのWarlock運用者が、未パッチのオンプレSha
 - SharePointの LAYOUTS 配下の想定外 `.aspx`、ASP.NET machine keyの漏洩・ローテーション要否、ドメインの SYSVOL\scripts 配下の不審な実行ファイルを確認する。
 - 署名付きドライバの異常ロード、短時間での多数ホストへの AV/EDR 終了ツール配布、`code-insiders.exe tunnel service install` のような VS Code トンネルのサービス化を監視する。
 
+## 登場する組織・サービス
+
+- **Warlock**：身代金要求型の不正プログラム（ランサムウェア）の呼び名。Symantecによると、社内のSharePointサーバーへの侵入を足がかりに、組織全体の認証基盤（ドメイン）へ広がりうる（[Symantec](https://www.security.com/blog-post/warlock-ransomware-critical-infrastructure)）。
+- **Microsoft SharePoint Server**：組織内で文書を共有・公開するための、自前設置の製品。今回の侵入の初期の入り口とされた（[同](https://www.security.com/blog-post/warlock-ransomware-critical-infrastructure)）。
+
 ## 概要
 
 - Symantecは、Warlockランサムウェアを運用する China-nexus の脅威アクターを Longlegs（Microsoft名称: Storm-2603）と呼び、直近約2か月でポルトガル語・スペイン語圏の重要インフラ等を狙った攻撃を分析した（SECURITY.COM、報道はおおむね 2026-10-01 前後）。

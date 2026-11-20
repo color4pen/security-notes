@@ -22,6 +22,11 @@ description: "ロシア系Star Blizzardが、ClickFixに代わりVHDXと偽メ�
 - スケジュールタスク名「Internet Quality Test Connection」「Network Configuration Manager」「System Health Monitor」と、Defender検知 `Trojan:Script/RedFlick` / `Backdoor:Python/CosmicPulse` を探す。
 - 業務上不要な外部向けSSHを制限する（1月型はSSHの LocalCommand でMSIを取得）。EDRをblock modeにし、ASRで未信頼実行ファイルや難読化スクリプトを抑止する。
 
+## 登場する組織・サービス
+
+- **Star Blizzard**：Microsoftが、今回の攻撃の実行者と見ている攻撃グループ。偽の操作案内（ClickFix）などから「CosmicPulse」と呼ばれる不正プログラムを入れる手法を使ったとされる（[Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/)）。
+- **Microsoft**：今回の手口（RedFlick／CosmicPulse）を報告した側である（[同](https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/)）。
+
 ## 概要
 
 - Microsoft Threat Intelligenceは 2026-09-29、ロシア国家系脅威アクター Star Blizzard（CISA等はFSB Centre 18配下と評価）が、新しいマルウェア配信手法 RedFlick を使って CosmicPulse バックドアを展開していると公表した。
