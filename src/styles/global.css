@@ -1391,3 +1391,17 @@ summary:focus-visible {
     margin-top: 0;
   }
 }
+
+/* iOS Safariは16px未満の入力欄にフォーカスするとページをズームする。
+   ピンチズームは残すため、viewportのmaximum-scaleは変更しない。 */
+@media (max-width: 1024px) {
+  input,
+  select,
+  textarea,
+  .search input {
+    font-size: 16px;
+  }
+  .search input {
+    line-height: 1.25;
+  }
+}
