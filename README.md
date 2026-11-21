@@ -379,6 +379,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-21 [Cisco Expressway ― クラスタ構成の欠陥がPoC公開後に悪用](posts/2026-11-21-cisco-expressway-cve-2026-76466-cluster-rce-exploited.md)
+- 2026-11-21 [VMware vCenter ― 認証回避のゼロデイが中国系攻撃者に悪用](posts/2026-11-21-vmware-vcenter-cve-2026-123890-auth-bypass-armory-castle-zero-day.md)
 - 2026-11-19 [Apache Roller ― 認証前のXML-RPC処理の欠陥が悪用](posts/2026-11-19-apache-roller-cve-2026-129448-xmlrpc-deserialization-exploited.md)
 - 2026-11-19 [OpenJDK ― Base64デコードの欠陥「Java4Shell」を修正](posts/2026-11-19-openjdk-java4shell-cve-2026-114938-base64-heap-overflow.md)
 - 2026-11-17 [Apache Axis 1.x ― 修正版のない欠陥がConfluence狙いで悪用](posts/2026-11-17-apache-axis-cve-2026-90436-confluence-n-central-exploited.md)
