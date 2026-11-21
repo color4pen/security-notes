@@ -235,6 +235,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-21 [Cairn ― AIエージェントが医療画像ツールのゼロデイを見つけ大学に侵入](posts/2026-11-21-cairn-ai-agents-monai-label-zero-day-university-intrusion.md)
+- 2026-11-21 [Com系の攻撃者 ― IT担当を装う電話でSSOを奪いデータ窃取・恐喝](posts/2026-11-21-com-affiliated-vishing-sso-data-theft-extortion-unit42.md)
 - 2026-11-20 [Chase・Visa・Mastercard ― 委託先からカード会員のマーケティング情報が流出](posts/2026-11-20-chase-visa-mastercard-vendor-breach-n0n-marketing-data.md)
 - 2026-11-20 [N-able Mail Assure・SpamExperts ― 不正アクセスで管理画面を停止](posts/2026-11-20-n-able-mail-assure-spamexperts-server-breach-portal-offline.md)
 - 2026-11-20 [TheMailer ― 迷惑メール判定を抜けるまでAIが書き直すフィッシングキット](posts/2026-11-20-themailer-ai-phishing-kit-inbox-loop-rewrite.md)
