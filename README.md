@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-21 [カルチュア・エクスペリエンス ― データセンターに不正アクセス、TSUTAYAで入荷遅延](posts/2026-11-21-culture-experience-datacenter-unauthorized-access-tsutaya-delay.md)
+- 2026-11-21 [デジタル庁 ― 政府共通基盤GSSのファイル共有サービスに不正アクセス](posts/2026-11-21-digital-agency-gss-file-sharing-unauthorized-access.md)
+- 2026-11-21 [北海道3市町 ― 再委託先の端末がマルウェア感染、住民情報など漏えいのおそれ](posts/2026-11-21-hokkaido-three-municipalities-gis-subcontractor-k2f-malware.md)
+- 2026-11-21 [インフキュリオン「Wallet Station」 ― 不正アクセスでPayどんの会員情報が漏えい](posts/2026-11-21-infcurion-wallet-station-unauthorized-access-paydon-leak.md)
+- 2026-11-21 [東京都防災アプリ ― 問い合わせシステムへの不正アクセスで問い合わせ内容が流出](posts/2026-11-21-tokyo-bousai-app-freescout-inquiry-system-unauthorized-access.md)
 - 2026-11-20 [Kyash ― 社内ツールへの不正アクセスで利用者の取引情報を含む資料が流出の可能性](posts/2026-11-20-kyash-internal-web-tool-access-control-flaw.md)
 - 2026-11-20 [三井ショッピングパークアプリ ― 不正アクセスで会員情報が漏えい、提供停止](posts/2026-11-20-mitsui-shopping-park-app-unauthorized-access-suspended.md)
 - 2026-11-20 [六花亭オンラインショップ ― 決済画面の改ざんでカード情報が流出した可能性](posts/2026-11-20-rokkatei-online-shop-payment-page-tampering-card-data.md)
