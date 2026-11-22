@@ -240,6 +240,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-22 [Meta Muse ― 悪意あるページから会話を抜き出す攻撃を研究者が実証](posts/2026-11-22-meta-muse-browser-sentinel-kernel-chain-nebusec.md)
+- 2026-11-22 [Microsoft Entra Connect Health ― APIの欠陥でテナント情報が読み取られた](posts/2026-11-22-microsoft-entra-connect-health-api-flaw-tenant-metadata-read.md)
+- 2026-11-22 [Rackspace Spot ― 漏えいした認証情報で顧客クラスターのSecretに到達](posts/2026-11-22-rackspace-spot-leaked-credentials-kubernetes-secrets.md)
 - 2026-11-21 [Cairn ― AIエージェントが医療画像ツールのゼロデイを見つけ大学に侵入](posts/2026-11-21-cairn-ai-agents-monai-label-zero-day-university-intrusion.md)
 - 2026-11-21 [Com系の攻撃者 ― IT担当を装う電話でSSOを奪いデータ窃取・恐喝](posts/2026-11-21-com-affiliated-vishing-sso-data-theft-extortion-unit42.md)
 - 2026-11-20 [Chase・Visa・Mastercard ― 委託先からカード会員のマーケティング情報が流出](posts/2026-11-20-chase-visa-mastercard-vendor-breach-n0n-marketing-data.md)
