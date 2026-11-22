@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-22 [ベストコ ― 塾の利用システムに不正アクセス、生徒・保護者情報漏えいの可能性](posts/2026-11-22-bestco-best-kobetsu-system-unauthorized-access.md)
+- 2026-11-22 [日本マクドナルド ― 公式アプリのデータベースに不正アクセス](posts/2026-11-22-mcdonalds-japan-app-database-unauthorized-access.md)
+- 2026-11-22 [スタークス「クラウドロジ」 ― 連携する分析ツールに不正アクセス](posts/2026-11-22-starx-cloudlogi-metabase-vuln-shipper-customer-data.md)
+- 2026-11-22 [タワーレコード ― 通販サイトに不正アクセス、会員情報が流出](posts/2026-11-22-tower-records-online-unauthorized-access-member-data.md)
+- 2026-11-22 [WOW WORLD ― 一部サーバーに不正アクセス、預かった顧客企業の情報が流出](posts/2026-11-22-wow-world-server-breach-client-data-residual.md)
 - 2026-11-21 [カルチュア・エクスペリエンス ― データセンターに不正アクセス、TSUTAYAで入荷遅延](posts/2026-11-21-culture-experience-datacenter-unauthorized-access-tsutaya-delay.md)
 - 2026-11-21 [デジタル庁 ― 政府共通基盤GSSのファイル共有サービスに不正アクセス](posts/2026-11-21-digital-agency-gss-file-sharing-unauthorized-access.md)
 - 2026-11-21 [北海道3市町 ― 再委託先の端末がマルウェア感染、住民情報など漏えいのおそれ](posts/2026-11-21-hokkaido-three-municipalities-gis-subcontractor-k2f-malware.md)
