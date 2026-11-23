@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-23 [FFGインダストリーズ ― 外部事業者運用のデータ分析ツールに不正アクセス](posts/2026-11-23-ffg-industries-data-analysis-tool-unauthorized-access.md)
+- 2026-11-23 [モスフードサービス ― 「モスのネット注文」管理システムに不正アクセス](posts/2026-11-23-mos-net-order-admin-system-unauthorized-access.md)
+- 2026-11-23 [MTG ― 「My ReFa」アプリで他の利用者の製品登録情報が閲覧された](posts/2026-11-23-mtg-my-refa-app-fake-account-product-registration.md)
+- 2026-11-23 [Supership ― 社内のデータ確認用アプリ経由でDBの情報を読み出された](posts/2026-11-23-supership-internal-data-app-vuln-database-read.md)
+- 2026-11-23 [USEN-ALMEX ― 事前チェックイン「PreCheck-in」に不正アクセス](posts/2026-11-23-usen-almex-precheck-in-api-unauthorized-access.md)
 - 2026-11-22 [ベストコ ― 塾の利用システムに不正アクセス、生徒・保護者情報漏えいの可能性](posts/2026-11-22-bestco-best-kobetsu-system-unauthorized-access.md)
 - 2026-11-22 [日本マクドナルド ― 公式アプリのデータベースに不正アクセス](posts/2026-11-22-mcdonalds-japan-app-database-unauthorized-access.md)
 - 2026-11-22 [スタークス「クラウドロジ」 ― 連携する分析ツールに不正アクセス](posts/2026-11-22-starx-cloudlogi-metabase-vuln-shipper-customer-data.md)
