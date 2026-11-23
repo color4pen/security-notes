@@ -1,7 +1,7 @@
 ---
 title: "ワイズマン「MeLL+」 ― クラウド環境に不正アクセス、サービス停止"
 date: 2026-10-27
-updated: 2026-10-31
+updated: 2026-11-23
 region: domestic
 status: ongoing
 issue: 87
@@ -25,11 +25,15 @@ description: "医療・介護向けシステムのワイズマンは2026年10月
 - 【2026-10-30夕追記】10月30日にはMeLL+communityを同日17時ごろをめどに再開する予定と告知し、その後、同日中に再開したと知らせた。MeLL+family事業所システムとMeLL+family家族アプリは10月31日（土）午前中をめどに再開する予定。音声記録AIと介護ポータルサイト ケアリポはメンテナンスを続けている（[ワイズマン 10月30日の再開予定](https://www.wiseman.co.jp/news/corp/security-incident-20261030/)、[同 再開のお知らせ](https://www.wiseman.co.jp/news/corp/security-incident-20261030-2/)、[同 MeLL+familyの再開予定](https://www.wiseman.co.jp/news/corp/security-incident-20261030-3/)）。
 - 【2026-10-31追記】ワイズマンは10月31日（土）、安全性の確認と再開に必要な対応が終わったとして、MeLL+family事業所システムとMeLL+family家族アプリを同日再開したと告知した。音声記録AIと介護ポータルサイト ケアリポはメンテナンスを続けており、再開は改めて知らせるとしている（[ワイズマン 10月31日](https://www.wiseman.co.jp/news/corp/security-incident-20261031/)）。
 
+### わかったこと
+
+- 【2026-11-23追記】ワイズマンは11月17日、「音声記録AI」を同日再開したと公表した。介護ポータルサイト「ケアリポ」はメンテナンスを続けており、再開時期は改めて知らせるとしている。原因や個人情報への影響には触れていない（取りこぼし分）（[ワイズマン 2026-11-17更新](https://www.wiseman.co.jp/news/corp/security-incident-20261104/)）。
+
 ### わかっていないこと
 
 - 不正に使用された認証情報の種類（管理者アカウントか、クラウドのアクセスキーかなど）と、その入手経路
 - 攻撃者がクラウド環境で何をしたか、個人情報へのアクセスがあったか
-- 停止中の8サービスの再開時期（【2026-10-27追記】MeLL+professionalは10月27日午前中をめどに再開予定と告知された。残る7サービスの再開時期は未定）（【2026-10-27夕追記】MeLL+professionalは10月27日に再開した。残る7サービスの再開時期は未定）（【2026-10-30夕追記】second-lineとSOIN連携は10月29日、MeLL+communityは10月30日に再開。MeLL+familyの2サービスは10月31日午前中をめどに再開予定。音声記録AIとケアリポの再開時期は未定）（【2026-10-31追記】MeLL+family事業所システム・家族アプリは10月31日に再開。残るのは音声記録AIと介護ポータルサイト ケアリポで、再開時期は未定）
+- 停止中の8サービスの再開時期（【2026-10-27追記】MeLL+professionalは10月27日午前中をめどに再開予定と告知された。残る7サービスの再開時期は未定）（【2026-10-27夕追記】MeLL+professionalは10月27日に再開した。残る7サービスの再開時期は未定）（【2026-10-30夕追記】second-lineとSOIN連携は10月29日、MeLL+communityは10月30日に再開。MeLL+familyの2サービスは10月31日午前中をめどに再開予定。音声記録AIとケアリポの再開時期は未定）（【2026-10-31追記】MeLL+family事業所システム・家族アプリは10月31日に再開。残るのは音声記録AIと介護ポータルサイト ケアリポで、再開時期は未定）（【2026-11-23追記】11月17日に音声記録AIを再開。ケアリポのみメンテナンス中）
 
 ### 関係しそうな既知の手口
 
@@ -61,6 +65,7 @@ description: "医療・介護向けシステムのワイズマンは2026年10月
 | 10-29（木） | second-lineとSOIN（そわん）連携を再開（[ワイズマン](https://www.wiseman.co.jp/news/corp/security-incident-20261029/)） |
 | 10-30（金） | MeLL+communityを再開。MeLL+family事業所システム・家族アプリは10月31日午前中をめどに再開予定と告知（[ワイズマン](https://www.wiseman.co.jp/news/corp/security-incident-20261030-2/)、[同](https://www.wiseman.co.jp/news/corp/security-incident-20261030-3/)） |
 | 10-31（土） | MeLL+family事業所システム・家族アプリを再開。音声記録AIとケアリポはメンテナンスを継続（[ワイズマン](https://www.wiseman.co.jp/news/corp/security-incident-20261031/)） |
+| 11-17（火） | 音声記録AIを再開。ケアリポはメンテナンスを継続（【2026-11-23追記】）（[ワイズマン](https://www.wiseman.co.jp/news/corp/security-incident-20261104/)） |
 
 ## 発表内容の整理
 
@@ -120,3 +125,4 @@ description: "医療・介護向けシステムのワイズマンは2026年10月
 - [ワイズマン「重要：「MeLL+community（メルタス コミュニティ）」のサービス再開について」（2026年10月30日）](https://www.wiseman.co.jp/news/corp/security-incident-20261030-2/)
 - [ワイズマン「重要：「MeLL+family（メルタス ファミリー）」のサービス再開予定について」（2026年10月30日）](https://www.wiseman.co.jp/news/corp/security-incident-20261030-3/)
 - [ワイズマン「重要：「MeLL+family（メルタス ファミリー）」のサービス再開について」（2026年10月31日）](https://www.wiseman.co.jp/news/corp/security-incident-20261031/)
+- [ワイズマン「重要：各種サービスの再開について（2026年11月17日更新）」](https://www.wiseman.co.jp/news/corp/security-incident-20261104/)

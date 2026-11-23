@@ -1,7 +1,7 @@
 ---
 title: "プレイド「KARTE」 ― 不正アクセスを検知し全機能を停止"
 date: 2026-11-13
-updated: 2026-11-21
+updated: 2026-11-23
 region: domestic
 status: ongoing
 issue: 169
@@ -87,6 +87,8 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 - 【2026-11-20夕追記】侵入の起点：「データ取得用の公開経路の一部の内部処理」にあった脆弱性（11月20日発表。脆弱性の種類・名前は未公表）。
 - 【2026-11-20夕追記】再開の目標：2027年1月中旬に段階的に再開する目標（システムの抜本的な再構築を経る）。11月分と停止期間中の利用料金は請求しない。
 - 【2026-11-20夕追記】業績への影響：2026年12月期の最終損益予想を6億円の黒字から20億円の赤字に下方修正。
+- 【2026-11-23追記】利用企業の公表で、これまで記事に載せていなかったもの（取りこぼし分）：件数を示したのは、オートバックスセブン（オートバックス会員の会員番号・IPアドレス約137万件、11月18日）（[同社](https://www.autobacs.co.jp/ja/information/info-20261118.html)）、デイトナ・インターナショナル（Daytona Park会員の一部約97万件、重複を含む、11月17日）（[同社](https://daytonajp.com/news/3821/)）、BONAVENTURA（連携していた顧客情報最大576,742件）（[同社](https://kr.bonaventura.shop/blogs/news/security-notice-1)）、エス・エム・エス（エイチエ191,039件・エイチエ 転職197,985件・ナース専科 就職95,480件、11月18日）（[同社](https://www.bm-sms.co.jp/news-info/info_20261118/)）、横浜銀行（はまぎん365、約11万6,500件）（[同社PDF](https://ssl4.eir-parts.net/doc/7186/ir_material33/290732/00.pdf)）、トライアルホールディングス（SU-PAY会員ID 60,000件、11月18日）（[同社](https://trial-holdings.inc/news/release/3590/)）、プラス（スマートスクール21,071件・スマート介護10,190件・スマートオフィス1,176件など、11月18日）（[同社](https://www.plus.co.jp/news/202611/infoqmg2h0mviu/)）、overflow（Offers、ワーカー14,738名・企業担当者1,342名、11月20日）（[同社](https://offers.jp/notice_karte_incident)）、カズマ（アットコンタクト26,547件）（[同社](https://www.at-contact.jp/ext/info_261117.html)）、ウェルカム（HAYオンラインストア最大9,890件、11月18日）（[同社](https://www.hay-japan.com/topics_detail.html?info_id=8782)）、バンダイナムコ島根スサノオマジック（664件）（[同社](https://www.susanoo-m.com/news/detail/id=21277)）。
+- 【2026-11-23追記】件数を示さずに影響を公表した（または調査中とした）のは、ユニファ（ルクミー）、TSIホールディングス（mix.tokyo、ナノ・ユニバース公式通販サイトなど）、三陽商会、Medii、スタイリングライフ・ホールディングス（PLAZA）、auフィナンシャルサービス（au PAY カード）、日本経済新聞社（日経電子版）、S.RIDE、IVRy、ベアーズ、小田急電鉄（小田急ポイントアプリ）、OMデジタルソリューションズ（OM SYSTEM）、ワコール、産経デジタル（ZBAT!など）、Rise UP（モアコンタクト）、ベネッセコーポレーション（進研ゼミなど）、コメ兵ホールディングス、パル（PAL CLOSET）。いずれも11月16〜20日ごろの公表で、詳細は各社の発表を参照（参考リンクに掲載）。
 
 ### わかっていないこと
 
@@ -258,3 +260,32 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 - [ストライプインターナショナル「当社が利用する外部サービスへの不正アクセスに伴う個人情報漏えいについて（第三報）」（2026-11-20）](https://stripe-intl.com/news/2026/1120-01/)
 - [読売新聞「『東京ガスのウォーターサーバー』申し込んだ顧客情報最大４・９万件漏えい…」（2026-11-20）](https://www.yomiuri.co.jp/economy/20261120-GYT1T00251/)
 - [産経ニュース「東京ガス、顧客情報4.9万人分漏えい　氏名や生年月日　業務委託先に不正アクセス」（2026-11-20）](https://www.sankei.com/article/20261120-HEMIYPR7CBJQJMXFLNNQ46MN6E/)
+- [オートバックスセブン（オートバックス会員）のKARTE不正アクセスに関するお知らせ](https://www.autobacs.co.jp/ja/information/info-20261118.html)
+- [デイトナ・インターナショナル（Daytona Park）のKARTE不正アクセスに関するお知らせ](https://daytonajp.com/news/3821/)
+- [BONAVENTURAのKARTE不正アクセスに関するお知らせ](https://kr.bonaventura.shop/blogs/news/security-notice-1)
+- [エス・エム・エス（エイチエ、エイチエ 転職、ナース専科 就職）のKARTE不正アクセスに関するお知らせ](https://www.bm-sms.co.jp/news-info/info_20261118/)
+- [横浜銀行（はまぎん365）のKARTE不正アクセスに関するお知らせ](https://ssl4.eir-parts.net/doc/7186/ir_material33/290732/00.pdf)
+- [トライアルホールディングス（SU-PAY）のKARTE不正アクセスに関するお知らせ](https://trial-holdings.inc/news/release/3590/)
+- [プラス（JOINTEX、スマートオフィス、スマートスクール、スマート介護）のKARTE不正アクセスに関するお知らせ](https://www.plus.co.jp/news/202611/infoqmg2h0mviu/)
+- [overflow（Offers）のKARTE不正アクセスに関するお知らせ](https://offers.jp/notice_karte_incident)
+- [カズマ（アットコンタクト）のKARTE不正アクセスに関するお知らせ](https://www.at-contact.jp/ext/info_261117.html)
+- [ウェルカム（HAYオンラインストア）のKARTE不正アクセスに関するお知らせ](https://www.hay-japan.com/topics_detail.html?info_id=8782)
+- [バンダイナムコ島根スサノオマジックのKARTE不正アクセスに関するお知らせ](https://www.susanoo-m.com/news/detail/id=21277)
+- [ユニファ（ルクミー）のKARTE不正アクセスに関するお知らせ](https://unifa-e.com/news/info/20261120-info_news1120)
+- [TSIホールディングス（mix.tokyo、ナノ・ユニバース公式通販サイト、HYBES）のKARTE不正アクセスに関するお知らせ](https://www.tsi-holdings.com/topics/topics_detail004923.html)
+- [三陽商会のKARTE不正アクセスに関するお知らせ](https://www.sanyo-shokai.co.jp/important/2026/11/17-1301.html)
+- [MediiのKARTE不正アクセスに関するお知らせ](https://medii.jp/news/20261117)
+- [スタイリングライフ・ホールディングス（PLAZA）のKARTE不正アクセスに関するお知らせ](https://www.stylinglife.co.jp/list/detail/000337/)
+- [au PAY カード（auフィナンシャルサービス）のKARTE不正アクセスに関するお知らせ](https://www.kddi-fs.com/contents/important/1027.html)
+- [日本経済新聞社（日経電子版）のKARTE不正アクセスに関するお知らせ](https://www.nikkei.co.jp/nikkeiinfo/news/information/1574.html)
+- [S.RIDEのKARTE不正アクセスに関するお知らせ](https://www.sride.jp/jp/news/20261119/)
+- [IVRyのKARTE不正アクセスに関するお知らせ](https://ivry.jp/corporate/news/ple8g1uck/)
+- [ベアーズのKARTE不正アクセスに関するお知らせ](https://www.happy-bears.com/news/detail35884/)
+- [小田急電鉄（小田急ポイントアプリ）のKARTE不正アクセスに関するお知らせ](https://www.odakyu.jp/notice/makhce0000003vpt-att/makhce0000003vq0.pdf)
+- [OMデジタルソリューションズ（OM SYSTEM）のKARTE不正アクセスに関するお知らせ](https://www.om-digitalsolutions.com/ja/news/corporate-information/nr20261118.html)
+- [ワコール（ワコールカルネなど）のKARTE不正アクセスに関するお知らせ](https://www.wacoal.jp/notice/202611/20261118.html)
+- [産経デジタル（ZBAT!、ネットショップ）のKARTE不正アクセスに関するお知らせ](https://www.sankei-digital.co.jp/topic-29896/)
+- [Rise UP（モアコンタクト）のKARTE不正アクセスに関するお知らせ](https://r-up.jp/news/2026-11-18-karte/)
+- [ベネッセコーポレーション（進研ゼミ、まいにちのたまひよなど）のKARTE不正アクセスに関するお知らせ](https://company.benesse.co.jp/notice/005.html)
+- [コメ兵ホールディングス（コメ兵）のKARTE不正アクセスに関するお知らせ](https://komehyohds.com/2026/11/16/%E5%BD%93%E7%A4%BE%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%AE%E5%AD%90%E4%BC%9A%E7%A4%BE%E3%81%8C%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E5%A4%96%E9%83%A8%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%A7%94/)
+- [パル（PAL CLOSET）のKARTE不正アクセスに関するお知らせ](https://www.palcloset.jp/display/article/detail/?acd=261118all_004&b=)
