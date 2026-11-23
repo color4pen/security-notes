@@ -245,6 +245,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-23 [AI推論事業者 ― 送られたプロンプトが侵入者や転売業者に読まれた](posts/2026-11-23-dragos-canary-prompts-ai-inference-providers-openrouter.md)
+- 2026-11-23 [GL.iNet ― クラウド管理の欠陥でルーターとKVMにマルウェア](posts/2026-11-23-glinet-goodcloud-cloud-flaw-router-kvm-malware.md)
 - 2026-11-22 [Meta Muse ― 悪意あるページから会話を抜き出す攻撃を研究者が実証](posts/2026-11-22-meta-muse-browser-sentinel-kernel-chain-nebusec.md)
 - 2026-11-22 [Microsoft Entra Connect Health ― APIの欠陥でテナント情報が読み取られた](posts/2026-11-22-microsoft-entra-connect-health-api-flaw-tenant-metadata-read.md)
 - 2026-11-22 [Rackspace Spot ― 漏えいした認証情報で顧客クラスターのSecretに到達](posts/2026-11-22-rackspace-spot-leaked-credentials-kubernetes-secrets.md)
