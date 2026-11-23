@@ -394,6 +394,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-23 [Ghostscript ― アップロードや印刷を経てコマンドを実行される欠陥を実証](posts/2026-11-23-ghostscript-upload2shell-cve-2026-125396-dsafer-bypass.md)
+- 2026-11-23 [Ruby ― 文字列の大文字変換に欠陥、Railsでは認証前に到達](posts/2026-11-23-ruby2shell-cve-2026-132825-rails-preauth-heap-overflow.md)
 - 2026-11-21 [Cisco Expressway ― クラスタ構成の欠陥がPoC公開後に悪用](posts/2026-11-21-cisco-expressway-cve-2026-76466-cluster-rce-exploited.md)
 - 2026-11-21 [VMware vCenter ― 認証回避のゼロデイが中国系攻撃者に悪用](posts/2026-11-21-vmware-vcenter-cve-2026-123890-auth-bypass-armory-castle-zero-day.md)
 - 2026-11-19 [Apache Roller ― 認証前のXML-RPC処理の欠陥が悪用](posts/2026-11-19-apache-roller-cve-2026-129448-xmlrpc-deserialization-exploited.md)
