@@ -250,6 +250,8 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-24 [Azure API Management ― 旧プランの欠陥を突かれ、保存された秘密情報が狙われた](posts/2026-11-24-azure-api-management-classic-flaw-secrets-norway-energy.md)
+- 2026-11-24 [SoftEther VPN改造版 ― 検知の目印を消した遠隔接続ツールが見つかる](posts/2026-11-24-webworm-custom-softether-bridge-ntmonitor-rapid7.md)
 - 2026-11-23 [AI推論事業者 ― 送られたプロンプトが侵入者や転売業者に読まれた](posts/2026-11-23-dragos-canary-prompts-ai-inference-providers-openrouter.md)
 - 2026-11-23 [GL.iNet ― クラウド管理の欠陥でルーターとKVMにマルウェア](posts/2026-11-23-glinet-goodcloud-cloud-flaw-router-kvm-malware.md)
 - 2026-11-22 [Meta Muse ― 悪意あるページから会話を抜き出す攻撃を研究者が実証](posts/2026-11-22-meta-muse-browser-sentinel-kernel-chain-nebusec.md)
