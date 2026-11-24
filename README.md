@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-24 [アイル ― SaaSの検証環境に不正アクセス、API認証情報など取得](posts/2026-11-24-ill-saas-staging-environment-unauthorized-access.md)
+- 2026-11-24 [国土交通省 ― 大臣認定の申請システムから申請図書の情報が漏えい](posts/2026-11-24-mlit-ministerial-certification-application-system-leak.md)
+- 2026-11-24 [長島・大野・常松法律事務所 ― 会員制サイトなどに不正アクセス](posts/2026-11-24-nagashima-ohno-tsunematsu-member-sites-mail-system-breach.md)
+- 2026-11-24 [Privatter+ ― パスワード再設定の欠陥でアカウントが不正操作された](posts/2026-11-24-privatter-plus-password-reset-flaw-account-tampering.md)
+- 2026-11-24 [リサーチパネル ― サイト内検索の脆弱性を突かれ会員情報漏えいの可能性](posts/2026-11-24-research-panel-site-search-vuln-member-data.md)
 - 2026-11-23 [FFGインダストリーズ ― 外部事業者運用のデータ分析ツールに不正アクセス](posts/2026-11-23-ffg-industries-data-analysis-tool-unauthorized-access.md)
 - 2026-11-23 [モスフードサービス ― 「モスのネット注文」管理システムに不正アクセス](posts/2026-11-23-mos-net-order-admin-system-unauthorized-access.md)
 - 2026-11-23 [MTG ― 「My ReFa」アプリで他の利用者の製品登録情報が閲覧された](posts/2026-11-23-mtg-my-refa-app-fake-account-product-registration.md)
