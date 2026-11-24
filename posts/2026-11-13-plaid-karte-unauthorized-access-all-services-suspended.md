@@ -1,7 +1,7 @@
 ---
 title: "プレイド「KARTE」 ― 不正アクセスを検知し全機能を停止"
 date: 2026-11-13
-updated: 2026-11-23
+updated: 2026-11-24
 region: domestic
 status: ongoing
 issue: 169
@@ -90,6 +90,7 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 - 【2026-11-23追記】利用企業の公表で、これまで記事に載せていなかったもの（取りこぼし分）：件数を示したのは、オートバックスセブン（オートバックス会員の会員番号・IPアドレス約137万件、11月18日）（[同社](https://www.autobacs.co.jp/ja/information/info-20261118.html)）、デイトナ・インターナショナル（Daytona Park会員の一部約97万件、重複を含む、11月17日）（[同社](https://daytonajp.com/news/3821/)）、BONAVENTURA（連携していた顧客情報最大576,742件）（[同社](https://kr.bonaventura.shop/blogs/news/security-notice-1)）、エス・エム・エス（エイチエ191,039件・エイチエ 転職197,985件・ナース専科 就職95,480件、11月18日）（[同社](https://www.bm-sms.co.jp/news-info/info_20261118/)）、横浜銀行（はまぎん365、約11万6,500件）（[同社PDF](https://ssl4.eir-parts.net/doc/7186/ir_material33/290732/00.pdf)）、トライアルホールディングス（SU-PAY会員ID 60,000件、11月18日）（[同社](https://trial-holdings.inc/news/release/3590/)）、プラス（スマートスクール21,071件・スマート介護10,190件・スマートオフィス1,176件など、11月18日）（[同社](https://www.plus.co.jp/news/202611/infoqmg2h0mviu/)）、overflow（Offers、ワーカー14,738名・企業担当者1,342名、11月20日）（[同社](https://offers.jp/notice_karte_incident)）、カズマ（アットコンタクト26,547件）（[同社](https://www.at-contact.jp/ext/info_261117.html)）、ウェルカム（HAYオンラインストア最大9,890件、11月18日）（[同社](https://www.hay-japan.com/topics_detail.html?info_id=8782)）、バンダイナムコ島根スサノオマジック（664件）（[同社](https://www.susanoo-m.com/news/detail/id=21277)）。
 - 【2026-11-23追記】件数を示さずに影響を公表した（または調査中とした）のは、ユニファ（ルクミー）、TSIホールディングス（mix.tokyo、ナノ・ユニバース公式通販サイトなど）、三陽商会、Medii、スタイリングライフ・ホールディングス（PLAZA）、auフィナンシャルサービス（au PAY カード）、日本経済新聞社（日経電子版）、S.RIDE、IVRy、ベアーズ、小田急電鉄（小田急ポイントアプリ）、OMデジタルソリューションズ（OM SYSTEM）、ワコール、産経デジタル（ZBAT!など）、Rise UP（モアコンタクト）、ベネッセコーポレーション（進研ゼミなど）、コメ兵ホールディングス、パル（PAL CLOSET）。いずれも11月16〜20日ごろの公表で、詳細は各社の発表を参照（参考リンクに掲載）。
 - 【2026-11-23夕追記】利用企業の公表で、件数をまだ載せていなかったもの（取りこぼし分）：ワールド（ワールドオンラインストア最大3,700件〈会員ID・購入回数・購入金額など〉、連結子会社ティンパンアレイ最大約37万人、11月20日更新）。ティンパンアレイは、KARTEのプロジェクト「RAGTAG_Online」に登録されていた会員ID・性別・生年月日・年齢・メールアドレス・電話番号・LINEユーザーIDが漏えいし、KARTEの情報が読み出されたのは11月13日2時29分ごろ〜15時23分ごろだったとしている（[ワールド](https://corp.world.co.jp/news/company/2026/15602/)、[ティンパンアレイ](https://www.ragtag.jp/info/261120-karte/)）。オプテージ（mineo、最大142万件〈2020年1月以降の解約者の一部を含む〉、メールアドレス・性別・年代・郵便番号・都道府県など、11月18日）（[オプテージ](https://optage.co.jp/press/2026/press_15.html)）、レンティオ（388,788人、うち自社システム「Rentify」で運営されるレンタルショップの会員6,591人、会員識別用IDとおすすめ商品、11月19日の第二報）（[レンティオ](https://www.rentio.co.jp/posts/261119)）、坂ノ途中（メールアドレス36,160件と社内ID、11月19日の第2報）（[坂ノ途中](https://www.on-the-slope.com/news-onlineshop/important_notices/news-462950/)）、ウエインズトヨタ神奈川（問い合わせ・来店予約の申込者の氏名・住所・電話番号・生年月日・年齢5,028件、11月18日時点、11月20日の第2報）（[ウエインズトヨタ神奈川](https://www.weins-toyota-kanagawa.co.jp/newsrelease/261120)）。
+- 【2026-11-24追記】クラシルは11月20日、「レシチャレ」利用者の一部（最大約32万件）のユーザーID（社内の識別番号）と利用店舗名・おすすめ商品名等、「クラシルチラシ」の管理画面等のアカウント約1,300件（契約終了した取引先・同社従業員を含む）のメールアドレス・会社名（一部）・ユーザーIDの漏えいを確認したと公表した。氏名・住所・電話番号・パスワード・カード情報は含まれず、レシチャレ分にはメールアドレスも含まれない。既に契約を終了していたKARTEの環境に残っていたデータも含まれ、残存の経緯をプレイドに確認しているとしている（[クラシル](https://kurashiru.co.jp/news/update/d8yg20boxz)）。（取りこぼし分）
 
 ### わかっていないこと
 
@@ -159,6 +160,7 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 | 2026-11-20 | 東京ガスの公表内容の内訳（ウォーターサーバー申込者 最大約4.9万件、myTOKYOGASのハッシュ化会員ID 最大約30万件ほか）が報道される（【2026-11-21夕追記】11月20日夕追記の「件数調査中」を補足） | [読売新聞](https://www.yomiuri.co.jp/economy/20261120-GYT1T00251/)、[産経ニュース](https://www.sankei.com/article/20261120-HEMIYPR7CBJQJMXFLNNQ46MN6E/) |
 | 2026-11-18〜19 | タイミー（最大226,662人）、肥後銀行（最大377,194件）、NTTソルマーレ、ベースフード、鍋屋バイテック会社（87,759件）、クボタ「KSAS」（最大約1万5,000軒）なども公表していたとまとめサイトが伝える（【2026-11-20夕追記】） | [セキュリティ対策Lab](https://rocket-boys.co.jp/security-measures-lab/karte_unauthorized_access_affected_companies_roundup_2026/) |
 | 2026-11-18〜20 | オプテージ（mineo 最大142万件）、レンティオ（388,788人）、坂ノ途中（36,160件）、ワールド（ワールドオンラインストア最大3,700件・ティンパンアレイ最大約37万人）、ウエインズトヨタ神奈川（5,028件）が件数を公表（【2026-11-23夕追記】取りこぼし分） | [オプテージ](https://optage.co.jp/press/2026/press_15.html)、[レンティオ](https://www.rentio.co.jp/posts/261119)、[ワールド](https://corp.world.co.jp/news/company/2026/15602/)、[ティンパンアレイ](https://www.ragtag.jp/info/261120-karte/)、[坂ノ途中](https://www.on-the-slope.com/news-onlineshop/important_notices/news-462950/)、[ウエインズトヨタ神奈川](https://www.weins-toyota-kanagawa.co.jp/newsrelease/261120) |
+| 2026-11-20 | クラシルが公表（レシチャレ最大約32万件・クラシルチラシ約1,300件。契約終了後の環境に残っていたデータも含む）（【2026-11-24追記】取りこぼし分） | [クラシル](https://kurashiru.co.jp/news/update/d8yg20boxz) |
 
 ## 発表内容の整理
 
@@ -297,3 +299,4 @@ description: "プレイドは11月13日、CXプラットフォーム「KARTE」�
 - [レンティオ 第二報（2026-11-19）](https://www.rentio.co.jp/posts/261119)
 - [坂ノ途中 第2報（2026-11-19）](https://www.on-the-slope.com/news-onlineshop/important_notices/news-462950/)
 - [ウエインズトヨタ神奈川 第2報](https://www.weins-toyota-kanagawa.co.jp/newsrelease/261120)
+- [クラシル「当社が利用する外部サービスへの不正アクセスに伴う情報の漏えいに関するお詫びとお知らせ」（2026-11-20）](https://kurashiru.co.jp/news/update/d8yg20boxz)
