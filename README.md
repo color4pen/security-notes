@@ -401,6 +401,8 @@
 公開日の新しい順。
 
 <!-- posts:vuln:start -->
+- 2026-11-27 [Drupal ― インストーラーを使ったサイト乗っ取りが悪用された](posts/2026-11-27-drupal-installer-fail2install-cve-2026-132165-exploited.md)
+- 2026-11-27 [Mitel MiCollab ― 会議機能の欠陥が修正公開前から悪用](posts/2026-11-27-mitel-micollab-awv-cve-2026-133323-exploited.md)
 - 2026-11-23 [Ghostscript ― アップロードや印刷を経てコマンドを実行される欠陥を実証](posts/2026-11-23-ghostscript-upload2shell-cve-2026-125396-dsafer-bypass.md)
 - 2026-11-23 [Ruby ― 文字列の大文字変換に欠陥、Railsでは認証前に到達](posts/2026-11-23-ruby2shell-cve-2026-132825-rails-preauth-heap-overflow.md)
 - 2026-11-21 [Cisco Expressway ― クラスタ構成の欠陥がPoC公開後に悪用](posts/2026-11-21-cisco-expressway-cve-2026-76466-cluster-rce-exploited.md)
