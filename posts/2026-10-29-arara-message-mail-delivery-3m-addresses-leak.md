@@ -1,7 +1,7 @@
 ---
 title: "アララ メッセージ ― 不正アクセスで配信リストのメールアドレスが流出"
 date: 2026-10-29
-updated: 2026-11-24
+updated: 2026-11-28
 region: domestic
 status: ongoing
 issue: 96
@@ -53,6 +53,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 - 【2026-11-23夕追記】県・市の事業でも件数が確定していた（取りこぼし分）。大阪市はプレミアム付商品券事業で利用者33,868件・参加店舗14,669件のメールアドレスの漏えいを11月13日の終報で公表（受注事業者が利用するアララのメール配信サービス経由）。岡山県は「医療安全情報等のお知らせ」「岡山県感染症情報メールマガジン」で2,241件（11月12日）、「おかやま省エネ家電購入・住宅断熱リフォーム応援キャンペーン」で1,045件（11月18日、事務局JTB経由）を公表。沖縄県は「離島とのつながり促進事業（島まーる）」のメールマガジンで2,400件（11月11日の第2報）（[大阪市](https://www.city.osaka.lg.jp/hodoshiryo/keizaisenryaku/0000691292.html)、[岡山県（医療安全情報、PDF）](https://www.pref.okayama.lg.jp/uploaded/life/1065562_10328490_misc.pdf)、[岡山県（省エネ家電キャンペーン、PDF）](https://www.pref.okayama.jp/uploaded/life/1066439_10337948_misc.pdf)、[沖縄県](https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1041801.html)）。
 - 【2026-11-23夕追記】企業の公表で件数が出ていたもの（取りこぼし分）：アクセルエンターメディア（ファンクラブ等の配信先、重複を除き1,086,098件、11月9日の第2報。一部サイトでは氏名・会員番号も流出）、POPKIT（202,167件、11月9日）、寺田倉庫（アララから報告されたのは1,086,662件、テストアドレス等を除いた利用者は最大99,296件、11月10日の第2報）、アヴァンティスタッフ（メールアドレスのみ78,310件、氏名とメールアドレス12件、11月11日）、駅探（運行情報メール18,439件、11月9日）、東京カンテイ（メールアドレスとメール本文の一部3,276件、11月9日）、マキヒロシゲアトリエ（gomme公式オンラインショップ、makeshop経由2,585件、11月13日）、秋田ノーザンハピネッツ（41名、11月11日）。IIJは11月11日、既報の漏えいのうち1,213件は氏名も漏えいしていたと追記した。日之出出版（Safari Lounge）は対象期間を10月8日〜31日に広げた（件数82,095件は変わらず）（[アクセルエンターメディア](https://www.axelentermedia.co.jp/notice_20261104.html)、[POPKIT](https://www.popkit.net/20261109)、[寺田倉庫](https://www.terrada.co.jp/ja/news/17133/)、[アヴァンティスタッフ](https://www.avantistaff.com/staff/topics/detail/139)、[駅探](https://ekitan.co.jp/corp/news/20261109-01/)、[東京カンテイ](https://www.kantei.ne.jp/news/info/9656/)、[gomme](https://gomme.xsrv.jp/blog/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%A4%96%E9%83%A8%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB/)、[秋田ノーザンハピネッツ](https://northern-happinets.com/news/detail/id=23104)、[IIJ](https://www.iij.ad.jp/news/information/2026/1104.html)、[Safari Lounge](https://safarilounge.jp/news/3370/)）。
 - 【2026-11-24追記】宮崎県は11月18日の第2報で、農政水産部ホームページ「ひなたMAFiN」（業務委託先：ウイングアークNEX）のメール配信で、7月1日〜10月31日にメールを受信したメールアドレス3,612件の漏えいを公表した。期間内の退会者を含むため、11月5日に公表した3,583件とは一致しない。11月5日に可能性があるとした市町村・職種・性別・年代は流出していないとの報告を受けたとしている（[宮崎県 第2報](https://www.pref.miyazaki.lg.jp/noseikikaku/press/2026/11/20261113162208.html)）。（取りこぼし分）
+- 【2026-11-28追記】TKCが運営する「マイナンバーカード交付予約（・管理）システム」の利用者のメールアドレスについて、自治体の件数確定が続いた。いずれも7月1日〜10月31日の分で、メールアドレス以外は含まれないとしている。仙台市は11月25日、予約完了メール・リマインドメールを送った利用者のメールアドレス4,185件の漏えいを公表した（予約システム自体への不正アクセスはなく、メール送信は停止中。[仙台市](https://www.city.sendai.jp/kosekijumin/20261125_2.html)）。大田原市は11月26日の第二報で538件（[大田原市](https://www.city.ohtawara.tochigi.jp/docs/2026110500030/)）、福島市は11月27日に2,295件（[福島市](https://www.city.fukushima.fukushima.jp/soshiki/7/1029/1/20778.html)）とした。郡山市はマイナンバーカード交付予約システムの1,385件の漏えいを発表したと報じられた（報道。11月18日時点では約2万件に可能性として調査中だった。[日テレNEWS（福島中央テレビ）](https://news.ntv.co.jp/category/society/fc802d93d2fe524c67ab563697710753b0)）。
 
 ### わかったこと
 
@@ -198,6 +199,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 11-11〜13 | 沖縄県（島まーる 2,400件）、岡山県（医療安全情報等 2,241件）、地域通貨のさせぼeコイン（35,633件）・東村山アインPay（15,498件）・アクアコイン（14,844件）が件数を公表（【2026-11-23夕追記】取りこぼし分） | [沖縄県](https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1041801.html)、[させぼeコイン](https://saseboecoin.jp/news/news20261112)ほか |
 | 11-16〜18 | 西宮市（25,115件）、伊丹市（12,813件・14,570件）、大阪府（行政オンラインシステム 107,804件）、湯河原町（588件）、恵庭市（2,111件）、岡山県（省エネ家電キャンペーン 1,045件）が公表（【2026-11-23夕追記】取りこぼし分） | [西宮市（PDF）](https://www.nishi.or.jp/shisei/koho/kishahappyoshiryo/2026/202611/R081116_suma-toshin.files/R081116_suma-toshinsei2.pdf)、[大阪府](https://www.pref.osaka.lg.jp/hodo/fumin/o050180/prs_00002.html)ほか |
 | 11-18（水） | 宮崎県が第2報で「ひなたMAFiN」のメールアドレス3,612件の漏えいを公表（ウイングアークNEX経由）（【2026-11-24追記】取りこぼし分） | [宮崎県](https://www.pref.miyazaki.lg.jp/noseikikaku/press/2026/11/20261113162208.html) |
+| 11-25〜27 | TKC運営の「マイナンバーカード交付予約（・管理）システム」の件数確定が続く：仙台市（4,185件、11月25日）、大田原市（第二報 538件、11月26日）、福島市（2,295件、11月27日）、郡山市（1,385件、11月27日の報道）（【2026-11-28追記】）（[仙台市](https://www.city.sendai.jp/kosekijumin/20261125_2.html)、[大田原市](https://www.city.ohtawara.tochigi.jp/docs/2026110500030/)、[福島市](https://www.city.fukushima.fukushima.jp/soshiki/7/1029/1/20778.html)、[日テレNEWS（福島中央テレビ）](https://news.ntv.co.jp/category/society/fc802d93d2fe524c67ab563697710753b0)） |
 
 ## 発表内容の整理
 
@@ -263,7 +265,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | 神戸新聞社（【2026-11-17追記】11月16日） | ニュースレター・メルマガ受信者のメールアドレス約4万件（10月8日〜31日配信分）。会員DB・カード情報は流出なし。18日に配信再開予定（[神戸新聞NEXT](https://www.kobe-np.co.jp/news/information/202611/0021041154.shtml)） |
 | キリンビバレッジ「Wellstock」（【2026-11-17夕追記】11月17日） | GMOメイクショップ経由でメールアドレス154件（7月1日〜10月28日配信分）。メールアドレスのみ（[キリンビバレッジ（PDF）](https://www.kirinholdings.com/jp/newsroom/release/2026/1117_02.pdf)） |
 | 宮崎市「スマート申請システム」（【2026-11-18追記】11月17日 第2報） | デンサン提供・TKC構築のシステム経由で、7〜10月にメールを受信した人のメールアドレス8,982件（[宮崎市](https://www.city.miyazaki.miyazaki.jp/city/public_relations/press_material/419576.html)） |
-| 郡山市オンライン申請サービス（【2026-11-18追記】11月17日） | 7月1日〜10月末に市のアドレスからメールを受信した人のメールアドレス7,486件で確定（当初は約3万2,600件に可能性）。マイナンバーカード交付予約システム（約2万件に可能性）は調査中（[福島民友](https://www.minyu-net.com/news/detail/2026111808065957367)） |
+| 郡山市オンライン申請サービス（【2026-11-18追記】11月17日） | 7月1日〜10月末に市のアドレスからメールを受信した人のメールアドレス7,486件で確定（当初は約3万2,600件に可能性）。マイナンバーカード交付予約システム（約2万件に可能性）は調査中（【2026-11-28追記】11月27日に1,385件と報道）（[福島民友](https://www.minyu-net.com/news/detail/2026111808065957367)） |
 | 氷見市・能美市（【2026-11-18追記】11月17日） | 氷見市「お知らせメール」1,023件（7月1日〜10月31日の送信先）、能美市（システム研究所運営のマイナンバー交付予約システム等）758件。いずれもメールアドレスのみ（[氷見市](https://www.city.himi.toyama.jp/emergency/15355.html)、[能美市](https://www.city.nomi.lg.jp/docs/7809.html)） |
 | 堺市電子申請システム（【2026-11-18夕追記】11月17日） | TKC提供のシステムで7月1日〜10月31日に同システムからメールを受信した人のメールアドレス64,073件。11月13日にTKCから含まれることが確定したと報告（[堺市（PDF）](https://www.city.sakai.lg.jp/shisei/koho/hodo/hodoteikyoshiryo/kakohodo/r8/r811/081117_02.files/1117_02.pdf)） |
 | 大村市「ゆでぴ」（【2026-11-18夕追記】11月17日） | デジタル地域通貨アプリのユーザー・加盟店の登録メールアドレス9,901件。アララから提供されたデータとフィノバレーのシステム記録を照合して確認。パスワード・決済情報、メール本文は対象外（[大村市](https://www.city.omura.nagasaki.jp/digital/kurashi/dx/shiawase/yudepi_fuseiacsess.html)） |
@@ -284,6 +286,7 @@ description: "メール配信「アララ メッセージ」への不正アク�
 | エーズラビット（【2026-11-23追記】11月17日） | 7月1日〜10月28日にメール配信の送信先として指定されていた会員のメールアドレス。氏名・住所・電話番号・会社名・カード情報・同社サービスのパスワードは含まれない（[エーズラビット](https://shop.asrabbit.com/new/2026-11-17-110606.html)） |
 | 岩手県北上市（【2026-11-23追記】11月20日） | オンライン申請システムとマイナンバーカード交付予約の利用者のメールアドレス107件（7月1日〜10月31日に当該システムからメールを受信した人）。氏名・住所・マイナンバー等は漏えいしていない（[北上市](https://www.city.kitakami.iwate.jp/life/soshikikarasagasu/toshipromotionka/jouhouseisakusuishinshitsu/1_1/30272.html)） |
 | 宮崎県「ひなたMAFiN」（【2026-11-24追記】11月18日 第2報） | ウイングアークNEX経由、7月1日〜10月31日にメールを受信したメールアドレス3,612件（退会者を含む）。市町村・職種・性別・年代は流出していない |
+| マイナンバーカード交付予約（・管理）システム（TKC運営）（【2026-11-28追記】11月25〜27日） | 7月1日〜10月31日のメールアドレス。仙台市4,185件、大田原市538件、福島市2,295件、郡山市1,385件（郡山市は報道）。メールアドレス以外は含まれないとしている（[仙台市](https://www.city.sendai.jp/kosekijumin/20261125_2.html)、[大田原市](https://www.city.ohtawara.tochigi.jp/docs/2026110500030/)、[福島市](https://www.city.fukushima.fukushima.jp/soshiki/7/1029/1/20778.html)、[日テレNEWS（福島中央テレビ）](https://news.ntv.co.jp/category/society/fc802d93d2fe524c67ab563697710753b0)） |
 
 **考察**
 
@@ -425,3 +428,7 @@ PHP2Shellは修正版の公開前から悪用の試みが観測されていた�
 - [岡山県 医療安全情報等（2026-11-12、PDF）](https://www.pref.okayama.lg.jp/uploaded/life/1065562_10328490_misc.pdf)、[岡山県 省エネ家電キャンペーン 続報（2026-11-18、PDF）](https://www.pref.okayama.jp/uploaded/life/1066439_10337948_misc.pdf)、[沖縄県 島まーる 第2報](https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1041801.html)
 - [アクセルエンターメディア 第2報](https://www.axelentermedia.co.jp/notice_20261104.html)、[POPKIT 第2報](https://www.popkit.net/20261109)、[寺田倉庫 第2報](https://www.terrada.co.jp/ja/news/17133/)、[アヴァンティスタッフ 第2報](https://www.avantistaff.com/staff/topics/detail/139)、[駅探 第二信](https://ekitan.co.jp/corp/news/20261109-01/)、[東京カンテイ 第2報](https://www.kantei.ne.jp/news/info/9656/)
 - [gomme（マキヒロシゲアトリエ）続報](https://gomme.xsrv.jp/blog/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%A4%96%E9%83%A8%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB/)、[秋田ノーザンハピネッツ 調査結果](https://northern-happinets.com/news/detail/id=23104)、[Safari Lounge（日之出出版）](https://safarilounge.jp/news/3370/)
+- [仙台市「マイナンバーカード交付予約・管理システム利用者のメールアドレスの漏えいについて」（2026-11-25）](https://www.city.sendai.jp/kosekijumin/20261125_2.html)
+- [大田原市「マイナンバーカード交付予約システムで利用する外部メール送信サービスへの不正アクセスおよび個人情報漏えいについて（第二報）」（2026-11-26）](https://www.city.ohtawara.tochigi.jp/docs/2026110500030/)
+- [福島市「【重要】マイナンバーカード交付予約・管理システムにおけるメールアドレスの漏えいに関するお詫び」（2026-11-27）](https://www.city.fukushima.fukushima.jp/soshiki/7/1029/1/20778.html)
+- [日テレNEWS（福島中央テレビ）「郡山市、マイナンバー予約でメールアドレス流出 福島」（2026-11-27）](https://news.ntv.co.jp/category/society/fc802d93d2fe524c67ab563697710753b0)
