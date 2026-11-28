@@ -255,6 +255,9 @@
 公開日の新しい順。
 
 <!-- posts:overseas:start -->
+- 2026-11-28 [1Password ― 社員のGitHubアカウント経由で顧客情報が盗まれた](posts/2026-11-28-1password-employee-github-account-backend-malicious-code.md)
+- 2026-11-28 [Check Point管理サーバー ― 侵入され、設定や内部認証局のファイルを盗まれた](posts/2026-11-28-greynoise-gt13-check-point-management-servers-campaign.md)
+- 2026-11-28 [Hex.pm ― 認証前の脆弱性を突かれ、Webサーバーでコマンドを実行された](posts/2026-11-28-hexpm-erlang-term-struct-deserialization-rce-breach.md)
 - 2026-11-24 [Azure API Management ― 旧プランの欠陥を突かれ、保存された秘密情報が狙われた](posts/2026-11-24-azure-api-management-classic-flaw-secrets-norway-energy.md)
 - 2026-11-24 [SoftEther VPN改造版 ― 検知の目印を消した遠隔接続ツールが見つかる](posts/2026-11-24-webworm-custom-softether-bridge-ntmonitor-rapid7.md)
 - 2026-11-23 [AI推論事業者 ― 送られたプロンプトが侵入者や転売業者に読まれた](posts/2026-11-23-dragos-canary-prompts-ai-inference-providers-openrouter.md)
