@@ -11,6 +11,11 @@
 続報を追いながら更新する記事です。公開日の新しい順に並べます（サイトの一覧と同じ）。
 
 <!-- posts:domestic:start -->
+- 2026-11-28 [大丸松坂屋百貨店 ― 通販サイトのアドレス帳機能に不正アクセス](posts/2026-11-28-daimaru-matsuzakaya-online-store-address-book-download-leak.md)
+- 2026-11-28 [文部科学省 ― 政府調達情報システムのサーバーに不正アクセス](posts/2026-11-28-mext-government-procurement-system-server-intrusion.md)
+- 2026-11-28 [ミンカブ ― 「みんかぶ」と資産管理サービスに不正アクセス](posts/2026-11-28-minkabu-asset-planner-unauthorized-access.md)
+- 2026-11-28 [日産証券 ― 委託先の取引システムに不正アクセス、注文情報が漏えい](posts/2026-11-28-nissan-securities-tradevision-comtrade-admin-program-leak.md)
+- 2026-11-28 [幼児活動研究会 ― VPNアカウントから侵入、AD管理者の認証情報を窃取](posts/2026-11-28-youji-katsudo-vpn-account-ad-admin-credentials.md)
 - 2026-11-24 [アイル ― SaaSの検証環境に不正アクセス、API認証情報など取得](posts/2026-11-24-ill-saas-staging-environment-unauthorized-access.md)
 - 2026-11-24 [国土交通省 ― 大臣認定の申請システムから申請図書の情報が漏えい](posts/2026-11-24-mlit-ministerial-certification-application-system-leak.md)
 - 2026-11-24 [長島・大野・常松法律事務所 ― 会員制サイトなどに不正アクセス](posts/2026-11-24-nagashima-ohno-tsunematsu-member-sites-mail-system-breach.md)
